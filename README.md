@@ -161,6 +161,141 @@ FinAlgoritmo
 </div>
 
 ---
+# UT2 – Tipos de Datos y Operadores
+**Módulo:** Fundamentos de Programación  
+**Ciclo:** ASIR1  
+**Profesor:** Ezequiel Llarena Borges
+
+---
+
+<div style="background-color:#ccece6; padding:15px; border-radius:8px;">
+<h2 style="color:#006633;">¿Qué se espera que logres al finalizar la práctica?</h2>
+<ul>
+<li><b>RA1:</b> Comprender los tipos de datos y su uso en pseudocódigo.</li>
+<li><b>RA2:</b> Aplicar operadores aritméticos, lógicos y relacionales en problemas sencillos.</li>
+</ul>
+<p><b>Criterios de evaluación:</b></p>
+<ul>
+<li>CE2.1: Identificar correctamente tipos de datos: Entero, Real, Cadena, Lógico.</li>
+<li>CE2.2: Aplicar operadores adecuados según el tipo de dato.</li>
+<li>CE2.3: Resolver ejercicios con cálculos y condiciones básicas.</li>
+</ul>
+</div>
+
+---
+
+<div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#009966;">Objetivos de la unidad</h2>
+<ul>
+<li>Conocer tipos de datos básicos en pseudocódigo.</li>
+<li>Usar operadores aritméticos, relacionales y lógicos.</li>
+<li>Comprender cómo afectan los tipos de datos a los resultados.</li>
+<li>Aplicar operadores en algoritmos sencillos.</li>
+</ul>
+</div>
+
+---
+
+<div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#0066cc;">Resumen teórico</h2>
+<p><b>Tipos de datos:</b> Entero, Real, Cadena, Lógico</p>
+<p><b>Operadores:</b></p>
+<ul>
+<li>Aritméticos: +, -, *, /, ^</li>
+<li>Relacionales: =, <>, >, <, >=, <=</li>
+<li>Lógicos: Y, O, NO</li>
+</ul>
+
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+Algoritmo OperadoresEjemplo
+   Definir a, b Como Entero
+   a <- 5
+   b <- 3
+   Escribir "Suma:", a + b
+   Escribir "Multiplicación:", a * b
+   Escribir "Mayor que:", a > b
+   Escribir "Condición:", (a > b) Y (b < 10)
+FinAlgoritmo
+</pre>
+</div>
+
+---
+
+<div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
+<h2 style="color:#006633;">Práctica guiada paso a paso</h2>
+
+<h3>Paso 1: Suma y resta</h3>
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+Algoritmo SumaResta
+   Definir x, y Como Entero
+   x <- 10
+   y <- 7
+   Escribir "x+y =", x+y
+   Escribir "x-y =", x-y
+FinAlgoritmo
+</pre>
+<p>_____________________________________________________________</p>
+
+<h3>Paso 2: Operadores relacionales y lógicos</h3>
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+Algoritmo Condiciones
+   Definir edad Como Entero
+   edad <- 18
+   Escribir "Mayor de edad:", edad>=18
+   Escribir "Rango permitido:", (edad>=18) Y (edad<=65)
+FinAlgoritmo
+</pre>
+<p>_____________________________________________________________</p>
+
+<h3>Paso 3: Reto</h3>
+<p>Escribe un algoritmo que pida dos números y muestre cuál es mayor y si son iguales.</p>
+<p>_____________________________________________________________<br>_____________________________________________________________<br>_____________________________________________________________</p>
+</div>
+
+---
+
+<div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#009966;">Recordatorios y consejos</h2>
+<ul>
+<li>Los operadores deben usarse según el tipo de dato.</li>
+<li>Los cálculos con Enteros y Reales pueden dar resultados distintos.</li>
+<li>Las condiciones lógicas devuelven Verdadero/Falso.</li>
+<li>Prueba varios ejemplos para comprobar resultados.</li>
+</ul>
+</div>
+
+---
+
+<div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#0066cc;">Ejercicios adicionales / Autoevaluación</h2>
+<ol>
+<li>Calcula el área de un triángulo usando variables y operadores.</li>
+<li>Determina si un número es par o impar.</li>
+<li>Usa operadores lógicos para validar si un número está entre 10 y 20.</li>
+</ol>
+</div>
+
+---
+
+<div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
+<h2 style="color:#006633;">Resumen de conceptos clave</h2>
+<table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
+<tr style="background-color:#ccece6;">
+<th style="border:1px solid #ccc; padding:4px;">Concepto</th>
+<th style="border:1px solid #ccc; padding:4px;">Descripción</th>
+<th style="border:1px solid #ccc; padding:4px;">Ejemplo</th>
+</tr>
+<tr><td>Entero</td><td>Número sin decimales</td><td>5, -2, 0</td></tr>
+<tr><td>Real</td><td>Número con decimales</td><td>3.14, 0.5</td></tr>
+<tr><td>Cadena</td><td>Texto</td><td>"Hola"</td></tr>
+<tr><td>Lógico</td><td>Verdadero/Falso</td><td>Verdadero, Falso</td></tr>
+<tr><td>Operadores</td><td>Aritméticos, relacionales, lógicos</td><td>+, -, *, /, =, Y, O</td></tr>
+</table>
+</div>
+
+---
+
+**Pie de página:** Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
 
 Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
 # UT3 – Estructuras de Control Condicionales
