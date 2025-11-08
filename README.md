@@ -1,4 +1,4 @@
-# UT1 – Identificadores, Variables y Constantes
+# 1 – Identificadores, Variables y Constantes
 **Módulo:** Fundamentos de Programación  
 **Ciclo:** ASIR1  
 **Profesor:** Ezequiel Llarena Borges
@@ -10,12 +10,6 @@
 <ul>
 <li><b>RA1:</b> Reconocer los elementos y estructuras básicas de un programa informático.</li>
 <li><b>RA2:</b> Escribir programas sencillos aplicando buenas prácticas en el uso de variables y constantes.</li>
-</ul>
-<p><b>Criterios de evaluación:</b></p>
-<ul>
-<li>CE1.1: Identifica correctamente los tipos de datos y su finalidad.</li>
-<li>CE1.2: Usa nombres de variables significativos y coherentes.</li>
-<li>CE1.3: Declara y utiliza constantes en lugar de valores fijos cuando sea necesario.</li>
 </ul>
 </div>
 
@@ -161,7 +155,7 @@ FinAlgoritmo
 </div>
 
 ---
-# UT2 – Tipos de Datos y Operadores
+# 2 – Tipos de Datos y Operadores
 **Módulo:** Fundamentos de Programación  
 **Ciclo:** ASIR1  
 **Profesor:** Ezequiel Llarena Borges
@@ -173,12 +167,6 @@ FinAlgoritmo
 <ul>
 <li><b>RA1:</b> Comprender los tipos de datos y su uso en pseudocódigo.</li>
 <li><b>RA2:</b> Aplicar operadores aritméticos, lógicos y relacionales en problemas sencillos.</li>
-</ul>
-<p><b>Criterios de evaluación:</b></p>
-<ul>
-<li>CE2.1: Identificar correctamente tipos de datos: Entero, Real, Cadena, Lógico.</li>
-<li>CE2.2: Aplicar operadores adecuados según el tipo de dato.</li>
-<li>CE2.3: Resolver ejercicios con cálculos y condiciones básicas.</li>
 </ul>
 </div>
 
@@ -295,10 +283,8 @@ FinAlgoritmo
 
 ---
 
-**Pie de página:** Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
-
 Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
-# UT3 – Estructuras de Control Condicionales
+# 3 – Estructuras de Control Condicionales
 **Módulo:** Fundamentos de Programación  
 **Ciclo:** ASIR1  
 **Profesor:** Ezequiel Llarena Borges
@@ -310,12 +296,6 @@ Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
 <ul>
 <li><b>RA1:</b> Comprender la lógica de decisión en algoritmos.</li>
 <li><b>RA2:</b> Aplicar correctamente condicionales simples y anidados.</li>
-</ul>
-<p><b>Criterios de evaluación:</b></p>
-<ul>
-<li>CE3.1: Crear algoritmos que tomen decisiones basadas en condiciones.</li>
-<li>CE3.2: Usar correctamente condicionales simples, compuestas y anidadas.</li>
-<li>CE3.3: Probar todos los casos posibles para validar resultados.</li>
 </ul>
 </div>
 
@@ -464,5 +444,5 @@ FinAlgoritmo
 
 ---
 
-**Pie de página:** Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
+Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
 
