@@ -110,7 +110,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#009966;"> Recordatorios y consejos</h2>
+<h2 style="color:#009966;"> Buenas prácticas</h2>
 <ul>
 <li>Los identificadores no pueden empezar por número ni contener espacios.</li>
 <li>Usa nombres descriptivos y coherentes.</li>
@@ -140,7 +140,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;"> Sintesis clave</h2>
+<h2 style="color:#006633;"> Sintesis </h2>
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
 <tr style="background-color:#ccece6;">
 <th style="border:1px solid #ccc; padding:4px;">Concepto</th>
@@ -211,7 +211,157 @@ FinAlgoritmo
 <h2 style="color:#006633;">Práctica guiada paso a paso</h2>
 
 <h3>Paso 1: Suma y resta</h3>
+<pre style="background-color:#ed# UT4 – Bucles y Repeticiones
+**Módulo:** Fundamentos de Programación  
+**Ciclo:** ASIR1  
+**Profesor:** Ezequiel Llarena Borges
+
+---
+
+<div style="background-color:#ccece6; padding:15px; border-radius:8px;">
+<h2 style="color:#006633;">¿Qué se espera que logres al finalizar la práctica?</h2>
+<ul>
+<li><b>RA1:</b> Comprender y aplicar estructuras de repetición en pseudocódigo.</li>
+<li><b>RA2:</b> Resolver problemas cotidianos que requieran iteración, usando bucles.</li>
+</ul>
+<p><b>Criterios de evaluación:</b></p>
+<ul>
+<li>CE4.1: Usar correctamente bucles <i>Para</i>, <i>Mientras</i> y <i>Repetir</i>.</li>
+<li>CE4.2: Aplicar condiciones dentro de los bucles.</li>
+<li>CE4.3: Simular tareas repetitivas de la vida diaria en pseudocódigo.</li>
+</ul>
+</div>
+
+---
+
+<div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#009966;">Objetivos de la unidad</h2>
+<ul>
+<li>Entender la lógica de repetición.</li>
+<li>Aprender a usar bucles <i>Para</i>, <i>Mientras</i> y <i>Repetir</i>.</li>
+<li>Aplicar bucles a tareas prácticas, como recorrer listas o procesar usuarios.</li>
+<li>Evitar bucles infinitos y usar condiciones de parada claras.</li>
+</ul>
+</div>
+
+---
+
+<div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#0066cc;">Resumen teórico</h2>
+<p><b>Bucles:</b> Permiten repetir instrucciones varias veces.</p>
+
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+Algoritmo ListaUsuarios
+   Definir i Como Entero
+   Para i <- 1 Hasta 5
+       Escribir "Introduce el nombre del usuario ", i
+       Leer nombre[i]
+   FinPara
+FinAlgoritmo
+</pre>
+
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+Algoritmo ControlStock
+   Definir stock, cantidadComo Entero
+   stock <- 0
+   Mientras stock < 10 Hacer
+       stock <- stock + 1
+       Escribir "Stock actualizado:", stock
+   FinMientras
+FinAlgoritmo
+</pre>
+</div>
+
+---
+
+<div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
+<h2 style="color:#006633;">Práctica guiada paso a paso</h2>
+
+<h3>Paso 1: Bucle Para</h3>
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+Algoritmo RegistroUsuarios
+   Definir i Como Entero
+   Para i <- 1 Hasta 3
+       Escribir "Introduce nombre del usuario ", i
+       Leer nombre[i]
+   FinPara
+FinAlgoritmo
+</pre>
+<p>_____________________________________________________________</p>
+
+<h3>Paso 2: Bucle Mientras</h3>
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+Algoritmo TareasDiarias
+   Definir tareasRealizadas Como Entero
+   tareasRealizadas <- 0
+   Mientras tareasRealizadas < 5 Hacer
+       tareasRealizadas <- tareasRealizadas + 1
+       Escribir "Tarea completada:", tareasRealizadas
+   FinMientras
+FinAlgoritmo
+</pre>
+<p>_____________________________________________________________</p>
+
+<h3>Paso 3: Bucle Repetir</h3>
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+Algoritmo SolicitarContrasena
+   Definir contrasena Como Cadena
+   Repetir
+       Escribir "Introduce tu contraseña:"
+       Leer contrasena
+   Hasta contrasena = "1234"
+   Escribir "Acceso concedido"
+FinAlgoritmo
+</pre>
+<p>_____________________________________________________________</p>
+
+<h3>Paso 4: Reto</h3>
+<p>Escribe un algoritmo que lea nombres de empleados hasta que se introduzca "FIN", y muestre todos los nombres introducidos.</p>
+<p>_____________________________________________________________<br>_____________________________________________________________<br>_____________________________________________________________</p>
+</div>
+
+---
+
+<div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#009966;">Recordatorios y consejos</h2>
+<ul>
+<li>El bucle <i>Para</i> se usa cuando sabes cuántas veces repetirás.</li>
+<li>El bucle <i>Mientras</i> o <i>Repetir</i> se usa cuando la condición depende de datos de usuario.</li>
+<li>Evita bucles infinitos con condiciones claras.</li>
+<li>Prueba tus bucles con varios datos de entrada.</li>
+</ul>
+</div>
+
+---
+
+<div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#0066cc;">Ejercicios adicionales / Autoevaluación</h2>
+<ol>
+<li>Registrar los nombres de 5 usuarios y mostrarlos.</li>
+<li>Actualizar stock de un almacén hasta 20 unidades.</li>
+<li>Solicitar contraseñas hasta que el usuario introduzca la correcta.</li>
+</ol>
+</div>
+
+---
+
+<div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
+<h2 style="color:#006633;">Síntesis</h2>
+<table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
+<tr style="background-color:#ccece6;">
+<th style="border:1px solid #ccc; padding:4px;">Concepto</th>
+<th style="border:1px solid #ccc; padding:4px;">Descripción</th>
+<th style="border:1px solid #ccc; padding:4px;">Ejemplo</th>
+</tr>
+<tr><td>Bucle Para</td><td>Repite un número de veces conocido</td><td>Para i <- 1 Hasta 5</td></tr>
+<tr><td>Bucle Mientras</td><td>Repite mientras la condición sea verdadera</td><td>Mientras stock < 10</td></tr>
+<tr><td>Bucle Repetir</td><td>Repite hasta que se cumpla una condición</td><td>Repetir…Hasta contrasena="1234"</td></tr>
+</table>
+</div>
+
+---
+Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
+eded; padding:8px; border-radius:5px;">
 Algoritmo SumaResta
    Definir x, y Como Entero
    x <- 10
@@ -402,7 +552,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#009966;">Recordatorios y consejos</h2>
+<h2 style="color:#009966;">Buenas prácticas</h2>
 <ul>
 <li>Verifica las condiciones lógicas antes de escribirlas.</li>
 <li>Los condicionales pueden ser anidados para múltiples decisiones.</li>
@@ -425,7 +575,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;">Resumen de conceptos clave</h2>
+<h2 style="color:#006633;">Síntesis clave</h2>
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
 <tr style="background-color:#ccece6;">
 <th style="border:1px solid #ccc; padding:4px;">Concepto</th>
