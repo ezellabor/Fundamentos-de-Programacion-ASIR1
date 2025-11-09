@@ -589,3 +589,313 @@ FinAlgoritmo
 
 Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
 
+# UT5 – Subalgoritmos y Funciones
+**Módulo:** Fundamentos de Programación  
+**Ciclo:** ASIR1  
+**Profesor:** Ezequiel Llarena Borges
+
+---
+
+<div style="background-color:#ccece6; padding:15px; border-radius:8px;">
+<h2 style="color:#006633;">¿Qué se espera que logres al finalizar la práctica?</h2>
+<ul>
+<li><b>RA1:</b> Diseñar programas modulares mediante subalgoritmos y funciones.</li>
+<li><b>RA2:</b> Aplicar funciones para dividir y simplificar la lógica de un programa.</li>
+</ul>
+<p><b>Criterios de evaluación:</b></p>
+<ul>
+<li>CE5.1: Crear subalgoritmos con y sin parámetros.</li>
+<li>CE5.2: Aplicar funciones que devuelven valores.</li>
+<li>CE5.3: Reutilizar código de manera estructurada.</li>
+</ul>
+</div>
+
+---
+
+<div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#009966;">Objetivos de la unidad</h2>
+<ul>
+<li>Entender la importancia de dividir un problema en partes.</li>
+<li>Aprender la sintaxis de subalgoritmos en PSeInt.</li>
+<li>Aplicar funciones que realicen tareas específicas y devuelvan resultados.</li>
+<li>Organizar programas complejos de forma modular.</li>
+</ul>
+</div>
+
+---
+
+<div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#0066cc;">Resumen teórico</h2>
+<p>Un <b>subalgoritmo</b> es una parte del programa que realiza una tarea concreta y puede reutilizarse. Puede recibir datos (parámetros) y devolver resultados (funciones).</p>
+
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+SubAlgoritmo MostrarBienvenida()
+   Escribir "Bienvenido al sistema de control de usuarios"
+FinSubAlgoritmo
+</pre>
+
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+Funcion Suma <- CalcularTotal(a, b)
+   Suma <- a + b
+FinFuncion
+</pre>
+</div>
+
+---
+
+<div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
+<h2 style="color:#006633;">Práctica guiada paso a paso</h2>
+
+<h3>Paso 1: Crear un subalgoritmo sin parámetros</h3>
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+SubAlgoritmo MostrarInicio()
+   Escribir "Iniciando mantenimiento del servidor..."
+FinSubAlgoritmo
+
+Algoritmo MantenimientoServidor
+   MostrarInicio()
+   Escribir "Comprobando estado de red..."
+   Escribir "Revisión completada."
+FinAlgoritmo
+</pre>
+<p>_____________________________________________________________</p>
+
+<h3>Paso 2: Subalgoritmo con parámetros</h3>
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+SubAlgoritmo MostrarUsuario(nombre)
+   Escribir "Bienvenido, ", nombre
+FinSubAlgoritmo
+
+Algoritmo Login
+   Definir usuario Como Cadena
+   Escribir "Introduce tu nombre de usuario:"
+   Leer usuario
+   MostrarUsuario(usuario)
+FinAlgoritmo
+</pre>
+<p>_____________________________________________________________</p>
+
+<h3>Paso 3: Función que devuelve resultado</h3>
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+Funcion Total <- CalcularPrecio(precio, iva)
+   Total <- precio + (precio * iva / 100)
+FinFuncion
+
+Algoritmo Factura
+   Definir precio, total Como Real
+   precio <- 120
+   total <- CalcularPrecio(precio, 21)
+   Escribir "Precio final con IVA:", total
+FinAlgoritmo
+</pre>
+<p>_____________________________________________________________</p>
+
+<h3>Paso 4: Reto</h3>
+<p>Crea una función llamada <code>ComprobarConexion()</code> que devuelva Verdadero si la red está activa (simula con una variable) y Falso en caso contrario. Si devuelve Verdadero, muestra "Conexión establecida".</p>
+<p>_____________________________________________________________<br>_____________________________________________________________<br>_____________________________________________________________</p>
+</div>
+
+---
+
+<div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#009966;">Recordatorios y consejos</h2>
+<ul>
+<li>Divide tus programas en pequeñas tareas (subalgoritmos).</li>
+<li>Usa funciones para cálculos o comprobaciones repetitivas.</li>
+<li>Los subalgoritmos hacen el código más legible y mantenible.</li>
+<li>Usa nombres descriptivos para las funciones y sus parámetros.</li>
+</ul>
+</div>
+
+---
+
+<div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#0066cc;">Ejercicios adicionales / Autoevaluación</h2>
+<ol>
+<li>Función que calcule el tiempo estimado de instalación de software (según número de equipos).</li>
+<li>Subalgoritmo que muestre un menú de opciones (1. Crear usuario, 2. Eliminar usuario).</li>
+<li>Función que calcule el uso de CPU medio de un servidor según varios valores de entrada.</li>
+</ol>
+</div>
+
+---
+
+<div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
+<h2 style="color:#006633;">Resumen de conceptos clave</h2>
+<table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
+<tr style="background-color:#ccece6;">
+<th style="border:1px solid #ccc; padding:4px;">Concepto</th>
+<th style="border:1px solid #ccc; padding:4px;">Descripción</th>
+<th style="border:1px solid #ccc; padding:4px;">Ejemplo</th>
+</tr>
+<tr><td>Subalgoritmo</td><td>Bloque de código que realiza una tarea</td><td>SubAlgoritmo MostrarInicio()</td></tr>
+<tr><td>Función</td><td>Devuelve un valor tras ejecutar su lógica</td><td>Funcion Total <- CalcularPrecio()</td></tr>
+<tr><td>Parámetros</td><td>Valores que se pasan al subalgoritmo</td><td>MostrarUsuario(nombre)</td></tr>
+</table>
+</div>
+
+---
+
+Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
+
+# UT6 – Vectores y Listas
+**Módulo:** Fundamentos de Programación  
+**Ciclo:** ASIR1  
+**Profesor:** Ezequiel Llarena Borges
+
+---
+
+<div style="background-color:#ccece6; padding:15px; border-radius:8px;">
+<h2 style="color:#006633;">¿Qué se espera que logres al finalizar la práctica?</h2>
+<ul>
+<li><b>RA1:</b> Gestionar conjuntos de datos usando vectores y listas.</li>
+<li><b>RA2:</b> Aplicar estructuras de almacenamiento en problemas reales.</li>
+</ul>
+<p><b>Criterios de evaluación:</b></p>
+<ul>
+<li>CE6.1: Declarar y recorrer vectores con bucles.</li>
+<li>CE6.2: Usar listas para almacenar elementos de forma dinámica.</li>
+<li>CE6.3: Aplicar algoritmos de búsqueda y conteo sobre datos.</li>
+</ul>
+</div>
+
+---
+
+<div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#009966;">Objetivos de la unidad</h2>
+<ul>
+<li>Aprender qué es un vector y cómo declararlo.</li>
+<li>Recorrer vectores con bucles.</li>
+<li>Manipular datos almacenados (mostrar, sumar, buscar).</li>
+<li>Simular inventarios o listas de usuarios en pseudocódigo.</li>
+</ul>
+</div>
+
+---
+
+<div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#0066cc;">Resumen teórico</h2>
+<p>Un <b>vector</b> es un conjunto de elementos del mismo tipo, como una lista de usuarios, precios o IPs.</p>
+
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+Algoritmo ListadoUsuarios
+   Definir usuarios[3] Como Cadena
+   usuarios[1] <- "admin"
+   usuarios[2] <- "tecnico"
+   usuarios[3] <- "soporte"
+   Para i <- 1 Hasta 3
+       Escribir "Usuario:", usuarios[i]
+   FinPara
+FinAlgoritmo
+</pre>
+</div>
+
+---
+
+<div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
+<h2 style="color:#006633;">Práctica guiada paso a paso</h2>
+
+<h3>Paso 1: Crear y mostrar un vector</h3>
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+Algoritmo ListadoEquipos
+   Definir equipos[4] Como Cadena
+   equipos[1] <- "Servidor"
+   equipos[2] <- "Router"
+   equipos[3] <- "Switch"
+   equipos[4] <- "NAS"
+   Para i <- 1 Hasta 4
+       Escribir "Equipo conectado:", equipos[i]
+   FinPara
+FinAlgoritmo
+</pre>
+<p>_____________________________________________________________</p>
+
+<h3>Paso 2: Búsqueda en un vector</h3>
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+Algoritmo BuscarUsuario
+   Definir usuarios[3], buscado Como Cadena
+   usuarios[1] <- "root"
+   usuarios[2] <- "admin"
+   usuarios[3] <- "guest"
+   Escribir "Introduce el usuario a buscar:"
+   Leer buscado
+   encontrado <- Falso
+   Para i <- 1 Hasta 3
+       Si usuarios[i] = buscado Entonces
+           encontrado <- Verdadero
+       FinSi
+   FinPara
+   Si encontrado Entonces
+       Escribir "Usuario encontrado."
+   Sino
+       Escribir "Usuario no existe."
+   FinSi
+FinAlgoritmo
+</pre>
+<p>_____________________________________________________________</p>
+
+<h3>Paso 3: Cálculo sobre datos en vector</h3>
+<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
+Algoritmo ConsumoServidores
+   Definir consumo[3], total Como Real
+   consumo[1] <- 350.5
+   consumo[2] <- 290.8
+   consumo[3] <- 410.2
+   total <- 0
+   Para i <- 1 Hasta 3
+       total <- total + consumo[i]
+   FinPara
+   Escribir "Consumo total:", total, "W"
+FinAlgoritmo
+</pre>
+<p>_____________________________________________________________</p>
+
+<h3>Paso 4: Reto</h3>
+<p>Crea un algoritmo que lea los nombres de varios equipos y permita mostrar solo los que empiecen por la letra “S”.</p>
+<p>_____________________________________________________________<br>_____________________________________________________________<br>_____________________________________________________________</p>
+</div>
+
+---
+
+<div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#009966;">Recordatorios y consejos</h2>
+<ul>
+<li>Los vectores almacenan varios elementos del mismo tipo.</li>
+<li>Usa bucles para recorrerlos fácilmente.</li>
+<li>Es recomendable inicializarlos antes de usarlos.</li>
+<li>Evita errores de índice fuera del rango del vector.</li>
+</ul>
+</div>
+
+---
+
+<div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#0066cc;">Ejercicios adicionales / Autoevaluación</h2>
+<ol>
+<li>Registrar el nombre de los 5 últimos usuarios conectados al sistema.</li>
+<li>Contar cuántos equipos superan un consumo eléctrico determinado.</li>
+<li>Buscar un elemento en una lista y eliminarlo (simulado).</li>
+</ol>
+</div>
+
+---
+
+<div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
+<h2 style="color:#006633;">Resumen de conceptos clave</h2>
+<table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
+<tr style="background-color:#ccece6;">
+<th style="border:1px solid #ccc; padding:4px;">Concepto</th>
+<th style="border:1px solid #ccc; padding:4px;">Descripción</th>
+<th style="border:1px solid #ccc; padding:4px;">Ejemplo</th>
+</tr>
+<tr><td>Vector</td><td>Conjunto de datos del mismo tipo</td><td>usuarios[1] ← “admin”</td></tr>
+<tr><td>Recorrido</td><td>Usar bucle para leer todos los elementos</td><td>Para i ← 1 Hasta 3</td></tr>
+<tr><td>Búsqueda</td><td>Comprobar si un elemento está en el vector</td><td>Si usuarios[i] = buscado</td></tr>
+</table>
+</div>
+
+---
+
+Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
+
+
