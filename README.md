@@ -28,7 +28,7 @@
 ---
 
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#0066cc;"> Recordemos...</h2>
+<h2 style="color:#0066cc;"> Conceptos clave</h2>
 
 <p><b>Identificadores →</b> Son los nombres que damos a variables, constantes o algoritmos. Ejemplo: <code>nombreUsuario</code>, <code>precioTotal</code>, <code>edad</code>.</p>
 
@@ -140,7 +140,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;"> Resumen de conceptos clave</h2>
+<h2 style="color:#006633;"> Sintesis clave</h2>
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
 <tr style="background-color:#ccece6;">
 <th style="border:1px solid #ccc; padding:4px;">Concepto</th>
@@ -183,7 +183,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#0066cc;">Resumen teórico</h2>
+<h2 style="color:#0066cc;">Conceptos clave</h2>
 <p><b>Tipos de datos:</b> Entero, Real, Cadena, Lógico</p>
 <p><b>Operadores:</b></p>
 <ul>
@@ -241,7 +241,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#009966;">Recordatorios y consejos</h2>
+<h2 style="color:#009966;">Buenas prácticas</h2>
 <ul>
 <li>Los operadores deben usarse según el tipo de dato.</li>
 <li>Los cálculos con Enteros y Reales pueden dar resultados distintos.</li>
@@ -264,7 +264,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;">Resumen de conceptos clave</h2>
+<h2 style="color:#006633;">Síntesisclave</h2>
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
 <tr style="background-color:#ccece6;">
 <th style="border:1px solid #ccc; padding:4px;">Concepto</th>
@@ -283,8 +283,6 @@ FinAlgoritmo
 
 Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
 # 3 – Estructuras de Control Condicionales
-**Módulo:** Fundamentos de Programación  
-**Ciclo:** ASIR1  
 **Profesor:** Ezequiel Llarena Borges
 
 ---
@@ -300,7 +298,7 @@ Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
 ---
 
 <div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#009966;">Objetivos de la unidad</h2>
+<h2 style="color:#009966;">Objetivos</h2>
 <ul>
 <li>Comprender la estructura IF…THEN…ELSE.</li>
 <li>Aprender a anidar condicionales.</li>
@@ -312,7 +310,7 @@ Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
 ---
 
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#0066cc;">Resumen teórico</h2>
+<h2 style="color:#0066cc;">Puntos clave</h2>
 <p>Las estructuras condicionales permiten que un algoritmo tome decisiones según ciertas condiciones.</p>
 
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
@@ -347,7 +345,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;">Práctica guiada paso a paso</h2>
+<h2 style="color:#006633;">Desarrollo paso a paso</h2>
 
 <h3>Paso 1: Condicional simple</h3>
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
