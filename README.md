@@ -1,11 +1,10 @@
 # Unidad 1 - Identificadores, Variables y Constantes
-FUNDAMENTOS DE PROGRAMACIÓN
---Ezequiel Llarena Borges
-
+Formador: Ezequiel Llarena Borges
+ 
 ---
 
 <div style="background-color:#ccece6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;"> ¿Qué se espera que logres al finalizar la práctica?</h2>
+<h2 style="color:#006633;"> Lo que sabrás hacer al finalizar la unidad</h2>
 <ul>
 <li><b>RA1:</b> Reconocer los elementos y estructuras básicas de un programa informático.</li>
 <li><b>RA2:</b> Escribir programas sencillos aplicando buenas prácticas en el uso de variables y constantes.</li>
@@ -60,9 +59,9 @@ Algoritmo Variables
    Definir <span style="color:#cc3300;">nombre</span> Como Cadena
    Definir <span style="color:#cc3300;">edad</span>, <span style="color:#cc3300;">altura</span> Como Real
 
-   <span style="color:#cc3300;">nombre</span> <- "Alex"
-   <span style="color:#cc3300;">edad</span> <- 20
-   <span style="color:#cc3300;">altura</span> <- 1.75
+   <span style="color:#cc3300;">nombre</span> <- "Ezequiel"
+   <span style="color:#cc3300;">edad</span> <- 30
+   <span style="color:#cc3300;">altura</span> <- 1.70
 
    Escribir "Hola, ", <span style="color:#cc3300;">nombre</span>
    Escribir "Tienes ", <span style="color:#cc3300;">edad</span>, " años y mides ", <span style="color:#cc3300;">altura</span>, " metros."
@@ -86,18 +85,18 @@ FinAlgoritmo
 <p>Reflexiona: ¿Por qué <span style="color:#0033cc;">IVA</span> está en mayúsculas?</p>
 <p>_____________________________________________________________</p>
 
-<h3>Paso 3: Identificadores correctos e incorrectos</h3>
-<p>Tabla de ejemplos:</p>
+<h3>Paso 3: Identificadores válidos </h3>
+<p>Lista de ejemplos:</p>
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
 <tr style="background-color:#d9f2e6;">
 <th style="border:1px solid #ccc; padding:4px;">Identificador</th>
 <th style="border:1px solid #ccc; padding:4px;">¿Válido?</th>
 <th style="border:1px solid #ccc; padding:4px;">Motivo</th>
 </tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">2nombre</td><td style="border:1px solid #ccc; padding:4px;">❌</td><td></td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">_usuario</td><td style="border:1px solid #ccc; padding:4px;">✅</td><td></td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">nombre completo</td><td style="border:1px solid #ccc; padding:4px;">❌</td><td></td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">precio_total</td><td style="border:1px solid #ccc; padding:4px;">✅</td><td></td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;">2nombre</td><td style="border:1px solid #ccc; padding:4px;">❌</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;">_usuario</td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;">nombre completo</td><td style="border:1px solid #ccc; padding:4px;">❌</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;">precio_total</td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
 <tr><td style="border:1px solid #ccc; padding:4px;">Escribir</td><td style="border:1px solid #ccc; padding:4px;">❌</td><td></td></tr>
 </table>
 
@@ -109,7 +108,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#009966;"> Buenas prácticas</h2>
+<h2 style="color:#009966;"> Buenas prácticas de programación</h2>
 <ul>
 <li>Los identificadores no pueden empezar por número ni contener espacios.</li>
 <li>Usa nombres descriptivos y coherentes.</li>
