@@ -1,6 +1,6 @@
-# 1 - Identificadores, Variables y Constantes
-<!--**Módulo:** Fundamentos de Programación  
-**Ciclo:** ASIR1 -->
+# Unidad 1 - Identificadores, Variables y Constantes
+| Fundamentos de Programación  
+| Adaptado al **CFGM Administración de Sistemas Informáticos en Red:** ASIR1 -->
 **Profesor:** Ezequiel Llarena Borges
 
 ---
