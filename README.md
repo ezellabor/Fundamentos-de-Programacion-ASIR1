@@ -1,4 +1,4 @@
-# Unidad 1 - Identificadores, Variables y Constantes
+# Unidad 1 - Identificadores, variables y constantes
 Formador: Ezequiel Llarena Borges
  
 ---
@@ -100,10 +100,10 @@ FinAlgoritmo
 <tr><td style="border:1px solid #ccc; padding:4px;">Escribir</td><td style="border:1px solid #ccc; padding:4px;">❌</td><td></td></tr>
 </table>
 
-<h3>Paso 4: Pequeño reto</h3>
+<!--<h3>Paso 4: Pequeño reto</h3>
 <p>Crea un algoritmo que pida nombre, edad y año actual y muestre: "Hola, Alex. Naciste en 2005."</p>
 <p>_____________________________________________________________<br>_____________________________________________________________<br>_____________________________________________________________</p>
-</div>
+</div>-->
 
 ---
 
@@ -112,7 +112,7 @@ FinAlgoritmo
 <ul>
 <li>Los identificadores no pueden empezar por número ni contener espacios.</li>
 <li>Usa nombres descriptivos y coherentes.</li>
-<li>Usa <b>MAYÚSCULAS</b> para las constantes.</li>
+<li>Usa MAYÚSCULAS para las constantes.</li>
 <li>No utilices palabras reservadas del lenguaje.</li>
 </ul>
 </div>
