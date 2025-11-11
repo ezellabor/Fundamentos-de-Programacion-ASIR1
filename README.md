@@ -296,7 +296,7 @@ Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges
 ---
 
 <div style="background-color:#ccece6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;">¿Qué se espera que logres al finalizar la práctica?</h2>
+<h2 style="color:#006633;"></h2>
 <ul>
 <li><b>RA1:</b> Comprender la lógica de decisión en algoritmos.</li>
 <li><b>RA2:</b> Aplicar correctamente condicionales simples y anidados.</li>
