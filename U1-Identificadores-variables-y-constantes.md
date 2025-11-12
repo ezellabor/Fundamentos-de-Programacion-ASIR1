@@ -2,13 +2,14 @@
 # Unidad 1 - Identificadores, variables y constantes
 
  ---
- 
+
+ > *Contenido y ejemplos adaptados al curriculo oficial del ciclo formativo de grado medio "Administración de Sistemas Infórmaticos en Red" 
 
 <div style="background-color:#ccece6; padding:15px; border-radius:8px;">
 <h2 style="color:#006633;"> Lo que sabrás hacer al finalizar esta unidad</h2>
 <ul>
-<li><b>RA1:</b> Reconocer los elementos y estructuras básicas de un programa informático.</li>
-<li><b>RA2:</b> Escribir programas sencillos aplicando buenas prácticas en el uso de variables y constantes.</li>
+<li>Reconocer los elementos y estructuras básicas de un programa informático.</li>
+<li>Escribir programas sencillos aplicando buenas prácticas en el uso de variables y constantes.</li>
 </ul>
 </div>
 
