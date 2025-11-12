@@ -128,7 +128,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#0066cc;"> Ejercicios adicionales / Autoevaluación</h2>
+<h2 style="color:#0066cc;">Autoevaluación</h2>
 <ol>
 <li>Declara tres variables con tu nombre, edad y ciudad, y muéstralas.</li>
 <li>Calcula el área de un rectángulo usando constantes para la base y la altura.</li>
