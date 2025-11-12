@@ -4,7 +4,7 @@
 ---
 
 <div style="background-color:#ccece6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;"> Lo que sabrás hacer al finalizar la unidad</h2>
+<h2 style="color:#006633;"> Lo que sabrás hacer al finalizar esta unidad</h2>
 <ul>
 <li><b>RA1:</b> Reconocer los elementos y estructuras básicas de un programa informático.</li>
 <li><b>RA2:</b> Escribir programas sencillos aplicando buenas prácticas en el uso de variables y constantes.</li>
@@ -163,13 +163,13 @@ FinAlgoritmo
 ---
 
 
-# UT 2 – Tipos de Datos y Operadores
+# UT 2 – Tipos de datos y operadores
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
 ---
 
 <div style="background-color:#ccece6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;">¿Qué se espera que logres al finalizar la práctica?</h2>
+<h2 style="color:#006633;">Lo que sabrás hacer al finalizar esta unidad</h2>
 <ul>
 <li><b>RA1:</b> Comprender los tipos de datos y su uso en pseudocódigo.</li>
 <li><b>RA2:</b> Aplicar operadores aritméticos, lógicos y relacionales en problemas sencillos.</li>
@@ -217,17 +217,6 @@ FinAlgoritmo
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
 <h2 style="color:#006633;">Desarrollo paso a paso</h2>
-
-
-
- 
-"background-color:#e6f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#0066cc;">Ejercicios adicionales / Autoevaluación</h2>
-<ol>
-<li>Registrar los nombres de 5 usuarios y mostrarlos.</li>
-<li>Actualizar stock de un almacén hasta 20 unidades.</li>
-<li>Solicitar contraseñas hasta que el usuario introduzca la correcta.</li>
-</ol>
 </div>
 
 Algoritmo SumaResta
@@ -306,7 +295,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#ccece6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;"></h2>
+<h2 style="color:#006633;">Lo que sabrás hacer al finalizar esta unidad</h2>
 <ul>
 <li><b>RA1:</b> Comprender la lógica de decisión en algoritmos.</li>
 <li><b>RA2:</b> Aplicar correctamente condicionales simples y anidados.</li>
@@ -328,7 +317,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#0066cc;">Puntos clave</h2>
+<h2 style="color:#0066cc;">Conceptos clave</h2>
 <p>Las estructuras condicionales permiten que un algoritmo tome decisiones según ciertas condiciones.</p>
 
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
@@ -412,9 +401,6 @@ FinAlgoritmo
 </pre>
 <p>_____________________________________________________________</p>
 
-<h3>Paso 4: Reto</h3>
-<p>Escribe un algoritmo que pida edad y año de nacimiento, y diga si es mayor de edad y si nació antes del 2000.</p>
-<p>_____________________________________________________________<br>_____________________________________________________________<br>_____________________________________________________________</p>
 </div>
 
 ---
@@ -432,18 +418,19 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#0066cc;">Ejercicios adicionales / Autoevaluación</h2>
+<h2 style="color:#0066cc;">Autoevaluación</h2>
 <ol>
 <li>Determinar si un número introducido es positivo, negativo o cero.</li>
 <li>Verificar si un año es bisiesto.</li>
 <li>Clasificar edades en rangos: niño, adolescente, adulto, anciano.</li>
+<li>Escribe un algoritmo que pida edad y año de nacimiento, y diga si es mayor de edad y si nació antes del 2000.</li>
 </ol>
 </div>
 
 ---
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;">Síntesis clave</h2>
+<h2 style="color:#006633;">Síntesis</h2>
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
 <tr style="background-color:#ccece6;">
 <th style="border:1px solid #ccc; padding:4px;">Concepto</th>
@@ -465,7 +452,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#ccece6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;">¿Qué se espera que logres al finalizar la práctica?</h2>
+<h2 style="color:#006633;>">o que sabrás hacer al finalizar esta unidad</h2>
 <ul>
 <li><b>RA1:</b> Diseñar programas modulares mediante subalgoritmos y funciones.</li>
 <li><b>RA2:</b> Aplicar funciones para dividir y simplificar la lógica de un programa.</li>
@@ -481,7 +468,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#009966;">Objetivos de la unidad</h2>
+<h2 style="color:#009966;">Objetivos</h2>
 <ul>
 <li>Entender la importancia de dividir un problema en partes.</li>
 <li>Aprender la sintaxis de subalgoritmos en PSeInt.</li>
@@ -493,7 +480,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#0066cc;">Resumen teórico</h2>
+<h2 style="color:#0066cc;">Conceptos clave</h2>
 <p>Un <b>subalgoritmo</b> es una parte del programa que realiza una tarea concreta y puede reutilizarse. Puede recibir datos (parámetros) y devolver resultados (funciones).</p>
 
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
@@ -512,7 +499,7 @@ FinFuncion
 ---
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;">Práctica guiada paso a paso</h2>
+<h2 style="color:#006633;">Desarrollo paso a paso</h2>
 
 <h3>Paso 1: Crear un subalgoritmo sin parámetros</h3>
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
@@ -566,7 +553,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#009966;">Recordatorios y consejos</h2>
+<h2 style="color:#009966;">Buenas prácticas</h2>
 <ul>
 <li>Divide tus programas en pequeñas tareas (subalgoritmos).</li>
 <li>Usa funciones para cálculos o comprobaciones repetitivas.</li>
@@ -578,7 +565,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#0066cc;">Ejercicios adicionales / Autoevaluación</h2>
+<h2 style="color:#0066cc;">Autoevaluación</h2>
 <ol>
 <li>Función que calcule el tiempo estimado de instalación de software (según número de equipos).</li>
 <li>Subalgoritmo que muestre un menú de opciones (1. Crear usuario, 2. Eliminar usuario).</li>
@@ -589,7 +576,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;">Resumen de conceptos clave</h2>
+<h2 style="color:#006633;">Síntesis</h2>
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
 <tr style="background-color:#ccece6;">
 <th style="border:1px solid #ccc; padding:4px;">Concepto</th>
@@ -611,7 +598,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#ccece6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;">¿Qué se espera que logres al finalizar la práctica?</h2>
+<h2 style="color:#006633;">Lo que sabrás hacer al finalizar esta unidad</h2>
 <ul>
 <li><b>RA1:</b> Gestionar conjuntos de datos usando vectores y listas.</li>
 <li><b>RA2:</b> Aplicar estructuras de almacenamiento en problemas reales.</li>
@@ -627,7 +614,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#009966;">Objetivos de la unidad</h2>
+<h2 style="color:#009966;">Objetivos</h2>
 <ul>
 <li>Aprender qué es un vector y cómo declararlo.</li>
 <li>Recorrer vectores con bucles.</li>
@@ -639,7 +626,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#0066cc;">Resumen teórico</h2>
+<h2 style="color:#0066cc;">Conceptos clave</h2>
 <p>Un <b>vector</b> es un conjunto de elementos del mismo tipo, como una lista de usuarios, precios o IPs.</p>
 
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
@@ -658,7 +645,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;">Práctica guiada paso a paso</h2>
+<h2 style="color:#006633;">Desarrollo paso a paso</h2>
 
 <h3>Paso 1: Crear y mostrar un vector</h3>
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
@@ -723,7 +710,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#009966;">Recordatorios y consejos</h2>
+<h2 style="color:#009966;">Buenas prácticas</h2>
 <ul>
 <li>Los vectores almacenan varios elementos del mismo tipo.</li>
 <li>Usa bucles para recorrerlos fácilmente.</li>
@@ -735,7 +722,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#0066cc;">Ejercicios adicionales / Autoevaluación</h2>
+<h2 style="color:#0066cc;">Autoevaluación</h2>
 <ol>
 <li>Registrar el nombre de los 5 últimos usuarios conectados al sistema.</li>
 <li>Contar cuántos equipos superan un consumo eléctrico determinado.</li>
@@ -746,7 +733,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;">Resumen de conceptos clave</h2>
+<h2 style="color:#006633;">Síntesis</h2>
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
 <tr style="background-color:#ccece6;">
 <th style="border:1px solid #ccc; padding:4px;">Concepto</th>
