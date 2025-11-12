@@ -15,6 +15,12 @@ Al finalizar esta unidad sabrás hacer:
 -->
 ---
 
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+      
+
 <div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
 <h2 style="color:#009966;"> Objetivos</h2>
 <ul>
@@ -147,7 +153,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;"> Sintesis </h2>
+<h2 style="color:#006633;"> Recopilemos... </h2>
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
 <tr style="background-color:#ccece6;">
 <th style="border:1px solid #ccc; padding:4px;">Concepto</th>
@@ -162,6 +168,7 @@ FinAlgoritmo
 </div>
 
 
+
 ##
 
->_&copy; 2025 Fundamentos de Programación - Ezequiel Llarena Borges_
+<center> _&copy; 2025 - Fundamentos de Programación - Ezequiel Llarena Borges_ </center>
