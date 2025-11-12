@@ -28,7 +28,8 @@
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
 <h2 style="color:#0066cc;"> Conceptos clave</h2>
 
-<p><b>Identificadores →</b> Son los nombres que damos a variables, constantes o algoritmos. Ejemplo: <code>nombreUsuario</code>, <code>precioTotal</code>, <code>edad</code>.</p>
+<p><b>Identificadores →</b> Son los nombres que damos a variables, constantes o algoritmos.</p> 
+<p>Ejemplo: <code>nombreUsuario</code>, <code>precioTotal</code>, <code>edad</code>.</p>
 
 <p><b>Variables →</b> Almacenan valores que irán cambiando durante la ejecución del programa.</p>
 <quote>Ejemplo:</quote>
@@ -68,7 +69,7 @@ Algoritmo Variables
 FinAlgoritmo
 </pre>
 <p>Ejecuta y observa la salida. Reflexiona: ¿qué pasa si cambias <span style="color:#cc3300;">edad</span> por "veinte"?</p>
-<pre>contesta aqui</pre>
+<pre>...</pre>
 
 <h3>Paso 2: Añade una constante</h3>
 <p>Define una constante llamada <span style="color:#0033cc;">IVA</span> con valor 0.21 y calcula el precio final:</p>
@@ -83,7 +84,7 @@ Algoritmo CalculoIVA
 FinAlgoritmo
 </pre>
 <p>Reflexiona: ¿Por qué <span style="color:#0033cc;">IVA</span> está en mayúsculas?</p>
-<p>_____________________________________________________________</p>
+<pre>...</pre>
 
 <h3>Paso 3: Identificadores válidos </h3>
 <p>Lista de ejemplos:</p>
