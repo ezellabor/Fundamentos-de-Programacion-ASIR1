@@ -10,7 +10,9 @@ date: 2025-11-09
 layout: "default"
 ---  -->
 
-# Práctica 2 – Siguiendo el rastro de las variables  
+# P2 – Depuración y exploración de código 
+>Modo "paso a paso" o Debugger
+---
 **Unidad:** UT1 – Identificadores, Variables y Constantes  
 **Módulo:** Fundamentos de Programación | ASIR1  
 **Profesor:** Ezequiel Llarena Borges  
@@ -32,7 +34,7 @@ layout: "default"
 
 ## Objetivos de la unidad
 - Aprender a ejecutar un algoritmo **paso a paso** en PSeInt.  
-- Observar cómo cambian las variables en cada instrucción.  
+- Observar cómo cambian las variables en cada instrucción para localizar errores.  
 - Entender la diferencia entre valor inicial, intermedio y final de una variable.  
 - Usar el depurador como herramienta para **detectar errores lógicos**.
 
@@ -116,8 +118,9 @@ nuevoSueldo <- sueldo - aumento
 **Reflexión:**
 
 ```
-_____________________________________________________________
-_____________________________________________________________
+
+
+
 ```
 
 3. Corrige la instrucción y vuelve a ejecutar paso a paso.
@@ -159,14 +162,20 @@ Escribir "Ahorro mensual: ", ahorro
 - ¿Qué ocurre si cambias el orden de las instrucciones?
 
 ```
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
-```
 
+
+
+```
 ---
 
-## Sintesis/Conclusión de la unidad
+## Buenas prácticas
+- Usa **F8** para avanzar y **Ctrl + F8** para saltar una función completa.  
+- Observa siempre el **panel de variables** mientras depuras.  
+- Usa el **modo lento** para seguir el flujo completo.  
+- Introduce pequeños errores a propósito para practicar la detección.
+---
+
+## Sintesis de la unidad
 
 | Concepto | Observación |
 |-----------|-------------|
@@ -174,14 +183,6 @@ _____________________________________________________________
 | Constante | Mantiene su valor durante toda la ejecución |
 | Depurador | Permite seguir el flujo del programa paso a paso |
 | Error lógico | No interrumpe la ejecución, pero produce un resultado incorrecto |
-
----
-
-## Recuerda esto...
-- Usa **F8** para avanzar y **Ctrl + F8** para saltar una función completa.  
-- Observa siempre el **panel de variables** mientras depuras.  
-- Usa el **modo lento** para seguir el flujo completo.  
-- Introduce pequeños errores a propósito para practicar la detección.
 
 ---
 
