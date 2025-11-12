@@ -1,5 +1,5 @@
 # Unidad 1 - Identificadores, variables y constantes
-<code>Formador: Ezequiel Llarena Borges</code>
+<code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
  
 ---
 
@@ -164,7 +164,7 @@ FinAlgoritmo
 
 
 # Unidad 2 – Tipos de Datos y Operadores
-<code>Formador: Ezequiel Llarena Borges</code>
+<code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
 ---
 
