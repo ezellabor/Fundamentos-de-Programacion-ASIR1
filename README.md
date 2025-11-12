@@ -452,7 +452,8 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#ccece6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;>">o que sabrás hacer al finalizar esta unidad</h2>
+<h2 style="color:#006633;>">Lo que sabrás hacer al finalizar esta unidad</h2>
+<p><b>Resultados de aprendizaje</b></p>
 <ul>
 <li><b>RA1:</b> Diseñar programas modulares mediante subalgoritmos y funciones.</li>
 <li><b>RA2:</b> Aplicar funciones para dividir y simplificar la lógica de un programa.</li>
