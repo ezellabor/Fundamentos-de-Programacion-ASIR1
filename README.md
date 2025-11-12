@@ -1,5 +1,5 @@
 # Unidad 1 - Identificadores, variables y constantes
-Formador: Ezequiel Llarena Borges
+<code>Formador: Ezequiel Llarena Borges</code>
  
 ---
 
@@ -31,8 +31,9 @@ Formador: Ezequiel Llarena Borges
 <p><b>Identificadores →</b> Son los nombres que damos a variables, constantes o algoritmos. Ejemplo: <code>nombreUsuario</code>, <code>precioTotal</code>, <code>edad</code>.</p>
 
 <p><b>Variables →</b> Almacenan datos que van cambiando durante la ejecución del programa.</p>
+<quote>Ejemplo:</quote>
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
-Algoritmo EjemploVariable
+ Algoritmo EjemploVariable
    Definir <span style="color:#cc3300;">edad</span> Como Entero
    <span style="color:#cc3300;">edad</span> <- 18
    <span style="color:#cc3300;">edad</span> <- <span style="color:#cc3300;">edad</span> + 1  // ahora <span style="color:#cc3300;">edad</span> vale 19
@@ -41,6 +42,7 @@ FinAlgoritmo
 </pre>
 
 <p><b>Constantes →</b> Almacenan valores que no cambian durante todo el programa.</p>
+<quote>Ejemplo:</quote>
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
 Const <span style="color:#0033cc;">IVA</span> <- 0.21
 precioFinal <- precio * (1 + <span style="color:#0033cc;">IVA</span>)
@@ -107,15 +109,21 @@ FinAlgoritmo
 
 ---
 
+
 <div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#009966;"> Buenas prácticas de programación</h2>
-<ul>
-<li>Los identificadores no pueden empezar por número ni contener espacios.</li>
-<li>Usa nombres descriptivos y coherentes.</li>
-<li>Usa MAYÚSCULAS para las constantes.</li>
-<li>No utilices palabras reservadas del lenguaje.</li>
+<h2 style="color:#009966;">Convenciones de código</h2>
+ <ul>
+<li>Uso de sangría</li>
+<li>Uso de comentarios</li>
+<li>Nombres estandarizados para variables y funciones</li>
+<li>Usar nombres descriptivos y coherentes</li>
+<li>Usar MAYÚSCULAS para las constantes</li>
 </ul>
-</div>
+ </div>
+ 
+ ---
+ 
+ >Conjunto de reglas de estilo y prácticas que guían la escritura de código para que sea más legible, coherente y fácil de mantener
 
 ---
 
