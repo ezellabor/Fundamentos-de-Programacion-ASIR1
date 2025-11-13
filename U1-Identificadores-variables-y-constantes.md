@@ -90,7 +90,7 @@ FinAlgoritmo
 <tr><td style="border:1px solid #ccc; padding:4px;"><code>_usuario></code></td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
 <tr><td style="border:1px solid #ccc; padding:4px;"><code>nombre completo</code></td><td style="border:1px solid #ccc; padding:4px;">❌</td><td>...</td></tr>
 <tr><td style="border:1px solid #ccc; padding:4px;"><code>precio_total</code></td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;"><code>EscribirAÑO_NACIMIENTO</td><td style="border:1px solid #ccc; padding:4px;">❌</td><td></td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>Escribir</code></td><td style="border:1px solid #ccc; padding:4px;">❌</td><td></td></tr>
 </table>
 
 <!--<h3>Paso 4: Pequeño reto</h3>
