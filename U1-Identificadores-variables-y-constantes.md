@@ -10,9 +10,9 @@ Resultado de aprendizaje a trabajar:
 ## 1 - Objetivos
  
 - Identificar los distintos **tipos de variables** y su utilidad.
-- Aprender a elegir identificadores válidos y descriptivos para variables, constantes, funciones y subprogramas.
-- Diferenciar entre tipos de datos: *numéricos, texto, booleanos.
-- Aplicar **buenas prácticas y convenciones de código** en variables y constantes.
+- Elegir identificadores válidos y descriptivos para variables y constantes.
+- Diferenciar entre tipos de datos: *numéricos, texto, booleanos.*
+- Aplicar **buenas prácticas y convenciones de código** en el uso de variables y constantes.
 
 
 ---
