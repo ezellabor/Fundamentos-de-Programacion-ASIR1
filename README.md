@@ -6,8 +6,7 @@
 <div style="background-color:#ccece6; padding:15px; border-radius:8px;">
 <h2 style="color:#006633;"> Lo que sabrás hacer al finalizar esta unidad</h2>
 <ul>
-<li><b>RA1:</b> Reconocer los elementos y estructuras básicas de un programa informático.</li>
-<li><b>RA2:</b> Escribir programas sencillos aplicando buenas prácticas en el uso de variables y constantes.</li>
+ <li><b>RA3 -</b> Escribe y prueba programas sencillos, reconociendo y aplicando los fundamentos de la programación.</li>
 </ul>
 </div>
 
@@ -16,10 +15,10 @@
 <div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
 <h2 style="color:#009966;"> Objetivos</h2>
 <ul>
-<li>Comprender qué son las variables y las constantes.</li>
-<li>Aprender a elegir identificadores válidos y descriptivos.</li>
+<li>Elegir identificadores válidos y descriptivos.</li>
+<li>Identificar los distintos tipos de variables y su utilidad.</li>
 <li>Diferenciar entre tipos de datos: numéricos, texto, booleanos.</li>
-<li>Aplicar estos conceptos en pequeños algoritmos prácticos.</li>
+<li>Aplicar buenas prácticas en el uso de variables y constantes.</li>
 </ul>
 </div>
 
