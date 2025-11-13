@@ -144,7 +144,7 @@ FinAlgoritmo
 <th style="border:1px solid #ccc; padding:4px;">Descripción</th>
 <th style="border:1px solid #ccc; padding:4px;">Ejemplo</th>
 </tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">Identificador</td><td style="border:1px solid #ccc; padding:4px;"><span style="font-style: italic;">Nombre de variable o constante</span>td><td style="border:1px solid #ccc; padding:4px;"><code>nombre_usuario</code></td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;">Identificador</td><td style="border:1px solid #ccc; padding:4px;"><span style="font-style: italic;">Nombre de variable o constante</span></td><td style="border:1px solid #ccc; padding:4px;"><code>nombre_usuario</code></td></tr>
 <tr><td style="border:1px solid #ccc; padding:4px;">Variable</td><td style="border:1px solid #ccc; padding:4px;">Valor que va cambiando en tiempo de ejecución</td><td style="border:1px solid #ccc; padding:4px;"><code>edad <- 18</code></td></tr>
 <tr><td style="border:1px solid #ccc; padding:4px;">Constante</td><td style="border:1px solid #ccc; padding:4px;">Valor fijo que no cambia</td><td style=" border:1px solid #ccc; padding:4px;"><code>AÑO_NACIMIENTO <- 1984</code></td></tr>
 <tr><td style="border:1px solid #ccc; padding:4px;">Tipo de dato</td><td style="border:1px solid #ccc; padding:4px;">Determina el tipo de valor</td><td style="border:1px solid #ccc; padding:4px;"><code>Número, Entero, Real, Cadena, Lógico</code></td></tr>
