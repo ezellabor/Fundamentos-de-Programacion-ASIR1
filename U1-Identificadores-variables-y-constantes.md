@@ -1,18 +1,18 @@
 # Unidad 1 | Identificadores, variables y constantes
 
-Al finalizar esta unidad sabrás hacer:
-- *Reconocer los elementos y estructuras básicas de un programa informático.*
-- *Escribir programas sencillos aplicando buenas prácticas en el uso de variables y constantes.*
+Resultado de aprendizaje a trabajar:
+- *RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..*
+
 
 ---
   
 
 ## 1 - Objetivos
  
-- Comprender qué son las **variables** y las **constantes.**
+- Identificar los distintos **tipos de variables** y su utilidad.
 - Aprender a elegir identificadores válidos y descriptivos para variables, constantes, funciones y subprogramas.
-- Diferenciar entre **tipos de datos**: *numéricos, texto, booleanos.*
-- Aplicar estos conceptos en la implementación de pequeños algoritmos.
+- Diferenciar entre tipos de datos: *numéricos, texto, booleanos.
+- Aplicar **buenas prácticas y convenciones de código** en variables y constantes.
 
 
 ---
