@@ -35,7 +35,7 @@ layout: "default"
 
 ---
 
-## Objetivos de la unidad
+## Objetivos 
 - Aprender a ejecutar un algoritmo **paso a paso** en PSeInt.  
 - Observar cómo cambian las variables en cada instrucción para localizar errores.  
 - Entender la diferencia entre valor inicial, intermedio y final de una variable.  
@@ -160,9 +160,9 @@ Escribir "Ahorro mensual: ", ahorro
 ```
 
 **Cuestiones propuestas:**
-- ¿En qué momento se crea la variable `ahorro`?  
-- ¿Cuál es su valor antes de ejecutar la línea anterior?  
-- ¿Qué ocurre si cambias el orden de las instrucciones?
+-- ¿En qué momento se crea la variable `ahorro`?  
+-- ¿Cuál es su valor antes de ejecutar la línea anterior?  
+-- ¿Qué ocurre si cambias el orden de las instrucciones?
 
 ```
 
@@ -178,7 +178,7 @@ Escribir "Ahorro mensual: ", ahorro
 - Introduce pequeños errores a propósito para practicar la detección.
 ---
 
-## Sintesis de la unidad
+## Sintesis 
 
 | Concepto | Observación |
 |-----------|-------------|
@@ -189,5 +189,5 @@ Escribir "Ahorro mensual: ", ahorro
 
 ---
 
-## Extensión (opcional)
-Guarda una captura del **panel de variables** mostrando el momento en que cambian los valores y añádela a tus apuntes.
+<!--## Extensión (opcional)
+Guarda una captura del **panel de variables** mostrando el momento en que cambian los valores y añádela a tus apuntes. -->
