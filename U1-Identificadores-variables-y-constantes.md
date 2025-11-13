@@ -86,11 +86,11 @@ FinAlgoritmo
 <th style="border:1px solid #ccc; padding:4px;">¿Válido?</th>
 <th style="border:1px solid #ccc; padding:4px;">Motivo</th>
 </tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">2nombre</td><td style="border:1px solid #ccc; padding:4px;">❌</td><td>...</td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">_usuario</td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">nombre completo</td><td style="border:1px solid #ccc; padding:4px;">❌</td><td>...</td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">precio_total</td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">Escribir</td><td style="border:1px solid #ccc; padding:4px;">❌</td><td></td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>2nombre</code></td><td style="border:1px solid #ccc; padding:4px;">❌</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>_usuario></code></td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>nombre completo</code></td><td style="border:1px solid #ccc; padding:4px;">❌</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>precio_total</code></td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>EscribirAÑO_NACIMIENTO</td><td style="border:1px solid #ccc; padding:4px;">❌</td><td></td></tr>
 </table>
 
 <!--<h3>Paso 4: Pequeño reto</h3>
@@ -146,7 +146,7 @@ FinAlgoritmo
 </tr>
 <tr><td style="border:1px solid #ccc; padding:4px;">Identificador</td><td style="border:1px solid #ccc; padding:4px;">Nombre de variable o constante</td><td style="border:1px solid #ccc; padding:4px;"><code>nombre_usuario</code></td></tr>
 <tr><td style="border:1px solid #ccc; padding:4px;">Variable</td><td style="border:1px solid #ccc; padding:4px;">Valor que va cambiando en tiempo de ejecución</td><td style="border:1px solid #ccc; padding:4px;"><code>edad <- 18</code></td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">Constante</td><td style="border:1px solid #ccc; padding:4px;">Valor fijo que no cambia</td><td style="border:1px solid #ccc; padding:4px;"><code>AÑO_NACIMIENTO</code> <- 1984</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;">Constante</td><td style="border:1px solid #ccc; padding:4px;">Valor fijo que no cambia</td><td style="border:1px solid #ccc; padding:4px;"><code>AÑO_NACIMIENTO <- 1984</code></td></tr>
 <tr><td style="border:1px solid #ccc; padding:4px;">Tipo de dato</td><td style="border:1px solid #ccc; padding:4px;">Determina el tipo de valor</td><td style="border:1px solid #ccc; padding:4px;"><code>Número, Entero, Real, Cadena, Lógico</code></td></tr>
 </table>
 </div>
