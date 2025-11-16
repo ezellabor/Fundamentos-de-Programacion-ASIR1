@@ -1,7 +1,7 @@
 
-# Unidad 3 - Estructura de control selectivas o condicional (Parte I)  
+# Unidad 4 - Estructura de control selectivas o condicional (Parte I)  
 Resultado de aprendizaje a trabajar:
-- *RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..*
+- *RA4 - Escribir y depurar código, analizando y utilizando las estructuras de control del lenguaje.*
 
 
 ---
