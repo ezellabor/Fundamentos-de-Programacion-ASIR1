@@ -1,5 +1,5 @@
 
-# Unidad 4 - Estructura de control selectivas o condicional (Parte I)  
+# Unidad 4 - Estructura de control selectiva o condicional (Parte I)  
 Resultado de aprendizaje a trabajar:
 - *RA4 - Escribir y depurar código, analizando y utilizando las estructuras de control del lenguaje.*
 
