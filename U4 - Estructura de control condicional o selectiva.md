@@ -154,7 +154,7 @@ FIN
 -->
 ---
 
-## 4. Ejercicios para practicar
+## 4. Supuestos prácticos
 ### 4.1. Nivel 1 - Básico
 1. Escribir pseudocódigo que lea un número y muestre si es par o impar.
 2. Pedir nombre de usuario; si es "admin" mostrar "Bienvenido administrador", sino "Bienvenido usuario".
@@ -209,6 +209,13 @@ Escribir total
 
 ---
 
+## Comparativa condicional simple | condicional doble
+| Tipo de condicional    | ¿Cuándo se ejecuta?                                         | ¿Qué pasa si la condición es falsa?        | Estructura                            | Ejemplo simplificado                                                                                                                                               |
+| ---------------------- | ----------------------------------------------------------- | ------------------------------------------ | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Condicional simple** | Ejecuta instrucciones **solo si la condición es verdadera** | **No ejecuta nada** y continúa el programa | `if (condición) { ... }`              | `if (edad >= 18) {   System.out.println("Mayor de edad"); }` *(Si la condición no se cumple, no se muestra nada)*                                                  |
+| **Condicional doble**  | Ejecuta instrucciones **si la condición es verdadera**      | Ejecuta el bloque **alternativo**          | `if (condición) { ... } else { ... }` | `if (cpu >= 75) {   System.out.println("Sobrecarga"); } else {   System.out.println("Funcionamiento normal"); }` *(Si no se cumple, se ejecuta la segunda acción)* |
+
+
 ## 6. Síntesis
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
@@ -229,10 +236,11 @@ Escribir total
 - ¿Qué tipo de errores fueron más comunes al escribir condicionales?  
 - ¿Cómo ayudó el ejemplo paso a paso a entender el flujo lógico?  
 
+<!--
 ---
 ## 8. Material adicional
 - Lista de comprobación para condicionales: condiciones claras, operadores lógicos correctos, manejo de casos límite, pruebas con datos extremos.
 - Fichas de pseudocódigo con patrones (validación de usuario, cálculo de descuentos, selección de menú).
-
+-->
 ##  
 _&copy; 2025 - Fundamentos de Programación - Ezequiel Llarena Borges_
