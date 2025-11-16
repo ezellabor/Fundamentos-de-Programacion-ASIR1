@@ -7,9 +7,9 @@ Resultado de aprendizaje a trabajar:
 ---
 
 ## 1. Objetivos
-- Comprender la lógica de decisión en algoritmos.
-- Comprender y aplicar estructura condicional simple (Si/Entonces/Finsi).
-- Comprender y aplicar estructura condicional compuesta (Si/Entonces/Sino/Finsi).
+- Comprender la **lógica de decisión** en algoritmos.
+- Comprender y aplicar estructura **condicional simple** (Si/Entonces/Finsi).
+- Comprender y aplicar estructura **condicional compuesta** (Si/Entonces/Sino/Finsi).
 
 
 ---
@@ -48,13 +48,13 @@ FIN_SI
 | intento      | Entero  | Contador de intentos |
 | acceso       | Booleano | Resultado final: permiso concedido o no |
 
-### Valores iniciales de las variables
+### 3.1. Valores iniciales de las variables
 - usuario_reg = "alumno01"
 - pass_reg = "Clave123"
 - activo = VERDADERO
 - intento = 0
 
-### Esquema lógico previo
+### 3.2. Esquema lógico previo
 1. Pedir usuario y contraseña
 2. Comparar con los valores registrados (usuario_reg y pass_reg)
 3. Si coinciden, comprobar si activo = VERDADERO
@@ -81,23 +81,25 @@ INICIO
 FIN
 ```
 
-### Ejecución paso a paso (ejemplo concreto)
+### 3.3. Ejecución paso a paso _(ejemplo concreto)_
 1. Entrada: usuario="alumno01", contraseña="Clave123"
 2. Comparación 1: usuario = usuario_reg ? "alumno01" = "alumno01" → VERDADERO
 3. Comparación 2: contraseña = pass_reg ? "Clave123" = "Clave123" → VERDADERO
 4. Verificar activo: activo = VERDADERO → VERDADERO
 5. Resultado: acceso = VERDADERO → Mensaje: "Acceso concedido"
 
-### Buenas prácticas
+---
+
+## 4. Buenas prácticas
 - Verifica las condiciones lógicas antes de escribirlas.
 - Los condicionales pueden ser anidados para múltiples decisiones.
 - Prueba varios valores para comprobar el algoritmo.
 - Usa sangría consistente para mejor legibilidad.
 
 ---
-## 4. Ejemplos prácticos adicionales
+## 5. Más ejemplos
 
-### 4.1. Comprobar edad para registro (mayor de edad)
+### 5.1. Comprobar si es mayor de edad
 ```
 LEER edad
 SI edad >= 18 ENTONCES
@@ -107,7 +109,7 @@ SINO
 FIN_SI
 ```
 
-### 4.2. Validar formato de email (simplificado)
+### 5.2. Validar formato de email _(simplificado)_
 ```
 LEER email
 SI existe_caracter(email, "@") Y existe_caracter(email, ".") ENTONCES
@@ -118,17 +120,17 @@ FIN_SI
 ```
 
 ---
-## 5. Ejercicios por niveles
+## 6. Ejercicios por niveles
 
-### Nivel 1 — Básico
+### 6.1. Nivel 1 - Básico
 1. Escribir pseudocódigo que lea un número y muestre si es par o impar.
 2. Pedir nombre de usuario; si es "admin" mostrar "Bienvenido administrador", sino "Bienvenido usuario".
 
-### Nivel 2 — Intermedio
+### 6.2. Nivel 2 - Intermedio
 1. Sistema de recuperación: leer usuario y email. Si coinciden con registro, mostrar "Enviar link de recuperación"; sino "Usuario no encontrado".
 2. Calcular el precio final: leer precio y si `precio > 1000` aplicar 10% de descuento, sino precio sin descuento.
 
-### Nivel 3 — Avanzado
+<!--### Nivel 3 - Avanzado
 1. Gestión de permisos: leer rol (admin, docente, alumno) y recurso (configuración, notas, perfil). Definir acceso según rol:
    - admin: acceso a todo
    - docente: acceso a notas y perfil, no a configuración
@@ -140,9 +142,9 @@ FIN_SI
    - un número
    - un carácter especial (por ejemplo: !@#$%)
    Mostrar qué condiciones no se cumplen (lista de fallos).
-
+-->
 ---
-## 5. Soluciones propuestas
+## 6.3. Soluciones propuestas
 **Nivel 1 (par/impar)**
 ```
 LEER n
@@ -175,18 +177,18 @@ MOSTRAR total
 <th style="border:1px solid #ccc; padding:4px;">Descripción</th>
 <th style="border:1px solid #ccc; padding:4px;">Ejemplo</th>
 </tr>
-<tr><td>Condicional simple</td><td>Decisión con un camino: Si…Entonces…Finsi</td><td><code>Si edad >=18 Entonces…</code></td></tr>
-<tr><td>Condicional compuesto</td><td>Decisión con dos caminos: Si...Entonces...Sino...Finsi</td><td><code>Si nota >=5 Entonces… Sino… FinSi</code></td></tr>
+<tr><td>Condicional simple</td><td>Decisión con un camino: <code>Si…Entonces…Finsi>/code></td><td><code>Si edad >=18 Entonces…</code></td></tr>
+<tr><td>Condicional compuesto</td><td>Decisión con dos caminos: <code>Si...Entonces...Sino...Finsi</code></td><td><code>Si nota >=5 Entonces… Sino… FinSi</code></td></tr>
 </table>
 </div>
 ---
 
-## 6. Reflexión
+## 7. Reflexión
 - ¿Qué tipo de errores fueron más comunes al escribir condicionales?  
 - ¿Cómo ayudó el ejemplo paso a paso a entender el flujo lógico?  
 
 ---
-### 7. Material adicional
+### 8. Material adicional
 - Lista de comprobación para condicionales: condiciones claras, operadores lógicos correctos, manejo de casos límite, pruebas con datos extremos.
 - Fichas de pseudocódigo con patrones (validación de usuario, cálculo de descuentos, selección de menú).
 
