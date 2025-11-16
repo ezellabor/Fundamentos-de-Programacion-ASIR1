@@ -1,6 +1,5 @@
 # Práctica: Uso del Depurador en PSeInt – Seguimiento de Variables y Constantes  
 **Unidad:** UT1 – Fundamentos de Programación  
-**Nivel:** Iniciación  
 **Módulo:** Fundamentos de Programación | 1º ASIR  
 **Profesor:** Ezequiel Llarena Borges  
 
@@ -14,9 +13,9 @@
 
 ---
 
-## Resultados de aprendizaje a trabajar
-- **RA1:** Utiliza los conceptos básicos de programación, analizando y resolviendo problemas mediante algoritmos.  
-- **RA2:** Desarrolla programas sencillos empleando estructuras básicas y el entorno de desarrollo PSeInt.  
+## Resultados de aprendizaje a trabajar 
+- **RA3:** Escribe y prueba programas sencillos, reconociendo y aplicando los fundamentos de la programación.  
+- **RA4:** Escribe y depura código, analizando y utilizando las estructuras de control del lenguaje.
 
 ---
 
