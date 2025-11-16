@@ -8,8 +8,8 @@ Resultado de aprendizaje a trabajar:
 
 ## 1. Objetivos
 - Comprender la lógica de decisión en algoritmos.
-- Comprender estructura condicional basica (SI/ENTONCES/SINO).
-- Aplicar correctamente condicionales simples y anidados.
+- Comprender y aplicar estructura condicional simple (Si/Entonces/Finsi).
+- Comprender y aplicar estructura condicional compuesta (Si/Entonces/Sino/Finsi).
 
 
 ---
@@ -33,7 +33,7 @@ FIN_SI
 >En la segunda parte de esta unidad veremos condicionales anidadas y múltiples condiciones con operadores lógicos: `Y`, `O`, `NO`.
 
 ---
-## 3. Primer ejemplo paso a paso (Validación de acceso a un sistema)
+## 3. Primer ejemplo paso a paso _(validación de acceso a un sistema)_
 
 **Contexto:** queremos controlar el acceso a una aplicación según usuario y contraseña, y además comprobar si el usuario está activo. Mostramos paso a paso, tabla de variables y un esquema lógico simple.
 
