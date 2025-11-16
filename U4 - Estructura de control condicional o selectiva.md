@@ -234,6 +234,10 @@ Escribir total
 
 ## 7. Síntesis
 
+| Pregunta | Respuesta |
+|---------|-----------|
+| ¿Para qué sirven las condicionales? | Permiten que un programa **tome decisiones** según una condición. |
+
 | Tipo condicional | Descripción | Ejemplo en pseudocódigo |
 |------------|-------------|---------|
 | **Simple** | Decisión con un camino: `Si-Entonces-FinSi` | `Si edad >= 18 Entonces "Mayor de edad"` |
@@ -254,10 +258,10 @@ Escribir total
 ---
 
  <!--
----
 ## 8. Material adicional
 - Lista de comprobación para condicionales: condiciones claras, operadores lógicos correctos, manejo de casos límite, pruebas con datos extremos.
 - Fichas de pseudocódigo con patrones (validación de usuario, cálculo de descuentos, selección de menú).
 -->
 ##  
+
 _&copy; 2025 - Fundamentos de Programación - Ezequiel Llarena Borges_
