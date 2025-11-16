@@ -219,10 +219,9 @@ Escribir total
 ---
 
 ## 5. Buenas prácticas
-- Verifica las condiciones lógicas antes de escribirlas.
-- Los condicionales pueden ser anidados para múltiples decisiones.
+- Comprueba las condiciones lógicas antes de escribirlas.
 - Prueba varios valores para comprobar el algoritmo.
-- Usa sangría consistente para mejor legibilidad.
+- Usa sangría consistente para mejor la legibilidad del código.
 
 ---
 
