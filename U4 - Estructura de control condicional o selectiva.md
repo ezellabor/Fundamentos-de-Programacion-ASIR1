@@ -170,11 +170,11 @@ Antes de escribir el pseudocódigo, pregúntate:
 | No hay que hacer nada            | ➜ **Condicional simple** (Si-Entonces-FinSi)|
 | Hay que hacer algo diferente     | ➜ **Condicional doble** (Si-Entonces-SiNo-FinSi) |
 
-### 4.1. Nivel 1 - Básico
+### 4.1. Básico
 1. Escribir pseudocódigo que lea un número y muestre si es par o impar.
 2. Pedir nombre de usuario; si es "admin" mostrar "Bienvenido administrador", sino "Bienvenido usuario".
 
-### 4.2. Nivel 2 - Intermedio
+### 4.2. Intermedio
 1. Sistema de recuperación: leer usuario y email. Si coinciden con registro, mostrar "Enviar link de recuperación"; sino "Usuario no encontrado".
 2. Calcular el precio final: leer precio y si `precio > 1000` aplicar 10% de descuento, sino precio sin descuento.
 
@@ -192,7 +192,7 @@ Antes de escribir el pseudocódigo, pregúntate:
    Mostrar qué condiciones no se cumplen (lista de fallos).
 -->
 ### 4.3. Soluciones propuestas
-**Nivel 1 (par/impar)**
+**Básico (par/impar)**
 ```
 LEER n
 SI n MOD 2 = 0 ENTONCES
@@ -202,7 +202,7 @@ SINO
 FIN_SI
 ```
 
-**Nivel 2 (descuento)**
+**Intermedio (descuento)**
 ```
 LEER precio
 SI precio > 1000 ENTONCES
@@ -261,6 +261,26 @@ Escribir total
 - Lista de comprobación para condicionales: condiciones claras, operadores lógicos correctos, manejo de casos límite, pruebas con datos extremos.
 - Fichas de pseudocódigo con patrones (validación de usuario, cálculo de descuentos, selección de menú).
 -->
+# Enunciado de la práctica
+Imagina que trabajas como técnico de sistemas en una empresa y debes programar una utilidad que evalúe el uso del procesador para saber si un servidor requiere intervención.
+Crea un programa que:
+1. Pida por teclado el porcentaje de uso actual de la CPU (número entero del 0 al 100).
+2. Evalúe la información siguiendo estas reglas:
+  1. Si el uso es mayor o igual al 75% → Mostrar: "Atención: Posible sobrecarga del servidor."
+  2. Si el uso es menor al 75% → Mostrar: "El servidor está funcionando con normalidad."
+3. Finalice con un mensaje: "Comprobación finalizada."
+_Ejemplos de salida esperada_
+```
+Introduce el porcentaje de uso de CPU: 82
+Atención: Posible sobrecarga del servidor.
+Comprobación finalizada.
+```
+```
+Introduce el porcentaje de uso de CPU: 54
+El servidor está funcionando con normalidad.
+Comprobación finalizada.
+```
+
 ##  
 
 _&copy; 2025 - Fundamentos de Programación - Ezequiel Llarena Borges_
