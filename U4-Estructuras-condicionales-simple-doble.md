@@ -46,6 +46,11 @@ Una estructura condicional doble permite ejecutar **dos caminos posibles** del p
 >- Uno cuando **se cumple** una condición
 >- Otro cuando **no se cumple**
 
+_Diagrama de flujo_
+#
+![Si_Entonces](img/if_else.png)
+#
+
 Su **estructura** general en pseudocódigo es:
 ```
 Si <condición> Entonces
