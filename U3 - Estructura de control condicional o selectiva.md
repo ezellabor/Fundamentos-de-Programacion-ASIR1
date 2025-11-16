@@ -14,7 +14,7 @@ Resultado de aprendizaje a trabajar:
 
 ---
 ## 2. Conceptos clave
-Las **estructuras condicionales** permiten que un programa tome decisiones según datos de entrada. La forma básica en pseudocódigo que usaremos es:
+Las **estructuras condicionales** permiten que un programa tome decisiones según datos de entrada. La forma básica en pseudocódigo es:
 ```
 SI <condición> ENTONCES
     <instrucciones si verdadero>
@@ -23,12 +23,12 @@ SINO
 FIN_SI
 ```
 
-También veremos condicionales anidadas y múltiples condiciones con operadores lógicos: `Y`, `O`, `NO`.
+>También veremos condicionales anidadas y múltiples condiciones con operadores lógicos: `Y`, `O`, `NO`.
 
 ---
 ## 3. Primer ejemplo paso a paso — **Validación de acceso a un sistema**
 
-**Contexto:** queremos controlar el acceso a una aplicación según usuario y contraseña, y además comprobar si el usuario está activo. Mostramos paso a paso, tabla de variables y un esquema/diagrama simple.
+**Contexto:** queremos controlar el acceso a una aplicación según usuario y contraseña, y además comprobar si el usuario está activo. Mostramos paso a paso, tabla de variables y un esquema lógico simple.
 
 ### Variables
 | Nombre       | Tipo    | Descripción |
@@ -82,13 +82,14 @@ FIN
 4. Verificar activo: activo = VERDADERO → VERDADERO
 5. Resultado: acceso = VERDADERO → Mensaje: "Acceso concedido"
 
-### Recordatorios y buenas prácticas
-- Siempre sanitizar entradas (trim, manejo de mayúsculas/minúsculas) antes de comparar.
-- No mostrar mensajes demasiado exactos en producción (p. ej. "Usuario correcto, contraseña incorrecta") para evitar dar pistas a atacantes.
-- Limitar intentos y bloquear temporalmente cuentas tras varios intentos fallidos.
+### Buenas prácticas
+- Verifica las condiciones lógicas antes de escribirlas.
+- Los condicionales pueden ser anidados para múltiples decisiones.
+- Prueba varios valores para comprobar el algoritmo.
+- Usa sangría consistente para mejor legibilidad.
 
 ---
-## 4. Ejemplos prácticos adicionales (resumidos)
+## 4. Ejemplos prácticos adicionales
 
 ### 4.1. Comprobar edad para registro (mayor de edad)
 ```
