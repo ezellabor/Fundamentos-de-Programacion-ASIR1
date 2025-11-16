@@ -209,11 +209,11 @@ Escribir total
 
 ---
 
-## Comparativa condicional simple | condicional doble
-| Tipo de condicional    | ¿Cuándo se ejecuta?                                         | ¿Qué pasa si la condición es falsa?        | Estructura                            | Ejemplo simplificado                                                                                                                                               |
+## Comparativa: condicional simple vs condicional doble
+| Condicional    | ¿Cuándo se ejecuta?                                         | ¿Qué pasa si la condición es falsa?        | Estructura                            | Ejemplo simplificado                                                                                                                                               |
 | ---------------------- | ----------------------------------------------------------- | ------------------------------------------ | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Condicional simple** | Ejecuta instrucciones **solo si la condición es verdadera** | **No ejecuta nada** y continúa el programa | `if (condición) { ... }`              | `if (edad >= 18) {   System.out.println("Mayor de edad"); }` *(Si la condición no se cumple, no se muestra nada)*                                                  |
-| **Condicional doble**  | Ejecuta instrucciones **si la condición es verdadera**      | Ejecuta el bloque **alternativo**          | `if (condición) { ... } else { ... }` | `if (cpu >= 75) {   System.out.println("Sobrecarga"); } else {   System.out.println("Funcionamiento normal"); }` *(Si no se cumple, se ejecuta la segunda acción)* |
+| **Simple** | Ejecuta instrucciones **solo si la condición es verdadera** | **No ejecuta nada** y continúa el programa | `if (condición) { ... }`              | `if (edad >= 18) {   System.out.println("Mayor de edad"); }` *(Si la condición no se cumple, no se muestra nada)*                                                  |
+| **Doble**  | Ejecuta instrucciones **si la condición es verdadera**      | Ejecuta el bloque **alternativo**          | `if (condición) { ... } else { ... }` | `if (cpu >= 75) {   System.out.println("Sobrecarga"); } else {   System.out.println("Funcionamiento normal"); }` *(Si no se cumple, se ejecuta la segunda acción)* |
 
 
 ## 6. Síntesis
