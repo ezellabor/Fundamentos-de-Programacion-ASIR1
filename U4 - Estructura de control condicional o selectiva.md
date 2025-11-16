@@ -9,7 +9,7 @@ Resultado de aprendizaje a trabajar:
 ## 1. Objetivos
 - Comprender la **lógica de decisión** en algoritmos.
 - Comprender y aplicar estructura **condicional simple** (Si/Entonces/Finsi).
-- Comprender y aplicar estructura **condicional compuesta** (Si/Entonces/Sino/Finsi).
+- Comprender y aplicar estructura **condicional doble** (Si/Entonces/Sino/Finsi).
 
 
 ---
@@ -21,7 +21,7 @@ SI <condición> ENTONCES
     <instrucciones si verdadero>
 FIN_SI
 ```
-### 2 - Condicional compuesto
+### 2 - Condicional doble
 ```
 SI <condición> ENTONCES
     <instrucciones si verdadero>
@@ -32,12 +32,14 @@ FIN_SI
 _Ejemplo: Comprobar si es mayor de edad_
 ```
 // Condicional Simple
+
 LEER edad
 SI edad >= 18 ENTONCES
     MOSTRAR "Registro permitido"
 FIN_SI
 
-// Condicional Compuesto
+// Condicional Doble
+
 LEER edad
 SI edad >= 18 ENTONCES
     MOSTRAR "Registro permitido"
@@ -171,7 +173,7 @@ MOSTRAR total
 <th style="border:1px solid #ccc; padding:4px;">Ejemplo</th>
 </tr>
 <tr><td>Condicional simple</td><td>Decisión con un camino: <code>Si...Entonces...Finsi</code></td><td><code>Si edad >=18 Entonces…</code></td></tr>
-<tr><td>Condicional compuesto</td><td>Decisión con dos caminos: <code>Si...Entonces...Sino...Finsi</code></td><td><code>Si nota >=5 Entonces… Sino… FinSi</code></td></tr>
+<tr><td>Condicional doble</td><td>Decisión con dos caminos: <code>Si...Entonces...Sino...Finsi</code></td><td><code>Si nota >=5 Entonces… Sino… FinSi</code></td></tr>
 </table>
 </div>
 
