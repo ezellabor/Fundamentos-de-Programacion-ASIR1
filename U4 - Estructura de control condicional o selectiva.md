@@ -218,7 +218,12 @@ Escribir total
 
 ## 7. Síntesis
 
-<div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
+| Tipo condicional | Descripción | Ejemplo en pseudocódigo |
+|------------|-------------|---------|
+| **Simple** | Decisión con un camino: `Si-Entonces-FinSi` | `Si edad >= 18 Entonces "Mayor de edad"` |
+| **Doble** | Decisión con dos caminos: `Si-Entonces-SiNo-FinSi` | `Si nota >= 5 Entonces "Aprobado" SiNo "Recuperación" FinSi` |
+
+<!--<div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
 <tr style="background-color:#ccece6;">
 <th style="border:1px solid #ccc; padding:4px;">Condicional</th>
@@ -228,7 +233,7 @@ Escribir total
 <tr><td>Simple</td><td>Decisión con un camino: <code>Si-Entonces-FinSi</code></td><td><code>Si edad >=18 Entonces "Mayor de edad"</code></td></tr>
 <tr><td>Doble</td><td>Decisión con dos caminos: <code>Si-Entonces-SiNo-FinSi</code></td><td><code>Si nota >=5 Entonces "Aprobado" SiNo "Recuperación" FinSi</code></td></tr>
 </table>
-</div>
+</div>  -->
 
 ---
 
