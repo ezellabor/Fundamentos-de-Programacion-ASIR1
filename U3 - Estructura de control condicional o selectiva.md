@@ -174,6 +174,7 @@ MOSTRAR total
 <tr><td>Condicional compuesto</td><td>Decisión con dos caminos: <code>Si...Entonces...Sino...Finsi</code></td><td><code>Si nota >=5 Entonces… Sino… FinSi</code></td></tr>
 </table>
 </div>
+
 ---
 
 ## 7. Reflexión
