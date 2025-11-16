@@ -22,6 +22,11 @@ Estructura de control que permite ejecutar un bloque de instrucciones solo **si 
 >- Ejecuta instrucciones **solo cuando la condición es verdadera**
 >- Si es **falsa,** no hace nada y continúa con la siguiente instrucción
 
+_Diagrama de flujo_
+#
+![Si_Entonces](img/if.png)
+#
+
 La **estructura** general en pseudocódigo es la siguiente:
 ```
 Si <condición> Entonces
