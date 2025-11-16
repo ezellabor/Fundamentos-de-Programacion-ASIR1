@@ -1,5 +1,5 @@
 
-# Unidad 3 | Estructuras de control selectivas (condicionales)  
+# Unidad 3 | Estructuras de control selectivas/condicionales (Parte I)  
 Resultado de aprendizaje a trabajar:
 - *RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..*
 
@@ -15,6 +15,13 @@ Resultado de aprendizaje a trabajar:
 ---
 ## 2. Conceptos clave
 Las **estructuras condicionales** permiten que un programa tome decisiones según datos de entrada. La forma básica en pseudocódigo es:
+### 1 - Condicional simple
+```
+SI <condición> ENTONCES
+    <instrucciones si verdadero>
+FIN_SI
+```
+### 2 - Condicional compuesto
 ```
 SI <condición> ENTONCES
     <instrucciones si verdadero>
@@ -23,10 +30,10 @@ SINO
 FIN_SI
 ```
 
->También veremos condicionales anidadas y múltiples condiciones con operadores lógicos: `Y`, `O`, `NO`.
+>En la segunda parte de esta unidad veremos condicionales anidadas y múltiples condiciones con operadores lógicos: `Y`, `O`, `NO`.
 
 ---
-## 3. Primer ejemplo paso a paso — **Validación de acceso a un sistema**
+## 3. Primer ejemplo paso a paso (Validación de acceso a un sistema)
 
 **Contexto:** queremos controlar el acceso a una aplicación según usuario y contraseña, y además comprobar si el usuario está activo. Mostramos paso a paso, tabla de variables y un esquema lógico simple.
 
@@ -55,7 +62,6 @@ FIN_SI
    - Si no: acceso = FALSO → mostrar "Cuenta inactiva"
 4. Si no coinciden, intento = intento + 1 → mostrar "Credenciales incorrectas"
 
-[Esquema simplificado]
 ```
 INICIO
   LEER usuario, contraseña
@@ -160,6 +166,22 @@ MOSTRAR total
 ```
 
 ---
+
+<div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
+<h2 style="color:#006633;">Síntesis</h2>
+<table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
+<tr style="background-color:#ccece6;">
+<th style="border:1px solid #ccc; padding:4px;">Concepto</th>
+<th style="border:1px solid #ccc; padding:4px;">Descripción</th>
+<th style="border:1px solid #ccc; padding:4px;">Ejemplo</th>
+</tr>
+<tr><td>Condicional simple</td><td>IF…THEN…ELSE básico</td><td><code>Si edad >=18 Entonces…</code></td></tr>
+<tr><td>Condicional compuesto</td><td>Decisión con dos caminos</td><td><code>Si nota >=5 Entonces… Sino… FinSi</code></td></tr>
+<tr><td>Condicional anidado</td><td>Condiciones dentro de otras condiciones</td><td><code>Si nota=10 Entonces… Sino… FinSi</code></td></tr>
+</table>
+</div>
+---
+
 ## 6. Reflexión
 - ¿Qué tipo de errores fueron más comunes al escribir condicionales?  
 - ¿Cómo ayudó el ejemplo paso a paso a entender el flujo lógico?  
