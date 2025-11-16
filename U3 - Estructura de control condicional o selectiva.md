@@ -161,8 +161,9 @@ MOSTRAR total
 
 ---
 
+## 6. Síntesis
+
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;">6. Síntesis</h2>
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
 <tr style="background-color:#ccece6;">
 <th style="border:1px solid #ccc; padding:4px;">Concepto</th>
