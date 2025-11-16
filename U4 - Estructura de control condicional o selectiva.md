@@ -274,7 +274,8 @@ Crea un programa que:
 >3. Finalice con un mensaje: "Comprobación finalizada."
 
 ### 8.2. Pruebas del pseudocódigo
-Prueba tu pseudocódigo con los valores de entrada 82 y 54.
+Prueba tu pseudocódigo con los valores de entrada 82 y 54.  
+
 _Salidas esperadas:_
 ```
 Introduce el porcentaje de uso de CPU: 82
