@@ -6,13 +6,13 @@ Resultado de aprendizaje a trabajar:
 
 ---
 
-## Objetivos
+## 1. Objetivos
 - Comprender estructuras condicionales (SI/ENTONCES/SINO).
 - Escribir pseudocódigo claro y correcto para decisiones simples y compuestas.
 - Resolver problemas informáticos prácticos (validación de usuarios, control de acceso, procesos lógicos).
 
 ---
-## 1. Introducción breve
+## 2. Conceptos clave
 Las **estructuras condicionales** permiten que un programa tome decisiones según datos de entrada. La forma básica en pseudocódigo que usaremos es:
 ```
 SI <condición> ENTONCES
@@ -25,7 +25,7 @@ FIN_SI
 También veremos condicionales anidadas y múltiples condiciones con operadores lógicos: `Y`, `O`, `NO`.
 
 ---
-## 2. Primer ejemplo (PASO A PASO) — **Validación de acceso a un sistema**
+## 3. Primer ejemplo paso a paso — **Validación de acceso a un sistema**
 
 **Contexto:** queremos controlar el acceso a una aplicación según usuario y contraseña, y además comprobar si el usuario está activo. Mostramos paso a paso, tabla de variables y un esquema/diagrama simple.
 
@@ -40,13 +40,13 @@ También veremos condicionales anidadas y múltiples condiciones con operadores 
 | intento      | Entero  | Contador de intentos |
 | acceso       | Booleano | Resultado final: permiso concedido o no |
 
-### Valores iniciales de ejemplo
+### Valores iniciales de las variables
 - usuario_reg = "alumno01"
 - pass_reg = "Clave123"
 - activo = VERDADERO
 - intento = 0
 
-### Diagrama lógico (esquema)
+### Esquema lógico previo
 1. Pedir usuario y contraseña
 2. Comparar con los valores registrados (usuario_reg y pass_reg)
 3. Si coinciden, comprobar si activo = VERDADERO
@@ -87,9 +87,9 @@ FIN
 - Limitar intentos y bloquear temporalmente cuentas tras varios intentos fallidos.
 
 ---
-## 3. Ejemplos prácticos adicionales (resumidos)
+## 4. Ejemplos prácticos adicionales (resumidos)
 
-### 3.1. Comprobar edad para registro (mayor de edad)
+### 4.1. Comprobar edad para registro (mayor de edad)
 ```
 LEER edad
 SI edad >= 18 ENTONCES
@@ -99,7 +99,7 @@ SINO
 FIN_SI
 ```
 
-### 3.2. Validar formato de email (simplificado)
+### 4.2. Validar formato de email (simplificado)
 ```
 LEER email
 SI existe_caracter(email, "@") Y existe_caracter(email, ".") ENTONCES
@@ -110,17 +110,17 @@ FIN_SI
 ```
 
 ---
-## 4. Ejercicios por niveles (orientados a Informática)
+## 5. Ejercicios por niveles
 
-### Nivel 1 — Básico (práctico)
+### Nivel 1 — Básico
 1. Escribir pseudocódigo que lea un número y muestre si es par o impar.
 2. Pedir nombre de usuario; si es "admin" mostrar "Bienvenido administrador", sino "Bienvenido usuario".
 
-### Nivel 2 — Intermedio (práctico + contextualizado)
+### Nivel 2 — Intermedio
 1. Sistema de recuperación: leer usuario y email. Si coinciden con registro, mostrar "Enviar link de recuperación"; sino "Usuario no encontrado".
 2. Calcular el precio final: leer precio y si `precio > 1000` aplicar 10% de descuento, sino precio sin descuento.
 
-### Nivel 3 — Avanzado (práctico, algo abierto)
+### Nivel 3 — Avanzado
 1. Gestión de permisos: leer rol (admin, docente, alumno) y recurso (configuración, notas, perfil). Definir acceso según rol:
    - admin: acceso a todo
    - docente: acceso a notas y perfil, no a configuración
@@ -134,8 +134,8 @@ FIN_SI
    Mostrar qué condiciones no se cumplen (lista de fallos).
 
 ---
-## 5. Soluciones (sugeridas) — breve
-**Nivel 1.1 (par/impar)**
+## 5. Soluciones propuestas
+**Nivel 1 (par/impar)**
 ```
 LEER n
 SI n MOD 2 = 0 ENTONCES
@@ -145,7 +145,7 @@ SINO
 FIN_SI
 ```
 
-**Nivel 2.2 (descuento)**
+**Nivel 2 (descuento)**
 ```
 LEER precio
 SI precio > 1000 ENTONCES
@@ -158,12 +158,12 @@ MOSTRAR total
 ```
 
 ---
-## 6. Reflexión personal y actividad final
+## 6. Reflexión
 - ¿Qué tipo de errores fueron más comunes al escribir condicionales?  
 - ¿Cómo ayudó el ejemplo paso a paso a entender el flujo lógico?  
 
 ---
-### Material adicional (sugerido)
+### 7. Material adicional
 - Lista de comprobación para condicionales: condiciones claras, operadores lógicos correctos, manejo de casos límite, pruebas con datos extremos.
 - Fichas de pseudocódigo con patrones (validación de usuario, cálculo de descuentos, selección de menú).
 
