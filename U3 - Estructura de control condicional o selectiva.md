@@ -1,5 +1,5 @@
 
-# Unidad 3 | Estructura de Control Condicional  
+# Unidad 3 | Estructuras de control selectivas (condicionales)  
 Resultado de aprendizaje a trabajar:
 - *RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..*
 
@@ -7,9 +7,10 @@ Resultado de aprendizaje a trabajar:
 ---
 
 ## 1. Objetivos
-- Comprender estructuras condicionales (SI/ENTONCES/SINO).
-- Escribir pseudocódigo claro y correcto para decisiones simples y compuestas.
-- Resolver problemas informáticos prácticos (validación de usuarios, control de acceso, procesos lógicos).
+- Comprender la lógica de decisión en algoritmos.
+- Comprender estructura condicional basica (SI/ENTONCES/SINO).
+- Aplicar correctamente condicionales simples y anidados.
+
 
 ---
 ## 2. Conceptos clave
