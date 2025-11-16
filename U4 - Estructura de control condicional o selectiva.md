@@ -1,5 +1,5 @@
 
-# Unidad 4 - Estructura de control selectiva o condicional (Parte I)  
+# Unidad 4 - Estructuras condicionales: simple y doble  
 Resultado de aprendizaje a trabajar:
 - *RA4 - Escribir y depurar código, analizando y utilizando las estructuras de control del lenguaje.*
 
@@ -8,55 +8,73 @@ Resultado de aprendizaje a trabajar:
 
 ## 1. Objetivos
 - Comprender la **lógica de decisión** en algoritmos.
-- Comprender y aplicar estructura **condicional simple** (Si/Entonces/Finsi).
-- Comprender y aplicar estructura **condicional doble** (Si/Entonces/Sino/Finsi).
+- Comprender y aplicar estructura **condicional simple**.
+- Comprender y aplicar estructura **condicional doble**.
 
 
 ---
-## 1.1. Conceptos clave
-- Las **estructuras condicionales** permiten que un programa tome decisiones según datos de entrada.
-- Una **condición** es una expresión que es **verdadera** (TRUE) o **falsa** (FALSE).
-- Existen dos tipos de estructuras condicionales: simple y doble
-### 1.2 - Condicional simple
-Solo se ejecuta si la condición se cumple. Su estructura en pseudocódigo es la siguiente:
+## 2. Conceptos clave
+- Las **estructuras condicionales** o de selección permiten que un programa tome decisiones según datos de entrada.
+>- Una **condición** es una **expresión lógica** que se evalua como _Verdadera_ (TRUE) o como _Falsa_ (FALSE).
+>- Existen dos tipos de estructuras condicionales: **simple** y **doble**.
+### 2.1. Condicional simple _(Si-Entonces-FinSi)_
+Estructura de control que permite ejecutar un bloque de instrucciones solo **si se cumple una condición.**
+>- Si la condición es **verdadera,** el programa realiza una acción
+>- Si es **falsa,** no hace nada y continúa con la siguiente instrucción
+
+La **estructura** general en pseudocódigo es la siguiente:
 ```
-SI <condición> ENTONCES
+Si <condición> Entonces
     <instrucciones si verdadero>
-FIN_SI
+FinSi
 ```
-### 2 - Condicional doble
-Permite dos caminos posibles. Su estructura en pseudocódigo es la siguiente:
+_Ejemplo en pseudocódigo:_
 ```
-SI <condición> ENTONCES
+Si temperatura > 40 Entonces
+    Escribir "Alerta: el servidor está sobrecalentado."
+FinSi
+```
+En este caso, solo se muestra el mensaje de alerta si la condición es verdadera (_valor de la variable temperatura es mayor que 40_). Si no lo es, el programa continua ejecutando la siguiente instrucción (la que haya después del ```FinSi```) sin ejecutar ninguna acción alternativa.
+
+### 2.2. Condicional doble _(Si-Entonces-SiNo-FinSi)_
+Una estructura condicional doble permite ejecutar **dos caminos posibles** del programa:
+>- Uno cuando **se cumple** una condición
+>- Otro cuando **no se cumple**
+
+Su **estructura** general en pseudocódigo es:
+```
+Si <condición> Entonces
     <instrucciones si verdadero>
-SINO
+SiNo
     <instrucciones si falso>
-FIN_SI
+FinSi
 ```
-_Ejemplo: Comprobar si es mayor de edad_
+_Ejemplo: Comprobar si una persona es mayor de edad_
 ```
 // Condicional Simple
 
-LEER edad
-SI edad >= 18 ENTONCES
-    MOSTRAR "Registro permitido"
-FIN_SI
+Leer edad
+Si edad >= 18 Entonces
+    Escribir "Es mayor de edad"
+FinSi
 
 // Condicional Doble
 
-LEER edad
-SI edad >= 18 ENTONCES
-    MOSTRAR "Registro permitido"
-SINO
-    MOSTRAR "Debe ser mayor de 18 años"
-FIN_SI
+Leer edad
+Si edad >= 18 Entonces
+    Escribir "Es mayor de edad"
+SiNo
+    Escribir "Es menor de edad"
+FinSi
 ```
 
 >En la segunda parte de esta unidad veremos condicionales anidadas y múltiples condiciones con operadores lógicos: `Y`, `O`, `NO`.
 
 ---
-## 3. Ejemplo paso a paso _(validación de acceso a un sistema)_
+## 3. Ejemplo paso a paso
 
+
+<!-- Condicional Anidado ejemplo validación de acceso a un sistema
 **Contexto:** queremos controlar el acceso a una aplicación según usuario y contraseña, y además comprobar si el usuario está activo. Mostramos paso a paso, tabla de variables y un esquema lógico simple.
 
 ### Variables
@@ -90,15 +108,15 @@ INICIO
   SI usuario = usuario_reg Y contraseña = pass_reg ENTONCES
       SI activo = VERDADERO ENTONCES
           acceso <- VERDADERO
-          MOSTRAR "Acceso concedido"
+          Escribir "Acceso concedido"
       SINO
           acceso <- FALSO
-          MOSTRAR "Cuenta inactiva"
+          Escribir "Cuenta inactiva"
       FIN_SI
   SINO
       intento <- intento + 1
       acceso <- FALSO
-      MOSTRAR "Credenciales incorrectas"
+      Escribir "Credenciales incorrectas"
   FIN_SI
 FIN
 ```
@@ -109,7 +127,7 @@ FIN
 3. Comparación 2: contraseña = pass_reg ? "Clave123" = "Clave123" → VERDADERO
 4. Verificar activo: activo = VERDADERO → VERDADERO
 5. Resultado: acceso = VERDADERO → Mensaje: "Acceso concedido"
-
+-->
 ---
 
 ## 4. Ejercicios para practicar
@@ -139,9 +157,9 @@ FIN
 ```
 LEER n
 SI n MOD 2 = 0 ENTONCES
-    MOSTRAR "Par"
+    Escribir "Par"
 SINO
-    MOSTRAR "Impar"
+    Escribir "Impar"
 FIN_SI
 ```
 
@@ -154,7 +172,7 @@ SI precio > 1000 ENTONCES
 SINO
     total <- precio
 FIN_SI
-MOSTRAR total
+Escribir total
 ```
 
 ---
@@ -176,8 +194,8 @@ MOSTRAR total
 <th style="border:1px solid #ccc; padding:4px;">Descripción</th>
 <th style="border:1px solid #ccc; padding:4px;">Ejemplo</th>
 </tr>
-<tr><td>Condicional simple</td><td>Decisión con un camino: <code>Si...Entonces...Finsi</code></td><td><code>Si edad >=18 Entonces…</code></td></tr>
-<tr><td>Condicional doble</td><td>Decisión con dos caminos: <code>Si...Entonces...Sino...Finsi</code></td><td><code>Si nota >=5 Entonces… Sino… FinSi</code></td></tr>
+<tr><td>Condicional simple</td><td>Decisión con un camino: <code>Si-Entonces-Finsi</code></td><td><code>Si edad >=18 Entonces…</code></td></tr>
+<tr><td>Condicional doble</td><td>Decisión con dos caminos: <code>Si-Entonces-Sino-Finsi</code></td><td><code>Si nota >=5 Entonces… Sino… FinSi</code></td></tr>
 </table>
 </div>
 
