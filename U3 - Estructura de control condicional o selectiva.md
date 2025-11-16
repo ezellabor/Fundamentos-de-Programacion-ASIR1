@@ -175,9 +175,8 @@ MOSTRAR total
 <th style="border:1px solid #ccc; padding:4px;">Descripción</th>
 <th style="border:1px solid #ccc; padding:4px;">Ejemplo</th>
 </tr>
-<tr><td>Condicional simple</td><td>IF…THEN…ELSE básico</td><td><code>Si edad >=18 Entonces…</code></td></tr>
-<tr><td>Condicional compuesto</td><td>Decisión con dos caminos</td><td><code>Si nota >=5 Entonces… Sino… FinSi</code></td></tr>
-<tr><td>Condicional anidado</td><td>Condiciones dentro de otras condiciones</td><td><code>Si nota=10 Entonces… Sino… FinSi</code></td></tr>
+<tr><td>Condicional simple</td><td>Decisión con un camino: Si…Entonces…Finsi</td><td><code>Si edad >=18 Entonces…</code></td></tr>
+<tr><td>Condicional compuesto</td><td>Decisión con dos caminos: Si...Entonces...Sino...Finsi</td><td><code>Si nota >=5 Entonces… Sino… FinSi</code></td></tr>
 </table>
 </div>
 ---
