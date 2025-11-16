@@ -14,12 +14,12 @@ Resultado de aprendizaje a trabajar:
 
 ---
 ## 2. Conceptos clave
-- Las **estructuras condicionales** o de selección permiten que un programa tome decisiones según datos de entrada.
+- Las **estructuras condicionales** o de selección permiten que un programa tome decisiones según los datos de entrada.
 >- Una **condición** es una **expresión lógica** que se evalua como _Verdadera_ (TRUE) o como _Falsa_ (FALSE).
 >- Existen dos tipos de estructuras condicionales: **simple** y **doble**.
 ### 2.1. Condicional simple _(Si-Entonces-FinSi)_
 Estructura de control que permite ejecutar un bloque de instrucciones solo **si se cumple una condición.**
->- Si la condición es **verdadera,** el programa realiza una acción
+>- Ejecuta instrucciones **solo cuando la condición es verdadera**
 >- Si es **falsa,** no hace nada y continúa con la siguiente instrucción
 
 La **estructura** general en pseudocódigo es la siguiente:
@@ -68,7 +68,12 @@ SiNo
 FinSi
 ```
 
->En la segunda parte de esta unidad veremos condicionales anidadas y múltiples condiciones con operadores lógicos: `Y`, `O`, `NO`.
+## En una frase...
+| Condicional Simple | Condicional Doble |
+|--------|--------|
+| Realiza una acción *solo si se cumple la condición*. | *Siempre realiza una acción:* si no se cumple la condición, ejecuta una **alternativa.** |
+
+<!-- En la segunda parte de esta unidad veremos condicionales anidadas y múltiples condiciones con operadores lógicos: `Y`, `O`, `NO`.-->
 
 ---
 ## 3. Ejemplo paso a paso
@@ -155,6 +160,16 @@ FIN
 ---
 
 ## 4. Supuestos prácticos
+
+>**Consejo del programador**
+
+Antes de escribir el pseudocódigo, pregúntate: 
+
+| ¿Qué debe ocurrir si la condición no se cumple?  | Entonces debes usar      |
+| -------------------------------- | ------------------------ |
+| No hay que hacer nada            | ➜ **Condicional simple** (Si-Entonces-FinSi)|
+| Hay que hacer algo diferente     | ➜ **Condicional doble** (Si-Entonces-SiNo-FinSi) |
+
 ### 4.1. Nivel 1 - Básico
 1. Escribir pseudocódigo que lea un número y muestre si es par o impar.
 2. Pedir nombre de usuario; si es "admin" mostrar "Bienvenido administrador", sino "Bienvenido usuario".
@@ -210,10 +225,10 @@ Escribir total
 ---
 
 ## 6. Comparativa: condicional simple vs condicional doble
-| Condicional    | ¿Cuándo se ejecuta?                                         | ¿Qué pasa si la condición es falsa?        | Estructura                            | Ejemplo simplificado                                                                                                                                               |
+| Condicional    | ¿Se ejecuta si la condición es verdadera?                                    | ¿Qué pasa si la condición es falsa?        | Estructura                            | Ejemplo simplificado                                                                                                                                               |
 | ---------------------- | ----------------------------------------------------------- | ------------------------------------------ | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Simple** | Ejecuta instrucciones **solo si la condición es verdadera** | **No ejecuta nada** y continúa el programa | `if (condición) { ... }`              | `if (edad >= 18) {   System.out.println("Mayor de edad"); }` *(Si la condición no se cumple, no se muestra nada)*                                                  |
-| **Doble**  | Ejecuta instrucciones **si la condición es verdadera**      | Ejecuta el bloque **alternativo**          | `if (condición) { ... } else { ... }` | `if (cpu >= 75) {   System.out.println("Sobrecarga"); } else {   System.out.println("Funcionamiento normal"); }` *(Si no se cumple, se ejecuta la segunda acción)* |
+| **Simple** | ✔ Sí | **No ejecuta nada** y continúa el programa | `if (condición) { ... }`              | `if (edad >= 18) {   System.out.println("Mayor de edad"); }` *(Si la condición no se cumple, no se muestra nada)*                                                  |
+| **Doble**  | ✔ Sí      | Ejecuta el bloque **alternativo**          | `if (condición) { ... } else { ... }` | `if (cpu >= 75) {   System.out.println("Sobrecarga"); } else {   System.out.println("Funcionamiento normal"); }` *(Si no se cumple, se ejecuta la segunda acción)* |
 
 
 ## 7. Síntesis
