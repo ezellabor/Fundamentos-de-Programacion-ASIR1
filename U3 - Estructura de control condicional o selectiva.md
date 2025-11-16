@@ -1,5 +1,5 @@
 
-# Unidad 3 | Estructuras de control selectivas/condicionales (Parte I)  
+# Unidad 3 - Estructura de control selectivas o condicional (Parte I)  
 Resultado de aprendizaje a trabajar:
 - *RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..*
 
