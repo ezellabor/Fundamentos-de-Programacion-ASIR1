@@ -209,14 +209,14 @@ Escribir total
 
 ---
 
-## Comparativa: condicional simple vs condicional doble
+## 6. Comparativa: condicional simple vs condicional doble
 | Condicional    | ¿Cuándo se ejecuta?                                         | ¿Qué pasa si la condición es falsa?        | Estructura                            | Ejemplo simplificado                                                                                                                                               |
 | ---------------------- | ----------------------------------------------------------- | ------------------------------------------ | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Simple** | Ejecuta instrucciones **solo si la condición es verdadera** | **No ejecuta nada** y continúa el programa | `if (condición) { ... }`              | `if (edad >= 18) {   System.out.println("Mayor de edad"); }` *(Si la condición no se cumple, no se muestra nada)*                                                  |
 | **Doble**  | Ejecuta instrucciones **si la condición es verdadera**      | Ejecuta el bloque **alternativo**          | `if (condición) { ... } else { ... }` | `if (cpu >= 75) {   System.out.println("Sobrecarga"); } else {   System.out.println("Funcionamiento normal"); }` *(Si no se cumple, se ejecuta la segunda acción)* |
 
 
-## 6. Síntesis
+## 7. Síntesis
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
@@ -232,7 +232,7 @@ Escribir total
 
 ---
 
-## 7. Reflexión
+## 8. Reflexión
 - ¿Qué tipo de errores fueron más comunes al escribir condicionales?  
 - ¿Cómo ayudó el ejemplo paso a paso a entender el flujo lógico?  
 
