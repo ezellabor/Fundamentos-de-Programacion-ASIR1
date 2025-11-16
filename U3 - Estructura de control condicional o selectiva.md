@@ -159,12 +159,13 @@ MOSTRAR total
 
 ---
 ## 6. Reflexión personal y actividad final
-Pedir a los estudiantes que escriban una breve reflexión (5–8 líneas) sobre:  
 - ¿Qué tipo de errores fueron más comunes al escribir condicionales?  
 - ¿Cómo ayudó el ejemplo paso a paso a entender el flujo lógico?  
-- Proponer un mini-proyecto (2–3 frases) que use condicionales en una aplicación real informática.
 
 ---
 ### Material adicional (sugerido)
 - Lista de comprobación para condicionales: condiciones claras, operadores lógicos correctos, manejo de casos límite, pruebas con datos extremos.
 - Fichas de pseudocódigo con patrones (validación de usuario, cálculo de descuentos, selección de menú).
+
+##  
+_&copy; 2025 - Fundamentos de Programación - Ezequiel Llarena Borges_
