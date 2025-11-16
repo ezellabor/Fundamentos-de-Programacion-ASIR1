@@ -29,11 +29,27 @@ SINO
     <instrucciones si falso>
 FIN_SI
 ```
+_Ejemplo: Comprobar si es mayor de edad_
+```
+// Condicional Simple
+LEER edad
+SI edad >= 18 ENTONCES
+    MOSTRAR "Registro permitido"
+FIN_SI
+
+// Condicional Compuesto
+LEER edad
+SI edad >= 18 ENTONCES
+    MOSTRAR "Registro permitido"
+SINO
+    MOSTRAR "Debe ser mayor de 18 años"
+FIN_SI
+```
 
 >En la segunda parte de esta unidad veremos condicionales anidadas y múltiples condiciones con operadores lógicos: `Y`, `O`, `NO`.
 
 ---
-## 3. Primer ejemplo paso a paso _(validación de acceso a un sistema)_
+## 3. Ejemplo paso a paso _(validación de acceso a un sistema)_
 
 **Contexto:** queremos controlar el acceso a una aplicación según usuario y contraseña, y además comprobar si el usuario está activo. Mostramos paso a paso, tabla de variables y un esquema lógico simple.
 
@@ -90,43 +106,12 @@ FIN
 
 ---
 
-## 4. Buenas prácticas
-- Verifica las condiciones lógicas antes de escribirlas.
-- Los condicionales pueden ser anidados para múltiples decisiones.
-- Prueba varios valores para comprobar el algoritmo.
-- Usa sangría consistente para mejor legibilidad.
-
----
-## 5. Más ejemplos
-
-### 5.1. Comprobar si es mayor de edad
-```
-LEER edad
-SI edad >= 18 ENTONCES
-    MOSTRAR "Registro permitido"
-SINO
-    MOSTRAR "Debe ser mayor de 18 años"
-FIN_SI
-```
-
-### 5.2. Validar formato de email _(simplificado)_
-```
-LEER email
-SI existe_caracter(email, "@") Y existe_caracter(email, ".") ENTONCES
-    MOSTRAR "Formato OK"
-SINO
-    MOSTRAR "Formato inválido"
-FIN_SI
-```
-
----
-## 6. Ejercicios por niveles
-
-### 6.1. Nivel 1 - Básico
+## 4. Ejercicios para practicar
+### 4.1. Nivel 1 - Básico
 1. Escribir pseudocódigo que lea un número y muestre si es par o impar.
 2. Pedir nombre de usuario; si es "admin" mostrar "Bienvenido administrador", sino "Bienvenido usuario".
 
-### 6.2. Nivel 2 - Intermedio
+### 4.2. Nivel 2 - Intermedio
 1. Sistema de recuperación: leer usuario y email. Si coinciden con registro, mostrar "Enviar link de recuperación"; sino "Usuario no encontrado".
 2. Calcular el precio final: leer precio y si `precio > 1000` aplicar 10% de descuento, sino precio sin descuento.
 
@@ -143,8 +128,7 @@ FIN_SI
    - un carácter especial (por ejemplo: !@#$%)
    Mostrar qué condiciones no se cumplen (lista de fallos).
 -->
----
-## 6.3. Soluciones propuestas
+### 4.3. Soluciones propuestas
 **Nivel 1 (par/impar)**
 ```
 LEER n
@@ -169,15 +153,23 @@ MOSTRAR total
 
 ---
 
+## 5. Buenas prácticas
+- Verifica las condiciones lógicas antes de escribirlas.
+- Los condicionales pueden ser anidados para múltiples decisiones.
+- Prueba varios valores para comprobar el algoritmo.
+- Usa sangría consistente para mejor legibilidad.
+
+---
+
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;">Síntesis</h2>
+<h2 style="color:#006633;">6. Síntesis</h2>
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
 <tr style="background-color:#ccece6;">
 <th style="border:1px solid #ccc; padding:4px;">Concepto</th>
 <th style="border:1px solid #ccc; padding:4px;">Descripción</th>
 <th style="border:1px solid #ccc; padding:4px;">Ejemplo</th>
 </tr>
-<tr><td>Condicional simple</td><td>Decisión con un camino: <code>Si…Entonces…Finsi>/code></td><td><code>Si edad >=18 Entonces…</code></td></tr>
+<tr><td>Condicional simple</td><td>Decisión con un camino: <code>Si...Entonces...Finsi</code></td><td><code>Si edad >=18 Entonces…</code></td></tr>
 <tr><td>Condicional compuesto</td><td>Decisión con dos caminos: <code>Si...Entonces...Sino...Finsi</code></td><td><code>Si nota >=5 Entonces… Sino… FinSi</code></td></tr>
 </table>
 </div>
@@ -188,7 +180,7 @@ MOSTRAR total
 - ¿Cómo ayudó el ejemplo paso a paso a entender el flujo lógico?  
 
 ---
-### 8. Material adicional
+## 8. Material adicional
 - Lista de comprobación para condicionales: condiciones claras, operadores lógicos correctos, manejo de casos límite, pruebas con datos extremos.
 - Fichas de pseudocódigo con patrones (validación de usuario, cálculo de descuentos, selección de menú).
 
