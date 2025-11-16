@@ -194,8 +194,8 @@ Escribir total
 <th style="border:1px solid #ccc; padding:4px;">Descripción</th>
 <th style="border:1px solid #ccc; padding:4px;">Ejemplo</th>
 </tr>
-<tr><td>Condicional simple</td><td>Decisión con un camino: <code>Si-Entonces-Finsi</code></td><td><code>Si edad >=18 Entonces…</code></td></tr>
-<tr><td>Condicional doble</td><td>Decisión con dos caminos: <code>Si-Entonces-Sino-Finsi</code></td><td><code>Si nota >=5 Entonces… Sino… FinSi</code></td></tr>
+<tr><td>Condicional simple</td><td>Decisión con un camino: <code>Si-Entonces-FinSi</code></td><td><code>Si edad >=18 Entonces "Mayor de edad"</code></td></tr>
+<tr><td>Condicional doble</td><td>Decisión con dos caminos: <code>Si-Entonces-SiNo-FinSi</code></td><td><code>Si nota >=5 Entonces "Aprobado" SiNo "Recuperación" FinSi</code></td></tr>
 </table>
 </div>
 
