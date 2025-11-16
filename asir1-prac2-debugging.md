@@ -36,10 +36,10 @@ layout: "default"
 ---
 
 ## Objetivos 
-- Aprender a ejecutar un algoritmo **paso a paso** en PSeInt.  
-- Observar cómo cambian las variables en cada instrucción para localizar errores.  
-- Entender la diferencia entre valor inicial, intermedio y final de una variable.  
+- Aprender a ejecutar un pseudocódigo en modo **paso a paso** o **Depuración** en PSeInt.  
+- Observar cómo cambian las variables en cada instrucción para localizar errores.   
 - Usar el depurador como herramienta para **detectar errores lógicos**.
+- Fomentar hábitos de **observación, análisis y comprobación** del código.
 
 ---
 
