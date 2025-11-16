@@ -68,7 +68,7 @@ SiNo
 FinSi
 ```
 
-## En una frase...
+## 2.3. En una frase...
 | Condicional Simple | Condicional Doble |
 |--------|--------|
 | Realiza una acción *solo si se cumple la condición*. | *Siempre realiza una acción:* si no se cumple la condición, ejecuta una **alternativa.** |
@@ -93,7 +93,7 @@ INICIO
    FinSi
 FIN
 ```
-### Explicación paso a paso:
+### 3.2. Explicación paso a paso:
 | Paso | Acción                                 | Resultado                               |
 | ---- | -------------------------------------- | --------------------------------------- |
 | 1    | El programa pide la longitud           | El usuario introduce un número          |
@@ -213,7 +213,9 @@ SINO
 FIN_SI
 Escribir total
 ```
-
+### 4.4. Conclusión
+- ¿Qué tipo de errores fueron más comunes al escribir condicionales?  
+- ¿Cómo ayudó el ejemplo paso a paso a entender el flujo lógico? 
 ---
 
 ## 5. Buenas prácticas
@@ -252,11 +254,7 @@ Escribir total
 
 ---
 
-## 8. Reflexión
-- ¿Qué tipo de errores fueron más comunes al escribir condicionales?  
-- ¿Cómo ayudó el ejemplo paso a paso a entender el flujo lógico?  
-
-<!--
+ <!--
 ---
 ## 8. Material adicional
 - Lista de comprobación para condicionales: condiciones claras, operadores lógicos correctos, manejo de casos límite, pruebas con datos extremos.
