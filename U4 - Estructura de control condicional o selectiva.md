@@ -93,8 +93,8 @@ FIN
 | ---- | -------------------------------------- | --------------------------------------- |
 | 1    | El programa pide la longitud           | El usuario introduce un número          |
 | 2    | Se evalúa la condición `longitud >= 8` | Puede ser **verdadera** o **falsa**     |
-| 3A   | Si la condición es verdadera           | Muestra **"La contraseña es segura."**  |
-| 3B   | Si la condición es falsa               | Muestra **"La contraseña es débil..."** |
+| 3-V  | Si la condición es verdadera           | Muestra **"La contraseña es segura."**  |
+| 3-F  | Si la condición es falsa               | Muestra **"La contraseña es débil..."** |
 | 4    | Finaliza el programa                   | —                                       |
 
 
