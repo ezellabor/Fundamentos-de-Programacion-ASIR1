@@ -72,6 +72,30 @@ FinSi
 
 ---
 ## 3. Ejemplo paso a paso
+Algoritmo que pida la longitud de una contraseña y determine si es segura o no según la siguiente regla:
+>- Si la contraseña tiene 8 caracteres o más → “Contraseña segura”
+>- Si tiene menos de 8 caracteres → “Contraseña débil”
+
+### 3.1. Pseudocódigo:
+```
+INICIO
+   Escribir "Introduce la longitud de tu contraseña:"
+   Leer longitud
+   Si longitud >= 8 Entonces
+        Escribir "La contraseña es segura."
+   SiNo
+        Escribir "La contraseña es débil. Debe tener al menos 8 caracteres."
+   FinSi
+FIN
+```
+### Explicación paso a paso:
+| Paso | Acción                                 | Resultado                               |
+| ---- | -------------------------------------- | --------------------------------------- |
+| 1    | El programa pide la longitud           | El usuario introduce un número          |
+| 2    | Se evalúa la condición `longitud >= 8` | Puede ser **verdadera** o **falsa**     |
+| 3A   | Si la condición es verdadera           | Muestra **"La contraseña es segura."**  |
+| 3B   | Si la condición es falsa               | Muestra **"La contraseña es débil..."** |
+| 4    | Finaliza el programa                   | —                                       |
 
 
 <!-- Condicional Anidado ejemplo validación de acceso a un sistema
