@@ -234,9 +234,9 @@ Escribir total
 
 ## 7. Síntesis
 
-| Pregunta | Respuesta |
+| Estructuras condicionales | Respuesta |
 |---------|-----------|
-| ¿Para qué sirven las condicionales? | Permiten que un programa **tome decisiones** según una condición. |
+| ¿Para qué sirven? | Permiten que un programa **tome decisiones** según una condición. |
 
 | Tipo condicional | Descripción | Ejemplo en pseudocódigo |
 |------------|-------------|---------|
@@ -255,7 +255,6 @@ Escribir total
 </table>
 </div>  -->
 
----
 
  <!--
 ## 8. Material adicional
