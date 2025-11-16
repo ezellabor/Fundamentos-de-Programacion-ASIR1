@@ -261,15 +261,21 @@ Escribir total
 - Lista de comprobación para condicionales: condiciones claras, operadores lógicos correctos, manejo de casos límite, pruebas con datos extremos.
 - Fichas de pseudocódigo con patrones (validación de usuario, cálculo de descuentos, selección de menú).
 -->
+---
+
 # Enunciado de la práctica
+
 Imagina que trabajas como técnico de sistemas en una empresa y debes programar una utilidad que evalúe el uso del procesador para saber si un servidor requiere intervención.
 Crea un programa que:
+
 1. Pida por teclado el porcentaje de uso actual de la CPU (número entero del 0 al 100).
 2. Evalúe la información siguiendo estas reglas:
   1. Si el uso es mayor o igual al 75% → Mostrar: "Atención: Posible sobrecarga del servidor."
-  2. Si el uso es menor al 75% → Mostrar: "El servidor está funcionando con normalidad."
-3. Finalice con un mensaje: "Comprobación finalizada."
-_Ejemplos de salida esperada_
+  1. Si el uso es menor al 75% → Mostrar: "El servidor está funcionando con normalidad."
+4. Finalice con un mensaje: "Comprobación finalizada."
+
+
+_Ejemplos de salida esperada:_
 ```
 Introduce el porcentaje de uso de CPU: 82
 Atención: Posible sobrecarga del servidor.
