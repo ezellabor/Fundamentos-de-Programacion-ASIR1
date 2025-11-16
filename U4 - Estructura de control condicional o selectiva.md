@@ -263,19 +263,19 @@ Escribir total
 -->
 ---
 
-# Enunciado de la práctica
-
-Imagina que trabajas como técnico de sistemas en una empresa y debes programar una utilidad que evalúe el uso del procesador para saber si un servidor requiere intervención.
+# 8. Práctica de la unidad
+### 8.1. Enunciado
+Imagina que trabajas como técnico de sistemas en una empresa y debes programar una utilidad que **evalúe el uso del procesador** para saber si un servidor requiere intervención.
 Crea un programa que:
+>1. Pida por teclado el porcentaje de uso actual de la CPU (número entero del 0 al 100).
+>2. Evalúe la información siguiendo estas reglas:
+>    1. Si el uso es mayor o igual al 75% → Mostrar: "Atención: Posible sobrecarga del servidor.
+>    2. Si el uso es menor al 75% → Mostrar: "El servidor está funcionando con normalidad."
+>3. Finalice con un mensaje: "Comprobación finalizada."
 
-1. Pida por teclado el porcentaje de uso actual de la CPU (número entero del 0 al 100).
-2. Evalúe la información siguiendo estas reglas:
-  1. Si el uso es mayor o igual al 75% → Mostrar: "Atención: Posible sobrecarga del servidor."
-  1. Si el uso es menor al 75% → Mostrar: "El servidor está funcionando con normalidad."
-4. Finalice con un mensaje: "Comprobación finalizada."
-
-
-_Ejemplos de salida esperada:_
+### 8.2. Pruebas del pseudocódigo
+Prueba tu pseudocódigo con los valores de entrada 82 y 54.
+_Salidas esperadas:_
 ```
 Introduce el porcentaje de uso de CPU: 82
 Atención: Posible sobrecarga del servidor.
@@ -286,7 +286,14 @@ Introduce el porcentaje de uso de CPU: 54
 El servidor está funcionando con normalidad.
 Comprobación finalizada.
 ```
-
+### 8.3. Criterios de evaluación
+| Criterio                                                           |  Peso  |
+| ------------------------------------------------------------------ | ------ |
+| 1. Entrada de datos correctamente solicitada con lectura por teclado | 20% |
+| 2. Uso correcto de la estructura condicional `Si – SiNo`             | 40% |
+| 3. Mensajes exactos según el enunciado                               | 20% |
+| 4. Código ordenado y comentado                                       | 20% |
+| **Total**                                                         | **10 pts** |
 ##  
 
 _&copy; 2025 - Fundamentos de Programación - Ezequiel Llarena Borges_
