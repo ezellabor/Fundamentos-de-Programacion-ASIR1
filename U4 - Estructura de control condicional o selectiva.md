@@ -14,14 +14,17 @@ Resultado de aprendizaje a trabajar:
 
 ---
 ## 2. Conceptos clave
-Las **estructuras condicionales** permiten que un programa tome decisiones según datos de entrada. La forma básica en pseudocódigo es:
+- Las **estructuras condicionales** permiten que un programa tome decisiones según datos de entrada.
+- Una **condición** es una expresión que es **verdadera** (TRUE) o **falsa** (FALSE).  
 ### 1 - Condicional simple
+Solo se ejecuta si la condición se cumple. Su estructura es la siguite:
 ```
 SI <condición> ENTONCES
     <instrucciones si verdadero>
 FIN_SI
 ```
 ### 2 - Condicional doble
+Permite dos caminos posibles. Su estructura es la siguiente:
 ```
 SI <condición> ENTONCES
     <instrucciones si verdadero>
