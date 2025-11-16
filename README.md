@@ -215,7 +215,7 @@ FinAlgoritmo
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
 <h2 style="color:#006633;">Desarrollo paso a paso</h2>
 </div>
-
+<pre>
 Algoritmo SumaResta
    Definir x, y Como Entero
    x <- 10
