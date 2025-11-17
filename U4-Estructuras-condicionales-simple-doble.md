@@ -79,7 +79,7 @@ SiNo
 FinSi
 ```
 
-## 2.3. En una frase...
+### 2.3. En una frase...
 | Condicional Simple | Condicional Doble |
 |--------|--------|
 | Realiza una acción *solo si se cumple la condición*. | *Siempre realiza una acción:* si no se cumple la condición, ejecuta una **alternativa.** |
