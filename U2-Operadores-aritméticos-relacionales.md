@@ -16,7 +16,10 @@ Resultado de aprendizaje a trabajar:
 
 ## 2. Conceptos clave
 
-### 2.1 Operadores aritméticos
+### 2.1. Operadores aritméticos
+
+>Las expresiones o condiciones con operadores aritméticos *devuelven* un **valor numérico.**
+>
 | Operador | Significado | Ejemplo | Resultado |
 |---|---:|---|---:|
 | `+` | Suma | `3 + 2` | `5` |
@@ -28,7 +31,10 @@ Resultado de aprendizaje a trabajar:
 ---
 
 ### 2.2 Operadores relacionales (o de comparación)
-| Operador | Significado | Ejemplo (valor lógico) |
+
+>Las expresiones o condiciones con operadores relacionales *devuelven* **`Verdadero`** o **`Falso`.**
+
+| Operador | Significado | Ejemplo y valor lógico |
 |---|---|---|
 | `==` | Igual que | `5 == 5 → Verdadero` |
 | `<>` | Distinto que | `4 <> 4 → Falso` |
@@ -36,8 +42,6 @@ Resultado de aprendizaje a trabajar:
 | `<` | Menor que | `2 < 1 → Falso` |
 | `>=` | Mayor o igual que | `5 >= 3 → Verdadero` |
 | `<=` | Menor o igual que | `3 <= 3 → Verdadero` |
-
-**Nota:** estas comparaciones devuelven `Verdadero` o `Falso`. 
 
 >**Consejo del programador:**
 >- usa `%` cuando trabajes con números enteros para obtener restos
