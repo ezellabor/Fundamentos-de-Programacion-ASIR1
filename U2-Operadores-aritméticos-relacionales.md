@@ -55,26 +55,23 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
 
 ### 3.1. Pseudocódigo
 ```
-**Proceso** Ejemplo_EspacioSimple
-    **Definir** espacioTotal, espacioUsado, espacioLibre Como Real
-    **Definir** cabeISO Como Logico
+PROCESO Ejemplo_EspacioSimple
+    DEFINIR espacioTotal, espacioUsado, espacioLibre COMO REAL
+    DEFINIR cabeISO COMO LOGICO
 
-    **Escribir** "Tamaño total del disco (GB): "
-    **Leer** espacioTotal
+    ESCRIBIR "Tamaño total del disco (GB): "
+    LEER espacioTotal
 
-    **Escribir** "Espacio usado (GB): "
-    **Leer** espacioUsado
+    ESCRIBIR "Espacio usado (GB): "
+    LEER espacioUsado
 
     espacioLibre <- espacioTotal - espacioUsado    // resta: operador aritmético
+    cabeISO <- espacioLibre >= 4                   // usamos operador relacional para saber si es mayor o igual que 4
 
-    // usamos operador relacional para saber si es mayor o igual que 4
-    cabeISO <- espacioLibre >= 4   
-
-    **Escribir** "Espacio libre (GB): ", espacioLibre
-    **Escribir** "¿Cabe un ISO de 4GB?: ", cabeISO
-**FinProceso**
+    ESCRIBIR "Espacio libre (GB): ", espacioLibre
+    ESCRIBIR "¿Cabe un ISO de 4GB?: ", cabeISO
+FINPROCESO
 ```
-
 ### 3.2. Ejemplo instrucción por instrucción
 
 | Instrucción | Qué hace | Comentario |
@@ -101,79 +98,82 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
 Pedir dos números y mostrar suma, resta, multiplicación, división y módulo.
 
 **Solución:**
-```pseudocode
-**Proceso** OperacionesBasicas
-    **Definir** a, b Como Real
-    **Escribir** "Número 1: "
-    **Leer** a
-    **Escribir** "Número 2: "
-    **Leer** b
+```// ===== EJERCICIO 1 ===
+PROCESO OperacionesBasicas
+    DEFINIR a, b COMO REAL
 
-    **Escribir** "Suma: ", a + b
-    **Escribir** "Resta: ", a - b
-    **Escribir** "Multiplicación: ", a * b
-    **Escribir** "División: ", a / b
-    **Escribir** "Módulo: ", a % b
-**FinProceso**
+    ESCRIBIR "Número 1: "
+    LEER a
+    ESCRIBIR "Número 2: "
+    LEER b
+
+    ESCRIBIR "Suma: ", a + b
+    ESCRIBIR "Resta: ", a - b
+    ESCRIBIR "Multiplicación: ", a * b
+    ESCRIBIR "División: ", a / b
+    ESCRIBIR "Módulo: ", a % b
+FINPROCESO
 ```
 
 ### SP2 - Comparación simple
 Pedir la nota de dos módulos y mostrar si son iguales (solo evaluación).
 
 **Solución:**
-```pseudocode
-**Proceso** CompararNotas
-    **Definir** nota1, nota2 Como Real
-    **Definir** iguales Como Logico
-    **Escribir** "Nota 1: "
-    **Leer** nota1
-    **Escribir** "Nota 2: "
-    **Leer** nota2
+```// ===== EJERCICIO 2 =====
+PROCESO CompararNotas
+    DEFINIR nota1, nota2 COMO REAL
+    DEFINIR iguales COMO LOGICO
 
-    iguales <- nota1 == nota2
-    **Escribir** "¿Notas iguales?: ", iguales
-**FinProceso**
+    ESCRIBIR "Nota 1: "
+    LEER nota1
+    ESCRIBIR "Nota 2: "
+    LEER nota2
+
+    iguales <- nota1 == nota2                     // operador relacional para igualdad
+    ESCRIBIR "¿Notas iguales?: ", iguales
+FINPROCESO
 ```
 
 ### SP3 - RAM libre y evaluación
 Leer RAM total y usada; calcular RAM libre y evaluar si es menor que 2 GB.
 
 **Solución:**
-```pseudocode
-**Proceso** RamLibre
-    **Definir** ramTotal, ramUsada, ramLibre Como Real
-    **Definir** menos2GB Como Logico
+```
+// ===== EJERCICIO 3 =====
+PROCESO RamLibre
+    DEFINIR ramTotal, ramUsada, ramLibre COMO REAL
+    DEFINIR menos2GB COMO LOGICO
 
-    **Escribir** "RAM total (GB): "
-    **Leer** ramTotal
-    **Escribir** "RAM usada (GB): "
-    **Leer** ramUsada
+    ESCRIBIR "RAM total (GB): "
+    LEER ramTotal
+    ESCRIBIR "RAM usada (GB): "
+    LEER ramUsada
 
-    ramLibre <- ramTotal - ramUsada
-    menos2GB <- ramLibre < 2
+    ramLibre <- ramTotal - ramUsada               // cálculo RAM libre
+    menos2GB <- ramLibre < 2                      // comparación: menos de 2GB
 
-    **Escribir** "RAM libre: ", ramLibre
-    **Escribir** "Menos de 2GB?: ", menos2GB
-**FinProceso**
+    ESCRIBIR "RAM libre: ", ramLibre
+    ESCRIBIR "Menos de 2GB?: ", menos2GB
+FINPROCESO
 ```
 
 ### SP4 - Comparar cuentas de usuarios
 Introducir usuarios en servidor A y B; mostrar si A tiene más usuarios (evaluación).
 
 **Solución:**
-```pseudocode
-**Proceso** CompararUsuarios
-    **Definir** usersA, usersB Como Entero
-    **Definir** AmasB Como Logico
+```// ===== EJERCICIO 4 =====
+PROCESO CompararUsuarios
+    DEFINIR usersA, usersB COMO ENTERO
+    DEFINIR AmasB COMO LOGICO
 
-    **Escribir** "Usuarios A: "
-    **Leer** usersA
-    **Escribir** "Usuarios B: "
-    **Leer** usersB
+    ESCRIBIR "Usuarios A: "
+    LEER usersA
+    ESCRIBIR "Usuarios B: "
+    LEER usersB
 
-    AmasB <- usersA > usersB
-    **Escribir** "¿A tiene más usuarios?: ", AmasB
-**FinProceso**
+    AmasB <- usersA > usersB                     // comparación: A tiene más que B
+    ESCRIBIR "¿A tiene más usuarios?: ", AmasB
+FINPROCESO
 ```
 
 ---
@@ -190,11 +190,11 @@ Introducir usuarios en servidor A y B; mostrar si A tiene más usuarios (evaluac
 
 | Concepto | Resumen |
 |---------|---------|
-| Aritmética | `+` &nbsp; `-` &nbsp; `*` &nbsp; `/` &nbsp; `%` |
+| Aritméticos | `+` &nbsp; `-` &nbsp; `*` &nbsp; `/` &nbsp; `%` |
 | Relacionales | `==` &nbsp; `<>` &nbsp; `>` &nbsp; `<` &nbsp; `>=` &nbsp; `<=` |
 | Resultado de operadores aritméticos | Devuelven **números**. |
 | Resultado de operadores relacionales | Devuelven **Verdadero/Falso**. |
-| Uso de booleanos | Se pueden almacenar en **variables lógicas** y mostrarse como salida. |
+| Expresiones booleanas | Se almacenan en **variables lógicas** definidas con el **tipo Lógico.** |
 
 
 ##  
