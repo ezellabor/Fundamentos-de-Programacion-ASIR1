@@ -1,20 +1,22 @@
 # Unidad 3 - Operadores aritméticos y relacionales
 
-## Resultado de aprendizaje a trabajar:
+Resultado de aprendizaje a trabajar:
 - *RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..*
 
 
 ---
 
-## 3. Objetivos
-- Aprender a manejar correctamente operadores aritméticos.
-- Aprender a comparar valores utilizando operadores relacionales.
-- Interpretar resultados numéricos y booleanos generados por operaciones.
+## 1. Objetivos
+- Utilizar adecuadamente los operadores aritméticos.  
+- Emplear operadores relacionales para comparar valores.  
+- Diferenciar operaciones de cálculo y comparaciones lógicas.  
+- Interpretar condiciones booleanas para tomar decisiones en un algoritmo.
+- Escribir pseudocódigo claro y documentado con buenas prácticas.
 ---
 
-## 4. Conceptos clave
+## 2. Conceptos clave
 
-### 4.1 Tabla síntesis: operadores aritméticos
+### 2.1 Operadores aritméticos
 | Operador | Significado | Ejemplo | Resultado |
 |---|---:|---|---:|
 | `+` | Suma | `3 + 2` | `5` |
@@ -25,7 +27,7 @@
 
 ---
 
-### 4.2 Tabla síntesis: operadores relacionales
+### 2.2 Operadores relacionales
 | Operador | Significado | Ejemplo (valor lógico) |
 |---|---|---|
 | `==` | Igual que | `5 == 5 → Verdadero` |
@@ -43,11 +45,11 @@
 
 ---
 
-## 5. Ejemplo paso a paso 
+## 3. Ejemplo paso a paso 
 
 Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO de 4 GB cabe.
 
-### 5.1. Pseudocódigo
+### 3.1. Pseudocódigo
 ```pseudocode
 **Proceso** Ejemplo_EspacioSimple
     **Definir** espacioTotal, espacioUsado, espacioLibre Como Real
@@ -68,7 +70,7 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
 **FinProceso**
 ```
 
-### 5.2. El ejemplo instrucción por instrucción
+### 3.2. El ejemplo instrucción por instrucción
 
 | Instrucción | Qué hace | Comentario |
 |---|---|---|
@@ -83,7 +85,12 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
 
 ---
 
-## 6. Supuestos prácticos (soluciones incluidas)
+## 4. Supuestos prácticos (soluciones incluidas)
+
+>**Indicaciones generales:**
+>- crea un fichero .psc por cada ejercicio
+>- comenta las líneas más relevantes
+>- y ejecuta pruebas con valores representativos
 
 ### Ejercicio 1 — Calculadora básica
 **Enunciado:** Pedir dos números y mostrar suma, resta, multiplicación, división y módulo.
@@ -166,7 +173,7 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
 
 ---
 
-## 7. Buenas prácticas
+## 5. Buenas prácticas
 - Usar nombres de variables descriptivos.  
 - Documentar los cálculos con un comentario breve.  
 - Diferenciar tipo `Real` (decimales) y `Entero` (conteos, uso de `%`).  
@@ -174,10 +181,16 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
 
 ---
 
-## 8. Síntesis
-- **Aritmética:** `+  -  *  /  %` → devuelven número.  
-- **Relacionales:** `==  <>  >  <  >=  <=` → devuelven `Verdadero`/`Falso`.  
-- **Ejemplo clave:** cálculo `espacioLibre <- espacioTotal - espacioUsado` (aritmética) y `cabeISO <- espacioLibre >= 4` (relacional).
+## 6. Síntesis
+
+| Concepto | Resumen |
+|---------|---------|
+| Aritmética | `+` &nbsp; `-` &nbsp; `*` &nbsp; `/` &nbsp; `%` |
+| Relacionales | `==` &nbsp; `<>` &nbsp; `>` &nbsp; `<` &nbsp; `>=` &nbsp; `<=` |
+| Resultado de operadores aritméticos | Devuelven **números**. |
+| Resultado de operadores relacionales | Devuelven **Verdadero/Falso**. |
+| Uso de booleanos | Se pueden almacenar en **variables lógicas** y mostrarse como salida. |
+
 
 ---
 
