@@ -27,13 +27,9 @@ Resultado de aprendizaje a trabajar:
 <p><b>Variables →</b> Almacenan valores que irán cambiando durante la ejecución del programa.</p>
 <quote>Ejemplo:</quote>
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
- Algoritmo EjemploVariable
-   Definir <span style="color:#cc3300;">edad</span> Como Entero
    <span style="color:#cc3300;">edad</span> <- 18
    <span style="color:#cc3300;">edad</span> <- <span style="color:#cc3300;">edad</span> + 1  // ahora <span style="color:#cc3300;">edad</span> vale 19
-   Escribir <span style="color:#cc3300;">edad</span>
-FinAlgoritmo
-</pre>
+  </pre>
 
 <h3>2.3. Constante</h3>
 <p><b>Constantes →</b> Almacenan valores que no cambian durante todo el programa.</p>
