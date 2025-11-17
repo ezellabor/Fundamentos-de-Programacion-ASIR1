@@ -1,6 +1,6 @@
 # Unidad Práctica 2 - Operadores aritméticos y relacionales
 
-Resultado de aprendizaje a trabajar:
+Resultados de aprendizaje a trabajar:
 - *RA2 - Reconocer y utilizar correctamente los entornos de desarrollo para la implementación de código.*
 - *RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..*
 
