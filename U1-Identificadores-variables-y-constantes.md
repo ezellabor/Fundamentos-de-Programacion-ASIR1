@@ -1,6 +1,6 @@
 # Unidad Práctica 1 - Identificadores, variables y constantes
 
-Resultado de aprendizaje a trabajar:
+Resultados de aprendizaje a trabajar:
 - *RA2 - Reconocer y utilizar correctamente los entornos de desarrollo para la implementación de código.*
 - *RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..*
 
