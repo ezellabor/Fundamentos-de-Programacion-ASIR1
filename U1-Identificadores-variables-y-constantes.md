@@ -102,7 +102,7 @@ FinAlgoritmo
 
 
 <div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#009966;">4 - Convenciones de programación</h2>
+<h2 style="color:#009966;">4 - Buenas prácticas de programación </h2>
  <p>Las convenciones de programación son un conjunto de <b>reglas de estilo y prácticas</b> que guían la escritura de <b>código legible, coherente y fácil de mantener.</b> Estas son las más comunes:
 </p>
 </div>
@@ -119,7 +119,7 @@ FinAlgoritmo
  
 
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#0066cc;">5 - Repaso final [Autoevaluación]</h2>
+<h2 style="color:#0066cc;">5 - Autoevaluación</h2>
 <ol>
 <li>Declara tres variables con tu nombre, edad y ciudad, y muéstralas.</li>
 <li>Calcula el área de un rectángulo usando constantes para la base y la altura.</li>
@@ -137,7 +137,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
-<h2 style="color:#006633;"> 6 - Lo importante... </h2>
+<h2 style="color:#006633;"> 6 - Síntesis </h2>
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
 <tr style="background-color:#ccece6;">
 <th style="border:1px solid #ccc; padding:4px;">Concepto</th>
