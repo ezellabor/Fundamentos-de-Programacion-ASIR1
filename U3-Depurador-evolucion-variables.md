@@ -10,7 +10,7 @@ date: 2025-11-09
 layout: "default"
 ---  -->
 
-# Unidad Práctica 3 - Depurador de código: _debugger_ o modo paso a paso")
+# Unidad Práctica 3 - Depurador de código (_debugger_)
 
 Resultado de aprendizaje a trabajar:
 - *RA4 - Escribir y depurar código, analizando y utilizando las estructuras de control del lenguaje.*
@@ -147,7 +147,8 @@ Escribir "Ahorro mensual: ", ahorro
 | Depurador | Permite seguir el flujo del programa paso a paso |
 | Error lógico | No interrumpe la ejecución, pero produce un resultado incorrecto |
 
----
-
 <!--## Extensión (opcional)
 Guarda una captura del **panel de variables** mostrando el momento en que cambian los valores y añádela a tus apuntes. -->
+
+##  
+_&copy; 2025 - Fundamentos de Programación - Ezequiel Llarena Borges_ 
