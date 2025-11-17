@@ -58,7 +58,7 @@ FinAlgoritmo
 
 ---
 
-## Paso 2 - Explorando el modo “paso a paso”
+### Paso 2 - Explorando el modo “paso a paso”
 
 > **Consejo:** Observa la ejecución de cada instrucción y el cambio de valores.
 
@@ -72,7 +72,7 @@ FinAlgoritmo
 
 ---
 
-## Paso 3 - Detectando errores con el depurador
+### Paso 3 - Detectando errores con el depurador
 
 > **Observación:** Analiza el comportamiento del programa cuando contiene un error lógico.
 
@@ -95,7 +95,7 @@ nuevoSueldo <- sueldo - aumento
 
 ---
 
-## Paso 4 - Seguimiento de una constante
+### Paso 4 - Seguimiento de una constante
 
 > **Recordatorio:** Las constantes no cambian su valor durante la ejecución del programa.
 
@@ -113,7 +113,7 @@ y ejecútala paso a paso.
 
 ---
 
-## Paso 5 - Misión final: Detective de variables
+### Paso 5 - Misión final: Detective de variables
 
 > **Misión:** Amplía el programa y analiza nuevas variables.
 
