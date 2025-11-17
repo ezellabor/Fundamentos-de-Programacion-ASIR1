@@ -54,7 +54,7 @@ Resultado de aprendizaje a trabajar:
 Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO de 4 GB cabe.
 
 ### 3.1. Pseudocódigo
-```pseudocode
+```
 **Proceso** Ejemplo_EspacioSimple
     **Definir** espacioTotal, espacioUsado, espacioLibre Como Real
     **Definir** cabeISO Como Logico
@@ -73,7 +73,7 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
     **Escribir** "Espacio libre (GB): ", espacioLibre
     **Escribir** "¿Cabe un ISO de 4GB?: ", cabeISO
 **FinProceso**
-```pseudocode
+```
 
 ### 3.2. El ejemplo instrucción por instrucción
 
