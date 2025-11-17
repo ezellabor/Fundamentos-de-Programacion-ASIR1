@@ -77,21 +77,26 @@ precioFinal <- precio * (1 + <span style="color:#0033cc;">IVA</span>)
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
 <h2 style="color:#006633;"> 3 - Desarrollo paso a paso</h2>
 
-<h3>Paso 1: Declara tus primeras variables</h3>
-<p>Abre PSeInt y crea un algoritmo llamado <b>Variables</b>:</p>
-<pre style="background-color:#ededed; padding:8px; border-radius:5px;">
-Algoritmo Variables
-   Definir <span style="color:#cc3300;">nombre</span> Como Cadena
-   Definir <span style="color:#cc3300;">edad</span>, <span style="color:#cc3300;">altura</span> Como Real
-   <span style="color:#cc3300;">nombre</span> <- "Ezequiel"
-   <span style="color:#cc3300;">edad</span> <- 30
-   <span style="color:#cc3300;">altura</span> <- 1.70
-   Escribir "Hola, ", <span style="color:#cc3300;">nombre</span>
-   Escribir "Tienes ", <span style="color:#cc3300;">edad</span>, " años y mides ", <span style="color:#cc3300;">altura</span>, " metros."
+<h3>Paso 1: Declaración de variables</h3>
+<p>La declaración de una variable es el proceso de reservar un espacio de memoria para almacenar datos de un tipo específico.</p>
+<ul>
+  <li>los nombres de las variables deben comenzar con una letra</li>
+  <li>no pueden contener espacios ni caracteres especiales, excepto el guion bajo (_)</li>
+</ul>
+<p><b>Sintaxis</b> para declarar una variable:</p>
+<pre>Definir nombre_variable Como tipo_de_dato</pre>
+<ul><li><b>nombre_variable:</b> Este es el nombre que se le asignará a la variable.</li>
+<li><b>tipo_de_dato:</b> El tipo de datoValores que la variable almacenará, como entero, real, caracter o lógico.</li></ul>
+
+_Ejemplo de declaración de variables_:
+```
+Algoritmo DeclaracionDeVariables
+   Definir numeroEntero Como Entero
+   Definir texto Como Cadena
+   Definir esVerdadero Como Logico
+   Definir pi Como Real
 FinAlgoritmo
-</pre>
-<p>Ejecuta y observa la salida. Reflexiona: ¿qué pasa si cambias <span style="color:#cc3300;">edad</span> por "veinte"?</p>
-<pre>...</pre>
+```
 
 <h3>Paso 2: Añade una constante</h3>
 <p>Define una constante llamada <span style="color:#0033cc;">IVA</span> con valor 0.21 y calcula el precio final:</p>
@@ -162,8 +167,8 @@ FinAlgoritmo
 </tr>
 <tr><td style="border:1px solid #ccc; padding:4px;">Identificador</td><td style="border:1px solid #ccc; padding:4px;"><span style="font-style: italic;">Nombre de variable o constante</span></td><td style="border:1px solid #ccc; padding:4px;"><code>nombre_usuario</code></td></tr>
 <tr><td style="border:1px solid #ccc; padding:4px;">Variable</td><td style="border:1px solid #ccc; padding:4px;">Valor que va cambiando en tiempo de ejecución</td><td style="border:1px solid #ccc; padding:4px;"><code>edad <- 18</code></td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">Constante</td><td style="border:1px solid #ccc; padding:4px;">Valor fijo que no cambia</td><td style=" border:1px solid #ccc; padding:4px;"><code>AÑO_NACIMIENTO <- 1984</code></td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">Tipo de dato</td><td style="border:1px solid #ccc; padding:4px;">Determina el tipo de valor</td><td style="border:1px solid #ccc; padding:4px;"><code>Número, Entero, Real, Cadena, Lógico</code></td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;">Constante</td><td style="border:1px solid #ccc; padding:4px;">Valor que no cambia durante todo el programa</td><td style=" border:1px solid #ccc; padding:4px;"><code>AÑO_NACIMIENTO <- 1984</code></td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;">Tipo de dato</td><td style="border:1px solid #ccc; padding:4px;">Determina el tipo de valor</td><td style="border:1px solid #ccc; padding:4px;"><code>Entero, Real, Cadena, Caracter, Lógico</code></td></tr>
 </table>
 </div>
 
