@@ -1,4 +1,4 @@
-# Unidad 3 - Operadores aritméticos y relacionales
+# Unidad 2 - Operadores aritméticos y relacionales
 
 Resultado de aprendizaje a trabajar:
 - *RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..*
