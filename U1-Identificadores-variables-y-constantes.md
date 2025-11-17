@@ -19,10 +19,26 @@ Resultado de aprendizaje a trabajar:
 
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
 <h2 style="color:#0066cc;"> 2 - Conceptos clave</h2>
-
+<h3>2.1. Identificador</h3>
 <p><b>Identificadores →</b> Son los nombres que damos a variables, constantes o algoritmos.</p> 
 <p>Ejemplo: <code>nombreUsuario</code>, <code>precioTotal</code>, <code>edad</code>.</p>
 
+<h3>Identificadores válidos</h3>
+<p>Ejemplos:</p>
+<table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
+<tr style="background-color:#d9f2e6;">
+<th style="border:1px solid #ccc; padding:4px;">Identificador</th>
+<th style="border:1px solid #ccc; padding:4px;">¿Válido?</th>
+<th style="border:1px solid #ccc; padding:4px;">Motivo</th>
+</tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>2nombre</code></td><td style="border:1px solid #ccc; padding:4px; align:center;">❌</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>_usuario</code></td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>nombre completo</code></td><td style="border:1px solid #ccc; padding:4px;">❌</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>precio_total</code></td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>Escribir</code></td><td style="border:1px solid #ccc; padding:4px;">❌</td><td></td></tr>
+</table>
+
+<h3>2.2. Variable</h3>
 <p><b>Variables →</b> Almacenan valores que irán cambiando durante la ejecución del programa.</p>
 <quote>Ejemplo:</quote>
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
@@ -34,6 +50,7 @@ Resultado de aprendizaje a trabajar:
 FinAlgoritmo
 </pre>
 
+<h3>2.3. Constante</h3>
 <p><b>Constantes →</b> Almacenan valores que no cambian durante todo el programa.</p>
 <quote>Ejemplo:</quote>
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
@@ -41,6 +58,15 @@ Const <span style="color:#0033cc;">IVA</span> <- 0.21
 precioFinal <- precio * (1 + <span style="color:#0033cc;">IVA</span>)
 </pre>
 </div>
+
+### 2.4. Tipos de datos
+| Tipo de dato | Rango de valores | Ejemplo |
+|-------------|----------------|---------|
+| Entero | Números sin decimales, positivos o negativos | 5, -10, 0 |
+| Real | Números con decimales | 3.14, -0.5, 12.0 |
+| Logico | Valores booleanos | Verdadero (V), Falso (F) |
+| Cadena | Secuencia de caracteres (texto) | "Hola", "ASIR1" |
+| Caracter | Un solo carácter | 'A', '1', '#' |
 
 ---
 
@@ -78,20 +104,6 @@ FinAlgoritmo
 <p>Reflexiona: ¿Por qué <span style="color:#0033cc;">IVA</span> está en mayúsculas?</p>
 <pre>...</pre>
 
-<h3>Paso 3: Reconocer identificadores válidos y no válidos </h3>
-<p>Lista de ejemplos:</p>
-<table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
-<tr style="background-color:#d9f2e6;">
-<th style="border:1px solid #ccc; padding:4px;">Identificador</th>
-<th style="border:1px solid #ccc; padding:4px;">¿Válido?</th>
-<th style="border:1px solid #ccc; padding:4px;">Motivo</th>
-</tr>
-<tr><td style="border:1px solid #ccc; padding:4px;"><code>2nombre</code></td><td style="border:1px solid #ccc; padding:4px; align:center;">❌</td><td>...</td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;"><code>_usuario</code></td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;"><code>nombre completo</code></td><td style="border:1px solid #ccc; padding:4px;">❌</td><td>...</td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;"><code>precio_total</code></td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;"><code>Escribir</code></td><td style="border:1px solid #ccc; padding:4px;">❌</td><td></td></tr>
-</table>
 
 <!--<h3>Paso 4: Pequeño reto</h3>
 <p>Crea un algoritmo que pida nombre, edad y año actual y muestre: "Hola, Alex. Naciste en 2005."</p>
