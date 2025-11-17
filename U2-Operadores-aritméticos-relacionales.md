@@ -8,9 +8,9 @@ Resultado de aprendizaje a trabajar:
 
 ## 1. Objetivos
 - Utilizar adecuadamente los operadores aritméticos.  
-- Emplear operadores relacionales para comparar valores.  
-- Diferenciar operaciones de cálculo y comparaciones lógicas.  
-- Interpretar condiciones booleanas para tomar decisiones en un algoritmo.
+- Emplear operadores **relacionales para comparar** valores.  
+- Diferenciar **operaciones de cálculo** y comparaciones lógicas.  
+- Interpretar **expresiones booleanas** para **tomar decisiones** en un algoritmo.
 - Escribir pseudocódigo claro y documentado con buenas prácticas.
 ---
 
@@ -27,7 +27,7 @@ Resultado de aprendizaje a trabajar:
 
 ---
 
-### 2.2 Operadores relacionales
+### 2.2 Operadores relacionales (o de comparación)
 | Operador | Significado | Ejemplo (valor lógico) |
 |---|---|---|
 | `==` | Igual que | `5 == 5 → Verdadero` |
@@ -37,11 +37,11 @@ Resultado de aprendizaje a trabajar:
 | `>=` | Mayor o igual que | `5 >= 3 → Verdadero` |
 | `<=` | Menor o igual que | `3 <= 3 → Verdadero` |
 
-**Nota:** estas comparaciones devuelven `Verdadero` o `Falso`. En esta práctica sólo las evaluaremos y almacenaremos; no se usarán instrucciones condicionales.
+**Nota:** estas comparaciones devuelven `Verdadero` o `Falso`. 
 
 >**Consejo del programador:**
 >- usa `%` cuando trabajes con números enteros para obtener restos
->- evita división por cero comprobandolo con ```numero <> 0````
+>- evita división por cero comprobandolo con `numero <> 0`
 
 ---
 
@@ -61,9 +61,10 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
     **Escribir** "Espacio usado (GB): "
     **Leer** espacioUsado
 
-    espacioLibre <- espacioTotal - espacioUsado      // resta: operador aritmético
+    espacioLibre <- espacioTotal - espacioUsado    // resta: operador aritmético
 
-    cabeISO <- espacioLibre >= 4                    // comparación: operador relacional
+    // usamos operador relacional para saber si es mayor o igual que 4
+    cabeISO <- espacioLibre >= 4   
 
     **Escribir** "Espacio libre (GB): ", espacioLibre
     **Escribir** "¿Cabe un ISO de 4GB?: ", cabeISO
