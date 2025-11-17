@@ -21,22 +21,7 @@ Resultado de aprendizaje a trabajar:
 <h2 style="color:#0066cc;"> 2 - Conceptos clave</h2>
 <h3>2.1. Identificador</h3>
 <p><b>Identificadores →</b> Son los nombres que damos a variables, constantes o algoritmos.</p> 
-<p>Ejemplo: <code>nombreUsuario</code>, <code>precioTotal</code>, <code>edad</code>.</p>
-
-<h3>Identificadores válidos</h3>
-<p>Ejemplos:</p>
-<table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
-<tr style="background-color:#d9f2e6;">
-<th style="border:1px solid #ccc; padding:4px;">Identificador</th>
-<th style="border:1px solid #ccc; padding:4px;">¿Válido?</th>
-<th style="border:1px solid #ccc; padding:4px;">Motivo</th>
-</tr>
-<tr><td style="border:1px solid #ccc; padding:4px;"><code>2nombre</code></td><td style="border:1px solid #ccc; padding:4px; align:center;">❌</td><td>...</td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;"><code>_usuario</code></td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;"><code>nombre completo</code></td><td style="border:1px solid #ccc; padding:4px;">❌</td><td>...</td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;"><code>precio_total</code></td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;"><code>Escribir</code></td><td style="border:1px solid #ccc; padding:4px;">❌</td><td></td></tr>
-</table>
+<p>Ejemplo: <code>nombreUsuario</code>, <code>precioTotal</code>, <code>edad</code>, <code>IVA</code>, <code>TARIFA_UNO</code>.</p>
 
 <h3>2.2. Variable</h3>
 <p><b>Variables →</b> Almacenan valores que irán cambiando durante la ejecución del programa.</p>
@@ -83,6 +68,20 @@ precioFinal <- precio * (1 + <span style="color:#0033cc;">IVA</span>)
   <li>los nombres de las variables deben comenzar con una letra</li>
   <li>no pueden contener espacios ni caracteres especiales, excepto el guion bajo (_)</li>
 </ul>
+<h3>Identificadores válidos</h3>
+<p>Ejemplos:</p>
+<table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
+<tr style="background-color:#d9f2e6;">
+<th style="border:1px solid #ccc; padding:4px;">Identificador</th>
+<th style="border:1px solid #ccc; padding:4px;">¿Válido?</th>
+<th style="border:1px solid #ccc; padding:4px;">Motivo</th>
+</tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>2nombre</code></td><td style="border:1px solid #ccc; padding:4px; align:center;">❌</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>_usuario</code></td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>nombre completo</code></td><td style="border:1px solid #ccc; padding:4px;">❌</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>precio_total</code></td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;"><code>Escribir</code></td><td style="border:1px solid #ccc; padding:4px;">❌</td><td></td></tr>
+</table>
 <p><b>Sintaxis</b> para declarar una variable:</p>
 <pre>Definir nombre_variable Como tipo_de_dato</pre>
 <ul><li><b>nombre_variable:</b> Este es el nombre que se le asignará a la variable.</li>
