@@ -76,14 +76,14 @@ FINPROCESO
 
 | Instrucción | Qué hace | Comentario |
 |---|---|---|
-| `**Definir** espacioTotal, espacioUsado, espacioLibre Como Real` | Declara variables numéricas con decimales | Usar `Real` para permitir fracciones de GB (p. ej. 12.5). |
-| `**Definir** cabeISO Como Logico` | Declara variable booleana | Guarda `Verdadero` o `Falso` resultado de una comparación. |
-| `**Escribir** "Tamaño total..."` | Muestra texto en pantalla | Mensajes claros facilitan la entrada correcta de datos. |
-| `**Leer** espacioTotal` | Lee el valor introducido por el usuario | En prácticas iniciales no hacemos validación; en siguientes prácticas sí. |
+| `Definir espacioTotal, espacioUsado, espacioLibre Como Real` | Declara variables numéricas con decimales | Usar `Real` para permitir fracciones de GB (p. ej. 12.5). |
+| `Definir cabeISO Como Logico` | Declara variable booleana | Guarda `Verdadero` o `Falso` resultado de una comparación. |
+| `Escribir "Tamaño total..."` | Muestra texto en pantalla | Mensajes claros facilitan la entrada correcta de datos. |
+| `Leer espacioTotal` | Lee el valor introducido por el usuario | En prácticas iniciales no hacemos validación; en siguientes prácticas sí. |
 | `espacioLibre <- espacioTotal - espacioUsado` | Resta: cálculo del espacio disponible | Operador aritmético `-`. Marca la idea de **entrada → proceso → salida**. |
 | `cabeISO <- espacioLibre >= 4` | Comparación: ¿espacioLibre es mayor o igual que 4? | Operador relacional `>=` produce un valor lógico. Aquí **no** se toma decisión, sólo se almacena la evaluación. |
-| `**Escribir** "Espacio libre...", espacioLibre` | Muestra el resultado numérico | Permite verificar manualmente el cálculo. |
-| `**Escribir** "¿Cabe un ISO...?:", cabeISO` | Muestra `Verdadero`/`Falso` | Hace explícito el resultado de la comparación para el alumno. |
+| `Escribir "Espacio libre...", espacioLibre` | Muestra el resultado numérico | Permite verificar manualmente el cálculo. |
+| `Escribir "¿Cabe un ISO...?:", cabeISO` | Muestra `Verdadero`/`Falso` | Hace explícito el resultado de la comparación para el alumno. |
 
 ---
 
@@ -98,7 +98,8 @@ FINPROCESO
 Pedir dos números y mostrar suma, resta, multiplicación, división y módulo.
 
 **Solución:**
-```// ===== EJERCICIO 1 ===
+```
+// ===== EJERCICIO 1 ===
 PROCESO OperacionesBasicas
     DEFINIR a, b COMO REAL
 
@@ -119,7 +120,8 @@ FINPROCESO
 Pedir la nota de dos módulos y mostrar si son iguales (solo evaluación).
 
 **Solución:**
-```// ===== EJERCICIO 2 =====
+```
+// ===== EJERCICIO 2 =====
 PROCESO CompararNotas
     DEFINIR nota1, nota2 COMO REAL
     DEFINIR iguales COMO LOGICO
@@ -161,7 +163,8 @@ FINPROCESO
 Introducir usuarios en servidor A y B; mostrar si A tiene más usuarios (evaluación).
 
 **Solución:**
-```// ===== EJERCICIO 4 =====
+```
+// ===== EJERCICIO 4 =====
 PROCESO CompararUsuarios
     DEFINIR usersA, usersB COMO ENTERO
     DEFINIR AmasB COMO LOGICO
