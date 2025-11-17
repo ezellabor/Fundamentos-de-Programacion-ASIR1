@@ -66,8 +66,12 @@ precioFinal <- precio * (1 + <span style="color:#0033cc;">IVA</span>)
 | Real | Números con decimales | `3.14, -0.5, 12.0` |
 | Logico | Valores booleanos | `Verdadero`, `Falso`, `True`, `False` |
 | Cadena | Secuencia de caracteres (texto) | `"Hola"`, `"ASIR1"` |
-| Caracter | Un solo carácter | 'A', '1', '#' |
+| Caracter | Un solo carácter | `'A', '1', '#'` |
 
+>Aplicación:
+>- `Entero` y `Real` se usan para operaciones y cálculos numéricos.
+>- `Logico` se usa para almacenar el resultado de comparaciones: `capacidad > 1000`, `grupo == "ASIR1V"`
+>- `Cadena` y `Caracter` se usan para mostrar texto o recibir entradas de texto.
 ---
 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
