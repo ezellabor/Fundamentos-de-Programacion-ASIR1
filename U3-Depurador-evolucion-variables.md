@@ -30,7 +30,7 @@ Resultado de aprendizaje a trabajar:
 ## 2. Ejemplo paso a paso
 ### Paso 1 - Preparación del entorno de trabajo
 
-1. Abre **PSeInt** y asegúrate de que la vista *Panel de variables* está visible.  
+1. Abre el entorno de trabajo y asegúrate de que la vista **Panel de variables** está visible.  
    - Si no la ves, actívala en el menú: `Ver → Panel de seguimiento`.  
 2. Crea un nuevo algoritmo llamado `Depuracion_Variables`.  
 3. Copia este código inicial:
@@ -62,7 +62,7 @@ FinAlgoritmo
 
 > **Consejo:** Observa la ejecución de cada instrucción y el cambio de valores.
 
-1. Pulsa **Depurar / Paso a paso (F8)**.  
+1. Ejecuta la función **Depurar / Paso a paso (F8)**.  
 2. Observa en el panel de variables cómo aparecen las variables una a una.  
 3. Cada vez que presiones F8, avanza una línea.  
    - ¿Qué ocurre cuando ejecuta `edad <- 20`?  
@@ -109,7 +109,7 @@ IVA <- 0.18
 y ejecútala paso a paso.
 
 - Verás que depurador muestra un error: *“No se puede modificar una constante”*.  
-- Esto Se debe a que las **constantes no varían ** a lo largo del programa.
+- Esto se debe a que las **constantes no varían** a lo largo del programa.
 
 ---
 
@@ -142,10 +142,10 @@ Escribir "Ahorro mensual: ", ahorro
 
 | Concepto | Observación |
 |-----------|-------------|
-| Variable | Cambia de valor a lo largo del programa |
-| Constante | Mantiene su valor durante toda la ejecución |
-| Depurador | Permite seguir el flujo del programa paso a paso |
-| Error lógico | No interrumpe la ejecución, pero produce un resultado incorrecto |
+| Variable | **Cambia de valor** a lo largo del programa. |
+| Constante | **Mantiene su valor** durante toda la ejecución |
+| Depurador | Permite **seguir el flujo** del programa paso a paso |
+| Error lógico | **No interrumpe** la ejecución, pero produce un resultado incorrecto |
 
 <!--## Extensión (opcional)
 Guarda una captura del **panel de variables** mostrando el momento en que cambian los valores y añádela a tus apuntes. -->
