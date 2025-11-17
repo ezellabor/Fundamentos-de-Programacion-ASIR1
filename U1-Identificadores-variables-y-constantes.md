@@ -117,7 +117,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#0066cc;">5 - Autoevaluación</h2>
+<h2 style="color:#0066cc;">4 - Autoevaluación</h2>
 <ol>
 <li>Declara tres variables con tu nombre, edad y ciudad, y muéstralas.</li>
 <li>Calcula el área de un rectángulo usando constantes para la base y la altura.</li>
@@ -135,7 +135,7 @@ FinAlgoritmo
 ---
 
 <div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#009966;">4 - Buenas prácticas de programación </h2>
+<h2 style="color:#009966;">5 - Buenas prácticas de programación </h2>
  <p>Las convenciones de programación son un conjunto de <b>reglas de estilo y prácticas</b> que guían la escritura de <b>código legible, coherente y fácil de mantener.</b> Estas son las más comunes:
 </p>
 </div>
@@ -157,7 +157,7 @@ FinAlgoritmo
 <th style="border:1px solid #ccc; padding:4px;">Ejemplo</th>
 </tr>
 <tr><td style="border:1px solid #ccc; padding:4px;">Identificador</td><td style="border:1px solid #ccc; padding:4px;"><span style="font-style: italic;">Nombre de variable o constante</span></td><td style="border:1px solid #ccc; padding:4px;"><code>nombre_usuario</code>, <code>espacioLibre, espacioUsado</code></td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">Variable</td><td style="border:1px solid #ccc; padding:4px;">Valor que va cambiando en tiempo de ejecución</td><td style="border:1px solid #ccc; padding:4px;"><code>edad <- 18</code></td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;">Variable</td><td style="border:1px solid #ccc; padding:4px;">Valor que va cambiando en tiempo de ejecución</td><td style="border:1px solid #ccc; padding:4px;"><code>edad <- 18</code>, <code>contador <- contador + 1</code></td></tr>
 <tr><td style="border:1px solid #ccc; padding:4px;">Constante</td><td style="border:1px solid #ccc; padding:4px;">Valor que no cambia durante todo el programa</td><td style=" border:1px solid #ccc; padding:4px;"><code>AÑO_NACIMIENTO <- 1984</code>, <code>ESPACIO_TOTAL</code></td></tr>
 <tr><td style="border:1px solid #ccc; padding:4px;">Tipo de dato</td><td style="border:1px solid #ccc; padding:4px;">Determina el tipo de valor</td><td style="border:1px solid #ccc; padding:4px;"><code>Entero, Real, Cadena, Caracter, Lógico</code></td></tr>
 </table>
