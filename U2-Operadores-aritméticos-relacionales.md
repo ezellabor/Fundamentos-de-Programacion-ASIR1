@@ -197,7 +197,7 @@ FINPROCESO
 | Relacionales | `==` &nbsp; `<>` &nbsp; `>` &nbsp; `<` &nbsp; `>=` &nbsp; `<=` |
 | Resultado de operadores aritméticos | Devuelven **números**. |
 | Resultado de operadores relacionales | Devuelven **Verdadero/Falso**. |
-| Expresiones booleanas | Se almacenan en **variables lógicas** definidas con el **tipo Lógico.** |
+| Expresiones booleanas | Se almacenan en **variables lógicas** definidas con  **tipo Logico.** |
 
 
 ##  
