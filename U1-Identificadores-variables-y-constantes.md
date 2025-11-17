@@ -116,24 +116,6 @@ FinAlgoritmo
 
 ---
 
-
-<div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
-<h2 style="color:#009966;">4 - Buenas prácticas de programación </h2>
- <p>Las convenciones de programación son un conjunto de <b>reglas de estilo y prácticas</b> que guían la escritura de <b>código legible, coherente y fácil de mantener.</b> Estas son las más comunes:
-</p>
-</div>
- 
-- [ ] Identación de código o sangrías
-- [ ] Comentar el código 
-- [ ] Nombres estandarizados para variables y funciones
-- [ ] Usar nombres descriptivos y coherentes
-- [ ] Las constantes en mayúsculas
-
-
- ---
- 
- 
-
 <div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
 <h2 style="color:#0066cc;">5 - Autoevaluación</h2>
 <ol>
@@ -152,6 +134,20 @@ FinAlgoritmo
 
 ---
 
+<div style="background-color:#f2f2f2; padding:15px; border-radius:8px;">
+<h2 style="color:#009966;">4 - Buenas prácticas de programación </h2>
+ <p>Las convenciones de programación son un conjunto de <b>reglas de estilo y prácticas</b> que guían la escritura de <b>código legible, coherente y fácil de mantener.</b> Estas son las más comunes:
+</p>
+</div>
+ 
+- [ ] Identación de código o sangrías
+- [ ] Comentar el código 
+- [ ] Nombres estandarizados para variables y funciones
+- [ ] Usar nombres descriptivos y coherentes
+- [ ] Las constantes en mayúsculas
+
+ ---
+ 
 <div style="background-color:#d9f2e6; padding:15px; border-radius:8px;">
 <h2 style="color:#006633;"> 6 - Síntesis </h2>
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
