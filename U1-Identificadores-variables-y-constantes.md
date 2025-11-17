@@ -62,10 +62,10 @@ precioFinal <- precio * (1 + <span style="color:#0033cc;">IVA</span>)
 ### 2.4. Tipos de datos
 | Tipo de dato | Rango de valores | Ejemplo |
 |-------------|----------------|---------|
-| Entero | Números sin decimales, positivos o negativos | 5, -10, 0 |
-| Real | Números con decimales | 3.14, -0.5, 12.0 |
-| Logico | Valores booleanos | Verdadero (V), Falso (F) |
-| Cadena | Secuencia de caracteres (texto) | "Hola", "ASIR1" |
+| Entero | Números sin decimales, positivos o negativos | `5, -10, 0`|
+| Real | Números con decimales | `3.14, -0.5, 12.0` |
+| Logico | Valores booleanos | `Verdadero`, `Falso`, `True`, `False` |
+| Cadena | Secuencia de caracteres (texto) | `"Hola"`, `"ASIR1"` |
 | Caracter | Un solo carácter | 'A', '1', '#' |
 
 ---
