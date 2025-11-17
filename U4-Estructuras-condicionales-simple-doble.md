@@ -1,5 +1,5 @@
 
-# Unidad 4 - Estructuras condicionales: simple y doble  
+# Unidad Práctica 4 - Estructuras condicionales: simple y doble  
 Resultado de aprendizaje a trabajar:
 - *RA4 - Escribir y depurar código, analizando y utilizando las estructuras de control del lenguaje.*
 
