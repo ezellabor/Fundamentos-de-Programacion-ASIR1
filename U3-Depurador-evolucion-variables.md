@@ -10,42 +10,25 @@ date: 2025-11-09
 layout: "default"
 ---  -->
 
-# P2 – Depuración y exploración de código 
->Modo "paso a paso" o Debugger
----
-**Unidad:** UT1 – Identificadores, Variables y Constantes  
-**Módulo:** Fundamentos de Programación | ASIR1  
-**Profesor:** Ezequiel Llarena Borges  
+# Unidad Práctica 3 - Depurador de código: _debugger_ o modo paso a paso")
 
----
-
-## Lo que sabrás hacer al terminar esta práctica
-
-<!--### Resultados de aprendizaje-->
-<ol>
-   <li>Reconocer la ejecución secuencial de instrucciones y la evolución del estado de las variables.</li>
-      <ul >
-         <li>Usa correctamente el modo “Depurar” o “Paso a paso” de PSeInt.</li>
-         <li>Interpreta los cambios de valores en las variables durante la ejecución.</li>
-         <li>Corrige errores simples observando el comportamiento de las variables.</li>
-      </ul>
-    <li>Comprender la utilidad del depurador para analizar y corregir programas.</li>
-</ol>
+Resultado de aprendizaje a trabajar:
+- *RA4 - Escribir y depurar código, analizando y utilizando las estructuras de control del lenguaje.*
 
 
 ---
 
-## Objetivos 
-- Aprender a ejecutar un pseudocódigo en modo **paso a paso** o **Depuración** en PSeInt.  
+## 1. Objetivos
+
+- Aprender a ejecutar un pseudocódigo en modo **paso a paso** o **Depuración** de entorno de trabajo.  
 - Observar cómo cambian las variables en cada instrucción para localizar errores.   
 - Usar el depurador como herramienta para **detectar errores lógicos**.
 - Fomentar hábitos de **observación, análisis y comprobación** del código.
 
 ---
 
-## Parte 1 – Preparación del entorno
-
-> **Nota:** Esta sección sirve para preparar el entorno de trabajo.
+## 2. Ejemplo paso a paso
+### Paso 1 - Preparación del entorno de trabajo
 
 1. Abre **PSeInt** y asegúrate de que la vista *Panel de variables* está visible.  
    - Si no la ves, actívala en el menú: `Ver → Panel de seguimiento`.  
@@ -75,7 +58,7 @@ FinAlgoritmo
 
 ---
 
-## Parte 2 – Explorando el modo “Paso a paso”
+## Paso 2 – Explorando el modo “paso a paso”
 
 > **Consejo:** Observa la ejecución de cada instrucción y el cambio de valores.
 
@@ -84,21 +67,12 @@ FinAlgoritmo
 3. Cada vez que presiones F8, avanza una línea.  
    - ¿Qué ocurre cuando ejecuta `edad <- 20`?  
    - ¿Qué valor tiene `nuevoSueldo` antes y después de `nuevoSueldo <- sueldo + aumento`?
-
-**Anota tus observaciones:**
-
-```
-
-
-
-```
-
 4. Cambia el valor de `aumento` por `50` y repite la depuración.  
    - ¿Qué cambió en los resultados?
 
 ---
 
-## Parte 3 – Detectando errores con el depurador
+## Paso 3 – Detectando errores con el depurador
 
 > **Observación:** Analiza el comportamiento del programa cuando contiene un error lógico.
 
@@ -117,22 +91,13 @@ nuevoSueldo <- sueldo - aumento
 2. Ejecuta paso a paso.  
    - Observa el valor de `nuevoSueldo`.  
    - ¿Por qué el resultado no es correcto?
-
-**Reflexión:**
-
-```
-
-
-
-```
-
 3. Corrige la instrucción y vuelve a ejecutar paso a paso.
 
 ---
 
-## Parte 4 – Seguimiento de una constante
+## Paso 4 – Seguimiento de una constante
 
-> **Recordatorio:** Las constantes no cambian su valor durante la ejecución.
+> **Recordatorio:** Las constantes no cambian su valor durante la ejecución del programa.
 
 - Observa en el panel que `IVA` siempre mantiene el mismo valor.  
 - Prueba a escribir una instrucción que intente cambiarlo:
@@ -143,12 +108,12 @@ IVA <- 0.18
 
 y ejecútala paso a paso.
 
-Verás que PSeInt muestra un error: **“No se puede modificar una constante”**.  
-Esto demuestra que las **constantes no varían durante la ejecución**.
+- Verás que depurador muestra un error: *“No se puede modificar una constante”*.  
+- Esto Se debe a que las **constantes no varían ** a lo largo del programa.
 
 ---
 
-## Parte 5 – Misión final: “Detective de variables”
+## Paso 5 – Misión final: “Detective de variables”
 
 > **Misión:** Amplía el programa y analiza nuevas variables.
 
@@ -160,25 +125,20 @@ Escribir "Ahorro mensual: ", ahorro
 ```
 
 **Cuestiones propuestas:**
--- ¿En qué momento se crea la variable `ahorro`?  
--- ¿Cuál es su valor antes de ejecutar la línea anterior?  
--- ¿Qué ocurre si cambias el orden de las instrucciones?
+1. ¿En qué momento se crea la variable `ahorro`?
+2. ¿Cuál es su valor antes de ejecutar la línea anterior?
+3. ¿Qué ocurre si cambias el orden de las instrucciones?
 
-```
-
-
-
-```
 ---
 
-## Buenas prácticas
-- Usa **F8** para avanzar y **Ctrl + F8** para saltar una función completa.  
-- Observa siempre el **panel de variables** mientras depuras.  
-- Usa el **modo lento** para seguir el flujo completo.  
-- Introduce pequeños errores a propósito para practicar la detección.
+## 3. Buenas prácticas
+- [ ] Usa **F8** para avanzar y **Ctrl + F8** para saltar una función completa.  
+- [ ] Observa siempre el **panel de variables** mientras depuras.  
+- [ ] Usa el **modo lento** para seguir el flujo completo.  
+- [ ] Introduce pequeños errores a propósito para practicar la detección.
 ---
 
-## Sintesis 
+## 4. Sintesis 
 
 | Concepto | Observación |
 |-----------|-------------|
