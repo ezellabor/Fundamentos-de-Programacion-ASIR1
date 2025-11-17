@@ -12,7 +12,7 @@ layout: "default"
 
 # Unidad Práctica 3 - Depurador de código (_debugger_)
 
-Resultado de aprendizaje a trabajar:
+Resultados de aprendizaje a trabajar:
 - *RA2 - Reconocer y utilizar correctamente los entornos de desarrollo para la implementación de código.*
 - *RA4 - Escribir y depurar código, analizando y utilizando las estructuras de control del lenguaje.*
 
