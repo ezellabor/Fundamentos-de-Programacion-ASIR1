@@ -1,4 +1,4 @@
-# Unidad práctica 2 - Operadores aritméticos y relacionales
+# Unidad Práctica 2 - Operadores aritméticos y relacionales
 
 Resultado de aprendizaje a trabajar:
 - *RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..*
