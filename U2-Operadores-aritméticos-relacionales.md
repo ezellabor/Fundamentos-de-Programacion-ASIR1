@@ -20,7 +20,7 @@ Resultado de aprendizaje a trabajar:
 
 >Las expresiones o condiciones con operadores aritméticos *devuelven* un **valor numérico.**
 >
-| Operador | Significado | Ejemplo | Resultado |
+| Operador | Significado | Expresión | Resultado |
 |---|---:|---|---:|
 | `+` | Suma | `3 + 2` | `5` |
 | `-` | Resta | `10 - 6` | `4` |
@@ -34,7 +34,7 @@ Resultado de aprendizaje a trabajar:
 
 >Las expresiones o condiciones con operadores relacionales *devuelven* **`Verdadero`** o **`Falso`.**
 
-| Operador | Significado | Ejemplo y valor lógico |
+| Operador | Significado | Expresión → valor lógico |
 |---|---|---|
 | `==` | Igual que | `5 == 5 → Verdadero` |
 | `<>` | Distinto que | `4 <> 4 → Falso` |
@@ -45,7 +45,7 @@ Resultado de aprendizaje a trabajar:
 
 >**Consejo del programador:**
 >- usa `%` cuando trabajes con números enteros para obtener restos
->- evita división por cero comprobandolo con `numero <> 0`
+>- evita división por cero comprobándolo con `numero <> 0`
 
 ---
 
@@ -73,7 +73,7 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
     **Escribir** "Espacio libre (GB): ", espacioLibre
     **Escribir** "¿Cabe un ISO de 4GB?: ", cabeISO
 **FinProceso**
-```
+```pseudocode
 
 ### 3.2. El ejemplo instrucción por instrucción
 
