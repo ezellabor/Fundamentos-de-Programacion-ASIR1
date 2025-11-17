@@ -75,7 +75,7 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
 **FinProceso**
 ```
 
-### 3.2. El ejemplo instrucción por instrucción
+### 3.2. Ejemplo instrucción por instrucción
 
 | Instrucción | Qué hace | Comentario |
 |---|---|---|
@@ -97,8 +97,8 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
 >- comenta las líneas más relevantes
 >- y ejecuta pruebas con valores representativos
 
-### Ejercicio 1 — Calculadora básica
-**Enunciado:** Pedir dos números y mostrar suma, resta, multiplicación, división y módulo.
+### SP1 - Calculadora básica
+Pedir dos números y mostrar suma, resta, multiplicación, división y módulo.
 
 **Solución:**
 ```pseudocode
@@ -117,8 +117,8 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
 **FinProceso**
 ```
 
-### Ejercicio 2 — Comparación simple
-**Enunciado:** Pedir la nota de dos módulos y mostrar si son iguales (solo evaluación).
+### SP2 - Comparación simple
+Pedir la nota de dos módulos y mostrar si son iguales (solo evaluación).
 
 **Solución:**
 ```pseudocode
@@ -135,8 +135,8 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
 **FinProceso**
 ```
 
-### Ejercicio 3 — RAM libre y evaluación
-**Enunciado:** Leer RAM total y usada; calcular RAM libre y evaluar si es menor que 2 GB.
+### SP3 - RAM libre y evaluación
+Leer RAM total y usada; calcular RAM libre y evaluar si es menor que 2 GB.
 
 **Solución:**
 ```pseudocode
@@ -157,8 +157,8 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
 **FinProceso**
 ```
 
-### Ejercicio 4 — Comparar cuentas de usuarios
-**Enunciado:** Introducir usuarios en servidor A y B; mostrar si A tiene más usuarios (evaluación).
+### SP4 - Comparar cuentas de usuarios
+Introducir usuarios en servidor A y B; mostrar si A tiene más usuarios (evaluación).
 
 **Solución:**
 ```pseudocode
@@ -196,8 +196,6 @@ Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO
 | Resultado de operadores relacionales | Devuelven **Verdadero/Falso**. |
 | Uso de booleanos | Se pueden almacenar en **variables lógicas** y mostrarse como salida. |
 
-
----
 
 ##  
 _&copy; 2025 - Fundamentos de Programación - Ezequiel Llarena Borges_  
