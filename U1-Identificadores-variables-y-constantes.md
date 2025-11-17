@@ -156,9 +156,9 @@ FinAlgoritmo
 <th style="border:1px solid #ccc; padding:4px;">Descripción</th>
 <th style="border:1px solid #ccc; padding:4px;">Ejemplo</th>
 </tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">Identificador</td><td style="border:1px solid #ccc; padding:4px;"><span style="font-style: italic;">Nombre de variable o constante</span></td><td style="border:1px solid #ccc; padding:4px;"><code>nombre_usuario</code></td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;">Identificador</td><td style="border:1px solid #ccc; padding:4px;"><span style="font-style: italic;">Nombre de variable o constante</span></td><td style="border:1px solid #ccc; padding:4px;"><code>nombre_usuario</code>, <code>espacioLibre, espacioUsado</code></td></tr>
 <tr><td style="border:1px solid #ccc; padding:4px;">Variable</td><td style="border:1px solid #ccc; padding:4px;">Valor que va cambiando en tiempo de ejecución</td><td style="border:1px solid #ccc; padding:4px;"><code>edad <- 18</code></td></tr>
-<tr><td style="border:1px solid #ccc; padding:4px;">Constante</td><td style="border:1px solid #ccc; padding:4px;">Valor que no cambia durante todo el programa</td><td style=" border:1px solid #ccc; padding:4px;"><code>AÑO_NACIMIENTO <- 1984</code></td></tr>
+<tr><td style="border:1px solid #ccc; padding:4px;">Constante</td><td style="border:1px solid #ccc; padding:4px;">Valor que no cambia durante todo el programa</td><td style=" border:1px solid #ccc; padding:4px;"><code>AÑO_NACIMIENTO <- 1984</code>, <code>ESPACIO_TOTAL</code></td></tr>
 <tr><td style="border:1px solid #ccc; padding:4px;">Tipo de dato</td><td style="border:1px solid #ccc; padding:4px;">Determina el tipo de valor</td><td style="border:1px solid #ccc; padding:4px;"><code>Entero, Real, Cadena, Caracter, Lógico</code></td></tr>
 </table>
 </div>
