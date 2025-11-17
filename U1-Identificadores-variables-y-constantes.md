@@ -1,4 +1,4 @@
-# Unidad 1 | Identificadores, variables y constantes
+# Unidad Práctica 1 | Identificadores, variables y constantes
 
 Resultado de aprendizaje a trabajar:
 - *RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..*
