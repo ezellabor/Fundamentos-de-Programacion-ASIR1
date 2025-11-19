@@ -6,7 +6,7 @@ Resultados de aprendizaje a trabajar:
 
 ---
 
-# Indicaciones para el entregable entregable:
+# Indicaciones para el entregable:
 Añade el siguiente bloque de código al princio del código resultado de esta práctica como comentarios (copia y pega):
 ```// ==============================================================================================
 // Nº y título de la práctica: 01 - Estructura general de un pseudocódigo/algoritmo
