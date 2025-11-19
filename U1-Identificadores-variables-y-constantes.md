@@ -7,7 +7,7 @@ Resultados de aprendizaje a trabajar:
 ---
 
 # Indicaciones para el entregable:
-Añade el siguiente bloque de código al princio del código resultado de esta práctica como comentarios (copia y pega):
+Añade el siguiente bloque de comentarios al princio de tu código resultado de esta práctica (copia y pega):
 ```// ==============================================================================================
 // Unidad Práctica 1 - Identificadores, variables y constantes
 // Nombre del profesor: Ezequiel Llarena Borges
