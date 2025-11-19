@@ -2,30 +2,36 @@
 
 Resultados de aprendizaje a trabajar:
 - *RA2 - Reconocer y utilizar correctamente los entornos de desarrollo para la implementación de código.*
-- *RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..*
+- *RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación.*
 
 ---
 
 # Indicaciones para el entregable:
 Añade el siguiente bloque de código al princio del código resultado de esta práctica como comentarios (copia y pega):
 ```// ==============================================================================================
-// Nº y título de la práctica: 01 - Estructura general de un pseudocódigo/algoritmo
-// RA que se trabaja: RA1 - Comprender y aplicar estructuras básicas
-// Objetivos: Practicar el uso de comentarios y estructura básica de un algoritmo
+// Unidad Práctica 1 - Identificadores, variables y constantes
 // Nombre del profesor: Ezequiel Llarena Borges
 // Duración estimada: 1 hora
 // Fecha: [dd/mm/aaaa]
 // Nombre del alumno: [Nombre del alumno]
 // Grupo: ASIR1V
-
+//
+// Resultados de aprendizaje a trabajar:
+// RA2 - Reconocer y utilizar correctamente los entornos de desarrollo para la implementación de código.
+// RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..
+// Objetivos:
+//- Identificar los distintos **tipos de variables** y su utilidad.
+//- Elegir identificadores válidos y descriptivos para variables y constantes.
+//- Diferenciar entre tipos de datos: *numéricos, texto, booleanos.*
+//- Aplicar **buenas prácticas y convenciones de código** en el uso de variables y constantes.
+//
 Algoritmo Practica_01
 	// Aquí iría el código de la práctica
 	Escribir "Hola, esta es la práctica 01"
 FinAlgoritmo
 ```
 
-
-  
+---  
 
 ## 1 - Objetivos
  
