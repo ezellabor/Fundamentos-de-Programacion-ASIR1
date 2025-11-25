@@ -69,12 +69,12 @@ FinAlgoritmo
 <ul><li><b>nombre_variable:</b> Este es el nombre que se le asignará a la variable.</li>
 <li><b>tipo_de_dato:</b> Valores que la variable almacenará, como entero, real, caracter o lógico.</li></ul></pre>
 
-```Algoritmo DeclaracionDeVariables
+<pre>Algoritmo DeclaracionDeVariables
    Definir numeroEntero Como Entero
    Definir texto Como Cadena
    Definir esVerdadero Como Logico
    Definir precio Como Real
-FinAlgoritmo```
+FinAlgoritmo</pre>
 
 ---
 
