@@ -38,7 +38,6 @@ FinAlgoritmo
 
 ---
 
-<div style="background-color:#e6f2f2; padding:15px; border-radius:8px;">
 <h2 style="color:#0066cc;"> 2 - Conceptos clave</h2>
 <h3>2.1. Identificador</h3>
 <p><b>Identificadores →</b> Son los nombres que damos a variables, constantes o algoritmos.</p> 
@@ -60,14 +59,15 @@ FinAlgoritmo
 	Escribir "Valor de PI: ", PI
 	Escribir "Valor de EULER: ", EULER
 </pre>
-</div>
+
+
 
 ### 2.4. Tipo de dato
 
 <p><b>2.4.1. Sintaxis</b> para declarar una variable:</p>
 <pre>Definir nombre_variable Como tipo_de_dato</pre>
 <ul><li><b>nombre_variable:</b> Este es el nombre que se le asignará a la variable.</li>
-<li><b>tipo_de_dato:</b> Valores que la variable almacenará, como entero, real, caracter o lógico.</li></ul>
+<li><b>tipo_de_dato:</b> Valores que la variable almacenará, como entero, real, caracter o lógico.</li></ul></pre>
 <p><b>2.4.2. Ejemplos:</p>
 	
 ```
@@ -76,7 +76,8 @@ Algoritmo DeclaracionDeVariables
    Definir texto Como Cadena
    Definir esVerdadero Como Logico
    Definir precio Como Real
-FinAlgoritmo  
+FinAlgoritmo
+
 ```
 
 ---
