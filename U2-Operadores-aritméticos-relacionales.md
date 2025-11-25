@@ -94,7 +94,7 @@ FINPROCESO
 2. Comenta las líneas más relevantes
 3. Ejecuta pruebas con valores representativos
 
-### Ejercio 1 - Calculadora básica
+### Ejercicio 1 - Calculadora básica
 Pedir dos números y mostrar suma, resta, multiplicación, división y módulo.
 
 **Solución:**
