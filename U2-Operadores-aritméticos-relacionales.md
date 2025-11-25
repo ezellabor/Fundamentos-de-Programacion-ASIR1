@@ -87,19 +87,19 @@ FINPROCESO
 
 ---
 
-## 4. Supuestos prácticos (soluciones incluidas)
+## 4. Ejercicios prácticos (soluciones incluidas)
 
 **Indicaciones:**
-1 - crea un fichero .psc por cada ejercicio
-2 - comenta las líneas más relevantes
-3 - y ejecuta pruebas con valores representativos
+1. Crea un fichero .psc por cada ejercicio
+2. Comenta las líneas más relevantes
+3. Ejecuta pruebas con valores representativos
 
-### SP1 - Calculadora básica
+### Ejercio 1 - Calculadora básica
 Pedir dos números y mostrar suma, resta, multiplicación, división y módulo.
 
 **Solución:**
 ```
-// ===== EJERCICIO 1 ===
+// ===== Ejercicio 1 ===
 PROCESO OperacionesBasicas
     DEFINIR a, b COMO REAL
 
@@ -116,12 +116,12 @@ PROCESO OperacionesBasicas
 FINPROCESO
 ```
 
-### SP2 - Comparación simple
+### Ejercicio 2 - Comparación simple
 Pedir la nota de dos módulos y mostrar si son iguales (solo evaluación).
 
 **Solución:**
 ```
-// ===== EJERCICIO 2 =====
+// ===== Ejercicio 2 =====
 PROCESO CompararNotas
     DEFINIR nota1, nota2 COMO REAL
     DEFINIR iguales COMO LOGICO
@@ -136,12 +136,12 @@ PROCESO CompararNotas
 FINPROCESO
 ```
 
-### SP3 - RAM libre y evaluación
+### Ejercicio 3 - RAM libre y evaluación
 Leer RAM total y usada; calcular RAM libre y evaluar si es menor que 2 GB.
 
 **Solución:**
 ```
-// ===== EJERCICIO 3 =====
+// ===== Ejercicio 3 =====
 PROCESO RamLibre
     DEFINIR ramTotal, ramUsada, ramLibre COMO REAL
     DEFINIR menos2GB COMO LOGICO
@@ -159,12 +159,12 @@ PROCESO RamLibre
 FINPROCESO
 ```
 
-### SP4 - Comparar cuentas de usuarios
+### Ejercicio 4 - Comparar cuentas de usuarios
 Introducir usuarios en servidor A y B; mostrar si A tiene más usuarios (evaluación).
 
 **Solución:**
 ```
-// ===== EJERCICIO 4 =====
+// ===== Ejercicio 4 =====
 PROCESO CompararUsuarios
     DEFINIR usersA, usersB COMO ENTERO
     DEFINIR AmasB COMO LOGICO
@@ -195,9 +195,9 @@ FINPROCESO
 |---------|---------|
 | Aritméticos | `+` &nbsp; `-` &nbsp; `*` &nbsp; `/` &nbsp; `%` |
 | Relacionales | `==` &nbsp; `<>` &nbsp; `>` &nbsp; `<` &nbsp; `>=` &nbsp; `<=` |
-| Resultado de operadores aritméticos | Devuelven **números**. |
-| Resultado de operadores relacionales | Devuelven **Verdadero/Falso**. |
-| Expresiones booleanas | Se almacenan en **variables lógicas** definidas con  **tipo Logico.** |
+| Resultado de expresiones aritméticas | Devuelven **números**. |
+| Resultado de expresiones lógicas | Devuelven **Verdadero** o **Falso**. |
+| Expresiones booleanas | Se almacenan en **variables lógicas** definidas con tipo **Logico.** |
 
 
 ##  
