@@ -32,16 +32,16 @@ Resultados de aprendizaje a trabajar:
 
 ### 2.2 Operadores relacionales (o de comparación)
 
->Las expresiones o condiciones con operadores relacionales *devuelven* **`Verdadero`** o **`Falso`.**
+>Las expresiones o condiciones con operadores relacionales *devuelven* o dan como resultado un valor lógico **`Verdadero`** o **`Falso`.**
 
-| Operador | Significado | Expresión → valor lógico |
+| Operador | Significado | Expresión lógica | Resultado (valor lógico) |
 |---|---|---|
-| `==` | Igual que | `5 == 5 → Verdadero` |
-| `<>` | Distinto que | `4 <> 4 → Falso` |
-| `>` | Mayor que | `10 > 3 → Verdadero` |
-| `<` | Menor que | `2 < 1 → Falso` |
-| `>=` | Mayor o igual que | `5 >= 3 → Verdadero` |
-| `<=` | Menor o igual que | `3 <= 3 → Verdadero` |
+| `==` | Igual que | `5 == 5` | `Verdadero` |
+| `<>` | Distinto que | `4 <> 4` | ´Falso` |
+| `>` | Mayor que | `10 > 3` | `Verdadero` |
+| `<` | Menor que | `2 < 1` | `Falso` |
+| `>=` | Mayor o igual que | `5 >= 3` | `Verdadero` |
+| `<=` | Menor o igual que | `3 <= 3` | `Verdadero` |
 
 >**Consejo del programador:**
 >- usa `%` cuando trabajes con números enteros para obtener restos
