@@ -54,8 +54,9 @@ FinAlgoritmo
 <quote>Ejemplo:</quote>
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
    <span style="color:#cc3300;">edad</span> <- 18
-   <span style="color:#cc3300;">edad</span> <- <span style="color:#cc3300;">edad</span> + 1  // ahora <span style="color:#cc3300;">edad</span> vale 19
-  </pre>
+   // ahora <span style="color:#cc3300;">edad</span> vale 19
+   <span style="color:#cc3300;">edad</span> <- <span style="color:#cc3300;">edad</span> + 1
+</pre>
 
 <h3>2.3. Constante</h3>
 <p><b>Constantes →</b> Almacenan valores que no cambian durante todo el programa.</p>
