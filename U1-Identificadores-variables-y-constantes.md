@@ -10,15 +10,15 @@ Resultados de aprendizaje a trabajar:
 Añade el siguiente bloque de comentarios al principio de tu código de esta práctica (copia y pega):
 ```// ======================================================================================================
 // Unidad Práctica 1 - Identificadores, variables y constantes
-// Nombre del profesor: Ezequiel Llarena Borges
 // Duración estimada: 1 hora
 // Fecha: [dd/mm/aaaa]
 // Nombre del alumno: [Nombre del alumno]
 // Grupo: ASIR1V
+// Profesor: Ezequiel Llarena Borges
 //
 // Resultados de aprendizaje a trabajar:
 // RA2 - Reconocer y utilizar correctamente los entornos de desarrollo para la implementación de código.
-// RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..
+// RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación.
 //
 Algoritmo Practica_01
 	// Aquí va tu código de la práctica
