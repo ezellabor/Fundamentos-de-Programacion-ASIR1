@@ -61,8 +61,9 @@ FinAlgoritmo
 <p><b>Constantes →</b> Almacenan valores que no cambian durante todo el programa.</p>
 <quote>Ejemplo:</quote>
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
-Const <span style="color:#0033cc;">IVA</span> <- 0.21
-precioFinal <- precio * (1 + <span style="color:#0033cc;">IVA</span>)
+// Constantes predefinidas de Pseint
+	Escribir "Valor de PI: ", PI
+	Escribir "Valor de EULER: ", EULER
 </pre>
 </div>
 
