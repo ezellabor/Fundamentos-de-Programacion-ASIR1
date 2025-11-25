@@ -68,27 +68,24 @@ FinAlgoritmo
 <pre>Definir nombre_variable Como tipo_de_dato</pre>
 <ul><li><b>nombre_variable:</b> Este es el nombre que se le asignará a la variable.</li>
 <li><b>tipo_de_dato:</b> Valores que la variable almacenará, como entero, real, caracter o lógico.</li></ul></pre>
-<p><b>2.4.2. Ejemplos:</p>
-	
-```
-Algoritmo DeclaracionDeVariables
+
+```Algoritmo DeclaracionDeVariables
    Definir numeroEntero Como Entero
    Definir texto Como Cadena
    Definir esVerdadero Como Logico
    Definir precio Como Real
-FinAlgoritmo
-
-```
+FinAlgoritmo```
 
 ---
 
-| Tipo de dato | Rango de valores | Sintaxis | Ejemplos |
-|--------------|------------------|----------|---------|
-| Entero | Números sin decimales, positivos o negativos | `Definir edad Como Entero` | `5, -10, 0`|
-| Real | Números con decimales | `Definir longitud Como Real` | `3.14, -0.5, 12.0` |
-| Logico | Valores booleanos | `Definir bit Como Logico` | `Verdadero`, `Falso`, `True`, `False` |
-| Cadena | Secuencia de caracteres (texto) | `Definir letra_dni Como Caracter` | `"Hola"`, `"ASIR1"` |
-| Caracter | Un solo carácter | `Definir nombre Como Cadena` | `'A', '1', '#'` |
+| Tipo de dato | Rango de valores | Sintaxis | Ejemplos |  
+|--------------|------------------|----------|---------|   
+| Entero | Números sin decimales, positivos o negativos | `Definir edad Como Entero` | `5, -10, 0`|   
+| Real | Números con decimales | `Definir longitud Como Real` | `3.14, -0.5, 12.0` |  
+| Logico | Valores booleanos | `Definir bit Como Logico` | `Verdadero`, `Falso`, `True`, `False` |  
+| Cadena | Secuencia de caracteres (texto) | `Definir letra_dni Como Caracter` | `"Hola"`, `"ASIR1"` |  
+| Caracter | Un solo carácter | `Definir nombre Como Cadena` | `'A', '1', '#'` |  
+
 
 >Aplicación:
 >- `Entero` y `Real` se usan para operaciones y cálculos numéricos.
