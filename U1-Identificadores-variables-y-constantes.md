@@ -81,11 +81,11 @@ FinAlgoritmo
 <h2 style="color:#006633;"> 3 - Desarrollo paso a paso</h2>
 
 <h3>Paso 1: Declaración de variables</h3>
-<p>La declaración de una variable es el proceso de reservar un espacio de memoria para almacenar datos de un tipo específico.</p>
-<ul>
-  <li>los nombres de las variables deben comenzar con una letra</li>
-  <li>no pueden contener espacios ni caracteres especiales, excepto el guion bajo (_)</li>
-</ul>
+<p>La declaración de una variable es el proceso de reservar un espacio de memoria para almacenar datos de un tipo específico. Sintaxis: </p>
+<ol>
+  <li>Los nombres de las variables deben comenzar con una letra</li>
+  <li>No pueden contener espacios ni caracteres especiales, excepto el guion bajo (_)</li>
+</ol>
 <h3>Identificadores válidos</h3>
 <p>Ejemplos:</p>
 <table style="width:100%; border:1px solid #ccc; border-collapse:collapse;">
