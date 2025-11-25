@@ -19,14 +19,9 @@ Añade el siguiente bloque de comentarios al princio de tu código resultado de 
 // Resultados de aprendizaje a trabajar:
 // RA2 - Reconocer y utilizar correctamente los entornos de desarrollo para la implementación de código.
 // RA3 - Escribir y probar programas sencillos, reconociendo y aplicando los fundamentos de la programación..
-// Objetivos:
-//- Identificar los distintos **tipos de variables** y su utilidad.
-//- Elegir identificadores válidos y descriptivos para variables y constantes.
-//- Diferenciar entre tipos de datos: *numéricos, texto, booleanos.*
-//- Aplicar **buenas prácticas y convenciones de código** en el uso de variables y constantes.
 //
 Algoritmo Practica_01
-	// Aquí iría el código de la práctica
+	// Aquí va tu código de la práctica
 	Escribir "Hola, esta es la práctica 01"
 FinAlgoritmo
 ```
