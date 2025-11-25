@@ -63,6 +63,23 @@ FinAlgoritmo
 </div>
 
 ### 2.4. Tipos de datos
+
+<p><b>Sintaxis</b> para declarar una variable:</p>
+<pre>Definir nombre_variable Como tipo_de_dato</pre>
+<ul><li><b>nombre_variable:</b> Este es el nombre que se le asignará a la variable.</li>
+<li><b>tipo_de_dato:</b> El tipo de dato Valores que la variable almacenará, como entero, real, caracter o lógico.</li></ul>
+
+_Ejemplo de declaración de variables_:
+```
+Algoritmo DeclaracionDeVariables
+   Definir numeroEntero Como Entero
+   Definir texto Como Cadena
+   Definir esVerdadero Como Logico
+   Definir precio Como Real
+FinAlgoritmo
+```
+---
+
 | Tipo de dato | Rango de valores | Sintaxis | Ejemplos |
 |--------------|------------------|----------|---------|
 | Entero | Números sin decimales, positivos o negativos | `Definir edad Como Entero` | `5, -10, 0`|
@@ -100,20 +117,6 @@ FinAlgoritmo
 <tr><td style="border:1px solid #ccc; padding:4px;"><code>precio_total</code></td><td style="border:1px solid #ccc; padding:4px;">✅</td><td>...</td></tr>
 <tr><td style="border:1px solid #ccc; padding:4px;"><code>Escribir</code></td><td style="border:1px solid #ccc; padding:4px;">❌</td><td></td></tr>
 </table>
-<p><b>Sintaxis</b> para declarar una variable:</p>
-<pre>Definir nombre_variable Como tipo_de_dato</pre>
-<ul><li><b>nombre_variable:</b> Este es el nombre que se le asignará a la variable.</li>
-<li><b>tipo_de_dato:</b> El tipo de dato Valores que la variable almacenará, como entero, real, caracter o lógico.</li></ul>
-
-_Ejemplo de declaración de variables_:
-```
-Algoritmo DeclaracionDeVariables
-   Definir numeroEntero Como Entero
-   Definir texto Como Cadena
-   Definir esVerdadero Como Logico
-   Definir precio Como Real
-FinAlgoritmo
-```
 
 <h3>Paso 2: Añade una constante</h3>
 <p>Define una constante llamada <span style="color:#0033cc;">IVA</span> con valor 0.21 y calcula el precio final:</p>
