@@ -81,7 +81,7 @@ FINPROCESO
 | `Escribir "Tamaño total..."` | Muestra texto en pantalla | Mensajes claros facilitan la entrada correcta de datos. |
 | `Leer espacioTotal` | Lee el valor introducido por el usuario | En prácticas iniciales no hacemos validación; en siguientes prácticas sí. |
 | `espacioLibre <- espacioTotal - espacioUsado` | Resta: cálculo del espacio disponible | Operador aritmético `-`. Marca la idea de **entrada → proceso → salida**. |
-| `cabeISO <- espacioLibre >= 4` | Comparación: ¿espacioLibre es mayor o igual que 4? | Operador relacional `>=` produce un valor lógico. Aquí **no** se toma decisión, sólo se almacena la evaluación. |
+| `cabeISO <- espacioLibre >= 4` | Comparación: ¿espacioLibre es mayor o igual que 4? | Operador relacional `>=` produce un valor lógico. Aquí **no** se toma decisión, sólo se almacena el resultado de la expresión. |
 | `Escribir "Espacio libre...", espacioLibre` | Muestra el resultado numérico | Permite verificar manualmente el cálculo. |
 | `Escribir "¿Cabe un ISO...?:", cabeISO` | Muestra `Verdadero`/`Falso` | Hace explícito el resultado de la comparación para el alumno. |
 
