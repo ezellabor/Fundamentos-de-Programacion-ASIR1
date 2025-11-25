@@ -64,7 +64,7 @@ FinAlgoritmo
 
 ### 2.4. Tipos de datos
 | Tipo de dato | Rango de valores | Sintaxis | Ejemplo |
-|----------- --|---------  -------|----------|---------|
+|--------------|------------------|----------|---------|
 | Entero | Números sin decimales, positivos o negativos | `Definir edad Como Entero`  `5, -10, 0`|
 | Real | Números con decimales | `Definir longitud Como Real` | `3.14, -0.5, 12.0` |
 | Logico | Valores booleanos | `Definir bit Como Logico` | `Verdadero`, `Falso`, `True`, `False` |
