@@ -18,10 +18,10 @@ Resultados de aprendizaje a trabajar:
 
 ### 2.1. Operadores aritméticos
 
->Las expresiones o condiciones con operadores aritméticos *devuelven* un **valor numérico.**
+>Las expresiones con operadores aritméticos dan como resultado o *devuelven* un **valor numérico.**
 >
-| Operador | Significado | Expresión | Resultado |
-|---|---:|---|---:|
+| Operador | Significado | Expresión aritmética | Resultado |
+|---|:---|---|---:|
 | `+` | Suma | `3 + 2` | `5` |
 | `-` | Resta | `10 - 6` | `4` |
 | `*` | Multiplicación | `4 * 3` | `12` |
