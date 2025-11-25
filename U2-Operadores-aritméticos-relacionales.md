@@ -8,7 +8,7 @@ Resultados de aprendizaje a trabajar:
 ---
 
 ## 1. Objetivos
-- Utilizar adecuadamente los operadores aritméticos.  
+- Utilizar adecuadamente los operadores **aritméticos**.  
 - Usar correctamente operadores **relacionales** para comparar valores.    
 - Interpretar **expresiones booleanas** para **tomar decisiones** en un algoritmo.
 - Escribir pseudocódigo identado y con comentarios.
