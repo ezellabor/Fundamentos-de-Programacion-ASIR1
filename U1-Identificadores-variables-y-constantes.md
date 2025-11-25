@@ -40,7 +40,7 @@ FinAlgoritmo
 
 <h2 style="color:#0066cc;"> 2 - Conceptos clave</h2>
 <h3>2.1. Identificador</h3>
-<p><b>Identificadores →</b> Son los nombres que damos a variables, constantes o algoritmos.</p> 
+<p><b>Identificadores →</b> Nombre que damos a variables, constantes o algoritmos.</p> 
 <p>Ejemplos: <code>nombreUsuario</code>, <code>precioTotal</code>, <code>edad</code>, <code>IVA</code>, <code>TARIFA_UNO</code></p>
 
 <h3>2.2. Variable</h3>
