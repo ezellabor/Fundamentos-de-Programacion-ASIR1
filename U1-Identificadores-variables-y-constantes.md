@@ -63,13 +63,13 @@ FinAlgoritmo
 </div>
 
 ### 2.4. Tipos de datos
-| Tipo de dato | Rango de valores | Ejemplo |
-|-------------|----------------|---------|
-| Entero | Números sin decimales, positivos o negativos | `5, -10, 0`|
-| Real | Números con decimales | `3.14, -0.5, 12.0` |
-| Logico | Valores booleanos | `Verdadero`, `Falso`, `True`, `False` |
-| Cadena | Secuencia de caracteres (texto) | `"Hola"`, `"ASIR1"` |
-| Caracter | Un solo carácter | `'A', '1', '#'` |
+| Tipo de dato | Rango de valores | Sintaxis | Ejemplo |
+|----------- --|---------  -------|----------|---------|
+| Entero | Números sin decimales, positivos o negativos | `Definir edad Como Entero`  `5, -10, 0`|
+| Real | Números con decimales | `Definir longitud Como Real` | `3.14, -0.5, 12.0` |
+| Logico | Valores booleanos | `Definir bit Como Logico` | `Verdadero`, `Falso`, `True`, `False` |
+| Cadena | Secuencia de caracteres (texto) | `Definir letra_dni Como Caracter` | `"Hola"`, `"ASIR1"` |
+| Caracter | Un solo carácter | `Definir nombre Como Cadena` | `'A', '1', '#'` |
 
 >Aplicación:
 >- `Entero` y `Real` se usan para operaciones y cálculos numéricos.
