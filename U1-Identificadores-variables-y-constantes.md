@@ -54,8 +54,7 @@ FinAlgoritmo
 <quote>Ejemplo:</quote>
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
    <span style="color:#cc3300;">edad</span> <- 18
-   // ahora <span style="color:#cc3300;">edad</span> vale 19
-   <span style="color:#cc3300;">edad</span> <- <span style="color:#cc3300;">edad</span> + 1
+   <span style="color:#cc3300;">edad</span> <- <span style="color:#cc3300;">edad</span> + 1  // ahora <span style="color:#cc3300;">edad</span> vale 19
 </pre>
 
 <h3>2.3. Constante</h3>
@@ -109,7 +108,7 @@ FinAlgoritmo
 <p><b>Sintaxis</b> para declarar una variable:</p>
 <pre>Definir nombre_variable Como tipo_de_dato</pre>
 <ul><li><b>nombre_variable:</b> Este es el nombre que se le asignará a la variable.</li>
-<li><b>tipo_de_dato:</b> El tipo de datoValores que la variable almacenará, como entero, real, caracter o lógico.</li></ul>
+<li><b>tipo_de_dato:</b> El tipo de dato Valores que la variable almacenará, como entero, real, caracter o lógico.</li></ul>
 
 _Ejemplo de declaración de variables_:
 ```
@@ -149,7 +148,7 @@ FinAlgoritmo
 <ol>
 <li>Declara tres variables con tu nombre, edad y ciudad, y muéstralas.</li>
 <li>Calcula el área de un rectángulo usando constantes para la base y la altura.</li>
-<li>Corrige errores del siguiente algoritmo:</li>
+<li>Corrige los errores del siguiente pseudocódigo:</li>
 </ol>
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
 Algoritmo Errores
