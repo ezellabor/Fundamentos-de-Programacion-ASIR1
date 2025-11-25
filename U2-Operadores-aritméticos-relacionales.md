@@ -21,7 +21,7 @@ Resultados de aprendizaje a trabajar:
 >Las expresiones con operadores aritméticos dan como resultado o *devuelven* un **valor numérico.**
 >
 | Operador | Significado | Expresión aritmética | Resultado |
-|---|:---|---|---|---:|
+|---|:---|---|---:|
 | `+` | Suma | `3 + 2` | `5` |
 | `-` | Resta | `10 - 6` | `4` |
 | `*` | Multiplicación | `4 * 3` | `12` |
@@ -35,7 +35,7 @@ Resultados de aprendizaje a trabajar:
 >Las expresiones o condiciones con operadores relacionales *devuelven* o dan como resultado un valor lógico **`Verdadero`** o **`Falso`.**
 
 | Operador | Significado | Expresión lógica | Resultado (valor lógico) |
-|---|---|---|
+|---|---|---|---|
 | `==` | Igual que | `5 == 5` | `Verdadero` |
 | `<>` | Distinto que | `4 <> 4` | ´Falso` |
 | `>` | Mayor que | `10 > 3` | `Verdadero` |
