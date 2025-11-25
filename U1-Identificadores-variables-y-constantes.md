@@ -121,15 +121,15 @@ FinAlgoritmo</pre>
 <p>Define una constante llamada <span style="color:#0033cc;">IVA</span> con valor 0.21 y calcula el precio final:</p>
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
 Algoritmo CalculoIVA
-   Const <span style="color:#0033cc;">IVA</span> <- 0.21
-   Definir precioBase, precioFinal Como Real
-
-   precioBase <- 100
-   precioFinal <- precioBase * (1 + <span style="color:#0033cc;">IVA</span>)
-   Escribir "El precio final es: ", precioFinal
+	Definir <span style="color:#0033cc;">IVA como Real
+	Definir precioBase, precioFinal Como Real
+	IVA</span> <- 0.21
+	precioBase <- 100
+	precioFinal <- precioBase * (1 + <span style="color:#0033cc;">IVA</span>)
+	Escribir "El precio final es: ", precioFinal
 FinAlgoritmo
 </pre>
-<p>Reflexiona: ¿Por qué <span style="color:#0033cc;">IVA</span> está en mayúsculas?</p>
+<p>Cuestión: ¿Por qué <span style="color:#0033cc;">IVA</span> está en mayúsculas?</p>
 <pre>...</pre>
 
 
