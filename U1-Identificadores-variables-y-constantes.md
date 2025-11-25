@@ -111,7 +111,7 @@ Algoritmo DeclaracionDeVariables
    Definir numeroEntero Como Entero
    Definir texto Como Cadena
    Definir esVerdadero Como Logico
-   Definir pi Como Real
+   Definir precio Como Real
 FinAlgoritmo
 ```
 
