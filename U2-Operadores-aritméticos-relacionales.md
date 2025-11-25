@@ -89,10 +89,10 @@ FINPROCESO
 
 ## 4. Supuestos prácticos (soluciones incluidas)
 
->**Indicaciones generales:**
->- crea un fichero .psc por cada ejercicio
->- comenta las líneas más relevantes
->- y ejecuta pruebas con valores representativos
+**Indicaciones:**
+1 - crea un fichero .psc por cada ejercicio
+2 - comenta las líneas más relevantes
+3 - y ejecuta pruebas con valores representativos
 
 ### SP1 - Calculadora básica
 Pedir dos números y mostrar suma, resta, multiplicación, división y módulo.
