@@ -6,7 +6,7 @@ Resultados de aprendizaje a trabajar:
 
 ---
 
-# Indicaciones para el entregable:
+### Indicaciones para el entregable:
 Añade el siguiente bloque de comentarios al principio de tu código de esta práctica (copia y pega):
 ```// ======================================================================================================
 // Unidad Práctica 1 - Identificadores, variables y constantes
