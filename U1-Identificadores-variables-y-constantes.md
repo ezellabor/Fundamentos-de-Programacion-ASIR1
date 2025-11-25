@@ -116,7 +116,7 @@ FinAlgoritmo</pre>
 <tr><td style="border:1px solid #ccc; padding:4px;"><code>Escribir</code></td><td style="border:1px solid #ccc; padding:4px;">❌</td><td></td></tr>
 </table>
 
-<h3>Paso 2: Añade una constante</h3>
+<h3>Paso 2: Definir una constante</h3>
 <p>Define una constante llamada <span style="color:#0033cc;">IVA</span> con valor 0.21 y calcula el precio final:</p>
 <pre style="background-color:#ededed; padding:8px; border-radius:5px;">
 Algoritmo CalculoIVA
