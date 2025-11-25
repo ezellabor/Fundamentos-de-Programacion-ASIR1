@@ -62,14 +62,14 @@ FinAlgoritmo
 </pre>
 </div>
 
-### 2.4. Tipos de datos
+### 2.4. Tipo de dato
 
-<p><b>Sintaxis</b> para declarar una variable:</p>
+<p><b>2.4.1. Sintaxis</b> para declarar una variable:</p>
 <pre>Definir nombre_variable Como tipo_de_dato</pre>
 <ul><li><b>nombre_variable:</b> Este es el nombre que se le asignará a la variable.</li>
-<li><b>tipo_de_dato:</b> El tipo de dato Valores que la variable almacenará, como entero, real, caracter o lógico.</li></ul>
+<li><b>tipo_de_dato:</b> Valores que la variable almacenará, como entero, real, caracter o lógico.</li></ul>
 
-_Ejemplo de declaración de variables_:
+<p><b>2.4.2. Ejemplos:</p>
 ```
 Algoritmo DeclaracionDeVariables
    Definir numeroEntero Como Entero
