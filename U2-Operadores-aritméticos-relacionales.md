@@ -51,7 +51,7 @@ Resultados de aprendizaje a trabajar:
 
 ## 3. Ejemplo paso a paso 
 
-Calcular espacio libre en disco y comprobar (solo evaluación) si un archivo ISO de 4 GB cabe.
+Calcular espacio libre en disco y comprobar (solo evaluación) si podemos añadir un archivo de 4 GB.
 
 ### 3.1. Pseudocódigo
 ```
