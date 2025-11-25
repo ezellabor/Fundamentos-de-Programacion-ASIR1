@@ -76,7 +76,6 @@ FinAlgoritmo
    Definir precio Como Real
 FinAlgoritmo</pre>
 
----
 
 | Tipo de dato | Rango de valores | Sintaxis | Ejemplos |  
 |--------------|------------------|----------|---------|   
