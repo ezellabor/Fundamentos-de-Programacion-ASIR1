@@ -37,7 +37,7 @@ Resultados de aprendizaje a trabajar:
 | Operador | Significado | Expresión lógica | Resultado (valor lógico) |
 |---|---|---|---|
 | `==` | Igual que | `5 == 5` | `Verdadero` |
-| `<>` | Distinto que | `4 <> 4` | ´Falso` |
+| `<>` | Distinto que | `4 <> 4` | `Falso` |
 | `>` | Mayor que | `10 > 3` | `Verdadero` |
 | `<` | Menor que | `2 < 1` | `Falso` |
 | `>=` | Mayor o igual que | `5 >= 3` | `Verdadero` |
