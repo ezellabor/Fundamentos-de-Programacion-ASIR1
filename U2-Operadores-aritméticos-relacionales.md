@@ -184,8 +184,7 @@ FINPROCESO
 ## 5. Buenas prácticas
 - Usar nombres de variables descriptivos.  
 - Documentar los cálculos con un comentario breve.  
-- Diferenciar tipo `Real` (decimales) y `Entero` (conteos, uso de `%`).  
-- Interpretar correctamente `Verdadero`/`Falso` como resultado de una comparación.
+- Diferenciar tipo `Real` (decimales) y `Entero` (contadores, uso de `%`).
 
 ---
 
