@@ -96,8 +96,9 @@ Finalmente, todo algoritmo debe tener un punto de conclusión explícito.
 --------------------------------------------------------------------------------
 
 
-Ejemplo Visual Completo: Calcular el Área de un Rectángulo
+Ejemplo visual completo: Calcular el área de un rectángulo
 
+```
 INICIO
 
     // Bloque 2: Declaración de Variables
@@ -116,15 +117,15 @@ INICIO
     ESCRIBIR "El área del rectángulo con base ", base, " y altura ", altura, " es: ", area
 
 FIN
-
+```
 
 
 --------------------------------------------------------------------------------
 
 
-Quiz de Comprensión
+Test de comprensión
 
-Responda a las siguientes preguntas en 2-3 frases, basándose en el método descrito anteriormente.
+Responde a las siguientes preguntas en 2-3 frases, basándote en el método descrito anteriormente.
 
 1. ¿Cuál es el propósito fundamental de la estructura de control secuencial en la escritura de algoritmos?
 2. ¿Por qué es importante tener un bloque de "Declaración de Variables" separado antes del "Proceso"?
