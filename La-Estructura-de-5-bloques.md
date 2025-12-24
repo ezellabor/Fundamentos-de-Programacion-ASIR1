@@ -1,4 +1,4 @@
-# De la Idea al Código: Domina tus Primeros Algoritmos con la Estructura de 5 Bloques
+# De la idea al código: tus primeros algoritmos con **la estructura de 5 bloques**
 
 1. Introducción: El Lienzo en Blanco del Programador
 
@@ -40,22 +40,22 @@ La estructura de cinco bloques te proporciona una hoja de ruta clara y confiable
 
 ---
 
-Guía de Estudio: Método para Algoritmos de Control Secuencial
+>**Guía de Estudio:** *Método para Algoritmos de Control Secuencial*
 
-Este documento presenta un método estructurado para la creación de algoritmos y pseudocódigo que utilizan exclusivamente la estructura de control secuencial. El objetivo es proporcionar una guía clara y visual para resolver problemas sencillos, definiendo cada uno de los bloques fundamentales del programa: inicio, declaración de variables, inicialización, proceso y salida.
+Esta guía presenta un método estructurado para la creación de algoritmos y pseudocódigo que utilizan exclusivamente la estructura de control secuencial. El objetivo es proporcionar una guía clara y visual para resolver problemas sencillos, definiendo cada uno de los bloques fundamentales del programa: **inicio, declaración de variables, inicialización, proceso y salida.**
 
 El Método Secuencial Estructurado
 
-Un algoritmo con estructura de control secuencial es aquel cuyas instrucciones se ejecutan en orden, una tras otra, desde el principio hasta el final, sin saltos, bifurcaciones ni repeticiones. Este método divide el algoritmo en cinco bloques lógicos y visuales para garantizar claridad y corrección.
+Un algoritmo con estructura de control secuencial es aquel cuyas **instrucciones se ejecutan en orden, una tras otra, desde el principio hasta el final, sin saltos, bifurcaciones ni repeticiones.** Este método divide el algoritmo en **cinco bloques lógicos** y visuales para garantizar claridad y corrección.
 
-1. Bloque de Inicio
+1. Bloque de **Inicio**
 
 Toda solución algorítmica debe tener un punto de partida claramente definido. Este bloque marca el comienzo de la ejecución del programa.
 
 * Propósito: Señalar el inicio formal del algoritmo.
 * Pseudocódigo: Se representa comúnmente con la palabra INICIO.
 
-2. Bloque de Declaración de Variables
+2. Bloque de **Declaración de variables**
 
 En este bloque se definen todas las variables que se utilizarán para almacenar datos a lo largo del programa. Declarar una variable significa asignarle un nombre y, en muchos lenguajes, un tipo de dato (ej. numérico, texto).
 
@@ -63,7 +63,7 @@ En este bloque se definen todas las variables que se utilizarán para almacenar 
 * Pseudocódigo: Se suele usar la palabra DECLARAR seguida de los nombres de las variables y sus tipos.
   * Ejemplo: DECLARAR base, altura, area COMO NUMERICO
 
-3. Bloque de Inicialización (o Entrada de Datos)
+3. Bloque de **Inicialización** (o Entrada de datos)
 
 Una vez declaradas, las variables a menudo necesitan un valor inicial para poder operar con ellas. Este valor puede ser asignado directamente en el código o puede ser solicitado al usuario.
 
@@ -72,7 +72,7 @@ Una vez declaradas, las variables a menudo necesitan un valor inicial para poder
   * Ejemplo pidiendo al usuario: LEER base, LEER altura
   * Ejemplo asignando directamente: base <- 10, altura <- 5
 
-4. Bloque de Proceso
+4. Bloque de **Proceso**
 
 Este es el corazón del algoritmo. Aquí se realizan todas las operaciones, cálculos y transformaciones de datos necesarios para resolver el problema planteado, utilizando las variables declaradas e inicializadas.
 
@@ -80,7 +80,7 @@ Este es el corazón del algoritmo. Aquí se realizan todas las operaciones, cál
 * Pseudocódigo: Consiste en una o más expresiones de asignación donde se calcula un resultado y se guarda en una variable.
   * Ejemplo: area <- base * altura
 
-5. Bloque de Salida
+5. Bloque de **Salida**
 
 En el bloque final, el algoritmo presenta los resultados obtenidos al usuario. La salida debe ser clara y comprensible.
 
