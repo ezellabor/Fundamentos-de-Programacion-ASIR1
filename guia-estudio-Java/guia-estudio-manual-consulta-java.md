@@ -15,7 +15,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Primer programa: “Hola Mundo”
 1. Compilación y ejecución de programas Java
 
-[MÓDULO 2: FUNDAMENTOS DEL LENGUAJE](modulo2-fundamentos-del-lenguaje-java.md)
+[MÓDULO 2: FUNDAMENTOS DEL LENGUAJE JAVA](modulo2-fundamentos-del-lenguaje-java.md)
 
 1. Sintaxis básica y estructura de un programa
 1. Variables y tipos de datos primitivos
@@ -149,6 +149,7 @@ E. Recursos adicionales y documentación oficial
 F. Ejercicios resueltos por módulo  
 G. Proyectos prácticos integradores  
 H. Glosario de términos  
+
 
 
 
