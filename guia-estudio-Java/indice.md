@@ -1,6 +1,6 @@
 >Guía de estudio y manual de consulta de Java orientado a estudiantes de primer año del ciclo formativo ASIR (Administración de Sistemas Informáticos en Red)
 
-## ÍNDICE - GUÍA DE JAVA PARA ASIR
+## ÍNDICE - GUÍA DE JAVA
 
 **MÓDULO 1: INTRODUCCIÓN A JAVA**
 
@@ -148,6 +148,7 @@ H. Glosario de términos
 
 
 ```Este índice cubre los fundamentos necesarios para ASIR, con énfasis en las aplicaciones prácticas relacionadas con administración de sistemas. ```
+
 
 
 
