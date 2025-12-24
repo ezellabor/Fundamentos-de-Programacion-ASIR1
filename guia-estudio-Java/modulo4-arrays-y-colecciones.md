@@ -1739,7 +1739,7 @@ public class TraficoRed {
 ```
 
 -----
-
+<!--
 ## Resumen del Módulo 4
 
 Has aprendido a trabajar con estructuras de datos en Java:
@@ -1748,4 +1748,4 @@ Has aprendido a trabajar con estructuras de datos en Java:
 
 **Arrays:**
 
-
+-->
