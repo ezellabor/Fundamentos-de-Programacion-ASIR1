@@ -48,3 +48,160 @@ if (condition) {
 } else {
     // código
 }
+```
+
+
+Convenciones Específicas
+Constantes
+
+
+text
+public static final int MAX_USERS = 100;
+public static final String DEFAULT_NAME = "Unknown";
+private static final double PI = 3.1415926535;
+Enums
+Usar PascalCase para el tipo enum. Usar MAYÚSCULAS para los valores.
+
+```
+public enum Day {
+    MONDAY, TUESDAY, WEDNESDAY,
+    THURSDAY, FRIDAY, SATURDAY, SUNDAY
+}
+
+public enum Status {
+    ACTIVE, INACTIVE, PENDING, DELETED
+}
+```
+
+
+
+Colecciones
+Usar nombres plurales para colecciones. Usar nombres descriptivos para mapas.
+
+```
+List<String> employeeNames = new ArrayList<>();
+Set<Integer> userIds = new HashSet<>();
+Map<Integer, String> idToNameMap = new HashMap<>();
+```
+
+
+Booleanos
+Prefijos recomendados: is, has, can, should.
+
+```
+boolean isActive;
+boolean hasPermission;
+boolean canExecute;
+boolean shouldValidate;
+```
+
+
+Excepciones
+Nombres deben terminar con "Exception". Mensajes descriptivos en constructores.
+
+text
+public class InvalidDataException extends RuntimeException {
+    public InvalidDataException(String message) {
+        super(message);
+    }
+}
+
+public class UserNotFoundException extends Exception {
+    public UserNotFoundException(String userId) {
+        super("User with ID " + userId + " not found");
+    }
+}
+Organización de Archivos
+Orden de Declaraciones
+Comentario de copyright/licencia
+
+Declaraciones de paquete
+
+Declaraciones de import
+
+Declaración de clase
+
+Variables de clase (static)
+
+Variables de instancia
+
+Constructores
+
+Métodos
+
+Importaciones
+Importaciones específicas en lugar de wildcards. Organizar imports: estándar Java primero, luego terceros, luego propias.
+
+text
+import java.util.List;
+import java.util.ArrayList;
+import java.time.LocalDate;
+
+import org.apache.commons.lang3.StringUtils;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import com.company.project.model.User;
+import com.company.project.service.UserService;
+Comentarios
+Javadoc
+Usar para clases públicas, interfaces y métodos públicos. Incluir descripción, parámetros, valor de retorno, excepciones.
+
+text
+/**
+ * Calcula el total de la orden incluyendo impuestos.
+ * 
+ * @param subtotal el subtotal de la orden
+ * @param taxRate la tasa de impuesto aplicable
+ * @return el total con impuestos incluidos
+ * @throws IllegalArgumentException si taxRate es negativo
+ */
+public double calculateTotal(double subtotal, double taxRate) {
+    if (taxRate < 0) {
+        throw new IllegalArgumentException("Tax rate cannot be negative");
+    }
+    return subtotal * (1 + taxRate);
+}
+Comentarios Inline
+Usar solo cuando sea necesario para aclarar lógica compleja. Evitar comentarios obvios.
+
+text
+// Algoritmo de Dijkstra para encontrar el camino más corto
+for (Node node : graph.getNodes()) {
+    // Procesamiento complejo aquí
+    // No usar comentarios como: "incrementar i"
+    // Eso es obvio del código
+}
+Prácticas Recomendadas
+Principios SOLID
+Single Responsibility Principle
+
+Open/Closed Principle
+
+Liskov Substitution Principle
+
+Interface Segregation Principle
+
+Dependency Inversion Principle
+
+Clean Code
+Métodos pequeños (menos de 20 líneas)
+
+Nombres descriptivos y expresivos
+
+Evitar código duplicado
+
+Una responsabilidad por método/clase
+
+Patrones Comunes
+Usar Builder para objetos con muchos parámetros
+
+Factory Method para creación de objetos
+
+Strategy para algoritmos intercambiables
+
+Observer para notificaciones de eventos
+
+Última actualización: Diciembre 2023
+Basado en Oracle Code Conventions y Google Java Style Guide
+
+
