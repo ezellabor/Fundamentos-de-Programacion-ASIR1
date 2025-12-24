@@ -872,5 +872,880 @@ import java.util.Scanner;
 
 public class GestionIPs {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in
+        Scanner sc = new Scanner(System.in);
+        ArrayList<String> ipsActivas = new ArrayList<>();
+
+        int opcion;
+
+        do {
+            System.out.println("\n=== GESTIÓN DE IPs ACTIVAS ===");
+            System.out.println("1. Agregar IP");
+            System.out.println("2. Eliminar IP");
+            System.out.println("3. Listar IPs");
+            System.out.println("4. Buscar IP");
+            System.out.println("5. Cantidad de IPs");
+            System.out.println("0. Salir");
+            System.out.print("Opción: ");
+
+            opcion = sc.nextInt();
+            sc.nextLine(); // Consumir salto de línea
+
+            switch (opcion) {
+                case 1:
+                    System.out.print("Introduce la IP: ");
+                    String nuevaIP = sc.nextLine();
+
+                    if (!ipsActivas.contains(nuevaIP)) {
+                        ipsActivas.add(nuevaIP);
+                        System.out.println("✅ IP agregada: " + nuevaIP);
+                    } else {
+                        System.out.println("⚠️  La IP ya existe en la lista");
+                    }
+                    break;
+
+                case 2:
+                    if (ipsActivas.isEmpty()) {
+                        System.out.println("⚠️  No hay IPs en la lista");
+                    } else {
+                        System.out.print("IP a eliminar: ");
+                        String eliminarIP = sc.nextLine();
+
+                        if (ipsActivas.remove(eliminarIP)) {
+                            System.out.println("✅ IP eliminada: " + eliminarIP);
+                        } else {
+                            System.out.println("❌ IP no encontrada");
+                        }
+                    }
+                    break;
+
+                case 3:
+                    if (ipsActivas.isEmpty()) {
+                        System.out.println("⚠️  No hay IPs registradas");
+                    } else {
+                        System.out.println("\n--- IPs ACTIVAS ---");
+                        for (int i = 0; i < ipsActivas.size(); i++) {
+                            System.out.println((i + 1) + ". " + ipsActivas.get(i));
+                        }
+                    }
+                    break;
+
+                case 4:
+                    System.out.print("IP a buscar: ");
+                    String buscarIP = sc.nextLine();
+
+                    if (ipsActivas.contains(buscarIP)) {
+                        int indice = ipsActivas.indexOf(buscarIP);
+                        System.out.println("✅ IP encontrada en posición " + (indice + 1));
+                    } else {
+                        System.out.println("❌ IP no encontrada");
+                    }
+                    break;
+
+                case 5:
+                    System.out.println("📊 Total de IPs: " + ipsActivas.size());
+                    break;
+
+                case 0:
+                    System.out.println("👋 Saliendo...");
+                    break;
+
+                default:
+                    System.out.println("❌ Opción inválida");
+            }
+
+        } while (opcion != 0);
+
+        sc.close();
+    }
+}
 ```
+
+### LinkedList
+
+`LinkedList` es una implementación de lista basada en una estructura de lista doblemente enlazada.
+
+**Características:**
+
+- Tamaño dinámico
+- Inserción/eliminación rápida al inicio/final (O(1))
+- Acceso por índice más lento que ArrayList (O(n))
+- Permite duplicados
+- Puede funcionar como Queue (cola) o Stack (pila)
+
+**Cuándo usar cada una:**
+
+- **ArrayList:** Cuando accedes frecuentemente por índice y pocas inserciones/eliminaciones
+- **LinkedList:** Cuando insertas/eliminas frecuentemente al inicio/final
+
+**Declaración y operaciones:**
+
+```java
+import java.util.LinkedList;
+
+LinkedList<String> cola = new LinkedList<>();
+
+// Operaciones comunes de List
+cola.add("Tarea 1");
+cola.add("Tarea 2");
+cola.add("Tarea 3");
+
+// Operaciones específicas de LinkedList
+cola.addFirst("Tarea Urgente");  // Agregar al inicio
+cola.addLast("Tarea Final");     // Agregar al final
+
+String primera = cola.removeFirst();  // Eliminar y obtener el primero
+String ultima = cola.removeLast();    // Eliminar y obtener el último
+
+String verPrimera = cola.getFirst();  // Ver primero sin eliminar
+String verUltima = cola.getLast();    // Ver último sin eliminar
+```
+
+### Ejemplo: Cola de procesos
+
+```java
+import java.util.LinkedList;
+
+public class ColaProcesos {
+    public static void main(String[] args) {
+        LinkedList<String> colaProcesos = new LinkedList<>();
+
+        System.out.println("=== SIMULADOR DE COLA DE PROCESOS ===\n");
+
+        // Agregar procesos a la cola
+        System.out.println("--- Agregando procesos ---");
+        colaProcesos.add("backup.sh");
+        colaProcesos.add("update.sh");
+        colaProcesos.add("cleanup.sh");
+        colaProcesos.add("monitor.sh");
+
+        System.out.println("Procesos en cola: " + colaProcesos);
+        System.out.println("Total: " + colaProcesos.size());
+
+        // Procesar (FIFO - First In, First Out)
+        System.out.println("\n--- Procesando cola ---");
+
+        while (!colaProcesos.isEmpty()) {
+            String proceso = colaProcesos.removeFirst();
+            System.out.println("Ejecutando: " + proceso);
+            System.out.println("Pendientes: " + colaProcesos.size());
+
+            // Simular procesamiento
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+
+        System.out.println("\n✅ Todos los procesos completados");
+    }
+}
+```
+
+### Comparación práctica ArrayList vs LinkedList
+
+```java
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class ComparacionListas {
+    public static void main(String[] args) {
+        // Crear ambas listas
+        List<String> arrayList = new ArrayList<>();
+        List<String> linkedList = new LinkedList<>();
+
+        // Agregar elementos (similar en ambas)
+        long inicio = System.nanoTime();
+        for (int i = 0; i < 10000; i++) {
+            arrayList.add("Elemento " + i);
+        }
+        long finArrayList = System.nanoTime() - inicio;
+
+        inicio = System.nanoTime();
+        for (int i = 0; i < 10000; i++) {
+            linkedList.add("Elemento " + i);
+        }
+        long finLinkedList = System.nanoTime() - inicio;
+
+        System.out.println("=== AGREGAR 10,000 ELEMENTOS ===");
+        System.out.println("ArrayList: " + finArrayList / 1_000_000.0 + " ms");
+        System.out.println("LinkedList: " + finLinkedList / 1_000_000.0 + " ms");
+
+        // Acceso por índice (ArrayList mucho más rápido)
+        inicio = System.nanoTime();
+        for (int i = 0; i < 1000; i++) {
+            arrayList.get(5000);
+        }
+        finArrayList = System.nanoTime() - inicio;
+
+        inicio = System.nanoTime();
+        for (int i = 0; i < 1000; i++) {
+            linkedList.get(5000);
+        }
+        finLinkedList = System.nanoTime() - inicio;
+
+        System.out.println("\n=== ACCESO POR ÍNDICE (1,000 veces) ===");
+        System.out.println("ArrayList: " + finArrayList / 1_000_000.0 + " ms");
+        System.out.println("LinkedList: " + finLinkedList / 1_000_000.0 + " ms");
+    }
+}
+```
+
+## 6. HashMap y HashSet
+
+### HashMap
+
+`HashMap` almacena pares clave-valor. Cada clave es única y se asocia con un valor.
+
+**Características:**
+
+- Almacena pares clave-valor
+- Claves únicas (no permite duplicados)
+- Valores pueden duplicarse
+- Sin orden específico
+- Acceso muy rápido por clave (O(1))
+
+**Declaración:**
+
+```java
+import java.util.HashMap;
+
+// HashMap<TipoClave, TipoValor>
+HashMap<String, Integer> mapa = new HashMap<>();
+
+// Ejemplo: IP → Puerto
+HashMap<String, Integer> servidores = new HashMap<>();
+
+// Ejemplo: Usuario → Rol
+HashMap<String, String> usuarios = new HashMap<>();
+```
+
+### Operaciones básicas con HashMap
+
+```java
+import java.util.HashMap;
+
+HashMap<String, Integer> puertos = new HashMap<>();
+
+// 1. Agregar pares clave-valor
+puertos.put("HTTP", 80);
+puertos.put("HTTPS", 443);
+puertos.put("SSH", 22);
+puertos.put("FTP", 21);
+puertos.put("MySQL", 3306);
+
+System.out.println(puertos);
+// {SSH=22, FTP=21, MySQL=3306, HTTP=80, HTTPS=443}
+
+// 2. Obtener valor por clave
+int puertoHTTP = puertos.get("HTTP");
+System.out.println("Puerto HTTP: " + puertoHTTP);  // 80
+
+// 3. Verificar si existe una clave
+boolean tieneSSH = puertos.containsKey("SSH");
+System.out.println("¿Tiene SSH?: " + tieneSSH);  // true
+
+// 4. Verificar si existe un valor
+boolean tiene80 = puertos.containsValue(80);
+System.out.println("¿Tiene puerto 80?: " + tiene80);  // true
+
+// 5. Eliminar por clave
+puertos.remove("FTP");
+System.out.println(puertos);
+
+// 6. Obtener tamaño
+int cantidad = puertos.size();
+System.out.println("Cantidad de protocolos: " + cantidad);
+
+// 7. Verificar si está vacío
+boolean vacio = puertos.isEmpty();
+System.out.println("¿Vacío?: " + vacio);  // false
+
+// 8. Limpiar todo
+puertos.clear();
+```
+
+### Recorrer HashMap
+
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+HashMap<String, Integer> puertos = new HashMap<>();
+puertos.put("HTTP", 80);
+puertos.put("HTTPS", 443);
+puertos.put("SSH", 22);
+puertos.put("FTP", 21);
+
+// Forma 1: Recorrer con entrySet (clave y valor)
+System.out.println("--- Protocolo : Puerto ---");
+for (Map.Entry<String, Integer> entrada : puertos.entrySet()) {
+    System.out.println(entrada.getKey() + " : " + entrada.getValue());
+}
+
+// Forma 2: Solo las claves
+System.out.println("\n--- Solo protocolos ---");
+for (String protocolo : puertos.keySet()) {
+    System.out.println(protocolo);
+}
+
+// Forma 3: Solo los valores
+System.out.println("\n--- Solo puertos ---");
+for (Integer puerto : puertos.values()) {
+    System.out.println(puerto);
+}
+
+// Forma 4: forEach con lambda (Java 8+)
+System.out.println("\n--- Con lambda ---");
+puertos.forEach((protocolo, puerto) ->
+    System.out.println(protocolo + " → " + puerto)
+);
+```
+
+### Ejemplo práctico: Configuración de servidores
+
+```java
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class ConfiguracionServidores {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // HashMap: servidor → IP
+        HashMap<String, String> configuracion = new HashMap<>();
+
+        // Agregar configuración inicial
+        configuracion.put("web-01", "192.168.1.10");
+        configuracion.put("web-02", "192.168.1.11");
+        configuracion.put("db-01", "192.168.1.20");
+        configuracion.put("cache-01", "192.168.1.30");
+
+        int opcion;
+
+        do {
+            System.out.println("\n=== CONFIGURACIÓN DE SERVIDORES ===");
+            System.out.println("1. Ver todos los servidores");
+            System.out.println("2. Buscar IP de servidor");
+            System.out.println("3. Agregar servidor");
+            System.out.println("4. Eliminar servidor");
+            System.out.println("5. Actualizar IP");
+            System.out.println("0. Salir");
+            System.out.print("Opción: ");
+
+            opcion = sc.nextInt();
+            sc.nextLine();
+
+            switch (opcion) {
+                case 1:
+                    System.out.println("\n--- SERVIDORES CONFIGURADOS ---");
+                    if (configuracion.isEmpty()) {
+                        System.out.println("No hay servidores configurados");
+                    } else {
+                        configuracion.forEach((servidor, ip) ->
+                            System.out.printf("%-15s → %s%n", servidor, ip)
+                        );
+                        System.out.println("\nTotal: " + configuracion.size());
+                    }
+                    break;
+
+                case 2:
+                    System.out.print("Nombre del servidor: ");
+                    String buscar = sc.nextLine();
+
+                    if (configuracion.containsKey(buscar)) {
+                        System.out.println("IP: " + configuracion.get(buscar));
+                    } else {
+                        System.out.println("❌ Servidor no encontrado");
+                    }
+                    break;
+
+                case 3:
+                    System.out.print("Nombre del servidor: ");
+                    String nuevoServidor = sc.nextLine();
+
+                    if (configuracion.containsKey(nuevoServidor)) {
+                        System.out.println("⚠️  El servidor ya existe");
+                    } else {
+                        System.out.print("IP del servidor: ");
+                        String nuevaIP = sc.nextLine();
+                        configuracion.put(nuevoServidor, nuevaIP);
+                        System.out.println("✅ Servidor agregado");
+                    }
+                    break;
+
+                case 4:
+                    System.out.print("Servidor a eliminar: ");
+                    String eliminar = sc.nextLine();
+
+                    if (configuracion.remove(eliminar) != null) {
+                        System.out.println("✅ Servidor eliminado");
+                    } else {
+                        System.out.println("❌ Servidor no encontrado");
+                    }
+                    break;
+
+                case 5:
+                    System.out.print("Servidor a actualizar: ");
+                    String actualizar = sc.nextLine();
+
+                    if (configuracion.containsKey(actualizar)) {
+                        System.out.print("Nueva IP: ");
+                        String ipNueva = sc.nextLine();
+                        configuracion.put(actualizar, ipNueva);
+                        System.out.println("✅ IP actualizada");
+                    } else {
+                        System.out.println("❌ Servidor no encontrado");
+                    }
+                    break;
+
+                case 0:
+                    System.out.println("👋 Saliendo...");
+                    break;
+
+                default:
+                    System.out.println("❌ Opción inválida");
+            }
+
+        } while (opcion != 0);
+
+        sc.close();
+    }
+}
+```
+
+### HashSet
+
+`HashSet` es una colección que no permite elementos duplicados y sin orden específico.
+
+**Características:**
+
+- No permite duplicados
+- Sin orden garantizado
+- Muy rápido para agregar, eliminar y buscar
+- Basado en HashMap internamente
+
+**Declaración y operaciones:**
+
+```java
+import java.util.HashSet;
+
+HashSet<String> conjunto = new HashSet<>();
+
+// Agregar elementos
+conjunto.add("Apache");
+conjunto.add("MySQL");
+conjunto.add("SSH");
+conjunto.add("Apache");  // No se agrega (duplicado)
+
+System.out.println(conjunto);  // [SSH, Apache, MySQL] (sin duplicados)
+
+// Verificar si contiene
+boolean tiene = conjunto.contains("MySQL");
+System.out.println("¿Tiene MySQL?: " + tiene);
+
+// Eliminar
+conjunto.remove("SSH");
+
+// Tamaño
+int tamaño = conjunto.size();
+
+// Recorrer
+for (String elemento : conjunto) {
+    System.out.println(elemento);
+}
+```
+
+### Ejemplo: IPs únicas detectadas
+
+```java
+import java.util.HashSet;
+
+public class IPsUnicas {
+    public static void main(String[] args) {
+        // Simular logs con IPs repetidas
+        String[] logsIPs = {
+            "192.168.1.10",
+            "192.168.1.11",
+            "192.168.1.10",  // Duplicada
+            "10.0.0.5",
+            "192.168.1.11",  // Duplicada
+            "10.0.0.5",      // Duplicada
+            "172.16.0.20",
+            "192.168.1.10"   // Duplicada
+        };
+
+        System.out.println("=== ANÁLISIS DE IPs ===\n");
+        System.out.println("Total de conexiones: " + logsIPs.length);
+
+        // HashSet elimina automáticamente duplicados
+        HashSet<String> ipsUnicas = new HashSet<>();
+
+        for (String ip : logsIPs) {
+            ipsUnicas.add(ip);
+        }
+
+        System.out.println("IPs únicas: " + ipsUnicas.size());
+
+        System.out.println("\n--- LISTADO DE IPs ÚNICAS ---");
+        for (String ip : ipsUnicas) {
+            System.out.println("• " + ip);
+        }
+
+        // Verificar si una IP específica se conectó
+        String buscarIP = "192.168.1.10";
+        if (ipsUnicas.contains(buscarIP)) {
+            System.out.println("\n✅ La IP " + buscarIP + " se conectó al sistema");
+        }
+    }
+}
+```
+
+## 7. Recorrido de colecciones
+
+### Métodos para recorrer colecciones
+
+Ya hemos visto varios métodos, aquí un resumen completo:
+
+**1. For tradicional (solo para List con índice):**
+
+```java
+ArrayList<String> lista = new ArrayList<>();
+lista.add("A");
+lista.add("B");
+lista.add("C");
+
+for (int i = 0; i < lista.size(); i++) {
+    System.out.println(lista.get(i));
+}
+```
+
+**2. For-each (para todas las colecciones):**
+
+```java
+ArrayList<String> lista = new ArrayList<>();
+lista.add("A");
+lista.add("B");
+
+for (String elemento : lista) {
+    System.out.println(elemento);
+}
+```
+
+**3. Iterator (control manual):**
+
+```java
+import java.util.ArrayList;
+import java.util.Iterator;
+
+ArrayList<String> lista = new ArrayList<>();
+lista.add("A");
+lista.add("B");
+lista.add("C");
+
+Iterator<String> iterador = lista.iterator();
+
+while (iterador.hasNext()) {
+    String elemento = iterador.next();
+    System.out.println(elemento);
+
+    // Puedes eliminar durante la iteración
+    if (elemento.equals("B")) {
+        iterador.remove();
+    }
+}
+```
+
+**4. forEach con lambda (Java 8+):**
+
+```java
+ArrayList<String> lista = new ArrayList<>();
+lista.add("A");
+lista.add("B");
+
+lista.forEach(elemento -> System.out.println(elemento));
+
+// O con referencia a método
+lista.forEach(System.out::println);
+```
+
+### Ejemplo completo: Análisis de logs
+
+```java
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class AnalizadorLogsAvanzado {
+    public static void main(String[] args) {
+        // ArrayList: mantiene orden y permite duplicados
+        ArrayList<String> logs = new ArrayList<>();
+        logs.add("[ERROR] Conexión fallida desde 192.168.1.10");
+        logs.add("[INFO] Usuario admin login");
+        logs.add("[ERROR] Timeout en servicio web");
+        logs.add("[WARNING] Memoria al 85%");
+        logs.add("[ERROR] Conexión fallida desde 192.168.1.10");
+        logs.add("[INFO] Backup completado");
+
+        // HashMap: contar ocurrencias de cada tipo
+        HashMap<String, Integer> contador = new HashMap<>();
+
+        for (String log : logs) {
+            String tipo;
+
+            if (log.contains("[ERROR]")) {
+                tipo = "ERROR";
+            } else if (log.contains("[WARNING]")) {
+                tipo = "WARNING";
+            } else {
+                tipo = "INFO";
+            }
+
+            // Incrementar contador
+            contador.put(tipo, contador.getOrDefault(tipo, 0) + 1);
+        }
+
+        // HashSet: IPs únicas con errores
+        HashSet<String> ipsConErrores = new HashSet<>();
+
+        for (String log : logs) {
+            if (log.contains("[ERROR]") && log.contains("desde")) {
+                // Extraer IP (simplificado)
+                String[] partes = log.split("desde ");
+                if (partes.length > 1) {
+                    ipsConErrores.add(partes[1].trim());
+                }
+            }
+        }
+
+        // Mostrar resultados
+        System.out.println("=== ANÁLISIS DE LOGS ===\n");
+
+        System.out.println("--- RESUMEN POR TIPO ---");
+        contador.forEach((tipo, cantidad) ->
+            System.out.printf("%s: %d%n", tipo, cantidad)
+        );
+
+        System.out.println("\n--- IPs CON ERRORES ---");
+        if (ipsConErrores.isEmpty()) {
+            System.out.println("Ninguna");
+        } else {
+            ipsConErrores.forEach(ip -> System.out.println("• " + ip));
+        }
+
+        System.out.println("\n--- TODOS LOS LOGS ---");
+        for (int i = 0; i < logs.size(); i++) {
+            System.out.printf("%d. %s%n", i + 1, logs.get(i));
+        }
+    }
+}
+```
+
+-----
+
+## Ejercicios prácticos del Módulo 4
+
+### Ejercicio 1: Inventario de hardware
+
+```java
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class InventarioHardware {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // HashMap: componente → cantidad
+        HashMap<String, Integer> inventario = new HashMap<>();
+
+        inventario.put("Disco SSD 500GB", 15);
+        inventario.put("Memoria RAM 16GB", 25);
+        inventario.put("CPU Intel i7", 10);
+        inventario.put("Tarjeta Red Gigabit", 30);
+
+        int opcion;
+
+        do {
+            System.out.println("\n=== INVENTARIO DE HARDWARE ===");
+            System.out.println("1. Ver inventario");
+            System.out.println("2. Agregar stock");
+            System.out.println("3. Restar stock");
+            System.out.println("4. Consultar componente");
+            System.out.println("5. Componentes con stock bajo");
+            System.out.println("0. Salir");
+            System.out.print("Opción: ");
+
+            opcion = sc.nextInt();
+            sc.nextLine();
+
+            switch (opcion) {
+                case 1:
+                    System.out.println("\n--- INVENTARIO ACTUAL ---");
+                    inventario.forEach((componente, cantidad) ->
+                        System.out.printf("%-25s : %d unidades%n", componente, cantidad)
+                    );
+                    break;
+
+                case 2:
+                    System.out.print("Componente: ");
+                    String agregar = sc.nextLine();
+                    System.out.print("Cantidad a agregar: ");
+                    int cantidadAgregar = sc.nextInt();
+
+                    inventario.put(agregar,
+                        inventario.getOrDefault(agregar, 0) + cantidadAgregar);
+                    System.out.println("✅ Stock actualizado");
+                    break;
+
+                case 3:
+                    System.out.print("Componente: ");
+                    String restar = sc.nextLine();
+
+                    if (!inventario.containsKey(restar)) {
+                        System.out.println("❌ Componente no existe");
+                    } else {
+                        System.out.print("Cantidad a restar: ");
+                        int cantidadRestar = sc.nextInt();
+
+                        int stockActual = inventario.get(restar);
+
+                        if (cantidadRestar > stockActual) {
+                            System.out.println("❌ Stock insuficiente");
+                        } else {
+                            inventario.put(restar, stockActual - cantidadRestar);
+                            System.out.println("✅ Stock actualizado");
+                        }
+                    }
+                    break;
+
+                case 4:
+                    System.out.print("Componente: ");
+                    String consultar = sc.nextLine();
+
+                    if (inventario.containsKey(consultar)) {
+                        System.out.println("Stock: " + inventario.get(consultar) + " unidades");
+                    } else {
+                        System.out.println("❌ Componente no encontrado");
+                    }
+                    break;
+
+                case 5:
+                    System.out.println("\n--- STOCK BAJO (< 15 unidades) ---");
+                    boolean hayBajos = false;
+
+                    for (HashMap.Entry<String, Integer> entrada : inventario.entrySet()) {
+                        if (entrada.getValue() < 15) {
+                            System.out.printf("⚠️  %s: %d unidades%n",
+                                entrada.getKey(), entrada.getValue());
+                            hayBajos = true;
+                        }
+                    }
+
+                    if (!hayBajos) {
+                        System.out.println("✅ Todo el stock está en niveles normales");
+                    }
+                    break;
+
+                case 0:
+                    System.out.println("👋 Saliendo...");
+                    break;
+
+                default:
+                    System.out.println("❌ Opción inválida");
+            }
+
+        } while (opcion != 0);
+
+        sc.close();
+    }
+}
+```
+
+### Ejercicio 2: Análisis de tráfico de red
+
+```java
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class TraficoRed {
+    public static void main(String[] args) {
+        // Simular datos de tráfico (IP, bytes transmitidos)
+        ArrayList<String> ips = new ArrayList<>();
+        ArrayList<Integer> bytes = new ArrayList<>();
+
+        // Agregar datos de ejemplo
+        ips.add("192.168.1.10");
+        bytes.add(1024000);
+
+        ips.add("192.168.1.11");
+        bytes.add(2048000);
+
+        ips.add("192.168.1.10");  // IP repetida
+        bytes.add(512000);
+
+        ips.add("192.168.1.12");
+        bytes.add(3072000);
+
+        ips.add("192.168.1.11");  // IP repetida
+        bytes.add(1536000);
+
+        // HashMap para acumular tráfico por IP
+        HashMap<String, Long> traficoPorIP = new HashMap<>();
+
+        for (int i = 0; i < ips.size(); i++) {
+            String ip = ips.get(i);
+            long bytesActuales = bytes.get(i);
+
+            traficoPorIP.put(ip,
+                traficoPorIP.getOrDefault(ip, 0L) + bytesActuales);
+        }
+
+        System.out.println("=== ANÁLISIS DE TRÁFICO DE RED ===\n");
+
+        // Mostrar tráfico por IP
+        System.out.println("--- TRÁFICO POR IP ---");
+        long totalBytes = 0;
+
+        for (HashMap.Entry<String, Long> entrada : traficoPorIP.entrySet()) {
+            String ip = entrada.getKey();
+            long bytesIP = entrada.getValue();
+            double mb = bytesIP / 1024.0 / 1024.0;
+
+            System.out.printf("%s : %.2f MB%n", ip, mb);
+            totalBytes += bytesIP;
+        }
+
+        // Estadísticas generales
+        System.out.println("\n--- ESTADÍSTICAS GENERALES ---");
+        System.out.printf("Total transmitido: %.2f MB%n", totalBytes / 1024.0 / 1024.0);
+        System.out.println("IPs únicas: " + traficoPorIP.size());
+
+        // Encontrar IP con más tráfico
+        String ipMaxTrafico = "";
+        long maxBytes = 0;
+
+        for (HashMap.Entry<String, Long> entrada : traficoPorIP.entrySet()) {
+            if (entrada.getValue() > maxBytes) {
+                maxBytes = entrada.getValue();
+                ipMaxTrafico = entrada.getKey();
+            }
+        }
+
+        System.out.println("\n--- IP CON MÁS TRÁFICO ---");
+        System.out.printf("%s : %.2f MB%n", ipMaxTrafico, maxBytes / 1024.0 / 1024.0);
+    }
+}
+```
+
+-----
+
+## Resumen del Módulo 4
+
+Has aprendido a trabajar con estructuras de datos en Java:
+
+### Conceptos clave
+
+**Arrays:**
+
+
