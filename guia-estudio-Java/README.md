@@ -149,7 +149,9 @@ C. Herramientas de desarrollo (IDEs)
 [F. Compilador de Java online](https://www.jdoodle.com/online-java-compiler)  
 G. Ejercicios resueltos por módulo  
 H. Proyectos prácticos integradores  
-I. Glosario de términos  
+[I. Infografía](https://www.zekiland.es/fund_prog/infografia-java.html)  
+J. Glosario de términos  
+
 
 
 
