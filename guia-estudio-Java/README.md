@@ -144,11 +144,13 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 [A. Guía de referencia rápida](guia-referencia-rapida.md)  
 B. Principales clases y métodos de la API Java  
 C. Herramientas de desarrollo (IDEs)  
-[D. Convenciones de nomenclatura y estilo de código](convenciones-nomenclatura-estilo.md)  
-E. Recursos adicionales y documentación oficial  
-F. Ejercicios resueltos por módulo  
-G. Proyectos prácticos integradores  
-H. Glosario de términos  
+[D. Convenciones de nomenclatura y estilo de código](convenciones-nomenclatura-estilo.md)   
+[E. Documentación oficial de Java](https://docs.oracle.com/en/java/)  
+[F. Compilador de Java online](https://www.jdoodle.com/online-java-compiler)  
+G. Ejercicios resueltos por módulo  
+H. Proyectos prácticos integradores  
+I. Glosario de términos  
+
 
 
 
