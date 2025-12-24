@@ -21,7 +21,7 @@
 1. Entrada y salida de datos por consola
 1. Comentarios y buenas prácticas de código
 
-**MÓDULO 3: ESTRUCTURAS DE CONTROL**
+[MÓDULO 3: ESTRUCTURAS DE CONTROL](estructuras-de-control.md)
 
 1. Sentencias condicionales: if, else, else if
 1. Operador ternario
@@ -148,6 +148,7 @@ H. Glosario de términos
 
 
 ```Este índice cubre los fundamentos necesarios para ASIR, con énfasis en las aplicaciones prácticas relacionadas con administración de sistemas. ```
+
 
 
 
