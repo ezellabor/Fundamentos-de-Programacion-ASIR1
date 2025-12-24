@@ -1,6 +1,8 @@
->Guía de estudio y manual de consulta de Java orientado a estudiantes de primer año del ciclo formativo ASIR (Administración de Sistemas Informáticos en Red)
+# Guía de estudio y manual de consulta de Java
 
-## ÍNDICE - GUÍA DE JAVA
+```Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplicaciones prácticas relacionadas con administración de sistemas.```
+
+## Indice de contenidos
 
 [MÓDULO 1: INTRODUCCIÓN A JAVA](modulo1-introducción-a-java.md)
 
@@ -31,7 +33,7 @@
 1. Sentencias break y continue
 1. Estructuras anidadas
 
-**MÓDULO 4: ARRAYS Y COLECCIONES**
+[MÓDULO 4: ARRAYS Y COLECCIONES](modulo4-arrays-y-colecciones.md)
 
 1. Arrays unidimensionales
 1. Arrays multidimensionales
@@ -41,7 +43,7 @@
 1. HashMap y HashSet
 1. Recorrido de colecciones
 
-**MÓDULO 5: MÉTODOS Y FUNCIONES**
+[MÓDULO 5: MÉTODOS Y FUNCIONES](modulo5-metodos-y-funciones.md)
 
 1. Definición y declaración de métodos
 1. Parámetros y argumentos
@@ -51,7 +53,7 @@
 1. Métodos recursivos
 1. Métodos estáticos
 
-**MÓDULO 6: PROGRAMACIÓN ORIENTADA A OBJETOS (POO)**
+[MÓDULO 6: PROGRAMACIÓN ORIENTADA A OBJETOS (POO)](modulo6-poo.md)
 
 1. Conceptos fundamentales de POO
 1. Clases y objetos
@@ -137,17 +139,18 @@
 1. Herramientas de línea de comandos
 
 **ANEXOS**  
-A. Guía de referencia rápida de sintaxis  
+[A. Guía de referencia rápida](guia-referencia-rapida.md)
 B. Principales clases y métodos de la API Java  
 C. Herramientas de desarrollo (IDEs)  
-D. Convenciones de nomenclatura y estilo de código  
+[D. Convenciones de nomenclatura y estilo de código](convenciones-nomenclatura-estilo.md)  
 E. Recursos adicionales y documentación oficial  
 F. Ejercicios resueltos por módulo  
 G. Proyectos prácticos integradores  
 H. Glosario de términos  
 
 
-```Este índice cubre los fundamentos necesarios para ASIR, con énfasis en las aplicaciones prácticas relacionadas con administración de sistemas. ```
+
+
 
 
 
