@@ -85,7 +85,7 @@ Es el paquete completo para **desarrollar** aplicaciones Java. Incluye:
 
 **Cuándo lo necesitas:** Para programar en Java necesitas el JDK completo.
 
-### Esquema visual de la relación:
+### Esquema entorno de desarrollo y ejecuión Java:
 
 ```
 ┌─────────────────────────────────────┐
@@ -464,3 +464,4 @@ Has aprendido:
 - El nombre del archivo debe coincidir con el nombre de la clase pública
 
 **Próximo paso:** En el Módulo 2 profundizaremos en los fundamentos del lenguaje: variables, tipos de datos y operadores.
+
