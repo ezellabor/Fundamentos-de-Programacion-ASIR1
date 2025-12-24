@@ -136,7 +136,7 @@
 1. Manipulación de datos CSV y JSON
 1. Herramientas de línea de comandos
 
-**ANEXOS**
+**ANEXOS**  
 A. Guía de referencia rápida de sintaxis  
 B. Principales clases y métodos de la API Java  
 C. Herramientas de desarrollo (IDEs)  
@@ -148,6 +148,7 @@ H. Glosario de términos
 
 
 ```Este índice cubre los fundamentos necesarios para ASIR, con énfasis en las aplicaciones prácticas relacionadas con administración de sistemas. ```
+
 
 
 
