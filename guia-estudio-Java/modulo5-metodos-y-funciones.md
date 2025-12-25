@@ -936,3 +936,18 @@ public class BusquedaRecursiva {
     public static void main(String[] args) {
         System.out.println("=
 ```
+
+## 7. Métodos estáticos
+### ¿Qué significa static? 
+✅ Por qué main es static - Razón fundamental
+✅ Métodos estáticos vs no estáticos - Comparación completa
+✅ Reglas importantes - Qué pueden y no pueden hacer
+✅ Utilidades de métodos static - 3 casos de uso principales
+✅ Contadores y datos compartidos - Ejemplo con servidores
+✅ Factory methods - Patrón de diseño
+✅ Clase Math - Ejemplos completos con más métodos
+✅ Variables static - Cómo se comparten
+✅ Constantes static final - Buenas prácticas
+✅ Ejemplo completo - HerramientasRed ampliado con muchas funciones
+✅ Cuándo usar y cuándo no - Guía práctica
+
