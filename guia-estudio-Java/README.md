@@ -143,13 +143,14 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 **ANEXOS**  
 [A. Guía de referencia rápida](https://www.zekiland.es/fund_prog/sintaxis-java-cheatsheet.html)  
 [B. Principales clases y métodos de la API Java](https://www.zekiland.es/fund_prog/api-estandar-java.html)  
-[C. Infografía](https://www.zekiland.es/fund_prog/infografia-java.html)  
+[C. Infografía](https://www.zekiland.es/fund_prog/la-info-java.html)  
 [D. Convenciones de nomenclatura y estilo de código](https://www.zekiland.es/fund_prog/java-conventions.html)     
 [E. Documentación oficial de Java](https://docs.oracle.com/en/java/)  
 [F. Compilador de Java online](https://www.jdoodle.com/online-java-compiler)  
 G. Ejercicios resueltos por módulo  
 H. Proyectos prácticos integradores  
 I. Glosario de términos  
+
 
 
 
