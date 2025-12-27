@@ -24,17 +24,6 @@ Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permi
 [demo-agenda-de-contactos](https://www.zekiland.es/fund_prog/agenda_contactos/demo-app-agenda-contactos.html)  
 
 [codigo html](app-agenda-contactos-demo.md)
-```
-
-```
-### JavaScript  
-```
-
-```
-### CSS  
-```
-```
-
 
 -----
 
@@ -922,6 +911,7 @@ public class InterfazConsola {
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 ​​​​​​​​​​​​​​​​
+
 
 
 
