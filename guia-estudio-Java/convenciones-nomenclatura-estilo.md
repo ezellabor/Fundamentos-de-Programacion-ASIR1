@@ -203,7 +203,9 @@ for (Node node : graph.getNodes()) {
 - Strategy para algoritmos intercambiables
 - Observer para notificaciones de eventos
 
->Última actualización: Diciembre 2023
->Basado en Oracle Code Conventions y Google Java Style Guide
+>Última actualización: Diciembre 2023  
+>Basado en _Oracle Code Conventions_ y _Google Java Style Guide_
+>
+>---
 
 
