@@ -1,3 +1,5 @@
+<code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
 # MÓDULO 2: FUNDAMENTOS DEL LENGUAJE JAVA
 
 ## 1. Sintaxis básica y estructura de un programa
@@ -847,6 +849,7 @@ public class CalculadoraRecursos {
             System.out.println("⚠️  ALERTA: Uso de CPU crítico");
         }
 ```
+
 
 
 
