@@ -147,13 +147,14 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 [E. Documentación oficial de Java](https://docs.oracle.com/en/java/)  
 [F. Compilador de Java online](https://www.jdoodle.com/online-java-compiler)  
 G. Ejercicios resueltos por módulo  
-[H. Proyectos prácticos integradores](https://github.com/ezellabor/Fundamentos-de-Programacion-ASIR1/tree/main/proyecto-app-agenda-de-contactos/README.md)
+[H. Proyectos prácticos integradores](https://github.com/ezellabor/Fundamentos-de-Programacion-ASIR1/tree/main/proyecto-app-agenda-de-contactos/README.md)  
 I. Glosario de términos  
 
 
 ---
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
 
 
 
