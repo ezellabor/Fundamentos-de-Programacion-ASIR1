@@ -1,6 +1,6 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
-# Guía de estudio y manual de consulta de Java
+# Java: Guía de estudio y manual de consulta
 
 Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplicaciones prácticas relacionadas con administración de sistemas.
 
@@ -155,6 +155,7 @@ I. Glosario de términos
 ---
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
 
 
 
