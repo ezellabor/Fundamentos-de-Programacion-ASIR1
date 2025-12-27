@@ -130,7 +130,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Operaciones filter, map y reduce
 1. Method references
 
-**MÓDULO 14: APLICACIONES PRÁCTICAS PARA ASIR**
+[**MÓDULO 14: APLICACIONES PRÁCTICAS PARA ASIR**](modulo14-aplicaciones-practicas-asir.md)
 
 1. Scripts de automatización de tareas
 1. Gestión de logs del sistema
@@ -155,6 +155,7 @@ I. Glosario de términos
 ---
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
 
 
 
