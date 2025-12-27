@@ -104,7 +104,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Serialización de objetos
 1. Gestión de rutas y directorios
 
-[**MÓDULO 11: PROGRAMACIÓN CON FECHAS Y TIEMPO**](modulo11-programacion-fechas-y-tiempo.md)
+[**MÓDULO 11: PROGRAMACIÓN CON FECHAS Y TIEMPO**](modulo11-programacion-fechas-tiempo.md)
 
 1. Paquete java.time
 1. LocalDate, LocalTime y LocalDateTime
@@ -154,6 +154,7 @@ I. Glosario de términos
 ---
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
 
 
 
