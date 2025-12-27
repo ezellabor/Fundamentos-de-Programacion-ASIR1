@@ -1,3 +1,5 @@
+<code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
 # MÓDULO 3: ESTRUCTURAS DE CONTROL
 
 ## 1. Sentencias condicionales: if, else, else if
