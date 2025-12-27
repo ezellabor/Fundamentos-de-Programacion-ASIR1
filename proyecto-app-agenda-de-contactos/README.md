@@ -1,6 +1,8 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
-# Proyecto integrador: Sistema de Gestión de Agenda de Contactos
+# Proyecto integrador: Sistema de Gestión de Agenda de Contactos  
+
+Este proyecto permite al alumnado de ASIR desarrollar habilidades prácticas mientras construyen una aplicación útil, aplicando progresivamente todos los fundamentos de Java hasta culminar en un sistema orientado a objetos completo y funcional.
 
 ## Fundamentos de Programación en Java - ASIR1
 
@@ -868,8 +870,8 @@ public class InterfazConsola {
 
 - **JDK**: Java Development Kit 11 o superior
 - **IDE**: IntelliJ IDEA Community Edition (recomendado) o Eclipse
-- **Git**: Control de versiones (Opcional) 
-- **GitHub**: Repositorio del proyecto (Opcional)
+- **Git**: Control de versiones *(Opcional)*  
+- **GitHub**: Repositorio del proyecto *(Opcional)*  
 
 ### Recomendados:
 
@@ -880,6 +882,7 @@ public class InterfazConsola {
 
 ### Documentación:
 
+- [Java: Guía de estudio y manual de consulta | Ezequiel Llarena Borges](https://github.com/ezellabor/Fundamentos-de-Programacion-ASIR1/blob/main/guia-estudio-Java/README.md)
 - Oracle Java Documentation
 - Java Tutorials ([docs.oracle.com](http://docs.oracle.com))
 - Stack Overflow para consultas específicas
@@ -899,7 +902,9 @@ public class InterfazConsola {
 
 -----
 
-Este proyecto permite al alumnado de ASIR desarrollar habilidades prácticas mientras construyen una aplicación útil, aplicando progresivamente todos los fundamentos de Java hasta culminar en un sistema orientado a objetos completo y funcional.​​​​​​​​​​​​​​​​
+<code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+​​​​​​​​​​​​​​​​
+
 
 
 
