@@ -151,12 +151,12 @@ G. Ejercicios resueltos por módulo
 I. Glosario de términos  
 
 **REFERENCIAS**    
-- Oracle Code Conventions
-- Google Java Style Guide
+- Java SE Documentation  
 
 ---
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
 
 
 
