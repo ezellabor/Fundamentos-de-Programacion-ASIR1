@@ -6,7 +6,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 
 ## Indice de contenidos
 
-[MÓDULO 1: INTRODUCCIÓN A JAVA](modulo1-introducción-a-java.md)
+[**MÓDULO 1: INTRODUCCIÓN A JAVA**](modulo1-introducción-a-java.md)
 
 1. ¿Qué es Java y por qué aprenderlo?
 1. Características principales del lenguaje
@@ -15,7 +15,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Primer programa: “Hola Mundo”
 1. Compilación y ejecución de programas Java
 
-[MÓDULO 2: FUNDAMENTOS DEL LENGUAJE JAVA](modulo2-fundamentos-del-lenguaje-java.md)
+[**MÓDULO 2: FUNDAMENTOS DEL LENGUAJE JAVA**](modulo2-fundamentos-del-lenguaje-java.md)
 
 1. Sintaxis básica y estructura de un programa
 1. Variables y tipos de datos primitivos
@@ -25,7 +25,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Entrada y salida de datos por consola
 1. Comentarios y buenas prácticas de código
 
-[MÓDULO 3: ESTRUCTURAS DE CONTROL](modulo3-estructuras-de-control.md)
+[**MÓDULO 3: ESTRUCTURAS DE CONTROL**](modulo3-estructuras-de-control.md)
 
 1. Sentencias condicionales: if, else, else if
 1. Operador ternario
@@ -35,7 +35,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Sentencias break y continue
 1. Estructuras anidadas
 
-[MÓDULO 4: ARRAYS Y COLECCIONES](modulo4-arrays-y-colecciones.md)
+[**MÓDULO 4: ARRAYS Y COLECCIONES**](modulo4-arrays-y-colecciones.md)
 
 1. Arrays unidimensionales
 1. Arrays multidimensionales
@@ -45,7 +45,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. HashMap y HashSet
 1. Recorrido de colecciones
 
-[MÓDULO 5: MÉTODOS Y FUNCIONES](modulo5-metodos-y-funciones.md)
+[**MÓDULO 5: MÉTODOS Y FUNCIONES**](modulo5-metodos-y-funciones.md)
 
 1. Definición y declaración de métodos
 1. Parámetros y argumentos
@@ -55,7 +55,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Métodos recursivos
 1. Métodos estáticos
 
-[MÓDULO 6: PROGRAMACIÓN ORIENTADA A OBJETOS (POO)](modulo6-poo.md)
+[**MÓDULO 6: PROGRAMACIÓN ORIENTADA A OBJETOS (POO)**](modulo6-poo.md)
 
 1. Conceptos fundamentales de POO
 1. Clases y objetos
