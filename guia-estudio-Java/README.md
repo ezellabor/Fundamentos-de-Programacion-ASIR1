@@ -112,7 +112,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Operaciones con fechas
 1. ZonedDateTime y zonas horarias
 
-[**MÓDULO 12: COLECCIONES AVANZADAS**](modulo12-colecciones-avanzadas.md)
+[**MÓDULO 12: FRAMEWORK DE COLECCIONES**](modulo12-framework-colecciones.md)
 
 1. Framework de colecciones Java
 1. Set: TreeSet y características
@@ -154,6 +154,7 @@ I. Glosario de términos
 ---
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
 
 
 
