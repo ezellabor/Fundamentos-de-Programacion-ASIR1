@@ -657,8 +657,9 @@ Crea una clase que intente conectarse a un servidor con reintentos y manejo de d
 - Las excepciones permiten manejar errores de forma estructurada
 - try-catch-finally separa lógica de negocio del manejo de errores
 - Excepciones verificadas deben manejarse o declararse
-
-  -----
 - throw lanza excepciones, throws las declara
 - Crear excepciones personalizadas para casos específicos del dominio
 - Siempre cerrar recursos en finally o usar try-with-resources
+
+  ---
+  
