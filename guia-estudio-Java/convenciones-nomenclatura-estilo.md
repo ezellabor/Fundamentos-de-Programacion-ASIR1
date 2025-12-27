@@ -51,18 +51,21 @@ if (condition) {
 ```
 
 
-Convenciones Específicas
-Constantes
+## Convenciones Específicas
+
+### Constantes
 
 
-text
+```java  
 public static final int MAX_USERS = 100;
 public static final String DEFAULT_NAME = "Unknown";
 private static final double PI = 3.1415926535;
-Enums
+```
+
+### Enums
 Usar PascalCase para el tipo enum. Usar MAYÚSCULAS para los valores.
 
-```
+```java
 public enum Day {
     MONDAY, TUESDAY, WEDNESDAY,
     THURSDAY, FRIDAY, SATURDAY, SUNDAY
@@ -75,20 +78,21 @@ public enum Status {
 
 
 
-Colecciones
+### Colecciones
+
 Usar nombres plurales para colecciones. Usar nombres descriptivos para mapas.
 
-```
+```java
 List<String> employeeNames = new ArrayList<>();
 Set<Integer> userIds = new HashSet<>();
 Map<Integer, String> idToNameMap = new HashMap<>();
 ```
 
 
-Booleanos
+### Booleanos
 Prefijos recomendados: is, has, can, should.
 
-```
+```java
 boolean isActive;
 boolean hasPermission;
 boolean canExecute;
@@ -96,10 +100,10 @@ boolean shouldValidate;
 ```
 
 
-Excepciones
+### Excepciones
 Nombres deben terminar con "Exception". Mensajes descriptivos en constructores.
 
-text
+```java
 public class InvalidDataException extends RuntimeException {
     public InvalidDataException(String message) {
         super(message);
@@ -111,28 +115,31 @@ public class UserNotFoundException extends Exception {
         super("User with ID " + userId + " not found");
     }
 }
-Organización de Archivos
+```
+
+### Organización de Archivos  
 Orden de Declaraciones
-Comentario de copyright/licencia
 
-Declaraciones de paquete
+1. Comentario de copyright/licencia
 
-Declaraciones de import
+1. Declaraciones de paquete
 
-Declaración de clase
+1. Declaraciones de import
 
-Variables de clase (static)
+1. Declaración de clase
 
-Variables de instancia
+1. Variables de clase (static)
 
-Constructores
+1. Variables de instancia
 
-Métodos
+1. Constructores
 
-Importaciones
+## Métodos
+
+### Importaciones
 Importaciones específicas en lugar de wildcards. Organizar imports: estándar Java primero, luego terceros, luego propias.
 
-text
+```java
 import java.util.List;
 import java.util.ArrayList;
 import java.time.LocalDate;
@@ -142,11 +149,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import com.company.project.model.User;
 import com.company.project.service.UserService;
-Comentarios
+```  
+### Comentarios
 Javadoc
 Usar para clases públicas, interfaces y métodos públicos. Incluir descripción, parámetros, valor de retorno, excepciones.
 
-text
+```java
 /**
  * Calcula el total de la orden incluyendo impuestos.
  * 
@@ -161,47 +169,41 @@ public double calculateTotal(double subtotal, double taxRate) {
     }
     return subtotal * (1 + taxRate);
 }
-Comentarios Inline
+```  
+### Comentarios Inline
 Usar solo cuando sea necesario para aclarar lógica compleja. Evitar comentarios obvios.
 
-text
+```java
 // Algoritmo de Dijkstra para encontrar el camino más corto
 for (Node node : graph.getNodes()) {
     // Procesamiento complejo aquí
     // No usar comentarios como: "incrementar i"
     // Eso es obvio del código
 }
-Prácticas Recomendadas
-Principios SOLID
-Single Responsibility Principle
+```
 
-Open/Closed Principle
+## Prácticas Recomendadas
 
-Liskov Substitution Principle
+### Principios SOLID
+- Single Responsibility Principle
+- Open/Closed Principle
+- Liskov Substitution Principle
+- Interface Segregation Principle
+- Dependency Inversion Principle
 
-Interface Segregation Principle
+### Clean Code
+- Métodos pequeños (menos de 20 líneas)
+- Nombres descriptivos y expresivos
+- Evitar código duplicado
+- Una responsabilidad por método/clase
 
-Dependency Inversion Principle
+### Patrones Comunes
+- Usar Builder para objetos con muchos parámetros
+- Factory Method para creación de objetos
+- Strategy para algoritmos intercambiables
+- Observer para notificaciones de eventos
 
-Clean Code
-Métodos pequeños (menos de 20 líneas)
-
-Nombres descriptivos y expresivos
-
-Evitar código duplicado
-
-Una responsabilidad por método/clase
-
-Patrones Comunes
-Usar Builder para objetos con muchos parámetros
-
-Factory Method para creación de objetos
-
-Strategy para algoritmos intercambiables
-
-Observer para notificaciones de eventos
-
-Última actualización: Diciembre 2023
-Basado en Oracle Code Conventions y Google Java Style Guide
+>Última actualización: Diciembre 2023
+>Basado en Oracle Code Conventions y Google Java Style Guide
 
 
