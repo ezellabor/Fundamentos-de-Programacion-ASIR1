@@ -847,7 +847,7 @@ public class InterfazConsola {
 
 -----
 
-## **Calendario Sugerido** (18 semanas)
+## **Calendario estimado** (18 semanas)
 
 |Semana|Práctica  |Contenido                       |
 |------|----------|--------------------------------|
@@ -900,6 +900,7 @@ public class InterfazConsola {
 -----
 
 Este proyecto permite al alumnado de ASIR desarrollar habilidades prácticas mientras construyen una aplicación útil, aplicando progresivamente todos los fundamentos de Java hasta culminar en un sistema orientado a objetos completo y funcional.​​​​​​​​​​​​​​​​
+
 
 
 
