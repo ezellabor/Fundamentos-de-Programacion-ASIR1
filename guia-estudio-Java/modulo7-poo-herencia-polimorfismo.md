@@ -511,12 +511,15 @@ Crea una interfaz Servicio y implementa diferentes servicios de Linux (Apache, M
 
 -----
 
-**Conceptos clave del módulo:**
+## **Conceptos clave del módulo**
 
-- Herencia permite reutilizar código mediante relaciones padre-hijo
-- super accede a elementos de la clase padre
-- Sobrescritura permite especializar comportamiento
-- Polimorfismo permite tratar objetos de forma genérica
-- Clases abstractas definen plantillas con implementación parcial
-- Interfaces definen contratos sin implementación
-- Object es la clase base de todas las clases en Java
+- **Herencia** permite reutilizar código mediante relaciones padre-hijo
+- **super** accede a elementos de la clase padre
+-**Sobrescritura** permite especializar comportamiento
+- **Polimorfismo** permite tratar objetos de forma genérica
+- **Clases abstractas** definen plantillas con implementación parcial
+- **Interfaces** definen contratos sin implementación
+- **Object** es la clase base de todas las clases en Java
+
+  ---
+  
