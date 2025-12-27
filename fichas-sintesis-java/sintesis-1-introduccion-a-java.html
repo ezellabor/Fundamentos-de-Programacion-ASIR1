@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1. Introducción a Java</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #f5f7fa 0%, #e8eef3 100%);
+        padding: 20px;
+        line-height: 1.5;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: white;
+        padding: 35px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+        color: #2c3e50;
+        font-size: 1.8em;
+        margin-bottom: 8px;
+        border-bottom: 3px solid #6c9bd1;
+        padding-bottom: 8px;
+    }
+
+    .subtitle {
+        color: #7f8c8d;
+        font-size: 0.85em;
+        margin-bottom: 25px;
+        font-style: italic;
+    }
+
+    .section {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        color: #6c9bd1;
+        font-size: 1.1em;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+    }
+
+    h2::before {
+        content: "▸";
+        margin-right: 6px;
+        color: #95b8d1;
+    }
+
+    .grid-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        margin-top: 10px;
+    }
+
+    .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        margin-top: 10px;
+    }
+
+    .box {
+        background: #f8fafb;
+        padding: 12px;
+        border-radius: 8px;
+        border-left: 3px solid #6c9bd1;
+    }
+
+    .box h3 {
+        color: #2c3e50;
+        font-size: 0.9em;
+        margin-bottom: 6px;
+        font-weight: 600;
+    }
+
+    .box p {
+        color: #5a6c7d;
+        font-size: 0.8em;
+        line-height: 1.4;
+    }
+
+    .code-block {
+        background: #2c3e50;
+        color: #ecf0f1;
+        padding: 12px;
+        border-radius: 6px;
+        font-family: 'Courier New', monospace;
+        font-size: 0.75em;
+        overflow-x: auto;
+        margin: 10px 0;
+    }
+
+    .highlight {
+        color: #e74c3c;
+    }
+
+    .comment {
+        color: #95a5a6;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 10px 0;
+        font-size: 0.85em;
+    }
+
+    th {
+        background: #6c9bd1;
+        color: white;
+        padding: 8px;
+        text-align: left;
+        font-weight: 600;
+    }
+
+    td {
+        padding: 8px;
+        border-bottom: 1px solid #ecf0f1;
+        color: #5a6c7d;
+    }
+
+    tr:nth-child(even) {
+        background: #f8fafb;
+    }
+
+    .diagram {
+        background: #f8fafb;
+        padding: 15px;
+        border-radius: 8px;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .flow {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 10px 0;
+    }
+
+    .flow-item {
+        background: #6c9bd1;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 6px;
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+
+    .arrow {
+        color: #95b8d1;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .key-points {
+        background: #e8f4f8;
+        padding: 12px;
+        border-radius: 8px;
+        border-left: 4px solid #6c9bd1;
+    }
+
+    .key-points ul {
+        margin-left: 20px;
+        color: #2c3e50;
+        font-size: 0.85em;
+    }
+
+    .key-points li {
+        margin: 5px 0;
+    }
+</style>
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>1. Introducción a Java</h1>
+        <p class="subtitle">JDK, JRE, JVM, compilación y primer programa en Java</p>
+
+    <div class="section">
+        <h2>¿Qué es Java?</h2>
+        <p style="color: #5a6c7d; font-size: 0.9em; margin-bottom: 10px;">
+            Lenguaje de programación orientado a objetos, multiplataforma y de alto nivel.
+        </p>
+
+        <div class="grid-3">
+            <div class="box">
+                <h3>✓ Multiplataforma</h3>
+                <p>Escribe una vez, ejecuta en cualquier lugar (WORA)</p>
+            </div>
+            <div class="box">
+                <h3>✓ Orientado a Objetos</h3>
+                <p>Código organizado en clases y objetos reutilizables</p>
+            </div>
+            <div class="box">
+                <h3>✓ Robusto y Seguro</h3>
+                <p>Gestión automática de memoria y manejo de errores</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Características Principales</h2>
+        <table>
+            <tr>
+                <th>Característica</th>
+                <th>Descripción</th>
+                <th>Beneficio para ASIR</th>
+            </tr>
+            <tr>
+                <td><strong>Portabilidad</strong></td>
+                <td>Funciona en Windows, Linux, macOS</td>
+                <td>Scripts multiplataforma</td>
+            </tr>
+            <tr>
+                <td><strong>POO</strong></td>
+                <td>Programación Orientada a Objetos</td>
+                <td>Código modular y mantenible</td>
+            </tr>
+            <tr>
+                <td><strong>Bibliotecas</strong></td>
+                <td>Amplia API estándar</td>
+                <td>Gestión de archivos, redes, BD</td>
+            </tr>
+            <tr>
+                <td><strong>Multihilo</strong></td>
+                <td>Ejecución concurrente</td>
+                <td>Automatización de tareas paralelas</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>JDK, JRE y JVM: Conceptos Clave</h2>
+        <div class="diagram">
+            <div class="flow">
+                <div class="flow-item">JDK<br><small>Java Development Kit</small></div>
+                <span class="arrow">⊃</span>
+                <div class="flow-item">JRE<br><small>Java Runtime Environment</small></div>
+                <span class="arrow">⊃</span>
+                <div class="flow-item">JVM<br><small>Java Virtual Machine</small></div>
+            </div>
+        </div>
+
+        <div class="grid-3" style="margin-top: 15px;">
+            <div class="box">
+                <h3>JDK</h3>
+                <p><strong>Para desarrollar</strong><br>Compilador (javac), debugger, herramientas</p>
+            </div>
+            <div class="box">
+                <h3>JRE</h3>
+                <p><strong>Para ejecutar</strong><br>JVM + bibliotecas estándar</p>
+            </div>
+            <div class="box">
+                <h3>JVM</h3>
+                <p><strong>Máquina virtual</strong><br>Ejecuta bytecode Java</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Primer Programa: "Hola Mundo"</h2>
+        <div class="code-block">
+```
+
+<span class="comment">// HolaMundo.java</span>
+<span class="highlight">public class</span> HolaMundo {
+<span class="highlight">public static void</span> main(String[] args) {
+System.out.println(<span style="color: #e67e22;">”¡Hola Mundo!”</span>);
+}
+}
+</div>
+</div>
+
+    <div class="section">
+        <h2>Compilación y Ejecución</h2>
+        <div class="diagram">
+            <div class="flow">
+                <div class="flow-item">Código fuente<br>.java</div>
+                <span class="arrow">→</span>
+                <div class="flow-item" style="background: #e74c3c;">javac<br>(compilar)</div>
+                <span class="arrow">→</span>
+                <div class="flow-item">Bytecode<br>.class</div>
+                <span class="arrow">→</span>
+                <div class="flow-item" style="background: #e74c3c;">java<br>(ejecutar)</div>
+                <span class="arrow">→</span>
+                <div class="flow-item">Salida</div>
+            </div>
+        </div>
+
+        <div class="code-block" style="margin-top: 15px;">
+
+<span class="comment"># Compilar</span>
+$ javac HolaMundo.java
+
+<span class="comment"># Ejecutar</span>
+$ java HolaMundo
+¡Hola Mundo!
+</div>
+</div>
+
+    <div class="section">
+        <h2>Instalación del Entorno</h2>
+        <div class="grid-2">
+            <div class="box">
+                <h3>1. Instalar JDK</h3>
+                <p><strong>Linux:</strong> sudo apt install openjdk-17-jdk<br>
+                <strong>Windows:</strong> Descargar de Oracle/OpenJDK</p>
+            </div>
+            <div class="box">
+                <h3>2. Verificar Instalación</h3>
+                <p>java --version<br>javac --version</p>
+            </div>
+            <div class="box">
+                <h3>3. Configurar PATH</h3>
+                <p>Agregar directorio bin del JDK a la variable PATH del sistema</p>
+            </div>
+            <div class="box">
+                <h3>4. IDE (opcional)</h3>
+                <p>Eclipse, IntelliJ IDEA, VS Code con extensiones Java</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="key-points">
+            <h2 style="margin-bottom: 8px;">Conceptos Clave</h2>
+            <ul>
+                <li>Java es <strong>multiplataforma</strong> gracias a la JVM</li>
+                <li>El código fuente (.java) se compila a bytecode (.class)</li>
+                <li><strong>JDK</strong> para desarrollar, <strong>JRE</strong> para ejecutar</li>
+                <li>Todo programa Java comienza en el método <code>main()</code></li>
+                <li>Ideal para scripts de administración de sistemas</li>
+            </ul>
+        </div>
+    </div>
+
+    <div style="margin-top: 30px; padding-top: 15px; border-top: 2px solid #e8eef3; text-align: center; color: #95a5a6; font-size: 0.85em;">
+        Fundamentos de programación | Ezequiel Llarena Borges
+    </div>
+</div>
+
+</body>
+</html>
