@@ -1,7 +1,7 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
 
-# MÓDULO 12: COLECCIONES AVANZADAS
+# MÓDULO 12: FRAMEWORK DE COLECCIONES
 
 ## 1. Framework de colecciones Java
 
@@ -764,10 +764,10 @@ Crea un gestor de tareas con PriorityQueue basado en urgencia y fecha límite.
 
 ## **Conceptos clave del módulo:**
 
-- Set no permite duplicados, TreeSet mantiene orden natural
-- Map asocia claves con valores, TreeMap ordena por claves
-- Queue/Deque para procesamiento FIFO/LIFO
-- PriorityQueue ordena elementos automáticamente
-- Comparable define orden natural, Comparator permite órdenes personalizados
-- Collections.sort() ordena listas
+- *Set* no permite duplicados, TreeSet mantiene orden natural
+- *Map* asocia claves con valores, TreeMap ordena por claves
+- *Queue/Deque* para procesamiento FIFO/LIFO
+- *PriorityQueue* ordena elementos automáticamente
+- *Comparable* define orden natural, Comparator permite órdenes personalizados
+- *Collections.sort()* ordena listas
 - Elegir la colección adecuada mejora el rendimiento
