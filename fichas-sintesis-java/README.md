@@ -8,7 +8,7 @@
 [6. Programación Orientada a Objetos (POO)](https://www.zekiland.es/fund_prog/fichas-sintesis-java/sintesis-6-programacion-orientada-objetos-poo.html)  
 [7. POO: Herencia y Polimorfismo](https://www.zekiland.es/fund_prog/fichas-sintesis-java/sintesis-7-poo-herencia-y-polimorfismo.html)  
 [8. Manejo de cadenas](https://www.zekiland.es/fund_prog/fichas-sintesis-java/sintesis-8-manejo-de-cadenas.html)  
-[9. Gestión de Excepciones](https://www.zekiland.es/fund_prog/fichas-sintesis-java/sintesis-9-manejo-de-excepciones.html)  
+[9. Gestión de Excepciones](https://www.zekiland.es/fund_prog/fichas-sintesis-java/sintesis-9-gestion-de-excepciones.html)  
 [10. API de Entrada/Salida](https://www.zekiland.es/fund_prog/fichas-sintesis-java/sintesis-10-api-entrada-salida.html)  
 [11. API de Fecha y Tiempo](https://www.zekiland.es/fund_prog/fichas-sintesis-java/sintesis-11-api-fecha-y-tiempo.html)  
 [12. Framework de Colecciones](https://www.zekiland.es/fund_prog/fichas-sintesis-java/sintesis-12-framework-colecciones.html)  
