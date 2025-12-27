@@ -66,7 +66,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. La palabra clave ‘this’
 1. Métodos y variables estáticas
 
-[**MÓDULO 7: POO - HERENCIA Y POLIMORFISMO**](modulo7-herencia-polimorfismo.md)
+[**MÓDULO 7: POO - HERENCIA Y POLIMORFISMO**](modulo7-poo-herencia-polimorfismo.md)
 1. Herencia: concepto y sintaxis
 1. La palabra clave ‘super’
 1. Sobrescritura de métodos
@@ -154,6 +154,7 @@ I. Glosario de términos
 ---
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
 
 
 
