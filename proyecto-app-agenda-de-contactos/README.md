@@ -20,7 +20,7 @@ Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permi
 
 ## **PRÁCTICA 1: Introducción a Java y Estructura Básica**
 
-**Tema:** Sintaxis básica, variables, tipos de datos y entrada/salida
+**Conceptos:** Sintaxis básica, variables, tipos de datos y entrada/salida
 
 ### Objetivos:
 
@@ -54,7 +54,7 @@ Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permi
 
 ## **PRÁCTICA 2: Operadores y Expresiones**
 
-**Tema:** Operadores aritméticos, lógicos, relacionales y de asignación
+**Conceptos:** Operadores aritméticos, lógicos, relacionales y de asignación
 
 ### Objetivos:
 
@@ -89,7 +89,7 @@ Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permi
 
 ## **PRÁCTICA 3: Estructuras de Control (Condicionales)**
 
-**Tema:** if, if-else, if-else-if, switch, operador ternario
+**Conceptos:** if, if-else, if-else-if, switch, operador ternario
 
 ### Objetivos:
 
@@ -142,7 +142,7 @@ Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permi
 
 ## **PRÁCTICA 4: Estructuras de Control (Bucles)**
 
-**Tema:** for, while, do-while, break, continue
+**Conceptos:** for, while, do-while, break, continue
 
 ### Objetivos:
 
@@ -182,7 +182,7 @@ Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permi
 
 ## **PRÁCTICA 5: Arrays y Estructuras de Datos**
 
-**Tema:** Arrays unidimensionales y bidimensionales
+**Conceptos:** Arrays unidimensionales y bidimensionales
 
 ### Objetivos:
 
@@ -231,7 +231,7 @@ Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permi
 
 ## **PRÁCTICA 6: Métodos y Modularización**
 
-**Tema:** Definición de métodos, parámetros, retorno de valores, sobrecarga, ámbito de variables
+**Conceptos:** Definición de métodos, parámetros, retorno de valores, sobrecarga, ámbito de variables
 
 ### Objetivos:
 
@@ -318,7 +318,7 @@ Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permi
 
 ## **PRÁCTICA 7: Programación Orientada a Objetos (Clases y Objetos)**
 
-**Tema:** Clases, objetos, atributos, métodos, constructores, encapsulación, this
+**Conceptos:** Clases, objetos, atributos, métodos, constructores, encapsulación, this
 
 ### Objetivos:
 
@@ -477,7 +477,7 @@ Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permi
 
 ## **PRÁCTICA 8: Proyecto Final Integrado**
 
-**Tema:** Integración completa + Strings avanzados, manejo de excepciones y persistencia básica
+**Conceptos:** Integración completa + Strings avanzados, manejo de excepciones y persistencia básica
 
 ### Objetivos:
 
@@ -900,4 +900,5 @@ public class InterfazConsola {
 -----
 
 Este proyecto permite al alumnado de ASIR desarrollar habilidades prácticas mientras construyen una aplicación útil, aplicando progresivamente todos los fundamentos de Java hasta culminar en un sistema orientado a objetos completo y funcional.​​​​​​​​​​​​​​​​
+
 
