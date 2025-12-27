@@ -810,7 +810,7 @@ public class InterfazConsola {
 
 -----
 
-## **Rúbrica Detallada - Práctica 8**
+## **Rúbrica - Práctica Final**
 
 ### Excelente (9-10):
 
@@ -868,8 +868,8 @@ public class InterfazConsola {
 
 - **JDK**: Java Development Kit 11 o superior
 - **IDE**: IntelliJ IDEA Community Edition (recomendado) o Eclipse
-- **Git**: Control de versiones
-- **GitHub**: Repositorio del proyecto
+- **Git**: Control de versiones (Opcional) 
+- **GitHub**: Repositorio del proyecto (Opcional)
 
 ### Recomendados:
 
@@ -900,6 +900,7 @@ public class InterfazConsola {
 -----
 
 Este proyecto permite al alumnado de ASIR desarrollar habilidades prácticas mientras construyen una aplicación útil, aplicando progresivamente todos los fundamentos de Java hasta culminar en un sistema orientado a objetos completo y funcional.​​​​​​​​​​​​​​​​
+
 
 
 
