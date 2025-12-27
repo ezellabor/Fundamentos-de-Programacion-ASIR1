@@ -94,7 +94,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Excepciones personalizadas
 1. Buenas prácticas en el manejo de errores
 
-[**MÓDULO 10: ENTRADA/SALIDA (I/O)**](modulo19-entrada-salida.md)
+[**MÓDULO 10: ENTRADA/SALIDA (I/O)**](modulo10-entrada-salida.md)
 
 1. Flujos de datos (streams)
 1. Lectura y escritura de archivos de texto
@@ -154,6 +154,7 @@ I. Glosario de términos
 ---
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
 
 
 
