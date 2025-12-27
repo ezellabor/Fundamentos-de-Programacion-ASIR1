@@ -66,8 +66,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. La palabra clave ‘this’
 1. Métodos y variables estáticas
 
-**MÓDULO 7: POO AVANZADA**
-
+[**MÓDULO 7: POO - HERENCIA Y POLIMORFISMO**](modulo7-herencia-y-polimorfismo.md)
 1. Herencia: concepto y sintaxis
 1. La palabra clave ‘super’
 1. Sobrescritura de métodos
@@ -76,7 +75,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Interfaces
 1. La clase Object
 
-**MÓDULO 8: MANEJO DE CADENAS**
+[**MÓDULO 8: MANEJO DE CADENAS**](modulo8-manejo-de-cadenas.md)
 
 1. La clase String
 1. Métodos principales de String
@@ -85,7 +84,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Expresiones regulares básicas
 1. Formateo de cadenas
 
-**MÓDULO 9: GESTIÓN DE EXCEPCIONES**
+[**MÓDULO 9: GESTIÓN DE EXCEPCIONES**](modulo9-gestion-excepciones.md)
 
 1. ¿Qué son las excepciones?
 1. Try-catch-finally
@@ -95,7 +94,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Excepciones personalizadas
 1. Buenas prácticas en el manejo de errores
 
-**MÓDULO 10: ENTRADA/SALIDA (I/O)**
+[**MÓDULO 10: ENTRADA/SALIDA (I/O)**](modulo19-entrada-salida.md)
 
 1. Flujos de datos (streams)
 1. Lectura y escritura de archivos de texto
@@ -105,7 +104,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Serialización de objetos
 1. Gestión de rutas y directorios
 
-**MÓDULO 11: PROGRAMACIÓN CON FECHAS Y TIEMPO**
+[**MÓDULO 11: PROGRAMACIÓN CON FECHAS Y TIEMPO**](modulo11-programacion-fechas-y-tiempo.md)
 
 1. Paquete java.time
 1. LocalDate, LocalTime y LocalDateTime
@@ -113,7 +112,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Operaciones con fechas
 1. ZonedDateTime y zonas horarias
 
-**MÓDULO 12: COLECCIONES AVANZADAS**
+[**MÓDULO 12: COLECCIONES AVANZADAS**](modulo12-colecciones-avanzadas.md)
 
 1. Framework de colecciones Java
 1. Set: TreeSet y características
@@ -122,7 +121,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Ordenación de colecciones
 1. Comparator y Comparable
 
-**MÓDULO 13: PROGRAMACIÓN FUNCIONAL**
+[**MÓDULO 13: PROGRAMACIÓN FUNCIONAL**](modulo13-programacion-funcional.md)
 
 1. Expresiones lambda
 1. Interfaces funcionales
@@ -148,13 +147,14 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 [E. Documentación oficial de Java](https://docs.oracle.com/en/java/)  
 [F. Compilador de Java online](https://www.jdoodle.com/online-java-compiler)  
 G. Ejercicios resueltos por módulo  
-H. Proyectos prácticos integradores  
+[H. Proyectos prácticos integradores](https://github.com/ezellabor/Fundamentos-de-Programacion-ASIR1/tree/main/proyecto-app-agenda-de-contactos/README.md)
 I. Glosario de términos  
 
 
 ---
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
 
 
 
