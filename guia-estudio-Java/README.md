@@ -150,10 +150,14 @@ G. Ejercicios resueltos por módulo
 [H. Proyectos prácticos integradores](https://github.com/ezellabor/Fundamentos-de-Programacion-ASIR1/tree/main/proyecto-app-agenda-de-contactos/README.md)  
 I. Glosario de términos  
 
+>Referencias  
+>- Oracle Code Conventions
+>- Google Java Style Guide
 
 ---
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
 
 
 
