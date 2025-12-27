@@ -20,7 +20,7 @@ Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permi
 
 ## **PRÁCTICA 1: Introducción a Java y Estructura Básica**
 
-**Conceptos:** Sintaxis básica, variables, tipos de datos y entrada/salida
+>**Conceptos:** Sintaxis básica, variables, tipos de datos y entrada/salida
 
 ### Objetivos:
 
@@ -900,5 +900,6 @@ public class InterfazConsola {
 -----
 
 Este proyecto permite al alumnado de ASIR desarrollar habilidades prácticas mientras construyen una aplicación útil, aplicando progresivamente todos los fundamentos de Java hasta culminar en un sistema orientado a objetos completo y funcional.​​​​​​​​​​​​​​​​
+
 
 
