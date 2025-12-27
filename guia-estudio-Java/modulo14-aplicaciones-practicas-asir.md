@@ -1,3 +1,5 @@
+<code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
 # MÓDULO 14: APLICACIONES PRÁCTICAS PARA ASIR
 
 ## Introducción
@@ -712,6 +714,35 @@ public class MonitorRecursos {
 
         System.out.println();
         System.out.println("💾 RECURSOS");
-        System.
+        System.out.println("─".repeat(56));
+        System.out.println(obtenerInfoMemoria());
+        System.out.println(obtenerInfoHilos());
+
+        System.out.println();
+        System.out.println("Presiona Ctrl+C para salir...");
+    }
+
+    public static void main(String[] args) {
+        // Configurar manejador para Ctrl+C
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+            System.out.println("\n\n👋 Cerrando monitor...");
+            ejecutando = false;
+        }));
+
+        // Bucle principal
+        while (ejecutando) {
+            mostrarDashboard();
+
+            try {
+                Thread.sleep(2000); // Actualizar cada 2 segundos
+            } catch (InterruptedException e) {
+                break;
+            }
+        }
+    }
+}
 ```
 
+-----
+
+Este módulo proporciona aplicaciones prácticas reales que un administrador de sistemas puede utilizar en su trabajo diario. Cada herramienta está diseñada para ser funcional, eficiente y fácil de mantener.
