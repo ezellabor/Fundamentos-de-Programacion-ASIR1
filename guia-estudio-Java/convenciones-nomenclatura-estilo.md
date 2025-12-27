@@ -205,9 +205,9 @@ for (Node node : graph.getNodes()) {
 
 ---  
 
->Última actualización: Diciembre 2023  
->Basado en _Oracle Code Conventions_ y _Google Java Style Guide_
->
->---
+** Referencias
+- Oracle Code Conventions
+- Google Java Style Guide  
+
 
 
