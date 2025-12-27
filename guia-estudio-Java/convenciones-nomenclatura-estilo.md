@@ -24,7 +24,7 @@
 - Usar el dominio inverso como prefijo
 - Ejemplos: `com.company.project.module`, `org.apache.commons`
 
-## Estructura de Código
+## Estructura de código
 
 ### Declaraciones
 - Una declaración por línea
@@ -36,7 +36,7 @@
 - Línea en blanco entre métodos
 - Línea en blanco entre secciones lógicas dentro de métodos
 
-### Longitud de Línea
+### Longitud de línea
 - Límite recomendado: 80-120 caracteres
 - Dividir líneas largas en puntos lógicos
 
@@ -51,7 +51,7 @@ if (condition) {
 ```
 
 
-## Convenciones Específicas
+## Convenciones específicas
 
 ### Constantes
 
@@ -117,7 +117,7 @@ public class UserNotFoundException extends Exception {
 }
 ```
 
-### Organización de Archivos  
+### Organización de archivos  
 Orden de Declaraciones
 
 1. Comentario de copyright/licencia
@@ -170,7 +170,7 @@ public double calculateTotal(double subtotal, double taxRate) {
     return subtotal * (1 + taxRate);
 }
 ```  
-### Comentarios Inline
+### Comentarios inline
 Usar solo cuando sea necesario para aclarar lógica compleja. Evitar comentarios obvios.
 
 ```java
@@ -182,7 +182,7 @@ for (Node node : graph.getNodes()) {
 }
 ```
 
-## Prácticas Recomendadas
+## Prácticas recomendadas
 
 ### Principios SOLID
 - Single Responsibility Principle
@@ -197,11 +197,13 @@ for (Node node : graph.getNodes()) {
 - Evitar código duplicado
 - Una responsabilidad por método/clase
 
-### Patrones Comunes
+### Patrones de diseño
 - Usar Builder para objetos con muchos parámetros
 - Factory Method para creación de objetos
 - Strategy para algoritmos intercambiables
 - Observer para notificaciones de eventos
+
+---  
 
 >Última actualización: Diciembre 2023  
 >Basado en _Oracle Code Conventions_ y _Google Java Style Guide_
