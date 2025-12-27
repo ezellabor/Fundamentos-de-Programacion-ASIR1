@@ -4,10 +4,6 @@
 
 Este proyecto permite al alumnado de ASIR desarrollar habilidades prácticas mientras construyen una aplicación útil, aplicando progresivamente todos los fundamentos de Java hasta culminar en un sistema orientado a objetos completo y funcional.
 
-## Fundamentos de Programación en Java - ASIR1
-
------
-
 ## **Descripción del proyecto**
 
 Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permitirá:
@@ -911,6 +907,7 @@ public class InterfazConsola {
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 ​​​​​​​​​​​​​​​​
+
 
 
 
