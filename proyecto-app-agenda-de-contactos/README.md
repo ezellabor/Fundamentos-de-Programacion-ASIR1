@@ -8,7 +8,7 @@ Este proyecto permite al alumnado de ASIR desarrollar habilidades prácticas mie
 
 -----
 
-## **Descripción del Proyecto**
+## **Descripción del proyecto**
 
 Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permitirá:
 - gestionar contactos personales y profesionales
@@ -909,6 +909,7 @@ public class InterfazConsola {
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 ​​​​​​​​​​​​​​​​
+
 
 
 
