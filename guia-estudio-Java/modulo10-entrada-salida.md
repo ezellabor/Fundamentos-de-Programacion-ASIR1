@@ -725,7 +725,7 @@ Lee un archivo de configuración tipo .properties y permite modificar valores.
 
 -----
 
-## **Conceptos clave del módulo:**
+## **Conceptos clave del módulo**
 
 - Streams permiten leer/escribir datos de forma secuencial
 - BufferedReader/Writer mejoran el rendimiento
