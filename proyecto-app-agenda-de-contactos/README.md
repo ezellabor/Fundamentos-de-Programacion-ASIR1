@@ -759,7 +759,7 @@ public class InterfazConsola {
 - `util/Validaciones.java`
 - `util/InterfazConsola.java`
 
-1. **Manual de Usuario** (PDF, 8-10 páginas):
+2. **Manual de Usuario** (PDF, 8-10 páginas):
 
 - Introducción y características
 - Guía de instalación
@@ -767,7 +767,7 @@ public class InterfazConsola {
 - Casos de uso comunes
 - Solución de problemas frecuentes
 
-1. **Memoria Técnica** (PDF, 10-15 páginas):
+3. **Memoria Técnica** (PDF, 10-15 páginas):
 
 - Análisis y diseño del sistema
 - Diagrama de clases UML completo
@@ -778,14 +778,14 @@ public class InterfazConsola {
 - Pruebas realizadas
 - Posibles mejoras futuras (ArrayList, HashMap, base de datos, interfaz gráfica)
 
-1. **Vídeo Demostración** (8-12 minutos):
+4. **Vídeo Demostración** (8-12 minutos):
 
 - Presentación del proyecto
 - Demostración de todas las funcionalidades
 - Casos de uso reales
 - Explicación del código más relevante
 
-1. **Presentación para defensa** (PowerPoint/PDF, 15-20 diapositivas):
+5. **Presentación para defensa** (PowerPoint/PDF, 15-20 diapositivas):
 
 - Portada y objetivos
 - Arquitectura del sistema
@@ -794,7 +794,7 @@ public class InterfazConsola {
 - Demostración en vivo
 - Conclusiones y aprendizajes
 
-1. **Archivo de datos de prueba** con 20-30 contactos precargados
+6. **Archivo de datos de prueba** con 20-30 contactos precargados
 
 -----
 
@@ -904,6 +904,7 @@ public class InterfazConsola {
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 ​​​​​​​​​​​​​​​​
+
 
 
 
