@@ -7,7 +7,7 @@
 
 ---
 
-## 📚 Conceptos Clave
+## Conceptos clave
 
 - Declaración y llamada de métodos
 - Parámetros y valores de retorno
@@ -17,7 +17,6 @@
 
 ---
 
-## 📝 Ejercicios
 
 ### Ejercicio 1 - Nivel 1
 **¿Qué palabra clave se usa para devolver un valor desde un método?**
