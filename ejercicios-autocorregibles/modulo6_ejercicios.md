@@ -7,7 +7,7 @@
 
 ---
 
-## 📚 Conceptos Clave
+## Conceptos Clave
 
 - Clases y objetos
 - Atributos y métodos
@@ -17,7 +17,6 @@
 
 ---
 
-## 📝 Ejercicios
 
 ### Ejercicio 1 - Nivel 1
 **¿Qué palabra clave se usa para crear una nueva instancia de una clase?**
