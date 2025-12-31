@@ -7,7 +7,7 @@
 
 ---
 
-## 📚 Conceptos Clave
+## Conceptos clave
 
 - Arrays unidimensionales y multidimensionales
 - Declaración e inicialización
@@ -17,7 +17,7 @@
 
 ---
 
-## 📝 Ejercicios
+
 
 ### Ejercicio 1 - Nivel 1
 **¿Cómo se declara correctamente un array de enteros de tamaño 5?**
