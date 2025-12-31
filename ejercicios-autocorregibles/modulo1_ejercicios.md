@@ -7,7 +7,7 @@
 
 ---
 
-## 📚 Conceptos Clave
+## Conceptos clave
 
 - Características de Java (multiplataforma, orientado a objetos)
 - JDK, JRE y JVM
