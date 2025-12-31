@@ -7,7 +7,7 @@
 
 ---
 
-## 📚 Conceptos Clave
+## Conceptos Clave
 
 - Condicionales: if, else, else if
 - Switch-case para múltiples opciones
@@ -17,7 +17,6 @@
 
 ---
 
-## 📝 Ejercicios
 
 ### Ejercicio 1 - Nivel 1
 **¿Cuál es la estructura correcta de un condicional if en Java?**
