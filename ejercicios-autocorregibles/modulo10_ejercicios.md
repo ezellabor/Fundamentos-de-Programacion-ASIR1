@@ -7,7 +7,7 @@
 
 ---
 
-## 📚 Conceptos Clave
+## Conceptos Clave
 
 - Clase File
 - FileReader y FileWriter
@@ -17,7 +17,6 @@
 
 ---
 
-## 📝 Ejercicios
 
 ### Ejercicio 1 - Nivel 1
 **¿Qué clase se usa para representar un archivo o directorio?**
