@@ -7,7 +7,7 @@
 
 ---
 
-## 📚 Conceptos Clave
+## Conceptos Clave
 
 - Interfaces funcionales
 - Expresiones lambda
@@ -17,7 +17,6 @@
 
 ---
 
-## 📝 Ejercicios
 
 ### Ejercicio 1 - Nivel 1
 **¿Qué es una expresión lambda?**
