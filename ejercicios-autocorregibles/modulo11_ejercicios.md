@@ -7,7 +7,7 @@
 
 ---
 
-## 📚 Conceptos Clave
+## Conceptos Clave
 
 - LocalDate, LocalTime, LocalDateTime
 - DateTimeFormatter
@@ -17,7 +17,7 @@
 
 ---
 
-## 📝 Ejercicios
+
 
 ### Ejercicio 1 - Nivel 1
 **¿Qué clase representa solo una fecha (sin hora)?**
