@@ -17,8 +17,6 @@
 
 ---
 
-## 📝 Ejercicios
-
 ### Ejercicio 1 - Nivel 1
 **¿Qué significa que Java sea un lenguaje "multiplataforma"?**
 
