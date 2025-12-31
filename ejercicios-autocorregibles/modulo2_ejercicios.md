@@ -7,7 +7,7 @@
 
 ---
 
-## 📚 Conceptos Clave
+## Conceptos clave
 
 - Variables y constantes (tipos de datos primitivos)
 - Operadores (aritméticos, relacionales, lógicos)
@@ -16,8 +16,6 @@
 - Expresiones y precedencia de operadores
 
 ---
-
-## 📝 Ejercicios
 
 ### Ejercicio 1 - Nivel 1
 **¿Cuál es la palabra clave correcta para declarar una constante en Java?**
