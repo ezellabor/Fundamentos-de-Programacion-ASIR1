@@ -7,7 +7,7 @@
 
 ---
 
-## 📚 Conceptos Clave
+## Conceptos Clave
 
 - Try-catch-finally
 - Throw y throws
@@ -17,7 +17,7 @@
 
 ---
 
-## 📝 Ejercicios
+
 
 ### Ejercicio 1 - Nivel 1
 **¿Qué bloque se usa para capturar excepciones?**
