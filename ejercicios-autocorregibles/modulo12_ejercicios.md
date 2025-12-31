@@ -7,7 +7,7 @@
 
 ---
 
-## 📚 Conceptos Clave
+## Conceptos Clave
 
 - List, Set, Map, Queue
 - ArrayList, LinkedList, HashSet, TreeSet
@@ -17,7 +17,7 @@
 
 ---
 
-## 📝 Ejercicios
+
 
 ### Ejercicio 1 - Nivel 1
 **¿Qué interfaz representa una lista ordenada que permite duplicados?**
