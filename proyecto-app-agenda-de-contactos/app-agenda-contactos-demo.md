@@ -1,5 +1,5 @@
 ## Código HTML + JS + CSS integrado en único archivo HTML por motivos de portabilidad  
-´´´  
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -1089,4 +1089,4 @@
 </body>
 </html>
 
-```  
+
