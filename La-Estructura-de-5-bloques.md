@@ -1,4 +1,4 @@
-# De la idea al código: tus primeros algoritmos con **la estructura de 5 bloques**
+<!--# De la idea al código: tus primeros algoritmos con **la estructura de 5 bloques**
 
 1. Introducción: El Lienzo en Blanco del Programador
 
@@ -38,7 +38,7 @@ La estructura de cinco bloques te proporciona una hoja de ruta clara y confiable
 
 ¿Qué problema sencillo intentarás resolver ahora aplicando esta estructura de cinco bloques?
 
----
+---  -->
 
 >**Guía de Estudio:** *Método para Algoritmos de Control Secuencial*
 
@@ -96,26 +96,24 @@ Finalmente, todo algoritmo debe tener un punto de conclusión explícito.
 --------------------------------------------------------------------------------
 
 
-Ejemplo visual completo: Calcular el área de un rectángulo
+Ejemplo visual: Calcular el precio final de un producto con IVA  
 
 ```
 INICIO
+ // Bloque 2: Declaración de Variables
+DECLARAR precioBase, iva, precioFinal COMO NUMERICO
 
-    // Bloque 2: Declaración de Variables
-    DECLARAR base, altura, area COMO NUMERICO
+//  Bloque 3: Inicialización / Entrada de Datos 
+precioBase ← 85.50
+iva ← 21
 
-    // Bloque 3: Inicialización / Entrada de Datos
-    ESCRIBIR "Por favor, ingrese el valor de la base:"
-    LEER base
-    ESCRIBIR "Por favor, ingrese el valor de la altura:"
-    LEER altura
+// Bloque 4: Proceso
+precioFinal ← precioBase + (precioBase * iva / 100)
 
-    // Bloque 4: Proceso
-    area <- base * altura
-
-    // Bloque 5: Salida
-    ESCRIBIR "El área del rectángulo con base ", base, " y altura ", altura, " es: ", area
-
+// Bloque 5: Salida
+ESCRIBIR "Precio base: " + precioBase + "€"
+ESCRIBIR "IVA aplicado: " + iva + "%"
+ESCRIBIR "Precio final: " + precioFinal + "€"
 FIN
 ```
 
