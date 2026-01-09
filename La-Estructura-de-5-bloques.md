@@ -173,16 +173,17 @@ Clave de Respuestas
 
 **Glosario de Términos Clave**
 
-Término	Definición
-**Algoritmo	Una secuencia finita y ordenada de instrucciones o pasos lógicos para resolver un problema específico o realizar una tarea.
-**Pseudocódigo	Una descripción de alto nivel de un algoritmo que utiliza un lenguaje natural mezclado con convenciones de lenguajes de programación, diseñado para ser leído por humanos.
-**Estructura de Control Secuencial	El tipo más simple de estructura de control, donde las instrucciones se ejecutan en el orden en que aparecen, una tras otra, sin ninguna posibilidad de salto o repetición.
-**Variable	Un espacio en la memoria del ordenador con un nombre simbólico que se utiliza para almacenar un dato o valor que puede cambiar durante la ejecución del programa.
-**Declaración	El proceso de definir una variable especificando su nombre y, a menudo, su tipo de dato (ej. numérico, texto), antes de que sea utilizada en el programa.
-**Inicialización	El acto de asignar un valor inicial a una variable. Este puede ser un valor predefinido o un valor proporcionado por el usuario.
-**Proceso	La sección de un algoritmo donde se realizan las operaciones, cálculos y transformaciones de datos para convertir las entradas en las salidas deseadas.
-**Salida	El resultado o la información que un programa devuelve al usuario o a otro sistema después de completar su proceso.
-**Entrada	Los datos que un programa recibe del exterior (normalmente del usuario) para poder procesarlos.
-**Inicio / Fin	Marcadores que definen explícitamente el comienzo y el final de la ejecución de un algoritmo.
+| Término                           | Definición |
+|-----------------------------------|------------|
+| **Algoritmo**                     | Una secuencia finita y ordenada de instrucciones o pasos lógicos para resolver un problema específico o realizar una tarea. |
+| **Pseudocódigo**                  | Una descripción de alto nivel de un algoritmo que utiliza un lenguaje natural mezclado con convenciones de lenguajes de programación, diseñado para ser leído por humanos. |
+| **Estructura de Control Secuencial** | El tipo más simple de estructura de control, donde las instrucciones se ejecutan en el orden en que aparecen, una tras otra, sin posibilidad de salto o repetición. |
+| **Variable**                      | Un espacio en la memoria del ordenador con un nombre simbólico que se utiliza para almacenar un dato o valor que puede cambiar durante la ejecución del programa. |
+| **Declaración**                   | El proceso de definir una variable especificando su nombre y, a menudo, su tipo de dato, antes de que sea utilizada en el programa. |
+| **Inicialización**                | El acto de asignar un valor inicial a una variable; puede ser un valor predefinido o proporcionado por el usuario. |
+| **Proceso**                       | Sección del algoritmo donde se realizan las operaciones, cálculos y transformaciones de datos para convertir entradas en salidas. |
+| **Salida**                        | El resultado o información que un programa devuelve al usuario u otro sistema tras completar su proceso. |
+| **Entrada**                       | Los datos que un programa recibe del exterior (normalmente del usuario) para poder procesarlos. |
+| **Inicio / Fin**                  | Marcadores que definen explícitamente el comienzo y el final de la ejecución de un algoritmo. |
 
 
