@@ -123,13 +123,13 @@ FIN
 --------------------------------------------------------------------------------
 
 
-Test de comprensión
+**Test de comprensión**
 
-Responde a las siguientes preguntas en 2-3 frases, basándote en el método descrito anteriormente.
+Responde brevemente a las siguientes preguntas, basándote en el método descrito anteriormente.
 
 1. ¿Cuál es el propósito fundamental de la estructura de control secuencial en la escritura de algoritmos?
 2. ¿Por qué es importante tener un bloque de "Declaración de Variables" separado antes del "Proceso"?
-3. Describa la diferencia principal entre la declaración y la inicialización de una variable.
+3. Describe la diferencia principal entre la declaración y la inicialización de una variable.
 4. ¿Qué tipo de operaciones se llevan a cabo típicamente en el bloque de "Proceso"?
 5. ¿Cuál es el objetivo del bloque de "Salida" y por qué es crucial para el usuario?
 6. Si un algoritmo no tuviera un bloque de "Inicialización", ¿qué problema potencial podría ocurrir durante el "Proceso"?
@@ -157,21 +157,21 @@ Clave de Respuestas
 
 
 --------------------------------------------------------------------------------
+-->
 
+**Preguntas de Ensayo**
 
-Preguntas de Ensayo
-
-1. Explique con sus propias palabras la importancia de seguir un método estructurado, como el presentado, para escribir algoritmos, incluso para problemas muy sencillos. ¿Qué beneficios aporta a largo plazo para un programador?
-2. Desarrolle desde cero un algoritmo en pseudocódigo para resolver el siguiente problema: "Calcular el precio final de un producto después de aplicarle un 21% de IVA". Asegúrese de utilizar y etiquetar cada uno de los cinco bloques del método secuencial.
-3. Compare y contraste el bloque de "Proceso" con el bloque de "Salida". ¿Podría existir uno sin el otro en un algoritmo útil? Argumente su respuesta.
-4. Imagine un problema más complejo, como "calcular la ruta más corta entre dos puntos en un mapa". ¿Por qué la estructura de control secuencial por sí sola sería insuficiente para resolver este tipo de problema? ¿Qué otros tipos de estructuras de control serían necesarias?
-5. Discuta el papel de las variables en un algoritmo secuencial. ¿Cómo su correcta declaración e inicialización afectan la fiabilidad y correctitud del bloque de "Proceso" y del resultado final?
+1. Explica con tus propias palabras la importancia de seguir un método estructurado, como el presentado, para escribir algoritmos, incluso para problemas muy sencillos. ¿Qué beneficios aporta a largo plazo para un programador?
+2. Desarrolla desde cero un algoritmo en pseudocódigo para resolver el siguiente problema: "Calcular el precio final de un producto después de aplicarle un 21% de IVA". Asegúrese de utilizar y etiquetar cada uno de los cinco bloques del método secuencial.
+3. Compara y contraste el bloque de "Proceso" con el bloque de "Salida". ¿Podría existir uno sin el otro en un algoritmo útil? Argumente su respuesta.
+4. Imagina un problema más complejo, como "calcular la ruta más corta entre dos puntos en un mapa". ¿Por qué la estructura de control secuencial por sí sola sería insuficiente para resolver este tipo de problema? ¿Qué otros tipos de estructuras de control serían necesarias?
+5. Discute el papel de las variables en un algoritmo secuencial. ¿Cómo su correcta declaración e inicialización afectan la fiabilidad y correctitud del bloque de "Proceso" y del resultado final?
 
 
 --------------------------------------------------------------------------------
 
 
-Glosario de Términos Clave
+**Glosario de Términos Clave**
 
 Término	Definición
 **Algoritmo	Una secuencia finita y ordenada de instrucciones o pasos lógicos para resolver un problema específico o realizar una tarea.
@@ -184,5 +184,5 @@ Término	Definición
 **Salida	El resultado o la información que un programa devuelve al usuario o a otro sistema después de completar su proceso.
 **Entrada	Los datos que un programa recibe del exterior (normalmente del usuario) para poder procesarlos.
 **Inicio / Fin	Marcadores que definen explícitamente el comienzo y el final de la ejecución de un algoritmo.
--->
+
 
