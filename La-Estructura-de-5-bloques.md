@@ -141,7 +141,7 @@ Responde a las siguientes preguntas en 2-3 frases, basándote en el método desc
 
 --------------------------------------------------------------------------------
 
-
+<!--
 Clave de Respuestas
 
 1. El propósito de la estructura de control secuencial es asegurar que las instrucciones de un algoritmo se ejecuten en un orden estricto y predefinido, una después de la otra. Esto proporciona una base lógica y predecible para resolver problemas simples sin desviaciones ni repeticiones.
@@ -184,4 +184,5 @@ Término	Definición
 **Salida	El resultado o la información que un programa devuelve al usuario o a otro sistema después de completar su proceso.
 **Entrada	Los datos que un programa recibe del exterior (normalmente del usuario) para poder procesarlos.
 **Inicio / Fin	Marcadores que definen explícitamente el comienzo y el final de la ejecución de un algoritmo.
+-->
 
