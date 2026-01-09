@@ -1,6 +1,6 @@
-# Guía de Estudio: Método para Algoritmos de Control Secuencial
+# Guía de estudio: Método para algoritmos de control secuencial
 
-## 🎯 ¿Qué es el Control Secuencial?
+## ¿Qué es el control secuencial?
 
 Un algoritmo con estructura de control secuencial es aquel cuyas instrucciones se ejecutan **en orden estricto**, una tras otra, desde el principio hasta el final. Sin saltos, sin bifurcaciones, sin repeticiones.
 
@@ -10,7 +10,7 @@ Un algoritmo con estructura de control secuencial es aquel cuyas instrucciones s
 
 ---
 
-## 🧱 Los 5 Bloques Fundamentales
+## Los 5 bloques fundamentales
 
 ### 1. BLOQUE DE INICIO
 **Propósito:** Marcar el comienzo formal del algoritmo.
@@ -39,7 +39,7 @@ Un algoritmo con estructura de control secuencial es aquel cuyas instrucciones s
 
 ---
 
-## 🎮 Ejemplo Motivador: Calculadora de Recompensas Gamer
+## Ejemplo: Calculadora de Recompensas Gamer
 
 ```java
 // ============================================
