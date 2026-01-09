@@ -40,7 +40,7 @@ La estructura de cinco bloques te proporciona una hoja de ruta clara y confiable
 
 ---  -->
 
->**Guía de Estudio:** *Método para Algoritmos de Control Secuencial*
+## **Guía de Estudio:** *Método para Algoritmos de Control Secuencial*
 
 Esta guía presenta un método estructurado para la creación de algoritmos y pseudocódigo que utilizan exclusivamente la estructura de control secuencial. El objetivo es proporcionar una guía clara y visual para resolver problemas sencillos, definiendo cada uno de los bloques fundamentales del programa: **inicio, declaración de variables, inicialización, proceso y salida.**
 
