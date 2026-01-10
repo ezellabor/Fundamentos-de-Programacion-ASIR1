@@ -1,3 +1,5 @@
+<code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>  
+
 <!--# De la idea al código: tus primeros algoritmos con **la estructura de 5 bloques**
 
 1. Introducción: El Lienzo en Blanco del Programador
