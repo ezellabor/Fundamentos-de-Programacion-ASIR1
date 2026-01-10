@@ -1,3 +1,5 @@
+<code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>  
+
 # Guía de estudio: Método para algoritmos de control secuencial
 
 ## ¿Qué es el control secuencial?
