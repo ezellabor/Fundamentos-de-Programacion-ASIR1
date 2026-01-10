@@ -56,7 +56,7 @@ El objetivo es proporcionar una guía clara y visual para resolver problemas sen
 Toda solución algorítmica debe tener un punto de partida claramente definido. Este bloque marca el comienzo de la ejecución del programa.
 
 - Propósito: Señalar el inicio formal del algoritmo.
-- Pseudocódigo: Se representa comúnmente con la palabra INICIO.
+- Pseudocódigo: Se representa comúnmente con la palabra **INICIO.**
 
 ##
 >2 - Bloque de **Declaración de variables**
