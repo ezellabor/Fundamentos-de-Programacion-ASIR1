@@ -107,8 +107,9 @@ Finalmente, todo algoritmo debe tener un punto de conclusión explícito.
 Ejemplo visual: *Calcular el precio final de un producto con IVA*  
 
 ```
-// Bloque 1: Indica punto de inicio del algoritmo/programa
-INICIO
+// Bloque 1: Inicio (Indica el punto de comienzo del algoritmo/programa)
+INICIO  
+
  // Bloque 2: Declaración de Variables
 DECLARAR precioBase, iva, precioFinal COMO NUMERICO
 
