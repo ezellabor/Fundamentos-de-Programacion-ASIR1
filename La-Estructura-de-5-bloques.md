@@ -100,9 +100,7 @@ Finalmente, todo algoritmo debe tener un punto de conclusión explícito.
 
 * Pseudocódigo: **FIN**
 
-
---------------------------------------------------------------------------------
-
+##  
 
 Ejemplo visual: *Calcular el precio final de un producto con IVA*  
 
@@ -128,11 +126,8 @@ FIN
 ```
 
 
---------------------------------------------------------------------------------
-
-
-**Test de comprensión**
-
+### Test de comprensión  
+---  
 Responde brevemente a las siguientes preguntas, basándote en el método descrito anteriormente.
 
 1. ¿Cuál es el propósito fundamental de la estructura de control secuencial en la escritura de algoritmos?
@@ -145,9 +140,6 @@ Responde brevemente a las siguientes preguntas, basándote en el método descrit
 8. En el ejemplo del área del rectángulo, ¿qué instrucción pertenece al bloque de "Proceso" y qué hace exactamente?
 9. ¿Podría un algoritmo secuencial simple funcionar sin un bloque de "Entrada de Datos"? Justifique su respuesta.
 10. ¿Por qué se considera "visual" este método de dividir un algoritmo en bloques?
-
-
---------------------------------------------------------------------------------
 
 <!--
 Clave de Respuestas
@@ -167,7 +159,8 @@ Clave de Respuestas
 --------------------------------------------------------------------------------
 -->
 
-**Preguntas de Ensayo**
+### Preguntas de Ensayo
+---
 
 1. Explica con tus propias palabras la importancia de seguir un método estructurado, como el presentado, para escribir algoritmos, incluso para problemas muy sencillos. ¿Qué beneficios aporta a largo plazo para un programador?
 2. Desarrolla desde cero un algoritmo en pseudocódigo para resolver el siguiente problema: "Calcular el precio final de un producto después de aplicarle un 21% de IVA". Asegúrese de utilizar y etiquetar cada uno de los cinco bloques del método secuencial.
@@ -175,13 +168,11 @@ Clave de Respuestas
 4. Imagina un problema más complejo, como "calcular la ruta más corta entre dos puntos en un mapa". ¿Por qué la estructura de control secuencial por sí sola sería insuficiente para resolver este tipo de problema? ¿Qué otros tipos de estructuras de control serían necesarias?
 5. Discute el papel de las variables en un algoritmo secuencial. ¿Cómo su correcta declaración e inicialización afectan la fiabilidad y correctitud del bloque de "Proceso" y del resultado final?
 
+  
+## Conceptos clave  
+---  
 
---------------------------------------------------------------------------------
-
-
-**Glosario de Términos Clave**
-
-| Término                           | Definición |
+| Concepto/Término                  | Significado |
 |-----------------------------------|------------|
 | **Algoritmo**                     | Una secuencia finita y ordenada de instrucciones o pasos lógicos para resolver un problema específico o realizar una tarea. |
 | **Pseudocódigo**                  | Una descripción de alto nivel de un algoritmo que utiliza un lenguaje natural mezclado con convenciones de lenguajes de programación, diseñado para ser leído por humanos. |
