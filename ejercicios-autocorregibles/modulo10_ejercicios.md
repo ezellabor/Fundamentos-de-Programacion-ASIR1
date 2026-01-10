@@ -1,3 +1,5 @@
+<code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>  
+
 # Módulo 10: Entrada/Salida (I/O)
 ## Ejercicios de Autoevaluación
 
