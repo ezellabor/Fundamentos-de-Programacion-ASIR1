@@ -142,7 +142,7 @@ Responde brevemente a las siguientes preguntas, basándote en el método descrit
 10. ¿Por qué se considera "visual" este método de dividir un algoritmo en bloques?
 
 <!--
-Clave de Respuestas
+Clave de respuestas
 
 1. El propósito de la estructura de control secuencial es asegurar que las instrucciones de un algoritmo se ejecuten en un orden estricto y predefinido, una después de la otra. Esto proporciona una base lógica y predecible para resolver problemas simples sin desviaciones ni repeticiones.
 2. Separar la declaración de variables permite organizar el código y definir todos los datos necesarios antes de comenzar a manipularlos. Esto mejora la legibilidad y ayuda a prevenir errores, como usar una variable que no ha sido definida previamente en el programa.
@@ -159,7 +159,7 @@ Clave de Respuestas
 --------------------------------------------------------------------------------
 -->
 
-### Preguntas de Ensayo
+### Preguntas de ensayo
 ---
 
 1. Explica con tus propias palabras la importancia de seguir un método estructurado, como el presentado, para escribir algoritmos, incluso para problemas muy sencillos. ¿Qué beneficios aporta a largo plazo para un programador?
@@ -169,8 +169,7 @@ Clave de Respuestas
 5. Discute el papel de las variables en un algoritmo secuencial. ¿Cómo su correcta declaración e inicialización afectan la fiabilidad y correctitud del bloque de "Proceso" y del resultado final?
 
   
-## Conceptos clave  
----  
+## Conceptos clave   
 
 | Concepto/Término                  | Significado |
 |-----------------------------------|------------|
