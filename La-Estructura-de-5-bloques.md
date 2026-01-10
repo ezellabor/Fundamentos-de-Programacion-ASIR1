@@ -169,7 +169,7 @@ Clave de respuestas
 5. Discute el papel de las variables en un algoritmo secuencial. ¿Cómo su correcta declaración e inicialización afectan la fiabilidad y correctitud del bloque de "Proceso" y del resultado final?
 
   
-## Conceptos clave   
+### Conceptos clave   
 
 | Concepto/Término                  | Significado |
 |-----------------------------------|------------|
