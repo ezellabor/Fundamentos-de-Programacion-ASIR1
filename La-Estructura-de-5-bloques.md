@@ -44,7 +44,7 @@ La estructura de cinco bloques te proporciona una hoja de ruta clara y confiable
 
 ## Método para Algoritmos de Control Secuencial *(Guía de estudio)*  
 
-Esta guía presenta un **método estructurado para la creación de algoritmos y pseudocódigo** que utilizan exclusivamente la **estructura de control secuencial.** Un algoritmo con estructura de control secuencial es aquel cuyas **instrucciones se ejecutan en orden, una tras otra, desde el principio hasta el final, sin saltos, bifurcaciones ni repeticiones.** Este método divide el algoritmo en **cinco bloques lógicos** y visuales para garantizar claridad y corrección.
+Esta guía presenta un **método estructurado para la creación de algoritmos y pseudocódigo** que utilizan exclusivamente la **estructura de control secuencial.** Un algoritmo con estructura de control secuencial es aquel cuyas instrucciones se ejecutan en un **orden estricto y predefinido, una tras otra, desde el principio hasta el final, sin saltos, bifurcaciones ni repeticiones.** Este método divide el algoritmo en **cinco bloques lógicos** y visuales para garantizar claridad y corrección.
 
 El objetivo es proporcionar una guía clara y visual para resolver problemas sencillos, definiendo cada uno de los **cinco bloques fundamentales** del programa: *inicio, declaración de variables, inicialización, proceso y salida.*
 
@@ -163,7 +163,7 @@ Clave de respuestas
 ---
 
 1. Explica con tus propias palabras la importancia de seguir un método estructurado, como el presentado, para escribir algoritmos, incluso para problemas muy sencillos. ¿Qué beneficios aporta a largo plazo para un programador?
-2. Desarrolla desde cero un algoritmo en pseudocódigo para resolver el siguiente problema: "Calcular el precio final de un producto después de aplicarle un 21% de IVA". Asegúrese de utilizar y etiquetar cada uno de los cinco bloques del método secuencial.
+2. Desarrolla desde cero un algoritmo en pseudocódigo para resolver el siguiente problema: *Calcular el precio final de un producto después de aplicarle un 10% de descuento*. Asegúrese de utilizar y etiquetar cada uno de los cinco bloques del método secuencial.
 3. Compara y contraste el bloque de "Proceso" con el bloque de "Salida". ¿Podría existir uno sin el otro en un algoritmo útil? Argumente su respuesta.
 4. Imagina un problema más complejo, como "calcular la ruta más corta entre dos puntos en un mapa". ¿Por qué la estructura de control secuencial por sí sola sería insuficiente para resolver este tipo de problema? ¿Qué otros tipos de estructuras de control serían necesarias?
 5. Discute el papel de las variables en un algoritmo secuencial. ¿Cómo su correcta declaración e inicialización afectan la fiabilidad y correctitud del bloque de "Proceso" y del resultado final?
