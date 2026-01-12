@@ -76,9 +76,9 @@ En este bloque se definen todas las variables que se utilizarán para almacenar 
 Una vez declaradas, las variables a menudo necesitan un valor inicial para poder operar con ellas. Este valor puede ser asignado directamente en el código o puede ser solicitado al usuario.
 
 * Propósito: Asignar los primeros valores a las variables. Es un paso crucial para evitar operar con datos indefinidos o "basura".
-* Pseudocódigo: Implica solicitar datos (LEER) o asignar valores directamente (<- o =).
+* Pseudocódigo: Implica solicitar datos (LEER) o asignar valores directamente (se suelen usar los caracteres ← o =).
   * Ejemplo pidiendo al usuario: LEER base, LEER altura
-  * Ejemplo asignando directamente: base <- 10, altura <- 5
+  * Ejemplo asignando directamente: base ← 10, altura ← 5
 
 ##
 >4 - Bloque de **Proceso**
@@ -104,7 +104,7 @@ Finalmente, todo algoritmo debe tener un punto de conclusión explícito.
 
 ##  
 
-Ejemplo visual: *Calcular el precio final de un producto con IVA*  
+Ejemplo: *Calcular el precio final de un producto con IVA*  
 
 ```
 // Bloque 1: Inicio (Indica el punto de comienzo del algoritmo/programa)
@@ -115,14 +115,14 @@ DECLARAR precioBase, iva, precioFinal COMO NUMERICO
 
 //  Bloque 3: Inicialización / Entrada de Datos 
 precioBase ← 85.50
-iva ← 21
+IVA ← 21
 
 // Bloque 4: Proceso
-precioFinal ← precioBase + (precioBase * iva / 100)
+precioFinal ← precioBase + (precioBase * IVA / 100)
 
 // Bloque 5: Salida
 ESCRIBIR "Precio base: " + precioBase + "€"
-ESCRIBIR "IVA aplicado: " + iva + "%"
+ESCRIBIR "IVA aplicado: " + IVA + "%"
 ESCRIBIR "Precio final: " + precioFinal + "€"
 FIN
 ```
@@ -132,16 +132,14 @@ FIN
 ---  
 Responde brevemente a las siguientes preguntas, basándote en el método descrito anteriormente.
 
-1. ¿Cuál es el propósito fundamental de la estructura de control secuencial en la escritura de algoritmos?
-2. ¿Por qué es importante tener un bloque de "Declaración de Variables" separado antes del "Proceso"?
-3. Describe la diferencia principal entre la declaración y la inicialización de una variable.
-4. ¿Qué tipo de operaciones se llevan a cabo típicamente en el bloque de "Proceso"?
-5. ¿Cuál es el objetivo del bloque de "Salida" y por qué es crucial para el usuario?
-6. Si un algoritmo no tuviera un bloque de "Inicialización", ¿qué problema potencial podría ocurrir durante el "Proceso"?
-7. ¿Qué representan las palabras INICIO y FIN en el pseudocódigo?
-8. En el ejemplo del área del rectángulo, ¿qué instrucción pertenece al bloque de "Proceso" y qué hace exactamente?
-9. ¿Podría un algoritmo secuencial simple funcionar sin un bloque de "Entrada de Datos"? Justifique su respuesta.
-10. ¿Por qué se considera "visual" este método de dividir un algoritmo en bloques?
+1. ¿Por qué es importante tener un bloque de "Declaración de Variables" separado antes del "Proceso"?
+2. Describe la diferencia principal entre la declaración y la inicialización de una variable.
+3. ¿Qué tipo de operaciones se llevan a cabo típicamente en el bloque de "Proceso"?
+4. ¿Cuál es el objetivo del bloque de "Salida" y por qué es crucial para el usuario?
+5. Si un algoritmo no tuviera un bloque de "Inicialización", ¿qué problema potencial podría ocurrir durante el "Proceso"?
+6. ¿Qué representan las palabras INICIO y FIN en el pseudocódigo?
+7. En el ejemplo anterior del *cálculo del precio con IVA*, ¿qué instrucción pertenece al bloque de "Proceso" y qué hace exactamente?
+8. ¿Podría un algoritmo secuencial simple funcionar sin un bloque de "Entrada de Datos"? Justifique su respuesta.
 
 <!--
 Clave de respuestas
