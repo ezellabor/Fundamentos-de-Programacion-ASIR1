@@ -130,17 +130,19 @@ FIN
 
 ```
 INICIO
+    DEFINIR precio, descuento, descuentoAplicado, precioFinal COMO REAL
+
     ESCRIBIR "Introduce el precio del producto:"
     LEER precio
 
     ESCRIBIR "Introduce el descuento en porcentaje:"
     LEER descuento
 
-    descuentoAplicado = precio * descuento / 100
-    precioFinal = precio - descuentoAplicado
+    descuentoAplicado ← precio * descuento / 100
+    precioFinal ← precio - descuentoAplicado
 
-    ESCRIBIR "El precio final es: " precioFinal " euros"
-FIN
+    ESCRIBIR "El precio final es: ", precioFinal, " euros"
+FIN  
 ```  
 ### Java  
 ```
@@ -150,32 +152,36 @@ public class PrecioConDescuento {
 
     public static void main(String[] args) {
 
-        // Crear el objeto Scanner para leer datos por teclado
+        // Declaración de variables
+        double precio;
+        double descuento;
+        double descuentoAplicado;
+        double precioFinal;
+
+        // Declaración de constantes
+        final int CIEN = 100;
+
+        // Crear Scanner para entrada por teclado
         Scanner teclado = new Scanner(System.in);
 
-        // Pedir el precio del producto
+        // Solicitar datos al usuario
         System.out.print("Introduce el precio del producto: ");
-        double precio = teclado.nextDouble();
+        precio = teclado.nextDouble();
 
-        // Pedir el descuento en porcentaje
         System.out.print("Introduce el descuento (%): ");
-        double descuento = teclado.nextDouble();
+        descuento = teclado.nextDouble();
 
-        // Calcular el importe del descuento
-        double descuentoAplicado = precio * descuento / 100;
+        // Cálculos
+        descuentoAplicado = precio * descuento / CIEN;
+        precioFinal = precio - descuentoAplicado;
 
-        // Calcular el precio final
-        double precioFinal = precio - descuentoAplicado;
-
-        // Mostrar el resultado
+        // Mostrar resultado
         System.out.println("El precio final es: " + precioFinal + " euros");
 
-        // Cerrar el Scanner
+        // Cerrar Scanner
         teclado.close();
     }
 }
-
-
 
 // Bloque 1: Inicio
 
