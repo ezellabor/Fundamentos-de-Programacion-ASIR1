@@ -101,6 +101,8 @@ En el bloque final, el algoritmo presenta los resultados obtenidos al usuario. L
 Finalmente, todo algoritmo debe tener un punto de conclusión explícito.
 
 * Pseudocódigo: **FIN**
+---  
+
 
 ## Ejemplo 1: *Calcular el precio final de un producto con IVA*  
 ### Pseudocódigo  
