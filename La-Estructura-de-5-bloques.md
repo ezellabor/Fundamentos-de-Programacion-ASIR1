@@ -130,6 +130,27 @@ FIN
 
 ```
 INICIO
+    DEFINIR precio, ivaAplicado, precioFinal COMO REAL
+    DEFINIR IVA COMO REAL ← 21
+
+    ESCRIBIR "Introduce el precio del producto:"
+    LEER precio
+
+    ivaAplicado ← precio * IVA / 100
+    precioFinal ← precio + ivaAplicado
+
+    ESCRIBIR "El precio final con IVA es: ", precioFinal, " euros"
+FIN
+
+
+>Prueba el código aquí: *[Online Java Compiler IDE](https://www.jdoodle.com/ia/1PjS)*
+
+## Ejemplo 2: *Calcular el precio final de un producto con Descuento*
+
+### Pseudocódigo
+
+```
+INICIO
     DEFINIR precio, descuento, descuentoAplicado, precioFinal COMO REAL
 
     ESCRIBIR "Introduce el precio del producto:"
@@ -184,35 +205,9 @@ public class PrecioConDescuento {
 }
 
 ```
->Prueba el código aquí: *[Online Java Compiler IDE](https://www.jdoodle.com/ia/1PjS)*
 
-## Ejemplo 2: *Calcular el precio final de un producto con Descuento*  
-### Pseudocódigo  
-```
-// Bloque 1: Inicio
 
- // Bloque 2: Declaración de Variables
 
-//  Bloque 3: Inicialización / Entrada de Datos 
-
-// Bloque 4: Proceso
-
-// Bloque 5: Salida
-
-```
-### Java  
-```
-// Bloque 1: Inicio
-
- // Bloque 2: Declaración de Variables
-
-//  Bloque 3: Inicialización / Entrada de Datos 
-
-// Bloque 4: Proceso
-
-// Bloque 5: Salida
-
-```  
 
 ## Ejemplo 3: *Calcular el precio final de un producto con Descuento e IVA*  
 ### Pseudocódigo 
