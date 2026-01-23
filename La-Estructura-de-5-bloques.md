@@ -184,7 +184,7 @@ public class PrecioConDescuento {
 }
 
 ```
->Prueba el código [aquí](https://www.jdoodle.com/ia/1PjS)
+>Prueba el código [aquí: Online Java Compiler IDE](https://www.jdoodle.com/ia/1PjS)
 
 ## Ejemplo 2: *Calcular el precio final de un producto con Descuento*  
 ### Pseudocódigo  
