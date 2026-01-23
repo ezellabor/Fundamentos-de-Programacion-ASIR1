@@ -247,28 +247,71 @@ public class PrecioConDescuento {
 ## Ejemplo 3: *Calcular el precio final de un producto con Descuento e IVA*  
 ### Pseudocódigo 
 ```
-// Bloque 1: Inicio
+INICIO
+    DEFINIR precio, descuento, descuentoAplicado, precioConDescuento, ivaAplicado, precioFinal COMO REAL
+    DEFINIR IVA COMO REAL ← 21
 
- // Bloque 2: Declaración de Variables
+    ESCRIBIR "Introduce el precio del producto:"
+    LEER precio
 
-//  Bloque 3: Inicialización / Entrada de Datos 
+    ESCRIBIR "Introduce el descuento en porcentaje:"
+    LEER descuento
 
-// Bloque 4: Proceso
+    descuentoAplicado ← precio * descuento / 100
+    precioConDescuento ← precio - descuentoAplicado
 
-// Bloque 5: Salida
+    ivaAplicado ← precioConDescuento * IVA / 100
+    precioFinal ← precioConDescuento + ivaAplicado
 
+    ESCRIBIR "El precio final con descuento e IVA es: ", precioFinal, " euros"
+FIN
 ```
 ### Java  
 ```
-// Bloque 1: Inicio
+import java.util.Scanner;
 
- // Bloque 2: Declaración de Variables
+public class PrecioFinal {
 
-//  Bloque 3: Inicialización / Entrada de Datos 
+    public static void main(String[] args) {
 
-// Bloque 4: Proceso
+        // Declaración de variables
+        double precio;
+        double descuento;
+        double descuentoAplicado;
+        double precioConDescuento;
+        double ivaAplicado;
+        double precioFinal;
 
-// Bloque 5: Salida
+        // Declaración de constantes
+        final double IVA = 21.0;
+        final int CIEN = 100;
+
+        // Crear Scanner para entrada por teclado
+        Scanner teclado = new Scanner(System.in);
+
+        // Entrada de datos
+        System.out.print("Introduce el precio del producto: ");
+        precio = teclado.nextDouble();
+
+        System.out.print("Introduce el descuento (%): ");
+        descuento = teclado.nextDouble();
+
+        // Cálculo del descuento
+        descuentoAplicado = precio * descuento / CIEN;
+        precioConDescuento = precio - descuentoAplicado;
+
+        // Cálculo del IVA
+        ivaAplicado = precioConDescuento * IVA / CIEN;
+        precioFinal = precioConDescuento + ivaAplicado;
+
+        // Mostrar resultado
+        System.out.println("El precio final con descuento e IVA es: " + precioFinal + " euros");
+
+        // Cerrar Scanner
+        teclado.close();
+    }
+}
+
 
 ```
 #
