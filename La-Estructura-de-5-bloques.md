@@ -129,14 +129,74 @@ FIN
 ```
 
 ### Java  
+```
+// Bloque 1: Inicio
 
+ // Bloque 2: Declaración de Variables
+
+//  Bloque 3: Inicialización / Entrada de Datos 
+
+// Bloque 4: Proceso
+
+// Bloque 5: Salida
+
+```
 ## Ejemplo 2: *Calcular el precio final de un producto con Descuento*  
 ### Pseudocódigo  
+```
+// Bloque 1: Inicio
 
+ // Bloque 2: Declaración de Variables
+
+//  Bloque 3: Inicialización / Entrada de Datos 
+
+// Bloque 4: Proceso
+
+// Bloque 5: Salida
+
+```
+### Java  
+```
+// Bloque 1: Inicio
+
+ // Bloque 2: Declaración de Variables
+
+//  Bloque 3: Inicialización / Entrada de Datos 
+
+// Bloque 4: Proceso
+
+// Bloque 5: Salida
+
+```  
 
 ## Ejemplo 3: *Calcular el precio final de un producto con Descuento e IVA*  
 ### Pseudocódigo 
+```
+// Bloque 1: Inicio
 
+ // Bloque 2: Declaración de Variables
+
+//  Bloque 3: Inicialización / Entrada de Datos 
+
+// Bloque 4: Proceso
+
+// Bloque 5: Salida
+
+```
+### Java  
+```
+// Bloque 1: Inicio
+
+ // Bloque 2: Declaración de Variables
+
+//  Bloque 3: Inicialización / Entrada de Datos 
+
+// Bloque 4: Proceso
+
+// Bloque 5: Salida
+
+```
+#
 
 
 
