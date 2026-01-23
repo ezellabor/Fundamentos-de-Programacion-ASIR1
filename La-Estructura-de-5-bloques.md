@@ -128,8 +128,55 @@ ESCRIBIR "Precio final: " + precioFinal + "€"
 FIN
 ```
 
+```
+INICIO
+    ESCRIBIR "Introduce el precio del producto:"
+    LEER precio
+
+    ESCRIBIR "Introduce el descuento en porcentaje:"
+    LEER descuento
+
+    descuentoAplicado = precio * descuento / 100
+    precioFinal = precio - descuentoAplicado
+
+    ESCRIBIR "El precio final es: " precioFinal " euros"
+FIN
+```  
 ### Java  
 ```
+import java.util.Scanner;
+
+public class PrecioConDescuento {
+
+    public static void main(String[] args) {
+
+        // Crear el objeto Scanner para leer datos por teclado
+        Scanner teclado = new Scanner(System.in);
+
+        // Pedir el precio del producto
+        System.out.print("Introduce el precio del producto: ");
+        double precio = teclado.nextDouble();
+
+        // Pedir el descuento en porcentaje
+        System.out.print("Introduce el descuento (%): ");
+        double descuento = teclado.nextDouble();
+
+        // Calcular el importe del descuento
+        double descuentoAplicado = precio * descuento / 100;
+
+        // Calcular el precio final
+        double precioFinal = precio - descuentoAplicado;
+
+        // Mostrar el resultado
+        System.out.println("El precio final es: " + precioFinal + " euros");
+
+        // Cerrar el Scanner
+        teclado.close();
+    }
+}
+
+
+
 // Bloque 1: Inicio
 
  // Bloque 2: Declaración de Variables
@@ -141,6 +188,7 @@ FIN
 // Bloque 5: Salida
 
 ```
+
 ## Ejemplo 2: *Calcular el precio final de un producto con Descuento*  
 ### Pseudocódigo  
 ```
