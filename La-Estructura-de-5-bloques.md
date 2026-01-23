@@ -145,7 +145,7 @@ INICIO
 FIN  
 ```  
 ### Java  
-```
+```java
 import java.util.Scanner;
 
 public class PrecioConDescuento {
