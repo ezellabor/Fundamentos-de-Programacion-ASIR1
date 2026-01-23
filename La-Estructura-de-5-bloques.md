@@ -102,9 +102,8 @@ Finalmente, todo algoritmo debe tener un punto de conclusión explícito.
 
 * Pseudocódigo: **FIN**
 
-##  
-
-Ejemplo: *Calcular el precio final de un producto con IVA*  
+## Ejemplo 1: *Calcular el precio final de un producto con IVA*  
+### Pseudocódigo  
 
 ```
 // Bloque 1: Inicio (Indica el punto de comienzo del algoritmo/programa)
@@ -126,6 +125,17 @@ ESCRIBIR "IVA aplicado: " + IVA + "%"
 ESCRIBIR "Precio final: " + precioFinal + "€"
 FIN
 ```
+
+### Java  
+
+## Ejemplo 2: *Calcular el precio final de un producto con Descuento*  
+### Pseudocódigo  
+
+
+## Ejemplo 3: *Calcular el precio final de un producto con Descuento e IVA*  
+### Pseudocódigo 
+
+
 
 
 ### Test de comprensión  
