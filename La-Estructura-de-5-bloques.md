@@ -267,7 +267,7 @@ INICIO
 FIN
 ```
 ### Java  
-```
+```java
 import java.util.Scanner;
 
 public class PrecioFinal {
@@ -311,11 +311,9 @@ public class PrecioFinal {
         teclado.close();
     }
 }
-
-
 ```
+>Prueba el código aquí: *[Online Java Compiler IDE](https://www.jdoodle.com/ia/1Pk2)*
 #
-
 
 
 ### Test de comprensión  
