@@ -142,6 +142,42 @@ INICIO
     ESCRIBIR "El precio final con IVA es: ", precioFinal, " euros"
 FIN
 ```  
+### Java  
+```java
+import java.util.Scanner;
+
+public class PrecioConIVA {
+
+    public static void main(String[] args) {
+
+        // Declaración de variables
+        double precio;
+        double ivaAplicado;
+        double precioFinal;
+
+        // Declaración de constantes
+        final double IVA = 21.0;
+        final int CIEN = 100;
+
+        // Crear Scanner para entrada por teclado
+        Scanner teclado = new Scanner(System.in);
+
+        // Solicitar datos al usuario
+        System.out.print("Introduce el precio del producto: ");
+        precio = teclado.nextDouble();
+
+        // Cálculos
+        ivaAplicado = precio * IVA / CIEN;
+        precioFinal = precio + ivaAplicado;
+
+        // Mostrar resultado
+        System.out.println("El precio final con IVA es: " + precioFinal + " euros");
+
+        // Cerrar Scanner
+        teclado.close();
+    }
+}
+```
 
 ## Ejemplo 2: *Calcular el precio final de un producto con Descuento*
 
