@@ -183,21 +183,8 @@ public class PrecioConDescuento {
     }
 }
 
-// Bloque 1: Inicio
-
- // Bloque 2: Declaración de Variables
-
-//  Bloque 3: Inicialización / Entrada de Datos 
-
-// Bloque 4: Proceso
-
-// Bloque 5: Salida
-
 ```
 >Prueba el código [aquí](https://www.jdoodle.com/ia/1PjS)
-
-https://www.jdoodle.com/ia/1PjS
-
 
 ## Ejemplo 2: *Calcular el precio final de un producto con Descuento*  
 ### Pseudocódigo  
