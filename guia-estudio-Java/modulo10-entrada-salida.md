@@ -1,6 +1,14 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
-# MÓDULO 10: ENTRADA/SALIDA (I/O)
+# MÓDULO 10: ENTRADA/SALIDA (I/O)  
+
+1. Flujos de datos (streams)
+1. Lectura y escritura de archivos de texto
+1. Clases File, FileReader y FileWriter
+1. BufferedReader y BufferedWriter
+1. Archivos binarios
+1. Serialización de objetos
+1. Gestión de rutas y directorios  
 
 ## 1. Flujos de datos (streams)
 
