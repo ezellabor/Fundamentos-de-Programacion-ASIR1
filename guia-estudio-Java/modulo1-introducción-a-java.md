@@ -1,6 +1,13 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
-# MÓDULO 1: INTRODUCCIÓN A JAVA
+# MÓDULO 1: INTRODUCCIÓN A JAVA  
+
+1. ¿Qué es Java y por qué aprenderlo?
+1. Características principales del lenguaje
+1. JDK, JRE y JVM: conceptos y diferencias
+1. Instalación del entorno de desarrollo
+1. Primer programa: “Hola Mundo”
+1. Compilación y ejecución de programas Java  
 
 ## 1. ¿Qué es Java y por qué aprenderlo?
 
@@ -466,5 +473,6 @@ Has aprendido:
 - El nombre del archivo debe coincidir con el nombre de la clase pública
 
 **Próximo paso:** En el Módulo 2 profundizaremos en los fundamentos del lenguaje: variables, tipos de datos y operadores.
+
 
 
