@@ -140,13 +140,13 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Herramientas de línea de comandos
 
 **ANEXOS**  
-[A. Guía de consulta rápida](https://www.zekiland.es/recursos/fichas-referencia-java/sintaxis-java-cheatsheet.html)  
+[A. Guía de consulta rápida Java](https://www.zekiland.es/recursos/fichas-referencia-java/sintaxis-java-cheatsheet.html)  
 [B. API estándar de Java](https://www.zekiland.es/recursos/fichas-referencia-java/api-estandar-java.html)  
 [C. Infografía](https://www.zekiland.es/fund_prog/la-info-java.html)  
 [D. Convenciones de nomenclatura y estilo de código](https://www.zekiland.es/recursos/fichas-referencia-java/java-conventions.html)     
 [E. Documentación oficial de Java](https://docs.oracle.com/en/java/)  
 [F. Compilador de Java online](https://www.jdoodle.com/online-java-compiler)    
-[G. Proyectos prácticos integradores](https://github.com/ezellabor/Fundamentos-de-Programacion-ASIR1/tree/main/proyecto-app-agenda-de-contactos/README.md)  
+[G. Proyecto práctico integrador: Aplicación Java Agenda de Contactos](https://github.com/ezellabor/Fundamentos-de-Programacion-ASIR1/tree/main/proyecto-app-agenda-de-contactos/README.md)  
   
 **REFERENCIAS**    
 - Java SE Documentation  
@@ -157,6 +157,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 
 <!-- G. Ejercicios resueltos por módulo
 I. Glosario de términos -->
+
 
 
 
