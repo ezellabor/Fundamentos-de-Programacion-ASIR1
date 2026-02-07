@@ -1,6 +1,12 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
-# MÓDULO 13: PROGRAMACIÓN FUNCIONAL
+# MÓDULO 13: PROGRAMACIÓN FUNCIONAL  
+
+1. Expresiones lambda
+1. Interfaces funcionales
+1. Stream API básico
+1. Operaciones filter, map y reduce
+1. Method references   
 
 ## 1. Expresiones lambda
 
