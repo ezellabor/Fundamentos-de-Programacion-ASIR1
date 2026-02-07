@@ -1,5 +1,14 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
-# MÓDULO 5: MÉTODOS Y FUNCIONES
+# MÓDULO 5: MÉTODOS Y FUNCIONES  
+
+1. Definición y declaración de métodos
+1. Parámetros y argumentos
+1. Valor de retorno
+1. Sobrecarga de métodos
+1. Ámbito de variables
+1. Métodos recursivos
+1. Métodos estáticos  
+
 
 ## 1. Definición y declaración de métodos
 
