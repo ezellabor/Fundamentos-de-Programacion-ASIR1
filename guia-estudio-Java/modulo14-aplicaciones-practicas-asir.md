@@ -1,6 +1,14 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
-# MÓDULO 14: APLICACIONES PRÁCTICAS PARA ASIR
+# MÓDULO 14: APLICACIONES PRÁCTICAS PARA ASIR  
+
+1. Scripts de automatización de tareas
+1. Gestión de logs del sistema
+1. Monitorización de recursos
+1. Lectura de archivos de configuración
+1. Conexión y consultas a bases de datos (JDBC básico)
+1. Manipulación de datos CSV y JSON
+1. Herramientas de línea de comandos  
 
 ## Introducción
 
