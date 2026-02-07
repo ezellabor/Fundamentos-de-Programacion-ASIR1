@@ -1,7 +1,14 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
 
-# MÓDULO 12: FRAMEWORK DE COLECCIONES
+# MÓDULO 12: FRAMEWORK DE COLECCIONES  
+
+1. Framework de colecciones Java
+1. Set: TreeSet y características
+1. Map: TreeMap y operaciones
+1. Queue y Deque
+1. Ordenación de colecciones
+1. Comparator y Comparable  
 
 ## 1. Framework de colecciones Java
 
