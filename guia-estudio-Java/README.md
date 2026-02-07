@@ -149,7 +149,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 [G. Proyecto práctico integrador: Aplicación Java Agenda de Contactos](https://github.com/ezellabor/Fundamentos-de-Programacion-ASIR1/tree/main/proyecto-app-agenda-de-contactos/README.md)  
   
 **REFERENCIAS**    
-- Java SE Documentation  
+- [Java SE Documentation}(https://docs.oracle.com/en/java/javase/25/docs/api/index.html)  
 
 ---
 
@@ -157,6 +157,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 
 <!-- G. Ejercicios resueltos por módulo
 I. Glosario de términos -->
+
 
 
 
