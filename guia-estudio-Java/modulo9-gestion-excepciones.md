@@ -1,6 +1,14 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
-# MÓDULO 9: GESTIÓN DE EXCEPCIONES
+# MÓDULO 9: GESTIÓN DE EXCEPCIONES  
+
+1. ¿Qué son las excepciones?
+1. Try-catch-finally
+1. Tipos de excepciones
+1. Lanzamiento de excepciones (throw)
+1. Declaración de excepciones (throws)
+1. Excepciones personalizadas
+1. Buenas prácticas en el manejo de errores  
 
 ## 1. ¿Qué son las excepciones?
 
