@@ -1,5 +1,13 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
-# MÓDULO 4: ARRAYS Y COLECCIONES
+# MÓDULO 4: ARRAYS Y COLECCIONES  
+
+1. Arrays unidimensionales
+1. Arrays multidimensionales
+1. Operaciones básicas con arrays
+1. Introducción a las colecciones
+1. ArrayList y LinkedList
+1. HashMap y HashSet
+1. Recorrido de colecciones  
 
 ## 1. Arrays unidimensionales
 
