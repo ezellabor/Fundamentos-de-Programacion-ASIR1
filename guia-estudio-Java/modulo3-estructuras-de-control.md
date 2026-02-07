@@ -1,6 +1,14 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
-# MÓDULO 3: ESTRUCTURAS DE CONTROL
+# MÓDULO 3: ESTRUCTURAS DE CONTROL  
+
+1. Sentencias condicionales: if, else, else if
+1. Operador ternario
+1. Sentencia switch
+1. Bucles: while y do-while
+1. Bucle for y for-each
+1. Sentencias break y continue
+1. Estructuras anidadas  
 
 ## 1. Sentencias condicionales: if, else, else if
 
