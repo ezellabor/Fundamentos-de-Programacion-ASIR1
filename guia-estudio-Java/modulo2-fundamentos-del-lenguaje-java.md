@@ -2,6 +2,14 @@
 
 # MÓDULO 2: FUNDAMENTOS DEL LENGUAJE JAVA
 
+1. Sintaxis básica y estructura de un programa
+1. Variables y tipos de datos primitivos
+1. Constantes y literales
+1. Operadores aritméticos, lógicos y relacionales
+1. Conversión de tipos (casting)
+1. Entrada y salida de datos por consola
+1. Comentarios y buenas prácticas de código
+   
 ## 1. Sintaxis básica y estructura de un programa
 
 ### Estructura general de un programa Java
@@ -849,6 +857,7 @@ public class CalculadoraRecursos {
             System.out.println("⚠️  ALERTA: Uso de CPU crítico");
         }
 ```
+
 
 
 
