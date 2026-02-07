@@ -21,7 +21,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 [**MÓDULO 13: PROGRAMACIÓN FUNCIONAL**](modulo13-programacion-funcional.md)
 [**MÓDULO 14: APLICACIONES PRÁCTICAS PARA ASIR**](modulo14-aplicaciones-practicas-asir.md)  
 
-**ANEXOS**  
+### ANEXOS  
 [A. Guía de consulta rápida Java](https://www.zekiland.es/recursos/fichas-referencia-java/sintaxis-java-cheatsheet.html)  
 [B. API estándar de Java](https://www.zekiland.es/recursos/fichas-referencia-java/api-estandar-java.html)  
 [C. Infografía](https://www.zekiland.es/fund_prog/la-info-java.html)  
@@ -31,7 +31,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 [G. Proyecto práctico integrador: Aplicación Java Agenda de Contactos](https://github.com/ezellabor/Fundamentos-de-Programacion-ASIR1/tree/main/proyecto-app-agenda-de-contactos/README.md)  
 [H. Aplicaciones Java de utilidad para ASIR](modulo14-aplicaciones-practicas-asir.md)
   
-**REFERENCIAS**    
+### REFERENCIAS    
 [Java SE Documentation](https://docs.oracle.com/en/java/javase/25/docs/api/index.html)  
 
 ---
@@ -155,6 +155,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 
 <!-- G. Ejercicios resueltos por módulo
 I. Glosario de términos -->
+
 
 
 
