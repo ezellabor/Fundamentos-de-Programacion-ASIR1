@@ -13,6 +13,34 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 [**MÓDULO 5: MÉTODOS Y FUNCIONES**](modulo5-metodos-y-funciones.md)  
 [**MÓDULO 6: PROGRAMACIÓN ORIENTADA A OBJETOS (POO)**](modulo6-poo.md)  
 [**MÓDULO 7: POO - HERENCIA Y POLIMORFISMO**](modulo7-poo-herencia-polimorfismo.md)  
+[**MÓDULO 8: MANEJO DE CADENAS**](modulo8-manejo-de-cadenas.md)
+[**MÓDULO 9: GESTIÓN DE EXCEPCIONES**](modulo9-gestion-excepciones.md)
+[**MÓDULO 10: ENTRADA/SALIDA (I/O)**](modulo10-entrada-salida.md)
+[**MÓDULO 11: PROGRAMACIÓN CON FECHAS Y TIEMPO**](modulo11-programacion-fechas-tiempo.md)
+[**MÓDULO 12: FRAMEWORK DE COLECCIONES**](modulo12-framework-colecciones.md)
+[**MÓDULO 13: PROGRAMACIÓN FUNCIONAL**](modulo13-programacion-funcional.md)
+[**MÓDULO 14: APLICACIONES PRÁCTICAS PARA ASIR**](modulo14-aplicaciones-practicas-asir.md)  
+
+**ANEXOS**  
+[A. Guía de consulta rápida Java](https://www.zekiland.es/recursos/fichas-referencia-java/sintaxis-java-cheatsheet.html)  
+[B. API estándar de Java](https://www.zekiland.es/recursos/fichas-referencia-java/api-estandar-java.html)  
+[C. Infografía](https://www.zekiland.es/fund_prog/la-info-java.html)  
+[D. Convenciones de nomenclatura y estilo de código](https://www.zekiland.es/recursos/fichas-referencia-java/java-conventions.html)     
+[E. Documentación oficial de Java](https://docs.oracle.com/en/java/)  
+[F. Compilador de Java online](https://www.jdoodle.com/online-java-compiler)    
+[G. Proyecto práctico integrador: Aplicación Java Agenda de Contactos](https://github.com/ezellabor/Fundamentos-de-Programacion-ASIR1/tree/main/proyecto-app-agenda-de-contactos/README.md)  
+[H. Aplicaciones Java de utilidad para ASIR](modulo14-aplicaciones-practicas-asir.md)
+  
+**REFERENCIAS**    
+[Java SE Documentation](https://docs.oracle.com/en/java/javase/25/docs/api/index.html)  
+
+---
+
+<code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
+---
+
+
 
 
 1. Sentencias condicionales: if, else, else if
@@ -124,25 +152,10 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Manipulación de datos CSV y JSON
 1. Herramientas de línea de comandos
 
-**ANEXOS**  
-[A. Guía de consulta rápida Java](https://www.zekiland.es/recursos/fichas-referencia-java/sintaxis-java-cheatsheet.html)  
-[B. API estándar de Java](https://www.zekiland.es/recursos/fichas-referencia-java/api-estandar-java.html)  
-[C. Infografía](https://www.zekiland.es/fund_prog/la-info-java.html)  
-[D. Convenciones de nomenclatura y estilo de código](https://www.zekiland.es/recursos/fichas-referencia-java/java-conventions.html)     
-[E. Documentación oficial de Java](https://docs.oracle.com/en/java/)  
-[F. Compilador de Java online](https://www.jdoodle.com/online-java-compiler)    
-[G. Proyecto práctico integrador: Aplicación Java Agenda de Contactos](https://github.com/ezellabor/Fundamentos-de-Programacion-ASIR1/tree/main/proyecto-app-agenda-de-contactos/README.md)  
-[H. Aplicaciones Java de utilidad para ASIR](modulo14-aplicaciones-practicas-asir.md)
-  
-**REFERENCIAS**    
-[Java SE Documentation](https://docs.oracle.com/en/java/javase/25/docs/api/index.html)  
-
----
-
-<code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
 <!-- G. Ejercicios resueltos por módulo
 I. Glosario de términos -->
+
 
 
 
