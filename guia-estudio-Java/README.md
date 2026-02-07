@@ -12,6 +12,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 [**MÓDULO 4: ARRAYS Y COLECCIONES**](modulo4-arrays-y-colecciones.md)  
 [**MÓDULO 5: MÉTODOS Y FUNCIONES**](modulo5-metodos-y-funciones.md)  
 [**MÓDULO 6: PROGRAMACIÓN ORIENTADA A OBJETOS (POO)**](modulo6-poo.md)  
+[**MÓDULO 7: POO - HERENCIA Y POLIMORFISMO**](modulo7-poo-herencia-polimorfismo.md)  
 
 
 1. Sentencias condicionales: if, else, else if
@@ -50,7 +51,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. La palabra clave ‘this’
 1. Métodos y variables estáticas
 
-[**MÓDULO 7: POO - HERENCIA Y POLIMORFISMO**](modulo7-poo-herencia-polimorfismo.md)
+
 1. Herencia: concepto y sintaxis
 1. La palabra clave ‘super’
 1. Sobrescritura de métodos
@@ -131,6 +132,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 [E. Documentación oficial de Java](https://docs.oracle.com/en/java/)  
 [F. Compilador de Java online](https://www.jdoodle.com/online-java-compiler)    
 [G. Proyecto práctico integrador: Aplicación Java Agenda de Contactos](https://github.com/ezellabor/Fundamentos-de-Programacion-ASIR1/tree/main/proyecto-app-agenda-de-contactos/README.md)  
+[APLICACIONES JAVA UTILES PARA ASIR](modulo14-aplicaciones-practicas-asir.md)
   
 **REFERENCIAS**    
 [Java SE Documentation](https://docs.oracle.com/en/java/javase/25/docs/api/index.html)  
@@ -141,6 +143,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 
 <!-- G. Ejercicios resueltos por módulo
 I. Glosario de términos -->
+
 
 
 
