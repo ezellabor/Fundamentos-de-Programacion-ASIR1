@@ -1,6 +1,13 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
-# MÓDULO 8: MANEJO DE CADENAS
+# MÓDULO 8: MANEJO DE CADENAS  
+
+1. La clase String
+1. Métodos principales de String
+1. Comparación de cadenas
+1. StringBuilder y StringBuffer
+1. Expresiones regulares básicas
+1. Formateo de cadenas  
 
 ## 1. La clase String
 
