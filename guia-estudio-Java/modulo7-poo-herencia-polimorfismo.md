@@ -1,6 +1,14 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>  
 
-# MÓDULO 7: POO - HERENCIA Y POLIMORFISMO
+# MÓDULO 7: POO - HERENCIA Y POLIMORFISMO  
+
+1. Herencia: concepto y sintaxis
+1. La palabra clave ‘super’
+1. Sobrescritura de métodos
+1. Polimorfismo
+1. Clases abstractas
+1. Interfaces
+1. La clase Object  
 
 ## 1. Herencia: concepto y sintaxis
 
