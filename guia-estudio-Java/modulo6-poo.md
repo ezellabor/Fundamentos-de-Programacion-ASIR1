@@ -1,6 +1,15 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
-# Módulo 6: Programación Orientada a Objetos - Conceptos Fundamentales
+# Módulo 6: Programación Orientada a Objetos - Conceptos Fundamentales  
+
+1. Conceptos fundamentales de POO
+1. Clases y objetos
+1. Atributos y métodos de instancia
+1. Constructores y sobrecarga
+1. Encapsulación: modificadores de acceso
+1. Getters y setters
+1. La palabra clave ‘this’
+1. Métodos y variables estáticas  
 
 ## Índice
 
