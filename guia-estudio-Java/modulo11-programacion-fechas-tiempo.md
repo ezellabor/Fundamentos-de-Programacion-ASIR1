@@ -1,6 +1,12 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
-# MÓDULO 11: PROGRAMACIÓN CON FECHAS Y TIEMPO
+# MÓDULO 11: PROGRAMACIÓN CON FECHAS Y TIEMPO  
+
+1. Paquete java.time
+1. LocalDate, LocalTime y LocalDateTime
+1. Formateo de fechas
+1. Operaciones con fechas
+1. ZonedDateTime y zonas horarias  
 
 ## 1. Paquete java.time
 
