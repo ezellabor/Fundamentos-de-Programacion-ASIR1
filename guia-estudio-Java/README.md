@@ -13,12 +13,12 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 [**MÓDULO 5: MÉTODOS Y FUNCIONES**](modulo5-metodos-y-funciones.md)  
 [**MÓDULO 6: PROGRAMACIÓN ORIENTADA A OBJETOS (POO)**](modulo6-poo.md)  
 [**MÓDULO 7: POO - HERENCIA Y POLIMORFISMO**](modulo7-poo-herencia-polimorfismo.md)  
-[**MÓDULO 8: MANEJO DE CADENAS**](modulo8-manejo-de-cadenas.md)
-[**MÓDULO 9: GESTIÓN DE EXCEPCIONES**](modulo9-gestion-excepciones.md)
-[**MÓDULO 10: ENTRADA/SALIDA (I/O)**](modulo10-entrada-salida.md)
-[**MÓDULO 11: PROGRAMACIÓN CON FECHAS Y TIEMPO**](modulo11-programacion-fechas-tiempo.md)
-[**MÓDULO 12: FRAMEWORK DE COLECCIONES**](modulo12-framework-colecciones.md)
-[**MÓDULO 13: PROGRAMACIÓN FUNCIONAL**](modulo13-programacion-funcional.md)
+[**MÓDULO 8: MANEJO DE CADENAS**](modulo8-manejo-de-cadenas.md)  
+[**MÓDULO 9: GESTIÓN DE EXCEPCIONES**](modulo9-gestion-excepciones.md)  
+[**MÓDULO 10: ENTRADA/SALIDA (I/O)**](modulo10-entrada-salida.md)  
+[**MÓDULO 11: PROGRAMACIÓN CON FECHAS Y TIEMPO**](modulo11-programacion-fechas-tiempo.md)  
+[**MÓDULO 12: FRAMEWORK DE COLECCIONES**](modulo12-framework-colecciones.md)  
+[**MÓDULO 13: PROGRAMACIÓN FUNCIONAL**](modulo13-programacion-funcional.md)  
 [**MÓDULO 14: APLICACIONES PRÁCTICAS PARA ASIR**](modulo14-aplicaciones-practicas-asir.md)  
 
 ### ANEXOS  
@@ -155,6 +155,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 
 <!-- G. Ejercicios resueltos por módulo
 I. Glosario de términos -->
+
 
 
 
