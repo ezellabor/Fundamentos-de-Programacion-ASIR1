@@ -140,7 +140,7 @@ Esta guía cubre los fundamentos necesarios para ASIR, con énfasis en las aplic
 1. Herramientas de línea de comandos
 
 **ANEXOS**  
-[A. Guía de referencia rápida](https://www.zekiland.es/fund_prog/sintaxis-java-cheatsheet.html)  
+[A. Guía de consulta rápida](https://www.zekiland.es/recursos/fichas-referencia-java/sintaxis-java-cheatsheet.html)  
 [B. Principales clases y métodos de la API Java](https://www.zekiland.es/fund_prog/api-estandar-java.html)  
 [C. Infografía](https://www.zekiland.es/fund_prog/la-info-java.html)  
 [D. Convenciones de nomenclatura y estilo de código](https://www.zekiland.es/fund_prog/java-conventions.html)     
@@ -156,6 +156,7 @@ I. Glosario de términos
 ---
 
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
+
 
 
 
