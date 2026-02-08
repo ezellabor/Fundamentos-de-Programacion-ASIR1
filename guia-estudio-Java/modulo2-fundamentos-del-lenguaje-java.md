@@ -583,6 +583,167 @@ boolean complejo = 5 > 3 && 10 < 20 || false;
 // Se evalúa: (5 > 3) && (10 < 20) || false
 // true && true || false = true
 ```
+#### Ejemplo completo  
+Ejmplo completo de cómo funcionan los tipos, los operadores y las expresiones en Java.  
+```java
+public class JavaTypesOperatorsExpressions {
+    public static void main(String[] args) {
+        // ==================== JAVA DATA TYPES ====================
+        
+        // Primitive Data Types
+        
+        // 1. BYTE (-128 to 127)
+        byte myByte = 100;
+        System.out.println("Byte value: " + myByte);
+        
+        // 2. SHORT (-32,768 to 32,767)
+        short myShort = 1000;
+        System.out.println("Short value: " + myShort);
+        
+        // 3. INT (-2,147,483,648 to 2,147,483,647)
+        int myInt = 100000;
+        System.out.println("Int value: " + myInt);
+        
+        // 4. LONG (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)
+        long myLong = 10000000000L; // Note the 'L' suffix
+        System.out.println("Long value: " + myLong);
+        
+        // 5. FLOAT (32-bit floating point)
+        float myFloat = 3.14f; // Note the 'f' suffix
+        System.out.println("Float value: " + myFloat);
+        
+        // 6. DOUBLE (64-bit floating point)
+        double myDouble = 3.14159;
+        System.out.println("Double value: " + myDouble);
+        
+        // 7. BOOLEAN (true or false)
+        boolean myBoolean = true;
+        System.out.println("Boolean value: " + myBoolean);
+        
+        // 8. CHAR (16-bit Unicode character)
+        char myChar = 'A';
+        System.out.println("Char value: " + myChar);
+        
+        System.out.println("\n==================== OPERATORS ====================\n");
+        
+        // ==================== ARITHMETIC OPERATORS ====================
+        int a = 20, b = 10;
+        System.out.println("Arithmetic Operations:");
+        System.out.println("a = " + a + ", b = " + b);
+        System.out.println("a + b = " + (a + b)); // Addition
+        System.out.println("a - b = " + (a - b)); // Subtraction
+        System.out.println("a * b = " + (a * b)); // Multiplication
+        System.out.println("a / b = " + (a / b)); // Division
+        System.out.println("a % b = " + (a % b)); // Modulus (remainder)
+        
+        // ==================== UNARY OPERATORS ====================
+        int x = 10;
+        System.out.println("\nUnary Operations:");
+        System.out.println("x = " + x);
+        System.out.println("++x = " + (++x)); // Pre-increment
+        System.out.println("x++ = " + (x++)); // Post-increment
+        System.out.println("x after post-increment = " + x);
+        System.out.println("--x = " + (--x)); // Pre-decrement
+        System.out.println("x-- = " + (x--)); // Post-decrement
+        System.out.println("!true = " + (!true)); // Logical NOT
+        
+        // ==================== RELATIONAL OPERATORS ====================
+        int p = 10, q = 20;
+        System.out.println("\nRelational Operations:");
+        System.out.println("p = " + p + ", q = " + q);
+        System.out.println("p == q: " + (p == q)); // Equal to
+        System.out.println("p != q: " + (p != q)); // Not equal to
+        System.out.println("p > q: " + (p > q));   // Greater than
+        System.out.println("p < q: " + (p < q));   // Less than
+        System.out.println("p >= q: " + (p >= q)); // Greater than or equal to
+        System.out.println("p <= q: " + (p <= q)); // Less than or equal to
+        
+        // ==================== LOGICAL OPERATORS ====================
+        boolean bool1 = true, bool2 = false;
+        System.out.println("\nLogical Operations:");
+        System.out.println("bool1 = " + bool1 + ", bool2 = " + bool2);
+        System.out.println("bool1 && bool2: " + (bool1 && bool2)); // Logical AND
+        System.out.println("bool1 || bool2: " + (bool1 || bool2)); // Logical OR
+        System.out.println("!bool1: " + (!bool1));                // Logical NOT
+        
+        // ==================== ASSIGNMENT OPERATORS ====================
+        int assignVar = 5;
+        System.out.println("\nAssignment Operations:");
+        System.out.println("Initial value: " + assignVar);
+        assignVar += 3; // Same as assignVar = assignVar + 3
+        System.out.println("After += 3: " + assignVar);
+        assignVar -= 2; // Same as assignVar = assignVar - 2
+        System.out.println("After -= 2: " + assignVar);
+        assignVar *= 4; // Same as assignVar = assignVar * 4
+        System.out.println("After *= 4: " + assignVar);
+        assignVar /= 3; // Same as assignVar = assignVar / 3
+        System.out.println("After /= 3: " + assignVar);
+        assignVar %= 3; // Same as assignVar = assignVar % 3
+        System.out.println("After %= 3: " + assignVar);
+        
+        // ==================== EXPRESSIONS ====================
+        System.out.println("\n==================== EXPRESSIONS ====================\n");
+        
+        // Arithmetic Expression
+        int expression1 = (10 + 5) * 2 - 8 / 4;
+        System.out.println("Expression (10 + 5) * 2 - 8 / 4 = " + expression1);
+        
+        // Boolean Expression
+        boolean expression2 = (10 > 5) && (3 < 7);
+        System.out.println("Boolean expression (10 > 5) && (3 < 7) = " + expression2);
+        
+        // Complex Expression with Mixed Types
+        double expression3 = (15.5 + 4.5) / 2 * 3;
+        System.out.println("Complex expression (15.5 + 4.5) / 2 * 3 = " + expression3);
+        
+        // Type Conversion in Expressions
+        int intVal = 10;
+        double doubleVal = 3.0;
+        double result = intVal / doubleVal; // int is promoted to double
+        System.out.println("Type conversion: 10 / 3.0 = " + result);
+        
+        // Ternary Operator (Conditional Expression)
+        int marks = 85;
+        String grade = (marks >= 60) ? "Pass" : "Fail";
+        System.out.println("Marks: " + marks + ", Grade: " + grade);
+        
+        // ==================== TYPE CONVERSION ====================
+        System.out.println("\n==================== TYPE CONVERSION ====================\n");
+        
+        // Implicit (Automatic) Conversion
+        int smallNum = 100;
+        long bigNum = smallNum; // int automatically converted to long
+        System.out.println("Implicit conversion: int " + smallNum + " to long " + bigNum);
+        
+        // Explicit (Manual) Conversion - Casting
+        double pi = 3.14159;
+        int intPi = (int) pi; // double explicitly converted to int
+        System.out.println("Explicit conversion: double " + pi + " to int " + intPi);
+        
+        // ==================== COMMON MISTAKES TO AVOID ====================
+        System.out.println("\n==================== COMMON MISTAKES ====================\n");
+        
+        // 1. Integer Division
+        int num1 = 5, num2 = 2;
+        int intDivision = num1 / num2; // Result is 2, not 2.5
+        double doubleDivision = (double) num1 / num2; // Result is 2.5
+        System.out.println("Integer division 5/2 = " + intDivision);
+        System.out.println("Double division 5/2 = " + doubleDivision);
+        
+        // 2. Operator Precedence
+        int precedence1 = 10 + 5 * 2; // 20, not 30
+        int precedence2 = (10 + 5) * 2; // 30
+        System.out.println("10 + 5 * 2 = " + precedence1);
+        System.out.println("(10 + 5) * 2 = " + precedence2);
+        
+        // 3. Type Range Issues
+        byte smallByte = 120;
+        // smallByte = smallByte + 10; // This would cause compilation error!
+        smallByte = (byte) (smallByte + 10); // Need explicit casting
+        System.out.println("Byte after addition: " + smallByte);
+    }
+}
+```
 
 ## 5. Conversión de tipos (casting)
 
@@ -857,6 +1018,7 @@ public class CalculadoraRecursos {
             System.out.println("⚠️  ALERTA: Uso de CPU crítico");
         }
 ```
+
 
 
 
