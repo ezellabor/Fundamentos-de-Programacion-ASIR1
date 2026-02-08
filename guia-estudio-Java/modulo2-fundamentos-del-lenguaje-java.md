@@ -583,8 +583,8 @@ boolean complejo = 5 > 3 && 10 < 20 || false;
 // Se evalúa: (5 > 3) && (10 < 20) || false
 // true && true || false = true
 ```
-#### Ejemplo completo  
-Ejmplo completo de cómo funcionan los tipos, los operadores y las expresiones en Java.  
+### Ejemplo completo  
+Ejemplo completo de cómo funcionan los tipos, los operadores y las expresiones en Java.  
 ```java
 public class JavaTypesOperatorsExpressions {
     public static void main(String[] args) {
@@ -707,40 +707,7 @@ public class JavaTypesOperatorsExpressions {
         String grade = (marks >= 60) ? "Pass" : "Fail";
         System.out.println("Marks: " + marks + ", Grade: " + grade);
         
-        // ==================== TYPE CONVERSION ====================
-        System.out.println("\n==================== TYPE CONVERSION ====================\n");
-        
-        // Implicit (Automatic) Conversion
-        int smallNum = 100;
-        long bigNum = smallNum; // int automatically converted to long
-        System.out.println("Implicit conversion: int " + smallNum + " to long " + bigNum);
-        
-        // Explicit (Manual) Conversion - Casting
-        double pi = 3.14159;
-        int intPi = (int) pi; // double explicitly converted to int
-        System.out.println("Explicit conversion: double " + pi + " to int " + intPi);
-        
-        // ==================== COMMON MISTAKES TO AVOID ====================
-        System.out.println("\n==================== COMMON MISTAKES ====================\n");
-        
-        // 1. Integer Division
-        int num1 = 5, num2 = 2;
-        int intDivision = num1 / num2; // Result is 2, not 2.5
-        double doubleDivision = (double) num1 / num2; // Result is 2.5
-        System.out.println("Integer division 5/2 = " + intDivision);
-        System.out.println("Double division 5/2 = " + doubleDivision);
-        
-        // 2. Operator Precedence
-        int precedence1 = 10 + 5 * 2; // 20, not 30
-        int precedence2 = (10 + 5) * 2; // 30
-        System.out.println("10 + 5 * 2 = " + precedence1);
-        System.out.println("(10 + 5) * 2 = " + precedence2);
-        
-        // 3. Type Range Issues
-        byte smallByte = 120;
-        // smallByte = smallByte + 10; // This would cause compilation error!
-        smallByte = (byte) (smallByte + 10); // Need explicit casting
-        System.out.println("Byte after addition: " + smallByte);
+       
     }
 }
 ```
@@ -858,6 +825,45 @@ double resultado2 = (double) a / b;  // 3.333... (conversión antes de dividir)
 System.out.println("Sin casting: " + resultado1);
 System.out.println("Con casting: " + resultado2);
 ```
+### Ejemplo  
+```java
+ // ==================== TYPE CONVERSION ====================
+        System.out.println("\n==================== TYPE CONVERSION ====================\n");
+        
+        // Implicit (Automatic) Conversion
+        int smallNum = 100;
+        long bigNum = smallNum; // int automatically converted to long
+        System.out.println("Implicit conversion: int " + smallNum + " to long " + bigNum);
+        
+        // Explicit (Manual) Conversion - Casting
+        double pi = 3.14159;
+        int intPi = (int) pi; // double explicitly converted to int
+        System.out.println("Explicit conversion: double " + pi + " to int " + intPi);
+        
+        // ==================== COMMON MISTAKES TO AVOID ====================
+        System.out.println("\n==================== COMMON MISTAKES ====================\n");
+        
+        // 1. Integer Division
+        int num1 = 5, num2 = 2;
+        int intDivision = num1 / num2; // Result is 2, not 2.5
+        double doubleDivision = (double) num1 / num2; // Result is 2.5
+        System.out.println("Integer division 5/2 = " + intDivision);
+        System.out.println("Double division 5/2 = " + doubleDivision);
+        
+        // 2. Operator Precedence
+        int precedence1 = 10 + 5 * 2; // 20, not 30
+        int precedence2 = (10 + 5) * 2; // 30
+        System.out.println("10 + 5 * 2 = " + precedence1);
+        System.out.println("(10 + 5) * 2 = " + precedence2);
+        
+        // 3. Type Range Issues
+        byte smallByte = 120;
+        // smallByte = smallByte + 10; // This would cause compilation error!
+        smallByte = (byte) (smallByte + 10); // Need explicit casting
+        System.out.println("Byte after addition: " + smallByte);
+
+```
+
 
 ## 6. Entrada y salida de datos por consola
 
@@ -1018,6 +1024,7 @@ public class CalculadoraRecursos {
             System.out.println("⚠️  ALERTA: Uso de CPU crítico");
         }
 ```
+
 
 
 
