@@ -146,7 +146,7 @@ int a = 5, b = 10, c = 15;
 
 ### Tipos de datos primitivos
 
-Java tiene 8 tipos de datos primitivos, divididos en cuatro categorías:
+Java tiene **8 tipos de datos primitivos,** divididos en cuatro categorías:
 
 #### 1. Tipos enteros (números sin decimales)
 
@@ -173,8 +173,7 @@ En Java, los literales de números **enteros sin sufijo son** ```int``` **por de
 int numero = 10;      // Correcto
 long numero2 = 10;    // Correcto (10 cabe en int, se convierte automáticamente)
 ```  
-Pero...  
-Si el número es demasiado grande para un ```int``` (más de 2.147.483.647), Java da error:  
+Pero si el número es demasiado grande para un ```int``` (más de 2.147.483.647), Java da error:  
 ```java
 long numero = 3000000000;   // ERROR
 ```
@@ -200,7 +199,6 @@ float temperatura = 36.5f;  // Nota la 'f' al final
 double latencia = 0.0045;   // Segundos
 double porcentajeCPU = 87.34;
 ```
-
 **Importante:** Los literales `float` deben terminar con `F` o `f`.  
 
 ##### 2.1. ¿Por qué F o f en float?    
@@ -217,8 +215,8 @@ float f = 3.14F;   // Correcto
 
 | Literal escrito | Tipo por defecto | Necesita sufijo si queremos… |
 | --------------- | ---------------- | ---------------------------- |
-| `10`            | int              | `10L` si queremos long       |
-| `3.14`          | double           | `3.14F` si queremos float    |  
+| `10`            | ```int```        | `10L` si queremos ```long``` |
+| `3.14`          | ```double```     | `3.14F` si queremos ```float``` |  
 
 
 #### 3. Tipo carácter
@@ -247,7 +245,7 @@ boolean errorEncontrado = false;
 boolean esAdministrador = true;
 ```
 
-### Tabla resumen de tipos primitivos
+### Código resumen de tipos primitivos
 
 ```java
 public class TiposPrimitivos {
@@ -1066,6 +1064,7 @@ public class CalculadoraRecursos {
             System.out.println("⚠️  ALERTA: Uso de CPU crítico");
         }
 ```
+
 
 
 
