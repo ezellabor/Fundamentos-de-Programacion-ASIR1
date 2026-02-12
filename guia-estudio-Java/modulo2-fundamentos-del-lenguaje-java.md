@@ -166,7 +166,8 @@ long espacioDisco = 2000000000000L;  // Bytes (nota la 'L' al final)
 
 **Importante:** Los literales `long` deben terminar con `L` o `l` (se recomienda `L` mayúscula para evitar confusión con el número 1).  
 
-**¿Por qué L en long?**  
+##### 1.1. ¿Por qué L en long?  
+
 En Java, los literales de números **enteros sin sufijo son** ```int``` **por defecto.**  
 ```java  
 int numero = 10;      // Correcto
@@ -175,7 +176,7 @@ long numero2 = 10;    // Correcto (10 cabe en int, se convierte automáticamente
 Pero...  
 Si el número es demasiado grande para un ```int``` (más de 2.147.483.647), Java da error:  
 ```java
-long numero = 3000000000;   // ❌ ERROR
+long numero = 3000000000;   // ERROR
 ```
 Esto se debe a que Java intenta interpretarlo como ```int``` primero, y ese valor no cabe en un int.
 
@@ -201,6 +202,9 @@ double porcentajeCPU = 87.34;
 ```
 
 **Importante:** Los literales `float` deben terminar con `F` o `f`.  
+
+##### 2.1. ¿Por qué F o f en float?    
+
 Esto es porque en Java, los números **decimales son ```double``` por defecto.**  
 ```java
 // Ejemplo
@@ -209,7 +213,7 @@ float f = 3.14;    // ERROR
 float f = 3.14F;   // Correcto
 ```
 
-#### Resumen literales y tipos por defecto  
+#### En resumen...  
 
 | Literal escrito | Tipo por defecto | Necesita sufijo si queremos… |
 | --------------- | ---------------- | ---------------------------- |
@@ -1062,6 +1066,7 @@ public class CalculadoraRecursos {
             System.out.println("⚠️  ALERTA: Uso de CPU crítico");
         }
 ```
+
 
 
 
