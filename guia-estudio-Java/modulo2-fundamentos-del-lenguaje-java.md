@@ -446,7 +446,7 @@ Comparan dos valores y devuelven un resultado booleano:
 |Operador|Significado      |Ejemplo |Resultado|
 |--------|-----------------|--------|---------|
 |`==`    |Igual a          |`5 == 5`|`true`   |
-|`!=`    |Diferente de     |`5 != 3`|`true`   |
+|`!=`    |Distinto que     |`5 != 3`|`true`   |
 |`>`     |Mayor que        |`5 > 3` |`true`   |
 |`<`     |Menor que        |`5 < 3` |`false`  |
 |`>=`    |Mayor o igual que|`5 >= 5`|`true`   |
@@ -477,7 +477,7 @@ Trabajan con valores booleanos:
 |Operador|Nombre    |Descripción                      |Ejemplo                  |
 |--------|----------|---------------------------------|-------------------------|
 |`&&`    |AND lógico|Verdadero si ambos son verdaderos|`true && false` → `false`|
-|`                 ||`                                |OR lógico                |
+|`||`    |OR lógico |Verdado si uno o ambos son `true`|`false || true` → `true` |
 |`!`     |NOT lógico|Invierte el valor                |`!true` → `false`        |
 
 **Tabla de verdad AND (&&):**
@@ -1024,6 +1024,7 @@ public class CalculadoraRecursos {
             System.out.println("⚠️  ALERTA: Uso de CPU crítico");
         }
 ```
+
 
 
 
