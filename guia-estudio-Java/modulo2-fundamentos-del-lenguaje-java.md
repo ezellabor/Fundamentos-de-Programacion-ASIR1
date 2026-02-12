@@ -520,7 +520,7 @@ Trabajan con valores booleanos:
 |   !    |NOT lógico|Invierte el valor                |     !true → false       |
 ```  
 
-**Tabla de verdad AND (&&):**
+**Tabla de verdad AND ```&&```:**
 
 ```
 A     | B     | A && B
@@ -531,7 +531,7 @@ false | true  | false
 false | false | false
 ```
 
-**Tabla de verdad OR (||):**
+**Tabla de verdad OR ```||```:**
 
 ```
 A     | B     | A || B
@@ -541,6 +541,15 @@ true  | false | true
 false | true  | true
 false | false | false
 ```
+**Tabla de verdad NOT ```!```:**
+
+```
+A     | !A    |
+------|-------|
+true  | false |
+false | true  |  
+```
+
 
 Ejemplos prácticos:
 
@@ -1064,6 +1073,7 @@ public class CalculadoraRecursos {
             System.out.println("⚠️  ALERTA: Uso de CPU crítico");
         }
 ```
+
 
 
 
