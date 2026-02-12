@@ -477,7 +477,7 @@ Trabajan con valores booleanos:
 |Operador|Nombre    |Descripción                      |Ejemplo                  |
 |--------|----------|---------------------------------|-------------------------|
 |`&&`    |AND lógico|Verdadero si ambos son verdaderos|`true && false` → `false`|
-|`||`    |OR lógico |Verdado si uno o ambos son `true`|`false || true` → `true` |
+| ||     |OR lógico |Verdado si uno o ambos son `true`|`false || true` → `true` |
 |`!`     |NOT lógico|Invierte el valor                |`!true` → `false`        |
 
 **Tabla de verdad AND (&&):**
@@ -1024,6 +1024,7 @@ public class CalculadoraRecursos {
             System.out.println("⚠️  ALERTA: Uso de CPU crítico");
         }
 ```
+
 
 
 
