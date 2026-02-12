@@ -164,7 +164,28 @@ int memoriaRAM = 16384;  // MB
 long espacioDisco = 2000000000000L;  // Bytes (nota la 'L' al final)
 ```
 
-**Importante:** Los literales `long` deben terminar con `L` o `l` (se recomienda `L` mayúscula para evitar confusión con el número 1).
+**Importante:** Los literales `long` deben terminar con `L` o `l` (se recomienda `L` mayúscula para evitar confusión con el número 1).  
+
+**¿Por qué L en long?**  
+En Java, los literales de números **enteros sin sufijo son** ```int``` **por defecto.**  
+```java  
+int numero = 10;      // Correcto
+long numero2 = 10;    // Correcto (10 cabe en int, se convierte automáticamente)
+```  
+Pero...  
+Si el número es demasiado grande para un ```int``` (más de 2.147.483.647), Java da error:  
+```java
+long numero = 3000000000;   // ❌ ERROR
+```
+Esto se debe a que Java intenta interpretarlo como ```int``` primero, y ese valor no cabe en un int.
+
+Solución:
+```java 
+long numero = 3000000000L;  // Correcto
+ ```     
+>El sufijo **L** le dice al compilador:
+> *Este literal es de tipo ```long```, no ```int```*
+
 
 #### 2. Tipos de punto flotante (números decimales)
 
@@ -179,7 +200,22 @@ double latencia = 0.0045;   // Segundos
 double porcentajeCPU = 87.34;
 ```
 
-**Importante:** Los literales `float` deben terminar con `F` o `f`.
+**Importante:** Los literales `float` deben terminar con `F` o `f`.  
+Esto es porque en Java, los números **decimales son ```double``` por defecto.**  
+```java
+// Ejemplo
+double d = 3.14;   // Correcto
+float f = 3.14;    // ERROR
+float f = 3.14F;   // Correcto
+```
+
+#### Resumen literales y tipos por defecto  
+
+| Literal escrito | Tipo por defecto | Necesita sufijo si queremos… |
+| --------------- | ---------------- | ---------------------------- |
+| `10`            | int              | `10L` si queremos long       |
+| `3.14`          | double           | `3.14F` si queremos float    |  
+
 
 #### 3. Tipo carácter
 
@@ -1026,6 +1062,7 @@ public class CalculadoraRecursos {
             System.out.println("⚠️  ALERTA: Uso de CPU crítico");
         }
 ```
+
 
 
 
