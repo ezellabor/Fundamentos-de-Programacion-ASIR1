@@ -233,7 +233,7 @@ Explica paso a paso la promoción.
 
 ---
 
-#### NIVEL 4 – Conceptual profundo
+#### NIVEL 4 – Conceptual
 
 #### Ejercicio 7
 
@@ -255,15 +255,15 @@ byte < ____ < int < ____ < float < ____
 ```
 ---
 
-### NIVEL 5 – Reto Final
+### NIVEL 5  
 
 Modifica este bloque de código para que imprima 2.5:
 ``` 
 int a = 5;
 int b = 2;
-``` 
-System.out.println(a / b);
 
----
+System.out.println(a / b);
+```
+##  
 
 
