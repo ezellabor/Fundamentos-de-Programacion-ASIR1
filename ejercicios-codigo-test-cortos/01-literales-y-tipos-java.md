@@ -50,9 +50,9 @@ long a = 1000000000;
 Ejemplos:
 
 ```java
-5      → int  
+5      → int  // literal de número entero sin sufijo
 5L     → long  
-3.14   → double  
+3.14   → double  // literal de número con decimales sin sufijo
 3.14F  → float  
 ```
 **Esquema general**  
