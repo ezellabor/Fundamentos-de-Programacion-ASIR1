@@ -170,9 +170,7 @@ Análisis:
 
 ---
 
-# 6️⃣ Ejercicios Progresivos
-
-## Nivel 1 — Básico
+# 6️⃣ Ejercicios 
 
 ### Ejercicio 1
 
@@ -205,8 +203,6 @@ Resto = **2**
 
 ---
 
-## Nivel 2 — Relacionales
-
 ### Ejercicio 3
 
 ```java
@@ -222,8 +218,6 @@ System.out.println(a > 3);
 </details>
 
 ---
-
-## Nivel 3 — Lógicas
 
 ### Ejercicio 4
 
@@ -255,8 +249,6 @@ true && true → **true**
 
 ---
 
-## Nivel 4 — Combinado
-
 ### Ejercicio 6
 
 ```java
@@ -275,13 +267,3 @@ false || false → **false**
 
 ---
 
-# Resumen Final
-
-- Aritméticas → Calculan  
-- Relacionales → Comparan  
-- Lógicas → Combinan condiciones  
-- Orden importa  
-
----
-
-**Material listo para GitHub y uso docente.**
