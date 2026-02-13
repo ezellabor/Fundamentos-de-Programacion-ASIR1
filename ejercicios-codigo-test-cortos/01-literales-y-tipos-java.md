@@ -163,7 +163,7 @@ Si hay un double en la operación…
 
 ## 8. EJERCICIOS - TIPOS NUMÉRICOS EN JAVA
 
-#### NIVEL 1 – Literales por defecto
+<!-- #### NIVEL 1 – Literales por defecto-->
 
 #### Ejercicio 1
 
@@ -186,7 +186,7 @@ long y = 4000000000;
 ```
 ---
 
-#### NIVEL 2 – Conversión implícita
+<!-- #### NIVEL 2 – Conversión implícita -->
 
 #### Ejercicio 3
 
@@ -207,7 +207,7 @@ int x = 5L;
 ```
 ---
 
-#### NIVEL 3 – Promoción automática
+<!-- #### NIVEL 3 – Promoción automática -->
 
 #### Ejercicio 5
 
@@ -231,7 +231,7 @@ System.out.println(3 / 2.0);
 ```
 ---
 
-#### NIVEL 4 – Conceptual
+<!-- #### NIVEL 4 – Conceptual -->
 
 #### Ejercicio 7
 
