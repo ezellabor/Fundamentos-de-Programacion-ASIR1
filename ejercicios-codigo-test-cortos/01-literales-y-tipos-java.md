@@ -1,4 +1,3 @@
-# Literales y tipos de datos
 ![Módulo](https://img.shields.io/badge/Módulo-Fundamentos_de_Programación-brown?style=for-the-badge)
 ![Lenguaje](https://img.shields.io/badge/Lenguaje-Java-brown?style=for-the-badge)
 ![Grupo](https://img.shields.io/badge/Grupo-ASIR1V-blue?style=for-the-badge)
@@ -39,7 +38,8 @@ long a = 1000000000;
 
 ## EL CEREBRO NUMÉRICO DE JAVA-->
 
-  
+# Literales y tipos de datos  
+
 #### 1. LITERALES POR DEFECTO  
 
 |     Literal          | Tipo por defecto |
