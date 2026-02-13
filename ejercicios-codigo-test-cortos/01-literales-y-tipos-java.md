@@ -223,14 +223,12 @@ d) 5F + 3
 
 #### Ejercicio 6
 
-¿Qué imprime?
+¿Qué imprime el siguiente código?
 
 ```
 System.out.println(3 / 2);
 System.out.println(3 / 2.0);
 ```
-Explica paso a paso la promoción.
-
 ---
 
 #### NIVEL 4 – Conceptual
@@ -255,7 +253,7 @@ byte < ____ < int < ____ < float < ____
 ```
 ---
 
-#### NIVEL 5  
+#### Ejercicio 9
 
 Modifica este bloque de código para que imprima 2.5:
 ``` 
