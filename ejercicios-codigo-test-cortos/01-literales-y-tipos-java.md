@@ -1,4 +1,4 @@
-# Literales y Tipos de Datos  
+# Literales y tipos de datos
 ![Módulo](https://img.shields.io/badge/Módulo-Fundamentos_de_Programación-brown?style=for-the-badge)
 ![Lenguaje](https://img.shields.io/badge/Lenguaje-Java-brown?style=for-the-badge)
 ![Grupo](https://img.shields.io/badge/Grupo-ASIR1V-blue?style=for-the-badge)
