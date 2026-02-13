@@ -159,11 +159,9 @@ Si hay un double en la operación…
  - La promoción siempre va hacia tipos más grandes
  - Si hay un double en una operación → todo sube a double
 
-##  
+## 
 
 ## 8. EJERCICIOS - TIPOS NUMÉRICOS EN JAVA
-
----
 
 #### NIVEL 1 – Literales por defecto
 
@@ -182,7 +180,7 @@ d) 5.5F
 
 Corrige el código para que compile:
 
-´´´
+```
 float x = 8.2;
 long y = 4000000000;
 ```
@@ -197,7 +195,7 @@ Indica si compila:
 ```
 int a = 5;
 long b = a;
-´´´  
+```
 ---
 
 #### Ejercicio 4
