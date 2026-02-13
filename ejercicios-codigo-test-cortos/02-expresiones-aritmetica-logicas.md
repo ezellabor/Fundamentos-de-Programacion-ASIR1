@@ -151,7 +151,7 @@ Java evalúa en este orden:
 
 ---
 
-# 5️⃣ Ejemplo Combinado
+# 5️⃣ Ejemplo final
 
 ```java
 int edad = 20;
