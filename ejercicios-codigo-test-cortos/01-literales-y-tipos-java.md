@@ -255,7 +255,7 @@ byte < ____ < int < ____ < float < ____
 ```
 ---
 
-### NIVEL 5  
+#### NIVEL 5  
 
 Modifica este bloque de código para que imprima 2.5:
 ``` 
