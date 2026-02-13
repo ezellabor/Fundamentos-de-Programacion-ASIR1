@@ -142,12 +142,12 @@ Combinan expresiones booleanas.
 
 # 4️⃣ Orden de Evaluación
 
-Orden en que Java resuelve expresiones:
+Java evalúa en este orden:
 
-1. `()`
-2. Operaciones aritméticas
-3. Operaciones relacionales
-4. Operaciones lógicas
+1️⃣ `()`  
+2️⃣ Operaciones aritméticas  
+3️⃣ Operaciones relacionales  
+4️⃣ Operaciones lógicas  
 
 ---
 
