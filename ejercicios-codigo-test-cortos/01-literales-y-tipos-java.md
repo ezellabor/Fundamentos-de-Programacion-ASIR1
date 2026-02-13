@@ -148,7 +148,7 @@ int / double → double
 
 ##
 
-### REGLAS DE ORO  
+#### 7. REGLAS DE ORO  
 
 Si hay un double en la operación…
 👉 Todo se convierte en double.
@@ -159,6 +159,113 @@ Si hay un double en la operación…
  - La promoción siempre va hacia tipos más grandes
  - Si hay un double en una operación → todo sube a double
 
-##
+##  
+
+## 8. EJERCICIOS - TIPOS NUMÉRICOS EN JAVA
+
+---
+
+#### NIVEL 1 – Literales por defecto
+
+#### Ejercicio 1
+
+Indica el tipo de cada literal:
+```
+a) 10  
+b) 10L  
+c) 5.5  
+d) 5.5F  
+```
+---
+
+#### Ejercicio 2
+
+Corrige el código para que compile:
+
+´´´
+float x = 8.2;
+long y = 4000000000;
+```
+---
+
+#### NIVEL 2 – Conversión implícita
+
+#### Ejercicio 3
+
+Indica si compila:
+
+```
+int a = 5;
+long b = a;
+´´´  
+---
+
+#### Ejercicio 4
+
+¿Por qué esto falla? Corrígelo de dos maneras
+
+```
+int x = 5L;
+```
+---
+
+#### NIVEL 3 – Promoción automática
+
+#### Ejercicio 5
+
+¿Qué tipo tiene el resultado?
+
+``` 
+a) 5 + 3  
+b) 5 + 3L  
+c) 5 + 3.0  
+d) 5F + 3  
+```
+---
+
+#### Ejercicio 6
+
+¿Qué imprime?
+
+```
+System.out.println(3 / 2);
+System.out.println(3 / 2.0);
+```
+Explica paso a paso la promoción.
+
+---
+
+#### NIVEL 4 – Conceptual profundo
+
+#### Ejercicio 7
+
+¿Por qué Java no convierte automáticamente double → float?
+
+Relaciona la respuesta con:
+
+- Precisión
+- Pérdida de datos
+- IEEE 754
+
+---
+
+#### Ejercicio 8
+
+Completa la escalera:
+``` 
+byte < ____ < int < ____ < float < ____
+```
+---
+
+### NIVEL 5 – Reto Final
+
+Modifica este bloque de código para que imprima 2.5:
+``` 
+int a = 5;
+int b = 2;
+``` 
+System.out.println(a / b);
+
+---
 
 
