@@ -127,12 +127,12 @@ float x = 3.14F;
 1 / 2   → 0  
 1 / 2.0 → 0.5  
 ```
-Porque:
+Porque:  
 
-```java
+```java  
 int / int → int  
 int / double → double  
-```
+```  
 ##
 
 #### 6. TABLA RESUMEN TIPOS DE DATOS
