@@ -70,7 +70,7 @@ Comparan valores y devuelven un resultado booleano (`true` o `false`).
 | Operador | Significado |
 |----------|------------|
 | `==` | Igual que |
-| `!=` | Distinto |
+| `!=` | Distinto que |
 | `>` | Mayor que |
 | `<` | Menor que |
 | `>=` | Mayor o igual |
@@ -99,14 +99,14 @@ if (a == 5)  // ✅ Correcto
 
 ## 3️⃣ Operaciones Lógicas
 
-Combinan expresiones booleanas.
+Combinan expresiones relacionales y devuelve un tipo booleano (true o false).
 
 ### Operadores
 
 | Operador | Nombre | Significado |
 |----------|--------|-------------|
 | `&&` | AND | Ambas condiciones deben cumplirse |
-| `||` | OR | Basta una condición |
+| `||` | OR | Basta con una condición verdadera |
 | `!` | NOT | Invierte el valor |
 
 ---
