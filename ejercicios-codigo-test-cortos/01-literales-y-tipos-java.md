@@ -151,10 +151,10 @@ int / double → double
 #### 7. REGLAS DE ORO  
 
 - Si hay un tipo ```double``` en la operación, todo se convierte en ```double```.  
-- Enteros sin sufijo → int
-- Decimales sin sufijo → doubleJava no pierde precisión automáticamente
+- Enteros sin sufijo → ```int```
+- Decimales sin sufijo → ```double```  (Java no pierde precisión automáticamente)
 - La promoción siempre va hacia tipos más grandes
-- Si hay un double en una operación → todo sube a double  
+- Si hay un ```double``` en una operación → todo se convierte a ```double``` automáticamente  
 
 ## 
 
