@@ -38,7 +38,7 @@ long a = 1000000000;
 
 ## EL CEREBRO NUMÉRICO DE JAVA-->
 
-# Literales y tipos de datos  
+# 1. Literales y tipos de datos  
 
 #### 1. LITERALES POR DEFECTO  
 
