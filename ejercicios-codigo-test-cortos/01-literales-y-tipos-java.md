@@ -150,18 +150,15 @@ int / double → double
 
 #### 7. REGLAS DE ORO  
 
-Si hay un double en la operación…
-👉 Todo se convierte en double.
-
- - Enteros sin sufijo → int
- - Decimales sin sufijo → double
- - Java no pierde precisión automáticamente
- - La promoción siempre va hacia tipos más grandes
- - Si hay un double en una operación → todo sube a double
+- Si hay un tipo ```double``` en la operación, todo se convierte en ```double```.  
+- Enteros sin sufijo → int
+- Decimales sin sufijo → doubleJava no pierde precisión automáticamente
+- La promoción siempre va hacia tipos más grandes
+- Si hay un double en una operación → todo sube a double  
 
 ## 
 
-## 8. EJERCICIOS - TIPOS NUMÉRICOS EN JAVA
+## EJERCICIOS: Tipos númericos en Java
 
 <!-- #### NIVEL 1 – Literales por defecto-->
 
