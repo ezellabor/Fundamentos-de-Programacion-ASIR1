@@ -106,8 +106,10 @@ Combinan expresiones relacionales y devuelve un tipo booleano (true o false).
 | Operador | Nombre | Significado |
 |----------|--------|-------------|
 | `&&` | AND | Ambas condiciones deben cumplirse |
-| ```||``` | OR | Basta con una condición verdadera |
-| `!` | NOT | Invierte el valor |
+| ```OR```*| OR | Basta con una condición verdadera |
+| `!` | NOT | Invierte el valor |  
+
+* Símbolo de OR: ```||```   
 
 ---
 
