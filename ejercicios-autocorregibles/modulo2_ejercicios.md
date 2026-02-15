@@ -144,13 +144,13 @@ Las constantes en Java se declaran con 'final' y por convención se nombran en M
 </details>
 
 <details>
-<summary>✅ Respuesta correcta</summary>
-**final**
+<summary>✅ Respuesta correcta</summary>  
 
-```java
-final int PUERTO_SSH = 22;
+```java  
+final int PUERTO_SSH = 22;  
 ```
-</details>
+
+</details>  
 
 ---
 
@@ -192,9 +192,9 @@ Las variables en Java deben empezar con minúscula y usar camelCase.
 <details>
 <summary>✅ Respuesta correcta</summary>  
     
-```java
-int tiempoEsperaSegundos = 30;
-```
+```java  
+int tiempoEsperaSegundos = 30;  
+```  
 
 </details>
 
@@ -212,12 +212,12 @@ Recuerda: tipo nombreVariable = valor; Los nombres deben seguir camelCase.
 </details>
 
 <details>
-<summary>✅ Respuesta correcta</summary>
-```java
-int puerto = 8080;
-String ip = "192.168.1.100";
-boolean servidorActivo = true;
-```
+<summary>✅ Respuesta correcta</summary>  
+```java  
+int puerto = 8080;  
+String ip = "192.168.1.100";  
+boolean servidorActivo = true;  
+```  
 </details>
 
 ---
