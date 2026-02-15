@@ -109,7 +109,7 @@ Combinan expresiones relacionales y devuelve un tipo booleano (true o false).
 | ```OR```*| OR | Basta con una condición verdadera |
 | `!` | NOT | Invierte el valor |  
 
-* Símbolo de OR: ```||```   
+*Símbolo de OR: ```||```   
 
 ---
 
@@ -124,14 +124,16 @@ Combinan expresiones relacionales y devuelve un tipo booleano (true o false).
 | F | T | F |
 | F | F | F |
 
-### OR (símbolo ||)*
+### OR  
 
 | A | B | A OR* B |
 |---|---|--------|
 | T | T | T |
 | T | F | T |
 | F | T | T |
-| F | F | F |
+| F | F | F |  
+
+*Símbolo de OR: ```||```  
 
 ### NOT
 
