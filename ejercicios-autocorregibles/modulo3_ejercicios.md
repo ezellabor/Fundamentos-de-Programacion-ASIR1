@@ -100,7 +100,8 @@ c) exit
 d) stop  
 
 <details>
-<summary>💡 Pista</summary>
+<summary>💡 Pista</summary>  
+    
 ```break``` rompe/sale del bucle inmediatamente.  
 ```continue``` solo salta a la siguiente iteración.  
 </details>
@@ -134,7 +135,7 @@ Sin 'break' en switch, el código 'cae' y ejecuta los casos siguientes (fall-thr
     
 **b) break**
 
-Sin `break`, el código continúa ejecutando los casos siguientes.
+Sin ```break```, el código continúa ejecutando los casos siguientes.
 </details>
 
 ---
