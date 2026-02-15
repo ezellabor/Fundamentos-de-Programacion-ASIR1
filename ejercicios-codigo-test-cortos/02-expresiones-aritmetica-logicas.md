@@ -9,7 +9,7 @@
 
 ---
 
-# Indice
+## Indice
 
 - [1️⃣ Operaciones Aritméticas](#1️⃣-operaciones-aritméticas)
 - [2️⃣ Operaciones Relacionales](#2️⃣-operaciones-relacionales)
@@ -20,11 +20,11 @@
 
 ---
 
-# 1️⃣ Operaciones Aritméticas
+## 1️⃣ Operaciones Aritméticas
 
 Permiten realizar cálculos matemáticos con números.
 
-## Operadores
+### Operadores
 
 | Operador | Significado | Ejemplo | Resultado |
 |----------|------------|----------|------------|
@@ -36,7 +36,7 @@ Permiten realizar cálculos matemáticos con números.
 
 ---
 
-## División entera vs decimal
+### División entera vs decimal
 
 ```java
 int a = 5 / 2;      // 2
@@ -47,7 +47,7 @@ Si ambos operandos son `int`, el resultado será entero.
 
 ---
 
-## Prioridad
+### Prioridad
 
 1. `()`
 2. `* / %`
@@ -61,11 +61,11 @@ int r = 2 + 3 * 4;  // Resultado: 14
 
 ---
 
-# 2️⃣ Operaciones Relacionales
+## 2️⃣ Operaciones Relacionales
 
 Comparan valores y devuelven un resultado booleano (`true` o `false`).
 
-## Operadores
+### Operadores
 
 | Operador | Significado |
 |----------|------------|
@@ -78,7 +78,7 @@ Comparan valores y devuelven un resultado booleano (`true` o `false`).
 
 ---
 
-## Ejemplo
+### Ejemplo
 
 ```java
 int edad = 18;
@@ -97,11 +97,11 @@ if (a == 5)  // ✅ Correcto
 
 ---
 
-# 3️⃣ Operaciones Lógicas
+## 3️⃣ Operaciones Lógicas
 
 Combinan expresiones booleanas.
 
-## Operadores
+### Operadores
 
 | Operador | Nombre | Significado |
 |----------|--------|-------------|
@@ -111,36 +111,36 @@ Combinan expresiones booleanas.
 
 ---
 
-## Tabla de verdad
+### Tabla de verdad
 
-### AND (`&&`)
+### AND 
 
-| A | B | Resultado |
-|---|---|------------|
+| A | B | A && B |
+|---|---|--------|
 | T | T | T |
 | T | F | F |
 | F | T | F |
 | F | F | F |
 
-### OR (`||`)
+### OR (símbolo ||)*
 
-| A | B | Resultado |
-|---|---|------------|
+| A | B | A OR* B |
+|---|---|--------|
 | T | T | T |
 | T | F | T |
 | F | T | T |
 | F | F | F |
 
-### NOT (`!`)
+### NOT
 
-| Entrada | Resultado |
-|----------|------------|
+| Entrada | ! |
+|---------|---|
 | true | false |
 | false | true |
 
 ---
 
-# 4️⃣ Orden de Evaluación
+## 4️⃣ Orden de evaluación
 
 Java evalúa en este orden:
 
@@ -151,7 +151,7 @@ Java evalúa en este orden:
 
 ---
 
-# 5️⃣ Ejemplo final
+## 5️⃣ Ejemplo final
 
 ```java
 int edad = 20;
