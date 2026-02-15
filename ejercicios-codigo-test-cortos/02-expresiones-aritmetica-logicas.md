@@ -170,7 +170,7 @@ Análisis:
 
 ---
 
-# 6️⃣ Ejercicios 
+## 6️⃣ Ejercicios 
 
 ### Ejercicio 1
 
