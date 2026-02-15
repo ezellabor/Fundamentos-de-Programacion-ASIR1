@@ -213,6 +213,7 @@ Recuerda: tipo nombreVariable = valor; Los nombres deben seguir camelCase.
 
 <details>
 <summary>✅ Respuesta correcta</summary>  
+    
 ```java  
 int puerto = 8080;  
 String ip = "192.168.1.100";  
