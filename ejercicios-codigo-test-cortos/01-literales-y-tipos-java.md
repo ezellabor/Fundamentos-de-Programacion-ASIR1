@@ -137,14 +137,14 @@ int / double → double
 
 #### 6. TABLA RESUMEN TIPOS DE DATOS
 
-| Tipo   | Tamaño | Precisión |
-|--------|--------|-----------|
-| byte   | 8 bits  | Exacta    |
-| short  | 16 bits | Exacta    |
-| int    | 32 bits | Exacta    |
-| long   | 64 bits | Exacta    |
-| float  | 32 bits | ~6-7 decimales *(precisión simple)* |
-| double | 64 bits | ~15-16 decimales *(precisión doble)* |
+|  Tipo  |  Tamaño  |  Precisión  |
+|--------|----------|-------------|
+| byte   |   8 bits |   Exacta    |
+| short  |  16 bits |   Exacta    |
+| int    |  32 bits |   Exacta    |
+| long   |  64 bits |   Exacta    |
+| float  |  32 bits |  ~6-7 decimales *(precisión simple)*  |
+| double |  64 bits |  ~15-16 decimales *(precisión doble)* |
 
 ##
 
