@@ -131,11 +131,12 @@ El operador `!=` verifica si dos valores son diferentes.
 ---
 
 ### Ejercicio 6 - Nivel 3
-**Completa el código para declarar una constante que almacene el puerto SSH por defecto:**
+**Completa el código para declarar una constante que almacene el puerto SSH por defecto:**  
 
 ```java
 _______ int PUERTO_SSH = 22;
-```
+
+```  
 
 <details>
 <summary>💡 Pista</summary>
@@ -158,9 +159,9 @@ final int PUERTO_SSH = 22;
 
 ```java
 int resultado = 15 % 4;
-```
+```  
 
-*(El operador % es el operador módulo - resto de la división)*
+*(El operador % es el operador módulo - resto de la división)*  
 
 <details>
 <summary>💡 Pista</summary>
@@ -177,11 +178,11 @@ El operador % devuelve el resto de dividir 15 entre 4. ¿Cuánto sobra?
 ---
 
 ### Ejercicio 8 - Nivel 3
-**Corrige la siguiente declaración de variable para que siga las convenciones de Java:**
+**Corrige la siguiente declaración de variable para que siga las convenciones de Java:**  
 
 ```java
 int TiempoEsperaSegundos = 30;
-```
+```  
 
 <details>
 <summary>💡 Pista</summary>
@@ -189,16 +190,18 @@ Las variables en Java deben empezar con minúscula y usar camelCase.
 </details>
 
 <details>
-<summary>✅ Respuesta correcta</summary>
+<summary>✅ Respuesta correcta</summary>  
+    
 ```java
 int tiempoEsperaSegundos = 30;
 ```
+
 </details>
 
 ---
 
 ### Ejercicio 9 - Nivel 4
-**Escribe el código para declarar tres variables que almacenen:**
+**Escribe el código para declarar tres variables que almacenen:**  
 1. Un puerto (tipo int) con valor 8080
 2. Una IP (tipo String) con valor "192.168.1.100"
 3. Un servidor activo (tipo boolean) con valor true
@@ -219,8 +222,8 @@ boolean servidorActivo = true;
 
 ---
 
-### Ejercicio 10 - Nivel 4
-**Escribe un programa completo que calcule el ancho de banda disponible:**
+### Ejercicio 10 - Nivel 4  
+**Escribe un programa completo que calcule el ancho de banda disponible:**  
 - Ancho de banda total: 1000 Mbps (constante)
 - Ancho usado: 350 Mbps
 - Calcula y muestra el ancho disponible  
