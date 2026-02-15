@@ -139,12 +139,12 @@ int / double → double
 
 |  Tipo  |  Tamaño  |  Precisión  |
 |--------|----------|-------------|
-| byte   |   8 bits |   Exacta    |
-| short  |  16 bits |   Exacta    |
-| int    |  32 bits |   Exacta    |
-| long   |  64 bits |   Exacta    |
-| float  |  32 bits |  ~6-7 decimales *(precisión simple)*  |
-| double |  64 bits |  ~15-16 decimales *(precisión doble)* |
+| ```byte``` |   8 bits |   Exacta    |
+| ```short``` |  16 bits |   Exacta    |
+| ```int``` |  32 bits |   Exacta    |
+| ```long``` |  64 bits |   Exacta    |
+| ```float``` |  32 bits |  ~6-7 decimales *(precisión simple)*  |
+| ```double``` |  64 bits |  ~15-16 decimales *(precisión doble)* |
 
 ##
 
