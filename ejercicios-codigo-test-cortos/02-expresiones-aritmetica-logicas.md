@@ -1,11 +1,9 @@
-#  Operaciones en Java  
-## Aritméticas · Relacionales · Lógicas
+![Módulo](https://img.shields.io/badge/Módulo-Fundamentos_de_Programación-brown?style=for-the-badge)
+![Lenguaje](https://img.shields.io/badge/Lenguaje-Java-brown?style=for-the-badge)
+![Grupo](https://img.shields.io/badge/Grupo-ASIR1V-blue?style=for-the-badge)
+![Profesor](https://img.shields.io/badge/Profesor-Ezequiel_Llarena_Borges-blue?style=for-the-badge)  
 
-![Java](https://img.shields.io/badge/Java-17+-blue)
-![Nivel](https://img.shields.io/badge/Nivel-Inicial-green)
-![Asignatura](https://img.shields.io/badge/Módulo-Programación-orange)
-![Estado](https://img.shields.io/badge/Material-Docente-success)
-![Licencia](https://img.shields.io/badge/Licencia-Uso_Educativo-lightgrey)
+#  Operaciones Aritméticas, Relacionales y Lógicas
 
 ---
 
