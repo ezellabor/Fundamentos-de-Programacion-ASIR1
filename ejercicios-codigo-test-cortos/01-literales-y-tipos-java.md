@@ -156,7 +156,7 @@ int / double → double
 - La promoción siempre va hacia tipos más grandes
 - Si hay un ```double``` en una operación → todo se convierte a ```double``` automáticamente  
 
-## 
+---  
 
 ## EJERCICIOS: Tipos númericos en Java
 
