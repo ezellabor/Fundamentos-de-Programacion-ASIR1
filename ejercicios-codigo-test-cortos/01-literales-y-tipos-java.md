@@ -139,12 +139,12 @@ int / double → double
 
 | Tipo   | Tamaño | Precisión |
 |--------|--------|-----------|
-| byte   | 8 bit  | Exacta    |
-| short  | 16 bit | Exacta    |
-| int    | 32 bit | Exacta    |
-| long   | 64 bit | Exacta    |
-| float  | 32 bit | Aproximada|
-| double | 64 bit | Aproximada|
+| byte   | 8 bits  | Exacta    |
+| short  | 16 bits | Exacta    |
+| int    | 32 bits | Exacta    |
+| long   | 64 bits | Exacta    |
+| float  | 32 bits | ~6-7 decimales *(precisión simple)* |
+| double | 64 bits | ~15-16 decimales *(precisión doble)* |
 
 ##
 
@@ -152,7 +152,7 @@ int / double → double
 
 - Si hay un tipo ```double``` en la operación, todo se convierte en ```double```.  
 - Enteros sin sufijo → ```int```
-- Decimales sin sufijo → ```double```  (Java no pierde precisión automáticamente)
+- Decimales sin sufijo → ```double```  *(Java no pierde precisión automáticamente)*  
 - La promoción siempre va hacia tipos más grandes
 - Si hay un ```double``` en una operación → todo se convierte a ```double``` automáticamente  
 
