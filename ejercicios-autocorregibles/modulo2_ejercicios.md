@@ -131,11 +131,11 @@ El operador `!=` verifica si dos valores son diferentes.
 ---
 
 ### Ejercicio 6 - Nivel 3
-**Completa el código para declarar una constante que almacene el puerto SSH por defecto:
+**Completa el código para declarar una constante que almacene el puerto SSH por defecto:**
 
 ```java
 _______ int PUERTO_SSH = 22;
-```**
+```
 
 <details>
 <summary>💡 Pista</summary>
@@ -154,13 +154,13 @@ final int PUERTO_SSH = 22;
 ---
 
 ### Ejercicio 7 - Nivel 3
-**¿Cuál es el resultado de la siguiente expresión?
+**¿Cuál es el resultado de la siguiente expresión?**
 
 ```java
 int resultado = 15 % 4;
 ```
 
-*(El operador % es el operador módulo - resto de la división)***
+*(El operador % es el operador módulo - resto de la división)*
 
 <details>
 <summary>💡 Pista</summary>
@@ -177,11 +177,11 @@ El operador % devuelve el resto de dividir 15 entre 4. ¿Cuánto sobra?
 ---
 
 ### Ejercicio 8 - Nivel 3
-**Corrige la siguiente declaración de variable para que siga las convenciones de Java:
+**Corrige la siguiente declaración de variable para que siga las convenciones de Java:**
 
 ```java
 int TiempoEsperaSegundos = 30;
-```**
+```
 
 <details>
 <summary>💡 Pista</summary>
@@ -198,10 +198,10 @@ int tiempoEsperaSegundos = 30;
 ---
 
 ### Ejercicio 9 - Nivel 4
-**Escribe el código para declarar tres variables que almacenen:
+**Escribe el código para declarar tres variables que almacenen:**
 1. Un puerto (tipo int) con valor 8080
 2. Una IP (tipo String) con valor "192.168.1.100"
-3. Un servidor activo (tipo boolean) con valor true**
+3. Un servidor activo (tipo boolean) con valor true
 
 <details>
 <summary>💡 Pista</summary>
@@ -220,10 +220,10 @@ boolean servidorActivo = true;
 ---
 
 ### Ejercicio 10 - Nivel 4
-**Escribe un programa completo que calcule el ancho de banda disponible:
+**Escribe un programa completo que calcule el ancho de banda disponible:**
 - Ancho de banda total: 1000 Mbps (constante)
 - Ancho usado: 350 Mbps
-- Calcula y muestra el ancho disponible**
+- Calcula y muestra el ancho disponible  
 
 <details>
 <summary>💡 Pista</summary>
@@ -231,7 +231,8 @@ Necesitas: clase, método main, constante final para el total, variable para usa
 </details>
 
 <details>
-<summary>✅ Respuesta correcta</summary>
+<summary>✅ Respuesta correcta</summary> 
+    
 ```java
 public class AnchoBanda {
     public static void main(String[] args) {
@@ -240,13 +241,13 @@ public class AnchoBanda {
         int anchoDisponible = ANCHO_TOTAL - anchoUsado;
         System.out.println("Ancho de banda disponible: " + anchoDisponible + " Mbps");
     }
-}
-```
-</details>
+}  
+```  
+</details>  
 
 ---
 
-## 🎯 Puntuación
+## Puntuación
 
 - **10 ejercicios totales**
 - **Niveles:** 1 (básico) a 4 (avanzado)
