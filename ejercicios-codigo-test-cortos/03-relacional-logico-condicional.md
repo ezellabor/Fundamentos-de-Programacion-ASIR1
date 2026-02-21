@@ -17,7 +17,7 @@ System.out.println(y);
 ```
 
 #### Ejercicio 2
-```java
+```java  
 boolean a = true;
 boolean b = false;
 boolean c = a && b || !b;
