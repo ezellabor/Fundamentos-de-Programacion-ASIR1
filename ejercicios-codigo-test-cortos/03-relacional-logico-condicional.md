@@ -15,7 +15,7 @@ int x = 5;
 int y = ++x * 2;
 System.out.println(y);
 ```
-
+  
 #### Ejercicio 2
 ```java  
 boolean a = true;
