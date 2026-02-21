@@ -7,7 +7,7 @@
 
 
 ### 1️⃣ Análisis de código  
-Analiza el siguiente código y determina qué mostrará por pantalla.  
+*Analiza el siguiente código y determina qué mostrará por pantalla.*  
 
 #### Ejercicio 1
 ```java
@@ -47,14 +47,14 @@ System.out.println("a = " + a + ", b = " + b);
 ```
 
 ### 2️⃣ Completar código  
-Completa la instrucción o el bloque de código faltante  
+*Completa la instrucción o el bloque de código faltante.*  
 
 
 
 
 
 ### 3️⃣ Implementación completa del problema
-*Escribe un programa completo de 5-10 líneas máximo*  
+*Escribe un programa completo de 5-10 líneas máximo.*  
 
 
 
