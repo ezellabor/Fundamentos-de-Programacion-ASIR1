@@ -50,6 +50,44 @@ System.out.println("a = " + a + ", b = " + b);
 *Completa la instrucción o el bloque de código faltante.*  
 
 
+#### Ejercicio 1 (par o impar)
+```java
+import java.util.Scanner;
+
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+
+if (n % 2 == 0)
+    System.out.println("Par");
+else
+    System.out.println("Impar");
+```
+
+#### Ejercicio 2
+```java
+
+```
+
+
+
+#### Ejercicio 3
+```java
+
+```
+
+
+
+#### Ejercicio 4
+```java
+
+```
+
+
+#### Ejercicio 5
+```java
+
+
+```
 
 
 
@@ -67,36 +105,6 @@ System.out.println("a = " + a + ", b = " + b);
 
 ## 5️⃣ Ejemplo final
 
-## 6️⃣ Ejercicios 
-
-### Ejercicio 1
-
-```java
-int r = 8 + 2 * 3;
-```
-
-<details>
-<summary>✅ Solución</summary>
-
-2 * 3 = 6  
-8 + 6 = **14**
-
-</details>
-
----
-
-### Ejercicio 2
-
-```java
-System.out.println(10 % 4);
-```
-
-<details>
-<summary>✅ Solución</summary>
-
-Resto = **2**
-
-</details>
 
 ---
 
@@ -114,10 +122,3 @@ System.out.println(a > 3);
 
 </details>
 
----
-
-### Ejercicio 4
-
-```java
-System.out.println(true && false);
-```
