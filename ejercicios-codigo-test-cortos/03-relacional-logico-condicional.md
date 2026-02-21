@@ -63,9 +63,14 @@ else
     System.out.println("Impar");
 ```
 
-#### Ejercicio 2
-```java
+#### Ejercicio 2  
+Completa la condición para verificar si un número es positivo y par:
 
+```java
+int numero = 8;
+if (/* condición aquí */) {
+    System.out.println("El número es positivo y par");
+}
 ```
 
 
