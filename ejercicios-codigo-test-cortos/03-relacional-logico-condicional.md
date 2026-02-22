@@ -104,7 +104,7 @@ System.out.println(estaEnRango);
 ---  
 
 ### 3️⃣ Escribir el código completo
-*Escribe un programa completo de 5-10 líneas máximo.*  
+*Escribe un programa en Java completo de 5-10 líneas máximo.*  
 
 #### Ejercicio 1 
 Lee dos números enteros por teclado y muestra si son iguales o cuál es mayor/menor.
