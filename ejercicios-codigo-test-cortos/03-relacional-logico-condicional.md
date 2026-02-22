@@ -7,7 +7,7 @@
 
 
 ### 1️⃣ Análisis de código  
-*Analiza el siguiente código y determina qué mostrará por pantalla.*  
+*Analiza los siguientes fragmentos de código en Java y determina qué mostrará por pantalla.*  
 
 #### Ejercicio 1
 ```java
@@ -48,7 +48,7 @@ System.out.println("a = " + a + ", b = " + b);
 ---  
 
 ### 2️⃣ Completar código  
-*Completa la instrucción o el bloque de código faltante.*  
+*Completa la instrucción o el bloque de código Java faltante.*  
 
 #### Ejercicio 1 (par o impar)
 ```java
