@@ -121,16 +121,20 @@ Lee un número del 1 al 7 y muestra el día de la semana correspondiente. Si el 
 Lee tres números y determina cuál es el mayor de los tres usando el operador ternario.  
 
 #### Ejercicio 5  
-5-1) Programa que muestre un menú: 
+5-1) Programa que muestre un menú:  
+```java
     1. Sumar
     2. Restar
     3. Multiplicar
     4. Dividir
     5. Resto
-5-2) Pida dos números y realice la operación.
-5-3) Modifica el código para incluir una regla de validación que no permita la división entre cero. Si el usuario intenta dividir entre cero, debe mostrar un mensaje de error.
-5-4) Reescribe el menú del apartado 5.1 utilizando la estructura switch en lugar de if-else.  
+```
 
+5-2) Pida dos números y realice la operación.  
+5-3) Modifica el código para incluir una regla de validación que no permita la división entre cero. Si el usuario intenta dividir entre cero, debe mostrar un mensaje de error.  
+5-4) Reescribe el menú del apartado 5.1 utilizando la estructura ```switch``` en lugar de ```if-else```.    
+
+<!--
 ## 4️⃣ 
 
 
@@ -153,4 +157,4 @@ System.out.println(a > 3);
 **true**
 
 </details>
-
+-->
