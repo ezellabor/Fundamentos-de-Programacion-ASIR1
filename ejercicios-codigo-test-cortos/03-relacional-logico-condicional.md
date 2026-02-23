@@ -76,7 +76,7 @@ if (/* escribe la condición aquí */) {
 ```
 
 #### Ejercicio 3  
-Completa el operador ternario para asignar "Mayor de edad" si edad >= 18, "Menor de edad" en caso contrario:  
+Completa el operador ternario para asignar el literal "Mayor de edad" a la variable ```mensaje``` si edad >= 18, "Menor de edad" en caso contrario:  
 
 ```java
 int edad = 20;
@@ -95,7 +95,7 @@ System.out.println(contador); // Debe mostrar 6
 ```
 
 #### Ejercicio 5  
-Completa la expresión lógica para que el resultado sea true si el número está entre 10 y 20 (inclusive):
+Completa la expresión lógica para que el resultado sea ```true``` si el número está entre 10 y 20 (inclusive):
 
 ```java
 int num = 15;
