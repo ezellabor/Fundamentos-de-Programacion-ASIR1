@@ -50,14 +50,16 @@ System.out.println("a = " + a + ", b = " + b);
 ### 2️⃣ Completar código  
 *Completa la instrucción o el bloque de código Java faltante.*  
 
-#### Ejercicio 1 (par o impar)
+#### Ejercicio 1  
+Completa la condición para comprobar si un número es par o impar:  
+
 ```java
 import java.util.Scanner;
 
 Scanner sc = new Scanner(System.in);
 int n = sc.nextInt();
 
-if (n % 2 == 0)
+if (/* escribe la condición aquí */)
     System.out.println("Par");
 else
     System.out.println("Impar");
@@ -68,7 +70,7 @@ Completa la condición para verificar si un número es positivo y par:
 
 ```java
 int numero = 8;
-if (/* condición aquí */) {
+if (/* escribe la condición aquí */) {
     System.out.println("El número es positivo y par");
 }
 ```
