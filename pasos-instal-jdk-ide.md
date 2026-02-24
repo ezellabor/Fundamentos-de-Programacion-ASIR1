@@ -30,8 +30,8 @@ Es obligatorio instalar el kit de desarrollo antes que el editor.
 1. Instala VS Code.
 2. Abre el panel de Extensiones (`Ctrl + Shift + X`).
 3. Busca e instala: **"Extension Pack for Java"** de Microsoft. Este pack instala 6 extensiones clave (Language Support, Debugger, Maven, etc.).
-4. Para crear un programa (selección de Runtime): F1 o `Ctrl + Shift + P` -> `Java: Create Java Project` -> `No Build Tools`.
-Nota: Escribe: Configure Java Runtime para asegurar que detecta el JDK 21.
+4. Para crear un programa (selección de Runtime): F1 o `Ctrl + Shift + P` -> `Java: Create Java Project` -> `No Build Tools`.  
+Nota> Escribe: ```Java: Configure Java Runtime``` para asegurar que detecta el JDK 21.
 
 ### Opción B: IntelliJ IDEA Community
 1. Descarga e instala la versión **Community** (gratuita).
