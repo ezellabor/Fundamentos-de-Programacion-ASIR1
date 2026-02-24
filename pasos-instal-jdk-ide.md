@@ -7,9 +7,19 @@
 | **Consumo RAM (Uso)** | ~1.5 GB - 3 GB (Pesado) | ~400 MB - 800 MB (Ligero) | ~800 MB - 1.5 GB |
 | **Espacio en Disco** | ~2.5 GB | ~500 MB | ~1 GB |
 | **Arranque** | Lento (Indexando) | Instantáneo | Medio |
-| **Recomendación** | Alumnos avanzados | **Ideal para ASIR (50h)** | Entornos corporativos |
+| **Recomendación** | Desarrollo profesional | **Ideal para ASIR (50h)** | Entornos corporativos |
+| **Curva Aprendizaje** | Media/Alta | Muy Baja | Alta |  
 
----
+---  
+
+Característica,IntelliJ IDEA (Community),Visual Studio Code,Eclipse IDE
+Enfoque,Profesional / Especializado,Ligero / Polivalente,Clásico / Robusto
+Motor de ejecución,Java (JVM),Electron (Node.js),Java (JVM)
+Espacio en Disco,~1.5 GB - 2.5 GB,~500 MB + Extensiones,~500 MB - 1 GB
+RAM (Uso Real),~1.5 GB - 3 GB,~400 MB - 800 MB,~800 MB - 1.5 GB
+Arranque,Lento (Indexación pesada),Muy rápido,Medio
+Curva Aprendizaje,Media/Alta,Muy Baja,Alta
+Recomendación,Para desarrollo profesional,Ideal para 50h (ASIR),Entornos corporativos antiguos
 
 ## 2. Paso 0: Instalación del JDK (El Motor)
 Es obligatorio instalar el kit de desarrollo antes que el editor.
