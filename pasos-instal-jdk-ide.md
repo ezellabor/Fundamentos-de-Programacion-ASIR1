@@ -6,9 +6,10 @@
 | **Enfoque** | Profesional / Especializado | Ligero / Polivalente | Clásico / Robusto |
 | **Consumo RAM (Uso)** | ~1.5 GB - 3 GB (Pesado) | ~400 MB - 800 MB (Ligero) | ~800 MB - 1.5 GB |
 | **Espacio en Disco** | ~2.5 GB | ~500 MB | ~1 GB |
-| **Arranque** | Lento (Indexando) | Instantáneo | Medio |
-| **Recomendación** | Desarrollo profesional | **Ideal para ASIR (50h)** | Entornos corporativos |
+| **Arranque** | Lento (Indexación pesada) | Instantáneo | Medio |
 | **Curva Aprendizaje** | Media/Alta | Muy Baja | Alta |  
+| **Motor de ejecución** | Java (JVM) | Electron (Node.js) | Java (JVM) |  
+| **Recomendación** | Desarrollo profesional | **Ideal para ASIR (50h)** | Entornos corporativos |
 
 ---  
 
