@@ -975,4 +975,10 @@ do {
     String password = sc.nextLine();
 ```
 
-## 8. Ejercicios prácticos <a name="8-ejercicios-practicos"></a>
+## 8. Ejercicios prácticos <a name="8-ejercicios-practicos"></a>  
+
+[Ejercicios prácticos condicionales](https://github.com/ezellabor/Fundamentos-de-Programacion-ASIR1/blob/main/ejercicios-codigo-test-cortos/03-relacional-logico-condicional.md)  
+
+----
+
+
