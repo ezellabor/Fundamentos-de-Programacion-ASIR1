@@ -1,6 +1,6 @@
-# Guía de Instalación: Java y Entornos de Desarrollo (ASIR)
+# Guía de instalación: Java y Entornos de Desarrollo Integrado (IDE)
 
-## 1. Comparativa Técnica de IDEs
+## 1. Comparativa de IDEs
 | Característica | **IntelliJ IDEA (Community)** | **Visual Studio Code** | **Eclipse IDE** |
 | :--- | :--- | :--- | :--- |
 | **Enfoque** | Profesional / Especializado | Ligero / Polivalente | Clásico / Robusto |
@@ -13,15 +13,6 @@
 
 ---  
 
-Característica,IntelliJ IDEA (Community),Visual Studio Code,Eclipse IDE
-Enfoque,Profesional / Especializado,Ligero / Polivalente,Clásico / Robusto
-Motor de ejecución,Java (JVM),Electron (Node.js),Java (JVM)
-Espacio en Disco,~1.5 GB - 2.5 GB,~500 MB + Extensiones,~500 MB - 1 GB
-RAM (Uso Real),~1.5 GB - 3 GB,~400 MB - 800 MB,~800 MB - 1.5 GB
-Arranque,Lento (Indexación pesada),Muy rápido,Medio
-Curva Aprendizaje,Media/Alta,Muy Baja,Alta
-Recomendación,Para desarrollo profesional,Ideal para 50h (ASIR),Entornos corporativos antiguos
-
 ## 2. Paso 0: Instalación del JDK (El Motor)
 Es obligatorio instalar el kit de desarrollo antes que el editor.
 1. Descarga **JDK 21 (LTS)** de [Adoptium (Temurin)](https://adoptium.net/).
@@ -33,7 +24,7 @@ Es obligatorio instalar el kit de desarrollo antes que el editor.
 
 ---
 
-## 3. Configuración de los Editores
+## 3. Configuración de los IDEs
 
 ### Opción A: Visual Studio Code (Recomendado)
 1. Instala VS Code.
@@ -53,7 +44,7 @@ Es obligatorio instalar el kit de desarrollo antes que el editor.
 
 ---
 
-## 4. ✅ Prueba de Funcionamiento
+## 4. ✅ Prueba de funcionamiento
 Crea un archivo `Test.java` y ejecuta:
 
 ```java
