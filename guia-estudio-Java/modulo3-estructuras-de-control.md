@@ -3,12 +3,13 @@
 # MÓDULO 3: ESTRUCTURAS DE CONTROL  
 
 1. Sentencias condicionales: if, else, else if
-1. Operador ternario
-1. Sentencia switch
-1. Bucles: while y do-while
-1. Bucle for y for-each
-1. Sentencias break y continue
-1. Estructuras anidadas  
+2. Operador ternario
+3. Sentencia switch
+4. Bucles: while y do-while
+5. Bucle for y for-each
+6. Sentencias break y continue
+7. Estructuras anidadas
+8. [Ejercicios prácticos](#8-ejercicios-practicos)
 
 ## 1. Sentencias condicionales: if, else, else if
 
@@ -973,3 +974,5 @@ do {
                      + " de " + MAX_INTENTOS + "): ");
     String password = sc.nextLine();
 ```
+
+## 8. Ejercicios prácticos <a name="8-ejercicios-practicos"></a>
