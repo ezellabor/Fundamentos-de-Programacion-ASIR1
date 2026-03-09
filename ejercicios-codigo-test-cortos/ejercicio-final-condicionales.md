@@ -94,7 +94,7 @@ if (power) {
 ```java
 int octeto = 192;
 
-// Escribe tu código aquí:
+// Escribe tu código aquí
 
 ```
 
@@ -102,13 +102,13 @@ int octeto = 192;
 
 *Usa un ```if-else if-else``` para determinar si un host puede correr máquinas virtuales.*  
 
-- Si ```ramGB``` >= 16: "Óptimo para Virtualización".  
+- Si ```ramGB``` >= 16: "Óptimo para virtualización".  
 - Si ```ramGB``` >= 8: "Posible pero limitado".
 - Si no: "Insuficiente".  
 ```java
 int ramGB = 12;
 
-// Escribe tu código aquí:
+// Escribe tu código aquí
 
 
 ```
@@ -126,7 +126,7 @@ int ramGB = 12;
 ```java
 int opcion = 2;
 
-// Escribe tu código aquí:
+// Escribe tu código aquí
 
 
 ```
