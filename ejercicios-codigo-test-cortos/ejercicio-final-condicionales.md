@@ -131,7 +131,7 @@ int opcion = 2;
 ```
 
 ---  
-
+<!--
  ### Soluciones Bloque 1 (Traza)    
  1. ```false``` (80 no es mayor o igual a 1024).
  2. ```false``` (true && false resulta en false).
@@ -180,4 +180,4 @@ switch(opcion) {
         System.out.println("Opción no válida");
 }
 ```
-
+-->
