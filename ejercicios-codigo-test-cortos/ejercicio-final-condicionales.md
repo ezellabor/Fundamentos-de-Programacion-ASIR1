@@ -145,3 +145,39 @@ int opcion = 2;
 
 ### Soluciones Bloque 3 (Problemas)  
 #### 3.1. Validación IP
+```java
+if (octeto >= 1 && octeto <= 223) {
+    System.out.println("IP Clase Valida");
+} else {
+    System.out.println("IP Reservada o Invalida");
+}
+```
+
+#### 3.2. Requisitos RAM  
+```java
+if (ramGB >= 16) {
+    System.out.println("Óptimo para Virtualización");
+} else if (ramGB >= 8) {
+    System.out.println("Posible pero limitado");
+} else {
+    System.out.println("Insuficiente");
+}
+```
+
+#### 3.3. Menú de usuarios
+```java
+switch(opcion) {
+    case 1:
+        System.out.println("Crear Usuario");
+        break;
+    case 2:
+        System.out.println("Borrar Usuario");
+        break;
+    case 3:
+        System.out.println("Listar Usuarios");
+        break;
+    default:
+        System.out.println("Opción no válida");
+}
+```
+
