@@ -17,18 +17,18 @@
 
 *Lee el siguiente fragmento de código y escribe exactamente qué se mostrará por consola (`System.out.println`).*
 
-### 1.1. Operadores Relacionales
+### 1.1. Operadores relacionales
 ```java
 int puertosAbiertos = 80;
 System.out.println(puertosAbiertos >= 1024);
 ```
-### 1.2. Operadores Lógicos  
+### 1.2. Operadores lógicos  
 ```java  
 boolean servidorActivo = true;
 boolean hayConexion = false;
 System.out.println(servidorActivo && hayConexion);
 ```
-### 1.3. Sentencia Switch Simple  
+### 1.3. Sentencia Switch simple  
 ```java
 int nivelLog = 2;
 switch(nivelLog) {
@@ -60,7 +60,7 @@ if (_______) {
     System.out.println("Acceso denegado");
 }
 ```
-### 2.3. Estado del Servicio  
+### 2.3. Estado del servicio  
 
 *Completa el ```switch``` para manejar el estado "STOP".*
 
@@ -73,7 +73,7 @@ switch(estado) {
 }
 
 ```
-### 2.4. Anidamiento Básico  
+### 2.4. Anidamiento básico  
 
 *Si hay energía (```power``` true) Y el switch está encendido (```on``` true), encender PC.*  
 ```java
@@ -86,11 +86,11 @@ if (power) {
 }
 ```
 
-## Bloque 3: Problemas Contextualizados  
+## Bloque 3: Lógica conpleta  
 
-*Resuelve los siguientes problemas prácticos relacionados con redes y hardware. Escribe la lógica completa en el espacio reservado.*  
+*Resuelve los siguientes supuestos prácticos relacionados con redes y hardware. Escribe la lógica completa en el espacio reservado.*  
 
-### 3.1. Validación de Primer Octeto IP  
+### 3.1. Validación de primer octeto IP  
 
 *Escribe un ```if-else``` que valide si el primer octeto de una IP (``int octeto```) es válido (entre 1 y 223 para Clase A/B/C estándar). Si es válido imprime "IP Clase Valida", si no "IP Reservada o Invalida".*  
 ```java
@@ -100,7 +100,7 @@ int octeto = 192;
 
 ```
 
-### 3.2. Requisitos de RAM para Virtualización  
+### 3.2. Requisitos de RAM para virtualización  
 
 *Usa un ```if-else if-else``` para determinar si un host puede correr máquinas virtuales.*  
 
@@ -115,7 +115,7 @@ int ramGB = 12;
 
 ```
 
-### 3.3. Menú de Administración de Usuarios (Switch)  
+### 3.3. Menú de administración de usuarios (Switch)  
 
 *Crea un ```switch``` basado en una variable ```int opcion``` (1, 2 o 3).*  
 
