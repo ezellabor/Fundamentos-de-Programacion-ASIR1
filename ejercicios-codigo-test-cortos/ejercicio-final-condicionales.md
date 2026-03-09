@@ -41,7 +41,7 @@ switch(nivelLog) {
 
 ### 2.1. Validación de puerto  
 
-Un puerto es válido si está entre 1 y 65535. Completa la condición ```if```.  
+*Un puerto es válido si está entre 1 y 65535. Completa la condición ```if```.*  
 ```java
 int puerto = 443;
 if (puerto >= 1 _______ puerto <= 65535) {
