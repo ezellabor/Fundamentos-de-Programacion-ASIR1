@@ -13,7 +13,7 @@
 
 ## Bloque 1: Traza de código
 
-*Lee el siguiente fragmento de código y escribe exactamente qué se mostrará por consola (`System.out.println`).*
+*Lee atentamente los siguientes fragmentos de código y escribe exactamente qué se mostrará por consola (`System.out.println`).*
 
 ### 1.1. Operadores relacionales
 ```java
