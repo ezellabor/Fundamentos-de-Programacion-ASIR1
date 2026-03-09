@@ -128,5 +128,20 @@ int opcion = 2;
 
 // Escribe tu código aquí
 
-
 ```
+
+---  
+
+ ### Soluciones Bloque 1 (Traza)    
+ 1. ```false``` (80 no es mayor o igual a 1024).
+ 2. ```false``` (true && false resulta en false).
+ 3. ```ERROR``` (Coincide con case 2).
+
+### Soluciones Bloque 2 (Completar)  
+1. ```&&``` (Operador lógico AND).
+2. ```rol.equals("admin")``` (Comparación correcta de Strings en Java)
+3. ```case``` (Palabra clave para casos en switch)
+4. ```on``` o ```on == true``` (Condición booleana).  
+
+### Soluciones Bloque 3 (Problemas)  
+#### 3.1. Validación IP
