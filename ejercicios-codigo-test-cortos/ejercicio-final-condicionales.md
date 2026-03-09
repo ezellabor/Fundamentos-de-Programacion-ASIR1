@@ -73,7 +73,7 @@ switch(estado) {
 ```
 ### 2.4. Anidamiento básico  
 
-*Si hay energía (```power``` true) Y el switch está encendido (```on``` true), encender PC.*  
+*Si hay energía (```power``` == true) Y el switch está encendido (```on``` == true), encender PC.*  
 ```java
 boolean power = true;
 boolean on = true;
