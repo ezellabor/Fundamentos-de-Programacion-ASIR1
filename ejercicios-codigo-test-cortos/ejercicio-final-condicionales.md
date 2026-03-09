@@ -3,9 +3,7 @@
 **Módulo:** Fundamentos de Programación (FUNDPROG)  
 **Curso:** 1º ASIR (Administración de Sistemas Informáticos en Red)  
 
----
-
-## Instrucciones Generales
+## Instrucciones generales
 
 1.  Este ejercicio final consta de **3 bloques** y **10 preguntas** en total.
 2.  Escribe el código Java de forma clara y legible.
