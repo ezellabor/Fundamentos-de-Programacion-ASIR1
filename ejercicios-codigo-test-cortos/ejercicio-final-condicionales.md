@@ -84,9 +84,9 @@ if (power) {
 }
 ```
 
-## Bloque 3: Lógica conpleta  
+## Bloque 3: Lógica completa    
 
-*Resuelve los siguientes supuestos prácticos relacionados con redes y hardware. Escribe la lógica completa en el espacio reservado.*  
+*Resuelve los siguientes supuestos prácticos relacionados con redes y hardware. Escribe la lógica completa que de solución a los problemas propuestos.*  
 
 ### 3.1. Validación de primer octeto IP  
 
