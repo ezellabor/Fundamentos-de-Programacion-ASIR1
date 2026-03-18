@@ -81,7 +81,7 @@ if (/* escribe la condición aquí */)
 else
     System.out.println("Impar");
 
-// Solución: (num % 2 == 0
+// Solución: num % 2 == 0
 ```
 
 #### Ejercicio 2  
