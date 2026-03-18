@@ -103,6 +103,9 @@ Completa el operador ternario para asignar el literal "Mayor de edad" a la varia
 int edad = 20;
 String mensaje = /* operador ternario aquí */;
 System.out.println(mensaje);
+
+// Solución:
+// String mensaje = (edad >= 18) ? "Mayor de edad" : "Menor de edad";
 ```
 
 #### Ejercicio 4  
