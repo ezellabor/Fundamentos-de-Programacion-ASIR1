@@ -11,7 +11,7 @@
 
 ## 1. Arrays unidimensionales
 
-Un **array** (arreglo) es una estructura de datos que permite almacenar múltiples valores del mismo tipo en una única variable. Los arrays tienen un tamaño fijo que se define al crearlos.
+Un **array** (arreglo) es una estructura de datos que permite almacenar múltiples valores del **mismo tipo** en una única variable. Los arrays tienen un **tamaño fijo** que se define al crearlos.
 
 ### ¿Por qué usar arrays?
 
