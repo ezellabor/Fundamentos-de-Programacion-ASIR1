@@ -230,7 +230,7 @@ Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permi
 - Clase `GestorContactos.java` con todos los métodos
 - Datos de prueba precargados (al menos 10 contactos)
 - Demostración de operaciones CRUD completas
-- Ejemplos de búsquedas y ordenamiento
+- Ejemplos de búsquedas y ordenación
 
 -----
 
