@@ -19,14 +19,13 @@
 
 
 
-### Ejercicio 1 - Nivel 1
-**¿Cómo se declara correctamente un array de enteros de tamaño 5?**
+### 1 - ¿Cómo se declara correctamente un array de enteros de tamaño 5?
 
 a) int[] numeros = new int[5];  
 b) int[5] numeros = new int;  
 c) array int numeros[5];  
 d) int numeros = new array[5];  
-
+<!--
 <details>
 <summary>💡 Pista</summary>
 En Java, los arrays se declaran con tipo[] nombre = new tipo[tamaño].
@@ -36,17 +35,16 @@ En Java, los arrays se declaran con tipo[] nombre = new tipo[tamaño].
 <summary>✅ Respuesta correcta</summary>
 **a) int[] numeros = new int[5];**
 </details>
-
+-->
 ---
 
-### Ejercicio 2 - Nivel 1
-**¿Cuál es el índice del primer elemento de un array?**
+### 2 - ¿Cuál es el índice del primer elemento de un array?
 
 a) 1  
 b) 0  
 c) -1  
 d) Depende del tamaño  
-
+<!--
 <details>
 <summary>💡 Pista</summary>
 Los arrays en Java (y la mayoría de lenguajes) empiezan en índice 0.
@@ -56,17 +54,16 @@ Los arrays en Java (y la mayoría de lenguajes) empiezan en índice 0.
 <summary>✅ Respuesta correcta</summary>
 **b) 0**
 </details>
-
+-->
 ---
 
-### Ejercicio 3 - Nivel 2
-**¿Qué excepción se lanza al intentar acceder a un índice fuera del rango del array?**
+### 3 - ¿Qué excepción se lanza al intentar acceder a un índice fuera del rango del array?
 
 a) IndexOutOfBoundsException  
 b) ArrayIndexOutOfBoundsException  
 c) OutOfRangeException  
 d) ArrayException  
-
+<!--
 <details>
 <summary>💡 Pista</summary>
 La excepción específica para arrays incluye 'Array' en su nombre.
@@ -76,17 +73,16 @@ La excepción específica para arrays incluye 'Array' en su nombre.
 <summary>✅ Respuesta correcta</summary>
 **b) ArrayIndexOutOfBoundsException**
 </details>
-
+-->
 ---
 
-### Ejercicio 4 - Nivel 2
-**¿Cómo obtienes el tamaño/longitud de un array llamado 'servidores'?**
+###  4 - ¿Cómo obtienes el tamaño/longitud de un array llamado 'servidores'?
 
 a) servidores.size()  
 b) servidores.length  
 c) servidores.length()  
 d) size(servidores)  
-
+<!--
 <details>
 <summary>💡 Pista</summary>
 Para arrays es un atributo (length), para ArrayList es un método (size()).
@@ -96,17 +92,16 @@ Para arrays es un atributo (length), para ArrayList es un método (size()).
 <summary>✅ Respuesta correcta</summary>
 **b) servidores.length**
 </details>
-
+-->
 ---
 
-### Ejercicio 5 - Nivel 2
-**¿Cuál es la ventaja principal de ArrayList sobre arrays normales?**
+### 5 - ¿Cuál es la ventaja principal de ArrayList sobre arrays normales?
 
 a) Es más rápido  
 b) Tiene tamaño dinámico  
 c) Usa menos memoria  
 d) Es más simple  
-
+<!--
 <details>
 <summary>💡 Pista</summary>
 Los arrays tienen tamaño fijo, pero ArrayList puede crecer automáticamente.
@@ -116,15 +111,16 @@ Los arrays tienen tamaño fijo, pero ArrayList puede crecer automáticamente.
 <summary>✅ Respuesta correcta</summary>
 **b) Tiene tamaño dinámico**
 </details>
-
+-->
 ---
 
-### Ejercicio 6 - Nivel 3
-**Completa el código para inicializar un array con los puertos HTTP comunes:
+### 6 - Completa el código para inicializar un array con los puertos HTTP comunes:
 
 ```java
-int[] puertos = {80, 443, ____, 8443};
-```**
+int[] puertos =  /* 80, 443, 8080, 8443 */
+<!--
+{80, 443, ____, 8443};
+```  
 
 <details>
 <summary>💡 Pista</summary>
@@ -139,12 +135,11 @@ El puerto HTTP alternativo más común es 8080.
 int[] puertos = {80, 443, 8080, 8443};
 ```
 </details>
-
+-->
 ---
 
-### Ejercicio 7 - Nivel 3
-**¿Cuál es el último índice válido de un array de tamaño 10?**
-
+### 7 - ¿Cuál es el último índice válido de un array de tamaño 10?  
+<!--
 <details>
 <summary>💡 Pista</summary>
 Si empieza en 0 y tiene 10 elementos... el último índice es tamaño - 1.
@@ -156,11 +151,10 @@ Si empieza en 0 y tiene 10 elementos... el último índice es tamaño - 1.
 
 Los índices van de 0 a 9 (10 elementos en total).
 </details>
-
+-->
 ---
 
-### Ejercicio 8 - Nivel 3
-**Escribe un for-each para recorrer un array de IPs llamado 'ips':**
+### 8 - Escribe un for-each para recorrer un array de IPs llamado 'ips':  <!--
 
 <details>
 <summary>💡 Pista</summary>
@@ -175,10 +169,10 @@ for (String ip : ips) {
 }
 ```
 </details>
-
+-->
 ---
 
-### Ejercicio 9 - Nivel 4
+### 9 - Nivel 4
 **Escribe código para crear un ArrayList de String, agregar 3 servidores y mostrar su tamaño:
 Servidores: "web01", "web02", "web03"**
 
@@ -200,10 +194,8 @@ System.out.println("Total: " + servidores.size());
 
 ---
 
-### Ejercicio 10 - Nivel 4
-**Escribe un programa que declare un array de 5 puertos, los inicialice y muestre todos:
-Puertos: 21, 22, 80, 443, 3306**
-
+### 10 - Escribe un programa que declare un array de 5 puertos, los inicialice y muestre todos. Puertos: 21, 22, 80, 443, 3306
+<!--
 <details>
 <summary>💡 Pista</summary>
 Usa inicialización directa con {} y un for-each para mostrar.
@@ -233,4 +225,4 @@ public class Puertos {
 
 ---
 
-**💡 Recuerda:** La práctica constante es el secreto del aprendizaje.
+**💡 Recuerda:** La práctica constante es el secreto del aprendizaje.-->
