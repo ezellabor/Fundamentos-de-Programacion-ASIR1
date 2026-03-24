@@ -198,9 +198,8 @@ System.out.println("Total: " + servidores.size());
 ```
 </details>
 -->
----
 
-### 10 - Escribe un programa que declare un array de 5 puertos, los inicialice y muestre todos. Puertos: 21, 22, 80, 443, 3306
+### 9 - Escribe el código Java que declare un array de 5 elementos cuyos elementos sean los puertos de un servidor, los inicialice y los muestre todos. Puertos: 21, 22, 80, 443, 3306
 <!--
 <details>
 <summary>💡 Pista</summary>
