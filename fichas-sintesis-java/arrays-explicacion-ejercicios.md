@@ -26,7 +26,7 @@ Un array es como un rack de servidores:
 - solo puedes guardar un tipo de cosa en cada ranura
 - Si intentas acceder a una ranura que no existe, el rack te da error.
 
-![array-analogia-rack](fichas-sintesis-java/array-analogia-rack.png)  
+![array-analogia-rack](array-analogia-rack.png)  
 
 
 ```java
