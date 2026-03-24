@@ -28,6 +28,7 @@ Un array es como un rack de servidores:
 
 ![array-analogia-rack](fichas-sintesis-java/array-analogia-rack.png)  
 
+
 ```java
 public class ArrayComoRack {
     public static void main(String[] args) {
