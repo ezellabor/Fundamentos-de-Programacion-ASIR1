@@ -118,6 +118,8 @@ Los arrays tienen tamaño fijo, pero ArrayList puede crecer automáticamente.
 
 ```java
 int[] puertos =  /* 80, 443, 8080, 8443 */
+```
+
 <!--
 {80, 443, ____, 8443};
 ```  
@@ -154,7 +156,9 @@ Los índices van de 0 a 9 (10 elementos en total).
 -->
 ---
 
-### 8 - Escribe un for-each para recorrer un array de IPs llamado 'ips':  <!--
+### 8 - Escribe un for-each para recorrer un array de IPs llamado ```ips```.  
+
+<!--
 
 <details>
 <summary>💡 Pista</summary>
@@ -171,6 +175,8 @@ for (String ip : ips) {
 </details>
 -->
 ---
+
+<!-- 
 
 ### 9 - Nivel 4
 **Escribe código para crear un ArrayList de String, agregar 3 servidores y mostrar su tamaño:
@@ -191,7 +197,7 @@ servidores.add("web03");
 System.out.println("Total: " + servidores.size());
 ```
 </details>
-
+-->
 ---
 
 ### 10 - Escribe un programa que declare un array de 5 puertos, los inicialice y muestre todos. Puertos: 21, 22, 80, 443, 3306
