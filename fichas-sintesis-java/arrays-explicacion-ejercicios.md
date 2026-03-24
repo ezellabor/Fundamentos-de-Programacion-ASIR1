@@ -258,7 +258,7 @@ public class Ejemplo4_MaxMin {
 
 ``` 
 
-## Recursos Adicionales  
+## Recursos de apoyo  
 
 - Documentación oficial Oracle: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
 - Visualizador de código: https://www.onlinegdb.com/online_java_compiler
