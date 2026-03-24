@@ -157,25 +157,25 @@ Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permi
 ### Tareas:
 
 1. Usar un bucle `do-while` para mantener el menú activo hasta que el usuario elija salir
-1. Implementar búsqueda de contactos usando diferentes bucles:
+2. Implementar búsqueda de contactos usando diferentes bucles:
 
 - Búsqueda por nombre usando `for`
 - Búsqueda por teléfono usando `while`
 - Búsqueda por email usando `for-each` (cuando se introduzcan arrays)
 
-1. Crear listados con bucles:
+3. Crear listados con bucles:
 
 - Listar TODOS los contactos (for)
 - Listar solo favoritos (for con continue para saltar no favoritos)
 - Listar por categoría (for con break si se encuentra el primero de una búsqueda específica)
 
-1. Implementar validación de entrada con bucles:
+4. Implementar validación de entrada con bucles:
 
 - Repetir solicitud de email hasta que sea válido
 - Repetir solicitud de edad hasta que esté en rango correcto
 
-1. Menú de navegación paginada (mostrar 5 contactos por página)
-1. Sistema de intentos para búsquedas (máximo 3 intentos)
+5. Menú de navegación paginada (mostrar 5 contactos por página)
+6. Sistema de intentos para búsquedas (máximo 3 intentos)
 
 ### Entregables:
 
@@ -207,13 +207,13 @@ Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permi
 - `boolean[] favoritos`
 - `String[] categorias`
 
-1. Implementar variable contador: `int totalContactos = 0`
-1. Crear array bidimensional para historial de interacciones:
+2. Implementar variable contador: `int totalContactos = 0`
+3. Crear array bidimensional para historial de interacciones:
 
 - `String[][] historial` donde cada fila representa: [fecha, tipo_interaccion, notas]
 - Ejemplo: `historial[0] = {"27/12/2024", "Llamada", "Reunión programada"}`
 
-1. Crear métodos para manipular arrays:
+4. Crear métodos para manipular arrays:
 
 - `void agregarContacto(...)` - añade al final del array
 - `int buscarContactoPorNombre(String nombre)` - devuelve índice o -1
@@ -222,8 +222,8 @@ Los estudiantes desarrollarán una **Agenda de Contactos Profesional** que permi
 - `void ordenarContactosPorNombre()` - algoritmo de burbuja
 - `String[] obtenerFavoritos()` - retorna array solo con favoritos
 
-1. Implementar búsqueda avanzada que retorne array de índices coincidentes
-1. Crear copia de seguridad de contactos (clonar arrays)
+5. Implementar búsqueda avanzada que retorne array de índices coincidentes
+6. Crear copia de seguridad de contactos (clonar arrays)
 
 ### Entregables:
 
