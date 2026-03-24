@@ -6,7 +6,7 @@
 **ASIR - Administración de Sistemas Informáticos en Red**
 
 ---
-
+<!--
 ## Conceptos clave
 
 - Arrays unidimensionales y multidimensionales
@@ -16,7 +16,7 @@
 - Búsqueda y ordenamiento básico
 
 ---
-
+-->
 
 
 ### 1 - ¿Cómo se declara correctamente un array de enteros de tamaño 5?
