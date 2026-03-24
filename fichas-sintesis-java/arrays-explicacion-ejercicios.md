@@ -16,7 +16,7 @@
 
 ---
 
-## Ejemplo 1: Declaración y acceso básico
+## 1. Declaración y acceso básico
 
 ### ¿Qué es un Array?  
 
@@ -24,7 +24,35 @@ Un array es como un rack de servidores:
 - tiene un número fijo de ranuras
 - cada una tiene un número (índice)
 - solo puedes guardar un tipo de cosa en cada ranura
-- Si intentas acceder a una ranura que no existe, el rack te da error."
+- Si intentas acceder a una ranura que no existe, el rack te da error.
+
+```java
+public class ArrayComoRack {
+    public static void main(String[] args) {
+        
+        // El rack tiene 5 ranuras para servidores
+        int[] rackServidores = {80, 443, 22, 21, 3389};
+        
+        // ¿Cuántas ranuras tiene el rack?
+        System.out.println("Ranuras totales: " + rackServidores.length);
+        
+        // Acceder a una ranura específica
+        System.out.println("Ranura 0 (HTTP): " + rackServidores[0]);
+        System.out.println("Ranura 1 (HTTPS): " + rackServidores[1]);
+        
+        // Intentar acceder a una ranura que NO existe → ERROR
+        // System.out.println(rackServidores[5]); // ❌ ArrayIndexOutOfBoundsException!
+        
+        // Recorrer todas las ranuras del rack
+        System.out.println("\n=== INVENTARIO DEL RACK ===");
+        for (int ranura = 0; ranura < rackServidores.length; ranura++) {
+            System.out.println("Ranura " + ranura + ": Puerto " + rackServidores[ranura]);
+        }
+    }
+}
+``` 
+
+### Otro ejemplo:
 
 ```java
 public class Ejemplo1_ArrayBasico {
