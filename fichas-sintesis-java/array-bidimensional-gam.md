@@ -43,7 +43,7 @@ public static void mostrarIsla(int[][] isla) {
 
 ### 3. Buscar el tesoro
 
-Permite a los alumnos ingresar coordenadas (fila y columna) para buscar el tesoro.
+Permite introducir coordenadas ```fila y columna``` para buscar el tesoro.
 
 ```java
 import java.util.Scanner;
@@ -53,7 +53,7 @@ public static void buscarTesoro(int[][] isla) {
     boolean encontrado = false;
 
     while (!encontrado) {
-        System.out.println("Ingresa las coordenadas (fila y columna) para buscar el tesoro:");
+        System.out.println("Introduce las coordenadas (fila y columna) para buscar el tesoro:");
         int fila = scanner.nextInt();
         int columna = scanner.nextInt();
 
@@ -70,6 +70,7 @@ public static void buscarTesoro(int[][] isla) {
 ```
 
 ### 4. Ejecutar el juego  
+
 Llama a los métodos en la función ```main```.  
 
 ```java
@@ -89,6 +90,6 @@ public static void main(String[] args) {
 
 ### 5. Consideraciones adicionales  
 
-- Puntos de Bonificación: Puedes añadir un sistema de puntos donde los alumnos ganen puntos por cada intento (aunque no encuentren el tesoro).
-- Niveles: Varía el tamaño del array y la cantidad de tesoros en diferentes niveles.
-- Colaboración: Permite que los alumnos jueguen en equipos, fomentando el trabajo en grupo.
+- **Puntos de bonificación:** Puedes añadir un sistema de puntos donde los alumnos ganen puntos por cada intento (aunque no encuentren el tesoro).
+- **Niveles:** Varía el tamaño del array y la cantidad de tesoros en diferentes niveles.
+- **Colaboración:** Permite que los alumnos jueguen en equipos, fomentando el trabajo en grupo.
