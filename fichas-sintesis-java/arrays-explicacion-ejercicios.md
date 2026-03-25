@@ -23,7 +23,7 @@
 Un array es como un rack de servidores:
 - tiene un número fijo de ranuras
 - cada una tiene un número (índice)
-- solo puedes guardar un tipo de cosa en cada ranura
+- solo puedes guardar un tipo de cosa (dato) en cada ranura
 - Si intentas acceder a una ranura que no existe, el rack te da error
   
 
