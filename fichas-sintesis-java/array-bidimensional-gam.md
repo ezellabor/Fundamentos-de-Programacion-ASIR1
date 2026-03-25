@@ -1,7 +1,7 @@
 #"El Tesoro Escondido"
 
 ## Objetivo
-Buscar un tesoro escondido en una isla representada por un ```array bidimensional```. Cada celda del array puede contener diferentes elementos, como tierra, agua o el tesoro.
+Buscar un tesoro escondido en una isla representada por un ```array bidimensional```. Cada celda del array puede contener diferentes elementos, como ```tierra, agua o el tesoro.```
 
 ### Descripción del Juego
 
@@ -11,9 +11,9 @@ Buscar un tesoro escondido en una isla representada por un ```array bidimensiona
   - `1`: Agua
   - `2`: Tesoro (solo hay uno en el array)
 
-### Paso a Paso
+### Paso a paso
 
-1. **Definir el Array:**
+1. **Definir/Declarar el Array:**
    Crea un array bidimensional que represente la isla.
 
    ```java
