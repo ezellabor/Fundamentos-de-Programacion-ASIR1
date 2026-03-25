@@ -1,4 +1,9 @@
-#"El Tesoro Escondido"
+![Módulo](https://img.shields.io/badge/Módulo-Fundamentos_de_Programación-green?style=for-the-badge)
+![Grupo](https://img.shields.io/badge/Grupo-ASIR1-brown?style=for-the-badge)
+![Profesor](https://img.shields.io/badge/Profesor-Ezequiel_Llarena_Borges-blue?style=for-the-badge)
+--  
+![issue](https://img.shields.io/badge/issue-Arrays_Bidimensionales_(Matrices)-navy?style=for-the-badge)  
+```"El Tesoro Escondido"```
 
 ## Objetivo
 Buscar un tesoro escondido en una isla representada por un ```array bidimensional```. Cada celda del array puede contener diferentes elementos, como ```tierra, agua o el tesoro.```
