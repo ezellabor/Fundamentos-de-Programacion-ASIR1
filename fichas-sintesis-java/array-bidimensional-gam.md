@@ -1,4 +1,4 @@
-# Ejercicio: "El Tesoro Escondido"
+#"El Tesoro Escondido"
 
 ## Objetivo
 Buscar un tesoro escondido en una isla representada por un array bidimensional. Cada celda del array puede contener diferentes elementos, como tierra, agua o el tesoro.
