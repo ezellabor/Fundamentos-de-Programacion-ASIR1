@@ -26,7 +26,7 @@ Buscar un tesoro escondido en una isla representada por un ```array bidimensiona
    };
    ```
 
-### Mostrar la Isla:   
+### 2. Mostrar la isla   
 
 Escribe un método para imprimir el array de forma amigable.  
 
@@ -39,9 +39,9 @@ public static void mostrarIsla(int[][] isla) {
         System.out.println();
     }
 }
-```vv
+```  
 
-### Buscar el Tesoro:
+### 3. Buscar el tesoro
 
 Permite a los alumnos ingresar coordenadas (fila y columna) para buscar el tesoro.
 
@@ -69,7 +69,7 @@ public static void buscarTesoro(int[][] isla) {
 }
 ```
 
-### Ejecutar el Juego:  
+### 4. Ejecutar el juego  
 Llama a los métodos en la función ```main```.  
 
 ```java
@@ -87,7 +87,7 @@ public static void main(String[] args) {
 }
 ```
 
-### Consideraciones adicionales  
+### 5. Consideraciones adicionales  
 
 - Puntos de Bonificación: Puedes añadir un sistema de puntos donde los alumnos ganen puntos por cada intento (aunque no encuentren el tesoro).
 - Niveles: Varía el tamaño del array y la cantidad de tesoros en diferentes niveles.
