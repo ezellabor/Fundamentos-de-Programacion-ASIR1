@@ -87,5 +87,5 @@ Solo para el primer día (mientras se termina de instalar IntelliJ) o para repas
 
 ---
 
-*Sistemas Microinformáticos y Redes · CMO-313 Fundamentos de programación (Java)*
+*Sistemas Microinformáticos y Redes · Fundamentos de programación*
 *Profesor: Ezequiel Llarena Borges © 2026-2027*
