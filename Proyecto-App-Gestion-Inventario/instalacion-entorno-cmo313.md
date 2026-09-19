@@ -2,13 +2,13 @@
 
 **CMO-313. Fundamentos de programación (Java) · Primeros pasos**
 
-Guía rápida para instalar y comprobar tu entorno de programación en Java antes de empezar con el proyecto GestorInventario. Sigue una sola opción: la recomendada, salvo que tengas un motivo concreto para elegir otra.
+Guía rápida para instalar y comprobar tu entorno de programación en Java antes de empezar con el proyecto GestorInventario.  
 
 | Opción | Cuándo usarla |
 |---|---|
-| 🟠 **IntelliJ IDEA Community** — *recomendado* | Úsala salvo que tengas un motivo para no hacerlo. Instalación más guiada, detecta el JDK automáticamente y da mensajes de error más claros. |
-| 🔵 **Visual Studio Code** — *alternativa* | Más ligero. Recomendable si ya lo usas en otros módulos del ciclo, o si el equipo es limitado. |
-| 🟢 **IDEs online** — *emergencia / casa* | Sin instalación. Útil el primer día o para repasar desde casa. Nunca como entorno principal del módulo. |
+| 🟠 **IntelliJ IDEA Community** — *Opción Recomendada* | Úsala salvo que tengas un motivo para no hacerlo. Instalación que detecta el JDK automáticamente y da mensajes de error más claros. |
+| 🔵 **Visual Studio Code** — *Alternativa* | Más ligero. Recomendable si ya lo usas en otros módulos del ciclo, o si el equipo es limitado. |
+| 🟢 **IDEs online** — *Emergencia / Casa* | Sin instalación. Útil el primer día o para repasar desde casa. Nunca como entorno principal del módulo. |
 
 ---
 
