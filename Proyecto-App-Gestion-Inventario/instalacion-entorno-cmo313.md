@@ -8,7 +8,7 @@ Guía rápida para instalar y comprobar tu entorno de programación en Java ante
 |---|---|
 | 🟠 **IntelliJ IDEA Community** (*Recomendada*) | Instalación que detecta el JDK automáticamente y muestra mensajes de error más claros. |
 | 🔵 **Visual Studio Code** (*Alternativa*) | Más ligero. Recomendable si ya lo usas en otros módulos del ciclo, o si el equipo es limitado. |
-| 🟢 **IDEs online** (*Emergencia / Casa*) | Sin instalación. Útil el primer día o para repasar desde casa. Nunca como entorno principal del módulo. |
+| 🟢 **IDEs online** (*Emergencia / Casa*) | Sin instalación. Útil los primeros días o para repasar desde casa. Nunca como entorno principal del módulo. |
 
 ---
 
