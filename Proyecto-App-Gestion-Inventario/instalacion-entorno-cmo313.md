@@ -2,7 +2,7 @@
 
 **CMO-313. Fundamentos de programación (Java) · Primeros pasos**
 
-Guía rápida para instalar y comprobar tu entorno de programación en Java antes de empezar con el proyecto GestorInventario.  
+Guía rápida para instalar y comprobar tu entorno de programación en Java antes de empezar con el proyecto.  
 
 | Opción | Cuándo usarla |
 |---|---|
