@@ -68,7 +68,7 @@ Solo para el primer día (mientras se termina de instalar IntelliJ) o para repas
 
 > ⚠️ **Importante:** el proyecto GestorInventario pide datos por teclado mientras se ejecuta (con `Scanner`). Asegúrate de usar un IDE online que soporte esto ("entrada interactiva" o "STDIN en vivo"); si no, el programa se quedará bloqueado esperando una entrada que nunca llega.
 
-### Opción A — Replit (recomendada)
+### Opción A: Replit (recomendada)
 
 **Enlace:** [replit.com](https://replit.com)
 
@@ -76,7 +76,7 @@ Solo para el primer día (mientras se termina de instalar IntelliJ) o para repas
 2. **Crear un Repl de Java.** `+ Create Repl` → busca la plantilla `Java`.
 3. **Pegar el código y ejecutar.** Sustituye el contenido de `Main.java` por `GestorInventario.java` y pulsa `Run`. La consola de la derecha es interactiva: escribe en ella con normalidad cuando el programa lo pida.
 
-### Opción B — JDoodle (alternativa rápida)
+### Opción B: JDoodle (alternativa rápida)
 
 **Enlace:** [jdoodle.com/online-java-compiler](https://www.jdoodle.com/online-java-compiler/)
 
@@ -87,5 +87,5 @@ Solo para el primer día (mientras se termina de instalar IntelliJ) o para repas
 
 ---
 
-*Sistemas Microinformáticos y Redes · Fundamentos de programación*
+**Sistemas Microinformáticos y Redes · Fundamentos de programación**  
 *Profesor: Ezequiel Llarena Borges © 2026-2027*
