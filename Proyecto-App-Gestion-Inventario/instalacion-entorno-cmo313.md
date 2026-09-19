@@ -27,7 +27,7 @@ Es la opción recomendada para este módulo y alumnado del ciclo ASIR: gestiona 
 
 4. **Pegar el código y ejecutar.** Sustituye el contenido de `Main.java` por el código de `GestorInventario.java` (o crea una clase con ese nombre). Pulsa el triángulo ▶ verde junto al método `main`, o `Shift + F10`.
 
-5. **Comprobar la consola.** En la pestaña *Run*, en la parte inferior, debe aparecer el menú del programa. Escribe ahí mismo las opciones cuando el programa las pida.
+5. **Comprobar la consola.** En la pestaña *Run*, en la parte inferior, debe aparecer el menú del programa. 
 
 **Cómo saber que todo funciona:**
 ```
