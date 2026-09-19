@@ -14,7 +14,7 @@ Guía rápida para instalar y comprobar tu entorno de programación en Java ante
 
 ## 01 · IntelliJ IDEA Community Edition
 
-Es la opción recomendada para este módulo y alumnado del ciclo ASIR: gestiona el JDK por ti y da mensajes de error más claros, algo especialmente útil en los ejercicios de "encontrar el error".
+Es la opción recomendada para este módulo y alumnado del ciclo ASIR: gestiona el JDK por ti y muestra mensajes de error más claros, algo especialmente útil en los ejercicios de "encontrar el error".
 
 **Descarga:** [www.jetbrains.com/idea/download](https://www.jetbrains.com/idea/download/)
 
