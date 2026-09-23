@@ -1,6 +1,6 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
-# MÓDULO 1: INTRODUCCIÓN A JAVA  
+# 1: INTRODUCCIÓN A JAVA  
 
 1. ¿Qué es Java y por qué aprenderlo?
 1. Características principales del lenguaje
