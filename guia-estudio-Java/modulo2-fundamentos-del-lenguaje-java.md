@@ -1,6 +1,6 @@
 <code>Fundamentos de Programación | ASIR1 | Profesor: Ezequiel Llarena Borges</code>
 
-# 2: FUNDAMENTOS DEL LENGUAJE JAVA
+# 2 - FUNDAMENTOS DEL LENGUAJE JAVA
 
 1. Sintaxis básica y estructura de un programa
 1. Variables y tipos de datos primitivos
