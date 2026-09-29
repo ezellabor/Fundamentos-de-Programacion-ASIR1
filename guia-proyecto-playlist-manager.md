@@ -23,7 +23,7 @@ Los esqueletos **no están pensados para compilar tal cual**: marcan la estructu
 
 ---
 
-<code>Trimestre 1</code> 
+```Trimestre 1</code> ```
 ## Entrega 1: Ficha de canción y funciones básicas
 
 ### Qué debes tener implementado
@@ -85,7 +85,7 @@ public class FichaCancionApp {
 
 ---   
 
-<code>Trimestre 2<code>  
+```Trimestre 2```  
 ## Entrega 2: Menú iterativo, excepciones y ficheros
 
 ### Qué debes tener implementado
@@ -168,7 +168,7 @@ class CatalogoLlenoException extends Exception {
 
 ---
 
-**<code>Trimestre 3</code>**
+``` Trimestre 3```
 ## Entrega Final: Versión POO y base de datos (JDBC)
 
 ### Qué debes tener implementado
