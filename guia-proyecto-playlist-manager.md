@@ -5,8 +5,8 @@
 --  
 # Guía de referencia del proyecto: Playlist Manager
 
-**Módulo:** Fundamentos de la Programación
-**Proyecto:** Integrador evolutivo en Java
+**Módulo:** Fundamentos de la Programación  
+**Proyecto:** Integrador evolutivo en Java  
 **Duración:** 50 horas / 3 trimestres · 1 hito de entrega por trimestre
 
 ---
