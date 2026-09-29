@@ -1,2 +1,3 @@
-![elementos-fundamentales-programacion](img/mind-map.png)
+![elementos-fundamentales-programacion](img//Ecosistema-de-Programación.png
+)
 ![mind-map](img/mind-map.png)
