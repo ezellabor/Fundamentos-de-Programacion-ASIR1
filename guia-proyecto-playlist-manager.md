@@ -270,11 +270,11 @@ class GestorPlaylistBD {
 
 ---
 
-## Retos finales del Trimestre 3
+## Implementaciones Opcionales Trimestre 3
 
-Los siguientes retos son de refuerzo sobre las dos partes más delicadas del proyecto: **ficheros** y **acceso a base de datos**. Se proponen como esqueletos casi completos para que puedas centrarte en la lógica concreta indicada en cada `TODO`.
+Los siguientes retos son de refuerzo sobre las dos partes opcionales de implementar en el proyecto: **ficheros** y **acceso a base de datos**. Se proponen como esqueletos casi completos para que puedas centrarte en la lógica concreta indicada en cada `TODO`.
 
-### Reto A — Ficheros
+### Reto 1: Ficheros
 
 ```java
 import java.io.*;
@@ -296,7 +296,7 @@ public class RetoFicheros {
 }
 ```
 
-### Reto B — Acceso a base de datos
+### Reto 2: Acceso a base de datos
 
 ```java
 import java.sql.*;
