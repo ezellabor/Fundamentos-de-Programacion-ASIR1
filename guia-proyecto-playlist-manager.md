@@ -85,7 +85,8 @@ public class FichaCancionApp {
 
 ---
 
-## Trimestre 2 — Hito 2: Menú iterativo, excepciones y ficheros
+**<code>Trimestre 2/code>**
+## Entrega 2: Menú iterativo, excepciones y ficheros
 
 ### Qué debes tener implementado
 - Un catálogo de canciones almacenado en un **array** (mínimo un array de `String` con los títulos).
@@ -167,7 +168,8 @@ class CatalogoLlenoException extends Exception {
 
 ---
 
-## Trimestre 3 — Hito Final: Versión POO y base de datos (JDBC)
+**<code>Trimestre 3</code>**
+## Entrega Final: Versión POO y base de datos (JDBC)
 
 ### Qué debes tener implementado
 - El catálogo refactorizado a **objetos**: una clase `Cancion` con atributos privados y encapsulamiento (getters/setters).
