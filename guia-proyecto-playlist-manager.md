@@ -83,9 +83,9 @@ public class FichaCancionApp {
 }
 ```
 
----
+---   
 
-**<code>Trimestre 2/code>**
+<code>Trimestre 2<code>  
 ## Entrega 2: Menú iterativo, excepciones y ficheros
 
 ### Qué debes tener implementado
