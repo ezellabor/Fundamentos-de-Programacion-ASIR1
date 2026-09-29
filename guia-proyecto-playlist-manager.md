@@ -1,4 +1,9 @@
-# Guía de referencia del proyecto — Playlist Manager
+![Módulo](https://img.shields.io/badge/Módulo-Fundamentos_de_Programación-brown?style=for-the-badge)
+![Proyecto](https://img.shields.io/badge/Proyecto-Aplicación_Java_Playlist_Manager-brown?style=for-the-badge)  
+![Duración](https://img.shields.io/badge/Duración-50_horas-brown?style=for-the-badge)
+![Profesor](https://img.shields.io/badge/Profesor-Ezequiel_Llarena_Borges-blue?style=for-the-badge)
+--  
+# Guía de referencia del proyecto: Playlist Manager
 
 **Módulo:** Fundamentos de la Programación
 **Proyecto:** Integrador evolutivo en Java
@@ -18,7 +23,8 @@ Los esqueletos **no están pensados para compilar tal cual**: marcan la estructu
 
 ---
 
-## Trimestre 1 — Hito 1: Ficha de canción y funciones básicas
+## Trimestre 1  
+## Entrega 1: Ficha de canción y funciones básicas
 
 ### Qué debes tener implementado
 - Un programa con menú principal en bucle (`do-while`) que no termina hasta elegir "Salir".
