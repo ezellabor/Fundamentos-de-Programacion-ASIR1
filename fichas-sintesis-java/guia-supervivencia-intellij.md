@@ -23,7 +23,7 @@ Usa estos comandos en tu día a día para escribir código más rápido, mantene
 
 ---
 
-## 2. Plantillas Automáticas (Live Templates)
+## 2. Plantillas automáticas (Live templates)
 
 No pierdas tiempo escribiendo código repetitivo. Escribe la palabra clave y presiona la tecla **`Tabulador ⇥`** o **`Enter ↵`** para expandirla:
 
@@ -50,11 +50,11 @@ No pierdas tiempo escribiendo código repetitivo. Escribe la palabra clave y pre
 
 ---
 
-## 3. Configuración de la Versión de Java (JDK) 
+## 3. Configuración de la versión de Java (JDK) 
 
 Si IntelliJ te muestra un error que dice *"Project SDK is not defined"* o el código no compila por incompatibilidad de versiones, sigue estos pasos:
 
-1. **Abrir la Estructura del Proyecto:**
+1. **Abrir la estructura del proyecto:**
    * Ve al menú superior: `File` > `Project Structure...`
    * *Atajo:* `Ctrl + Alt + Shift + S` (Win/Linux) o `⌘ + ;` (macOS).
 2. **Configurar el SDK:**
@@ -67,7 +67,7 @@ Si IntelliJ te muestra un error que dice *"Project SDK is not defined"* o el có
 
 ---
 
-## 4. Guía de Uso del Depurador (Debugger) 🪲
+## 4. Guía de uso del Depurador (Debugger) 🪲
 
 El depurador te permite pausar tu programa y ver paso a paso cómo piensa la computadora, línea por línea. ¡Es mucho mejor que llenar tu código de `System.out.println()` temporales!
 
@@ -87,19 +87,19 @@ Cuando el programa se detenga en tu punto de interrupción (la línea se ilumina
 *   ⬆️ **Step Out (`Shift + F8`):** Sale del método actual y vuelve a la línea donde fue llamado.
 *   ▶️ **Resume Program (`F9` / `⌘ + ⌥ + R`):** Reanuda la ejecución normal del programa hasta encontrar el siguiente breakpoint o finalizar.
 
-### Paso 4: Inspeccionar Variables
+### Paso 4: Inspeccionar variables
 En la pestaña **Variables** (en la parte inferior del entorno), verás una lista en tiempo real de todas las variables creadas y sus valores exactos en el instante de la pausa. ¡Ideal para descubrir por qué un bucle no termina o un cálculo da un resultado erróneo!
 
 ---
 
-## 5. Estructura Estándar de un Proyecto
+## 5. Estructura estándar de un proyecto Java
 
 Para no perderte en el árbol de carpetas de la izquierda (`Project View`), recuerda este orden jerárquico básico:
 
 ```text
 📂 MiProyectoJava/
-├── 📂 .idea/             ⚠️ Configuraciones internas del IDE (¡No borrar ni modificar!)
-├── 📂 src/               🚀 ¡AQUÍ VA TU CÓDIGO!
-│   └── 📄 MiClase.java   El archivo fuente donde escribes tu programa Java
-└── 📂 out/ o target/     Código compilado automáticamente en formato binario (.class)
+├── 📂 .idea/             // Configuraciones internas del IDE (¡No borrar ni modificar!)
+├── 📂 src/               // ¡AQUÍ VA TU CÓDIGO!
+│   └── 📄 MiClase.java   /* El archivo fuente donde escribes tu programa Java
+└── 📂 out/ o target/     Código compilado automáticamente en formato binario (.class) */
 ```
