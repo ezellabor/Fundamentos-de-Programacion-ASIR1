@@ -1,28 +1,10 @@
----
-marp: true
-theme: gaia
-_class: lead
-paginate: true
-backgroundColor: #111827
-color: #f3f4f6
-style: |
-  section {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 40px;
-  }
-  h1 { color: #38bdf8; font-size: 40px; }
-  h2 { color: #f59e0b; font-size: 28px; }
-  strong { color: #38bdf8; }
-  footer { font-size: 14px; color: #9ca3af; }
----
-
-# Scripting y Lógica de Programación para Administradores de Sistemas
-**Módulo:** Puesta en marcha de un equipo en red (ASIR)
-**Profesor:** Ezequiel Llarena Borges
+## Scripting y Lógica de Programación para Administradores de Sistemas
+### Módulo:** Puesta en marcha de un equipo en red (ASIR)
+```Profesor:** Ezequiel Llarena Borges```  
 
 ---
 
-## 📍 Diapositiva 1: Introducción y Propósito
+## Diapositiva 1: Introducción y Propósito
 ### Scripting y Lógica de Programación para Administradores de Sistemas
 
 * **Objetivo:** Captar la atención desde el primer minuto y derribar la resistencia inicial *("yo no he venido a ASIR para programar")*.
@@ -35,7 +17,7 @@ style: |
 
 ---
 
-## 📍 Diapositiva 2: La Diferencia de Enfoque (DAM/DAW vs. ASIR)
+## Diapositiva 2: La Diferencia de Enfoque (DAM/DAW vs. ASIR)
 ### Desarrollo de Software vs. Automatización de Sistemas
 
 * **Objetivo:** Diferenciar claramente las metas de un desarrollador y las de un SysAdmin.
@@ -48,7 +30,7 @@ style: |
 
 ---
 
-## 📍 Diapositiva 3: Scripts en Acción (Bash y PowerShell)
+## Diapositiva 3: Scripts en Acción (Bash y PowerShell)
 ### Ejemplos Prácticos de Automatización Diaria
 
 * **Objetivo:** Mostrar código real de forma visual, desmitificándolo de inmediato.
@@ -63,7 +45,7 @@ style: |
 
 ---
 
-## 📍 Diapositiva 4: Concepto Fundamental
+## Diapositiva 4: Concepto Fundamental
 ### Un Conjunto Ordenado de Instrucciones
 
 * **Objetivo:** Fijar la definición teórica básica sin tecnicismos complejos.
@@ -73,7 +55,7 @@ style: |
 
 ---
 
-## 📍 Diapositiva 5: El Valor Añadido
+## Diapositiva 5: El Valor Añadido
 ### Pensamiento Estructurado en la Gestión de Infraestructuras
 
 * **Objetivo:** Hacerles ver la utilidad indirecta pero vital de aprender lógica de programación.
@@ -83,7 +65,7 @@ style: |
 
 ---
 
-## 📍 Diapositiva 6: Cierre y Próximos Pasos
+## Diapositiva 6: Cierre y Próximos Pasos
 ### De la Teoría a la Práctica
 
 * **Objetivo:** Dejar la sesión abierta para arrancar directamente con la primera práctica guiada en la terminal.
