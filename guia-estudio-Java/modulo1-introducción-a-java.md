@@ -94,7 +94,7 @@ Es el paquete completo para **desarrollar** aplicaciones Java. Incluye:
 
 **Cuándo lo necesitas:** Para programar en Java necesitas el JDK completo.
 
-### Esquema entorno de desarrollo y ejecuión Java:
+### Esquema entorno de desarrollo y ejecución Java:
 
 ```
 ┌─────────────────────────────────────┐
