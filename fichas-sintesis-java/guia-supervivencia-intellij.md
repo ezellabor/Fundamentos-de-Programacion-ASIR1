@@ -1,4 +1,4 @@
-# IntelliJ IDEA & Java: Guía de Supervivencia para Principiantes
+# IntelliJ IDEA & Java: Guía de supervivencia
 
 Esta guía rápida está diseñada para ayudarte a dar tus primeros pasos en **Java** utilizando **IntelliJ IDEA**. Aquí encontrarás los atajos esenciales, trucos de automatización, cómo solucionar problemas con el JDK y cómo usar el depurador como un profesional.
 
