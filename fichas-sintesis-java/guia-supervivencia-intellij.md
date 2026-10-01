@@ -1,11 +1,11 @@
 # IntelliJ IDEA & Java
 ```Guía de referencia rápida```  
 
-Esta guía rápida está diseñada para ayudarte a dar tus primeros pasos en **Java** utilizando **IntelliJ IDEA**. Aquí encontrarás los atajos esenciales, trucos de automatización, cómo solucionar problemas con el JDK y cómo usar el depurador como un profesional.
+Esta guía rápida está diseñada para ayudarte a dar tus primeros pasos en **Java** utilizando **IntelliJ IDEA**. Aquí encontrarás los **atajos esenciales, trucos de automatización,** cómo solucionar problemas con el JDK y cómo usar el **depurador** para ejecutar paso a paso cada línea de código Java analizando o buscando puntos del programa que no hacen lo que deberían.
 
 ---
 
-## 1. Atajos 
+## 1. Atajos de teclado  
 
 Usa estos comandos en tu día a día para escribir código más rápido, mantenerlo limpio y solucionar errores de sintaxis al instante.
 
