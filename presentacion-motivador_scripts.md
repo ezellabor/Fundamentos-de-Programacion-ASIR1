@@ -1,6 +1,6 @@
 ## Scripting y Lógica de Programación para Administradores de Sistemas
-### Módulo:** Puesta en marcha de un equipo en red (ASIR)
-```Profesor:** Ezequiel Llarena Borges```  
+### Módulo: Puesta en marcha de un equipo en red (ASIR)
+```Profesor: Ezequiel Llarena Borges```  
 
 ---
 
