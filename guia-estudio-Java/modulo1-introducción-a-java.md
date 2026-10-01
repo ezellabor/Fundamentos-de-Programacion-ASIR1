@@ -174,7 +174,7 @@ javac -version
 - **Eclipse IDE** (gratuito, clásico)
 - **NetBeans** (gratuito, incluye soporte para Java EE)
 
-**Para empezar, recomendación:** Visual Studio Code o directamente un editor de texto simple con terminal.
+**Para empezar, recomendación:** Visual Studio Code, IntelliJ IDEA o directamente un editor de texto simple con terminal.
 
 ### Paso 3: Configurar el espacio de trabajo
 
