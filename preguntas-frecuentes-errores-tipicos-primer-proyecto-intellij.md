@@ -1,7 +1,7 @@
 
 ---
 
-## Errores típicos al empezar a trabajar con el IDE (Intelli J Idea)  
+## Errores típicos al empezar a trabajar con el IDE (IntelliJ IDEA)  
 
 Es completamente normal que al principio tengamos problemas con los archivos, las carpetas y los errores del sistema. Aquí tienes las respuestas a los dolores de cabeza más comunes:
 
