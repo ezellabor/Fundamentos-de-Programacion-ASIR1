@@ -1,11 +1,11 @@
 
 ---
 
-## Errores típicos y preguntas frecuentes (Intelli J Idea)  
+## Errores típicos al empezar a trabajar con el IDE (Intelli J Idea)  
 
-Es completamente normal que al principio te líes con los archivos, las carpetas y los errores del sistema. Aquí tienes las respuestas a los dolores de cabeza más comunes de la clase:
+Es completamente normal que al principio tengamos problemas con los archivos, las carpetas y los errores del sistema. Aquí tienes las respuestas a los dolores de cabeza más comunes:
 
-### Error 1: "Me dice algo del JDK / SDK y no compila"
+### Error 1: *"Me dice algo del JDK / SDK y no compila"*
 **¿Por qué pasa?** 
 IntelliJ IDEA es solo la interfaz visual (un coche muy bonito), pero el **JDK (Java Development Kit)** es el motor que hace que el código funcione. Si no los conectas, el programa no arranca.
 
@@ -17,7 +17,7 @@ IntelliJ IDEA es solo la interfaz visual (un coche muy bonito), pero el **JDK (J
 
 ---
 
-### Error 2: "No encuentro el archivo `.class` por ningún lado"
+### Error 2: *"No encuentro el archivo `.class` por ningún lado"*
 **¿Por qué pasa?**
 Tú escribes en un archivo `.java`, pero la computadora solo entiende archivos `.class` (el código traducido o compilado). Si tu código tiene un solo error (una línea roja), IntelliJ **frenará la traducción** y el archivo `.class` nunca se creará.
 
@@ -29,7 +29,7 @@ Tú escribes en un archivo `.java`, pero la computadora solo entiende archivos `
 
 ---
 
-### Error 3: "Me crea una carpeta rara con el nombre de mi proyecto o paquete"
+### Error 3: *"Me crea una carpeta rara con el nombre de mi proyecto o paquete"*
 **¿Por qué pasa?**
 Java es muy ordenado y utiliza **paquetes** (`packages`) para clasificar el código. Si al crear tu archivo pusiste algo en el campo "Package" (por ejemplo, `com.miempresa`), Java te obligará a meter el archivo dentro de una estructura de carpetas real que se llama `com/miempresa`. Por defecto, IntelliJ junta visualmente los nombres como `com.miempresa` para ahorrar espacio, y eso suele asustar al principio.
 
