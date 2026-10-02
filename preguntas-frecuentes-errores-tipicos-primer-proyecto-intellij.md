@@ -50,7 +50,7 @@ graph TD
     classDef solucion fill:#d5e8d4,stroke:#82b366,stroke-width:2px,color:#000;
 
     %% Nodos
-    Inicio[🚨 Mi programa falla o hace cosas raras] --> Pregunta1{¿Qué síntoma ves?}
+    Inicio[ Mi programa falla o hace cosas raras] --> Pregunta1{¿Qué síntoma ves?}
     
     %% Rama JDK
     Pregunta1 -->|Mensaje de JDK / SDK / No compila| ErrorJDK(Error: Project SDK is not defined)
