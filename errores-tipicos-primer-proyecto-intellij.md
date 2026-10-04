@@ -39,7 +39,7 @@ Java es muy ordenado y utiliza **paquetes** (`packages`) para clasificar el cód
 
 ---
 
-### Mapa de Decisión: Troubleshooting
+### Troubleshooting: Mapa de decisión
 
 
 ```mermaid
