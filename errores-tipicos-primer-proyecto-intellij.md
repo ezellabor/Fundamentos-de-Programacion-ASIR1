@@ -3,11 +3,11 @@
 
 ## Errores típicos al empezar a trabajar con el IDE (IntelliJ IDEA)  
 
-Es completamente normal que al principio tengamos problemas con los archivos, las carpetas y los errores del sistema. Aquí tienes las respuestas a los dolores de cabeza más comunes:
+Es completamente normal que al principio tengamos problemas con los archivos, las carpetas y los errores del sistema. Aquí tienes las respuestas a los problemas más comunes:
 
 ### Error 1: *"Me dice algo del JDK / SDK y no compila"*
 **¿Por qué pasa?** 
-IntelliJ IDEA es solo la interfaz visual (un coche muy bonito), pero el **JDK (Java Development Kit)** es el motor que hace que el código funcione. Si no los conectas, el programa no arranca.
+IntelliJ IDEA es solo la interfaz visual, pero el **JDK (Java Development Kit)** es el motor que hace que el código funcione. Si no los conectas, el programa no arranca.
 
 **Cómo solucionarlo:**
 1. Ve al menú superior: `File` > `Project Structure...` > `Project`.
