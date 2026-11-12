@@ -39,6 +39,8 @@ Los esqueletos **no están pensados para compilar tal cual**: marcan la estructu
 
 **`FichaCancionApp`**
 Clase principal del programa.  
+
+### Variables
  
 | Variable | Descripción |
 |---|---|
