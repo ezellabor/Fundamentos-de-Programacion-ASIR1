@@ -36,7 +36,13 @@ Los esqueletos **no están pensados para compilar tal cual**: marcan la estructu
 ### Clases
 
 **`FichaCancionApp`**
-Clase principal del programa. En este hito no se usan aún objetos: los datos de la canción se guardan en variables primitivas dentro de `main`.
+Clase principal del programa. En este hito no se usan aún objetos: los datos de la canción se guardan en variables primitivas dentro de `main`.  
+
+| Atributo | Descripción |
+|---|---|
+| `titulo: String` | Título de la canción. |
+| `artista: String` | Artista o intérprete. |
+| `duracionSegundos: int` | Duración en segundos. |
 
 | Método | Descripción |
 |---|---|
