@@ -33,7 +33,7 @@ Los esqueletos **no están pensados para compilar tal cual**: marcan la estructu
 - Validación de datos de entrada (por ejemplo, que la duración sea mayor que 0).
 - Formateo de la duración de segundos a `mm:ss`.
 
-**Nota:**  En este hito no se usan objetos: los datos de la canción se guardan en variables primitivas dentro de `main`. 
+**Nota:**  En este hito no se usan objetos, los datos de la canción se guardan en variables primitivas dentro de `main`. 
 
 ### Clases
 
