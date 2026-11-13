@@ -27,7 +27,7 @@ Los esqueletos **no están pensados para compilar tal y como deberían**: marcan
 ## Entrega 1: Ficha de canción y funciones básicas
 
 ### Puntos a implementar
-- Un programa con menú principal en bucle (`do-while`) que no termina hasta elegir *Salir*.
+- Un programa con menú principal en bucle (`do-while`) que no termina hasta elegir *Salir*. (BUCLE OPCIONAL)
 - Uso de `switch` para las opciones del menú.
 - (OPCIONAL) Tres funciones (métodos estáticos) o más con parámetros y valor de retorno. 
 - (OPCIONAL) Validación de datos de entrada (por ejemplo, que la duración sea mayor que 0). 
