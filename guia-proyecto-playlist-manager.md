@@ -26,7 +26,7 @@ Los esqueletos **no están pensados para compilar tal y como deberían**: marcan
 ```Trimestre 1```
 ## Entrega 1: Ficha de canción y funciones básicas
 
-### Qué debes tener implementado
+### Puntos a implementar
 - Un programa con menú principal en bucle (`do-while`) que no termina hasta elegir *Salir*.
 - Uso de `switch` para las opciones del menú.
 - Como mínimo tres funciones (métodos estáticos) con parámetros y valor de retorno.
@@ -98,7 +98,7 @@ public class FichaCancionApp {
 ```Trimestre 2```  
 ## Entrega 2: Menú iterativo, excepciones y ficheros
 
-### Qué debes tener implementado
+### Puntos a implementar  
 - Un catálogo de canciones almacenado en un **array** (mínimo un array de `String` con los títulos).
 - Búsqueda lineal dentro del array.
 - Una **excepción personalizada** (`extends Exception`) lanzada con `throw` y capturada con `try-catch`.
@@ -181,7 +181,7 @@ class CatalogoLlenoException extends Exception {
 ``` Trimestre 3```
 ## Entrega Final: Versión POO y base de datos (JDBC)
 
-### Qué debes tener implementado
+### Puntos a implementar  
 - El catálogo refactorizado a **objetos**: una clase `Cancion` con atributos privados y encapsulamiento (getters/setters).
 - Una colección de objetos `Cancion` (array o `ArrayList<Cancion>`).
 - Conexión a una base de datos relacional mediante **JDBC**.
