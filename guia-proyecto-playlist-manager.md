@@ -31,7 +31,7 @@ Los esqueletos **no están pensados para compilar tal cual**: marcan la estructu
 - Uso de `switch` para las opciones del menú.
 - Como mínimo tres funciones (métodos estáticos) con parámetros y valor de retorno.
 - Validación de datos de entrada (por ejemplo, que la duración sea mayor que 0).
-- Formateo de la duración de segundos a `mm:ss`.
+- Formateo de la duración de segundos a `mm:ss`.  
 
 **Nota:**  En este hito no se usan objetos, los datos de la canción se guardan en variables primitivas dentro de `main`. 
 
