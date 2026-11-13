@@ -19,7 +19,7 @@ El proyecto se construye de forma **incremental**: cada trimestre añade una cap
 2. La descripción de cada clase implicada (atributos y métodos).
 3. Un esqueleto de código de partida (solo estructura, sin implementación) que debes completar.
 
-Los esqueletos **no están pensados para compilar tal y como deberían**: marcan la estructura de clases y métodos que se espera, y cada cuerpo de método queda señalado con `// TODO` para que lo completes tú.
+Los esqueletos **no están pensados para compilar tal y como deberían**: marcan la estructura de clases y métodos que se espera, y cada cuerpo de método queda señalado con `// TODO` para que sea completado por el estudiante.
 
 ---
 
