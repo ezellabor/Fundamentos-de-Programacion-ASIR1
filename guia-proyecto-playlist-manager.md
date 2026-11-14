@@ -1,5 +1,5 @@
 ![Módulo](https://img.shields.io/badge/Módulo-Fundamentos_de_Programación-brown?style=for-the-badge)
-![Proyecto](https://img.shields.io/badge/Proyecto-Aplicación_Java_Playlist_Manager-sky?style=for-the-badge)  
+![Proyecto](https://img.shields.io/badge/Proyecto-Aplicación_Java_Playlist_Manager-gray?style=for-the-badge)  
 ![Duración](https://img.shields.io/badge/Duración-50_horas-brown?style=for-the-badge)
 ![Profesor](https://img.shields.io/badge/Profesor-Ezequiel_Llarena_Borges-blue?style=for-the-badge)
 --  
