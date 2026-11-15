@@ -105,7 +105,7 @@ public class FichaCancionApp {
 - Una **excepción personalizada** (`extends Exception`) lanzada con `throw` y capturada con `try-catch`.
 - Persistencia del catálogo en un **fichero de texto**: guardar y recuperar los datos al iniciar/cerrar el programa.
 
-**IMPORTANTE:** El entregable que debes subir a la tarea de este hito será **un único archivo** *.java* **con tu código fuente.**  
+**IMPORTANTE:** El entregable que debes subir a la tarea de este hito será **un único archivo** `.java` **con tu código fuente.**    
   
 ### Clases
 
