@@ -33,7 +33,8 @@ Los esqueletos **no están pensados para compilar tal y como deberían**: marcan
 - *(OPCIONAL)* Validación de datos de entrada (por ejemplo, que la duración sea mayor que 0). 
 - *(OPCIONAL)* Formateo de la duración de segundos a `mm:ss`.  
 
-**Nota:**  En este hito no se usan objetos, los datos de la canción se guardan en **variables de tipos primitivos** dentro de `main`. 
+**Nota:**  En este hito no se usan objetos, los datos de la canción se guardan en **variables de tipos primitivos** dentro de `main`.  
+**IMPORTANTE:** El entregable que debes subir a la tarea de este hito será **un único archivo .java con el código fuente.**  
 
 ### Clases
 
@@ -103,6 +104,8 @@ public class FichaCancionApp {
 - Búsqueda lineal dentro del array.
 - Una **excepción personalizada** (`extends Exception`) lanzada con `throw` y capturada con `try-catch`.
 - Persistencia del catálogo en un **fichero de texto**: guardar y recuperar los datos al iniciar/cerrar el programa.
+
+**IMPORTANTE:** El entregable que debes subir a la tarea de este hito será **un único archivo .java con el código fuente.**  
 
 ### Clases
 
